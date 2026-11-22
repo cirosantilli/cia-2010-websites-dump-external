@@ -1,0 +1,20 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://e1.rd.yahoo.com/dailynews/rss/deportes/*http://espanol.news.yahoo.com/s/ap/110209/deportes/dep_fut_barcelona_guardiola" target="_blank">Guardiola y el Barsa llegan a un acuerdo por un año</a><br />');
+document.write('BARCELONA (AP) - Pep Guardiola llegó a un acuerdo con el Barcelona para extender un año más su contrato como técnico, informó el club el martes.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://e1.rd.yahoo.com/dailynews/rss/deportes/*http://espanol.news.yahoo.com/s/ap/110209/deportes/dep_bas_nba_spurs_pistons" target="_blank">NBA: Spurs 100, Pistons 89; San Antonio llega a 43-8</a><br />');
+document.write('AUBURN HILLS, Michigan, EE.UU. (AP) - Tony Parker tuvo 19 puntos y repartió siete asistencias, Manu Ginóbili agregó 13 unidades y los Spurs de San Antonio contuvieron el martes 100-89 a los Pistons de Detroit.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://e1.rd.yahoo.com/dailynews/rss/deportes/*http://espanol.news.yahoo.com/s/ap/110209/deportes/dep_bas_nba76ers_hawks" target="_blank">NBA: 76ers 117, Hawks 83; Filadelfia gana fácil</a><br />');
+document.write('AP - ATLANTA (AP) - Elton Brand anotó 13 de sus 17 puntos en la primera mitad y los 76ers de Filadelfia adquirieron el martes una rápida ventaja de 20 unidades para finalmente aplastar 117-83 a los Hawks de Atlanta.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://e1.rd.yahoo.com/dailynews/rss/deportes/*http://espanol.news.yahoo.com/s/ap/110209/deportes/dep_ten_san_jose" target="_blank">Dabul elimina a Falla en San José</a><br />');
+document.write('SAN JOSE, California, EE.UU. (AP) - El argentino Brian Dabul derrotó 6-4, 6-3 al colombiano Alejandro Falla el martes en la primera ronda del torneo de San José.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://e1.rd.yahoo.com/dailynews/rss/deportes/*http://espanol.news.yahoo.com/s/ap/110209/deportes/dep_nfl_super_bowl_packers" target="_blank">Packers despiden la temporada ante sus aficionados</a><br />');
+document.write('GREEN BAY, Wisconsin, EE.UU. (AP) - Los Packers de Green Bay aprovecharon una última oportunidad para despedirse de sus aficionados y entre sí.');
+document.write('</li>');
+document.write('</ul></div>');

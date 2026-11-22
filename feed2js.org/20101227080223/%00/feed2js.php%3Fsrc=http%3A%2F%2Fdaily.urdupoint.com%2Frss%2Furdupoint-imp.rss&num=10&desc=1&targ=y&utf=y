@@ -1,0 +1,14 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://daily.urdupoint.com/news.php?news_id=146535_1_2" target="_blank">ملک کے شمالی علاقوں میں برف باری کی پیش گوئی</a><br />');
+document.write('ملک کے شمالی علاقوں میں برف باری کی پیش گوئی');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://daily.urdupoint.com/news.php?news_id=146534_1_2" target="_blank">شمالی وزیرستان:میر علی میں ڈرون حملہ،تین افراد ہلاک</a><br />');
+document.write('شمالی وزیرستان:میر علی میں ڈرون حملہ،تین افراد ہلاک');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://daily.urdupoint.com/news.php?news_id=146533_1_2" target="_blank">آج شہید بینظیر بھٹو کی تیسری برسی منائی جارہی ہے</a><br />');
+document.write('آج شہید بینظیر بھٹو کی تیسری برسی منائی جارہی ہے');
+document.write('</li>');
+document.write('</ul></div>');

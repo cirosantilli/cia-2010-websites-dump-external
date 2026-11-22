@@ -1,0 +1,25 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.runningonline.org/2011/01/28/formazione-e-lobby-2-mesi-di-incontri-tra-persone-che-si-sono-scambiate-esperienze-e-costruito-relazioni/" target="_blank">Formazione e lobby: 2 mesi di incontri tra persone che si sono scambiate esperienze e costruito relazioni</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.runningonline.org/2011/01/24/running-forma-il-lobbista-2/" target="_blank">Running forma il lobbista</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.runningonline.org/2011/01/19/running-forma-il-lobbista/" target="_blank">Running: forma il lobbista</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.runningonline.org/2010/11/08/e-on-line-il-blog-di-anteprima/" target="_blank">E’ on line il blog di Anteprima</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.runningonline.org/2010/10/28/introduzione-alla-comunicazione-politica-tabula-rasa/" target="_blank">Introduzione alla comunicazione politica: tabula rasa</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.runningonline.org/2010/09/14/1132/" target="_blank">Rosangela, Gubbio e l’Unità… ma soprattutto Running</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.runningonline.org/2010/09/14/corso-new-politics-new-media-2/" target="_blank">Corso New Politics New Media</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.runningonline.org/2010/09/14/painting-lobbying-2/" target="_blank">Painting Lobbying</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.runningonline.org/2010/09/14/painting-lobbying/" target="_blank">PAINTING LOBBYING</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.runningonline.org/2010/06/21/new-politics-new-media-creare-consenso-per-la-politica-le-istituzioni-le-imprese-3/" target="_blank">NEW POLITICS, NEW MEDIA. CREARE CONSENSO PER LA POLITICA, LE ISTITUZIONI, LE IMPRESE.</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

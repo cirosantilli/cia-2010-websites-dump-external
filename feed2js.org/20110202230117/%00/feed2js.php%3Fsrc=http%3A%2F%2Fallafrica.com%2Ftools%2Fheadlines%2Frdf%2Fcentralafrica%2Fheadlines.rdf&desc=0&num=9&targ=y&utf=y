@@ -1,0 +1,23 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://allafrica.com/stories/201102020490.html" target="_blank">Equatorial Guinea: Rights Group Appeals to Obiang to Uphold AU Principles</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://allafrica.com/stories/201102020878.html" target="_blank">Central African Republic: Fraud Claims Dampen Hopes for \'Peace-Building\' Poll</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://allafrica.com/stories/201102020686.html" target="_blank">Angola: Constitution Created New Governance Model</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://allafrica.com/stories/201102020391.html" target="_blank">Equatorial Guinea: Obiang Elite Grow Wealthy While Most Live in Poverty</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://allafrica.com/stories/201102020269.html" target="_blank">Rwanda: Giporoso Grenade Attack Suspects to Be Prosecuted</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://allafrica.com/stories/201102020268.html" target="_blank">Rwanda: 700,000 Men Expected to Undergo Vasectomy</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://allafrica.com/stories/201102020267.html" target="_blank">Rwanda: Kagame to Speak At USIU Anniversary</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://allafrica.com/stories/201102020266.html" target="_blank">Rwanda: Nyange Heroes Honoured</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://allafrica.com/stories/201102020264.html" target="_blank">Rwanda: Concerted Efforts Needed to Boost Stock Exchange</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

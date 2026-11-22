@@ -1,0 +1,20 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.noticias.com/el-ejecutivo-dara-papeles-a-los-inmigrantes-con-hijos-nacidos-en-espana.923572" target="_blank">El Ejecutivo dará papeles a los inmigrantes con hijos nacidos en España</a><br />');
+document.write('El Gobierno otorgará permiso por arraigo a los inmigrantes cuyos hijos tengan la nacionalidad española, según el borrador del reglamento que desarrolla la Ley de Extranjería, hecho público ayer por la secretaria de Estado de Inmigración y Emigración, Anna Terrón. Tal requisito forma parte de una nueva figura denominada \"arraigo familiar\" mediante la cual se regularizará la situación de ...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.noticias.com/el-cis-detecta-un-fuerte-aumento-en-enero-de-la-preocupacion-por-el-paro.923571" target="_blank">El CIS detecta un fuerte aumento en enero de la preocupación por el paro</a><br />');
+document.write('La preocupación de los españoles por el paro subió en enero casi cuatro puntos, como también aumentó la mención a los problemas económicos como el segundo asunto que inquieta a los ciudadanos, según se refleja en el Barómetro de Opinión del Centro de Investigaciones Sociológicas (CIS) del citado mes. En concreto, durante el primer mes de 2011 el paro fue mencionado como un problema en ...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.noticias.com/una-nueva-sentencia-rechaza-ahora-que-entregar-la-casa-salde-la-deuda-hipotecaria.923570" target="_blank">Una nueva sentencia rechaza ahora que entregar la casa salde la deuda hipotecaria</a><br />');
+document.write('La Sección Tercera de la Audiencia Provincial de Navarra ha fallado en un auto que con la devolución de un piso no se salda la deuda hipotecaria contraída con una entidad financiera. Este fallo se produce después de que el 26 de enero se conociese otro auto de la Sección Segunda de la Audiencia de Navarra en la que se consideraba lo contrario, que con la simple entrega de la vivienda se ...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.noticias.com/sagardoy-nombra-asesor-al-magistrado-benigno-varela.923569" target="_blank">Sagardoy nombra asesor al magistrado Benigno Varela</a><br />');
+document.write('Sagardoy Abogados ha nombrado consejero asesor a Benigno Varela, magistrado de la Sala Cuarta del Tribunal Supremo y Presidente de la Mutualidad General Judicial, según informó ayer el bufete. Benigno Varela (A Coruña, 1935) ingresó en la Carrera Judicial en octubre de 1963 y sirvió en diversos Juzgados de Primera Instancia e Instrucción. En 1976 fue nombrado Magistrado de Trabajo. En 1986 ...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.noticias.com/machismo-en-la-cupula-del-deutsche-bank.923562" target="_blank">Machismo en la cúpula del Deutsche Bank</a><br />');
+document.write('Con más mujeres en el consejo de administración, el panorama será más colorido y bonito\". Estas declaraciones, cargadas de machismo y tintes retrógrados, salieron de boca del presidente ejecutivo del Deutsche Bank, Josef Acker-mann, que respondía así la semana pasada a una encuesta sobre la cifra de mujeres que ostentan altos cargos en las empresas alemanas.No en vano, el banco alemán ...');
+document.write('</li>');
+document.write('</ul></div>');

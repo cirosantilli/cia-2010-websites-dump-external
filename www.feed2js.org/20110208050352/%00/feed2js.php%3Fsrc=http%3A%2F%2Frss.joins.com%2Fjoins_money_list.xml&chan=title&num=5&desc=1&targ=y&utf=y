@@ -1,0 +1,21 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<p class="rss-title"><a class="rss-title" href="http://news.joinsmsn.com/" target="_blank">중앙일보 | 경제</a></p>');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://article.joinsmsn.com/news/article/article.asp?total_id=5024410&cloc=rss|news|economy" target="_blank">금호 대우建 지분 24.7% 블록세일(1보)</a><br />');
+document.write('[김창익기자 window@] 금호그룹이 보유하고 있는 대우건설 지분 24.7%를 블록세일을 통해 해외투자자에게 매각하는 방안이 추진된다. 조현익 대우건설 최고재무책임자(CFO) 겸 부사장은 8일 기자들과의 오찬에서 \"다음주 중 국내외 IR(기업설명회)일정을 잡고, 2분기 주 블록세일을 마무리할 방침\"이라고 말했다.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://article.joinsmsn.com/news/article/article.asp?total_id=5024409&cloc=rss|news|economy" target="_blank">[55분시황]뒷심부족, 코스피 또 `전강후약`</a><br />');
+document.write('[임지수기자 ljs@] [편집자주] [55분시황]이 대한민국 투자자의 내비게이션이 되겠습니다. [55분시황]은 국내 언론 최초로 정해진 시각에 게재되는 증권시황 기사입니다. 매시각 정시 5분전, 머니투데이 증권 전문 기자의 명쾌한 시장분석을 만나보십시오. 날아가는 종목, 추락하는 종목, 시장을 움직이는 변수...55분');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://article.joinsmsn.com/news/article/article.asp?total_id=5024405&cloc=rss|news|economy" target="_blank">현대證 \"외인 매도, 대형주 매수 기회 삼아야\"</a><br />');
+document.write('[우경희기자 cheerup@] [\"영업익 1조 이상 대형주 저평가...대형주 집중한 랩어카운트 시장도 급성장\"] 외국인 투자가들의 매도세를 오히려 대형주 매수 기회로 삼아야 한다는 주장이 제기됐다. 현대증권은 8일 오전 한국거래소에서 기자간담회를 열고 \"한국 증시 밸류에이션이 선진국 및 신흥국 대비 많이 올랐다\"며');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://article.joinsmsn.com/news/article/article.asp?total_id=5024404&cloc=rss|news|economy" target="_blank">서울 광화문에 2Km 빗물배수터널 설치</a><br />');
+document.write('[박동희MTN기자 ] 서울 광화문 일대 지하에 지름 3.5미터 길이 2킬로미터의 빗물배수터널이 설치됩니다. 서울시는 2013년까지 종로구 통인동과 청계천 사이를 빗물배수터널로 연결해 폭우시에도 빗물이 지상으로 넘치지 않고 청계천으로 유입되도록 한단 계획입니다. 서울시는 \"이번 공사로 시간당 102밀리미터의 폭우');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://article.joinsmsn.com/news/article/article.asp?total_id=5024402&cloc=rss|news|economy" target="_blank">[특징주]가스 폭발 사고, 대한유화 약세</a><br />');
+document.write('[아시아경제 이초희 기자]울산공장 가스 폭발 사고로 대한유화가 8일 약세다.이날 오후 1시55분 대한유화는 전일보다 3.65% 하락한 10만5500원을 기록중이다.이날 오전 9시 47분경 울산 남구 부곡동 석유화학공단 내 대한유화에서 가스폭발사고가 발생, 이 회사 직원 남모(47)씨 등 여러 명이 부상을 입었다.');
+document.write('</li>');
+document.write('</ul></div>');

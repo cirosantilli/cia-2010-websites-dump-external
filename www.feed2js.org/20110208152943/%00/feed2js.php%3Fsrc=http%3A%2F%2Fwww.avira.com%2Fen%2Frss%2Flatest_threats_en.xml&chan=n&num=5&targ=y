@@ -1,0 +1,15 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.avira.com/en/support-threats-summary/tid/6080/threat/Worm%252FJuske.KX4" target="_blank">Worm/Juske.KX4</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.avira.com/en/support-threats-summary/tid/6070/threat/W32%252FSankei.3077" target="_blank">W32/Sankei.3077</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.avira.com/en/support-threats-summary/tid/6079/threat/JS%252FFakeAlert.72367" target="_blank">JS/FakeAlert.72367</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.avira.com/en/support-threats-summary/tid/6067/threat/Java%252FOpenStream.F" target="_blank">Java/OpenStream.F</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.avira.com/en/support-threats-summary/tid/6066/threat/Java%252FApplet.K" target="_blank">Java/Applet.K</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

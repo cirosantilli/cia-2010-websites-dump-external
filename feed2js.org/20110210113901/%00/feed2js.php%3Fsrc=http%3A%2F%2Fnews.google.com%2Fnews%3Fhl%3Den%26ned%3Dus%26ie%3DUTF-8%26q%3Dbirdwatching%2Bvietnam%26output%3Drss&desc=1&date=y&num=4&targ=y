@@ -1,0 +1,21 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNG6abDGxGecAe-Y_MI3KKTDiKbIZw&url=http://www.theatlantic.com/technology/archive/2011/01/birdwatching-anxiety-and-technology/70122/" target="_blank">Birdwatching, Anxiety, and Technology by Edward Tenner - The Atlantic (blog)</a><br />');
+document.write('<span class="rss-date">Tue, 25 Jan 2011 15:41:09 GMT+00:00</span><br />');
+document.write('Birdwatching, Anxiety, and Technology by Edward TennerThe Atlantic (blog)On the Vietnam-Laos border, land mines have discouraged hunters and metal fragments in trees have kept loggers at bay, resulting in a &quot;Noah&#39;s Ark lost in ...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNGZctzZMOUfg-ECWaafnuTypfJCeg&url=http://www2.journalnow.com/entertainment/2011/feb/10/events-calendar-0210-ar-768913/" target="_blank">Event Calendar - Winston-Salem Journal</a><br />');
+document.write('<span class="rss-date">Thu, 10 Feb 2011 05:10:58 GMT+00:00</span><br />');
+document.write('Event CalendarWinston-Salem JournalLITTLE RED ENVELOPE RECEPTION: An exhibition of photographs by Catherine Karnow, along with paintings by children in Vietnam who have disabilities, ...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNHt0xA2Y2ES82R2jeCvlzr9mfH27g&url=http://www.register-pajaronian.com/v2_news_articles.php?heading%3D0%26page%3D75%26story_id%3D10168" target="_blank">Jimmie Barton - Register Pajaronian</a><br />');
+document.write('<span class="rss-date">Thu, 27 Jan 2011 06:00:39 GMT+00:00</span><br />');
+document.write('Jimmie BartonRegister PajaronianMr. Barton enjoyed bird watching and spending time with his grandchildren. He was known for his positive attitude, sense of humor and great outlook on life. ...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNGKm2yWeXY28i72EPEqcM0ZkjN9ig&url=http://www.signonsandiego.com/news/2011/feb/08/fyi-datebook/" target="_blank">FYI Datebook - San Diego Union Tribune</a><br />');
+document.write('<span class="rss-date">Tue, 08 Feb 2011 14:06:14 GMT+00:00</span><br />');
+document.write('FYI DatebookSan Diego Union TribuneBird Watching: Join bird watchers 8 to 9 am the first Monday of the month at the San Diego Botanic Garden, 230 Quail Gardens Drive, www.SDBGarden.org. ...and more&nbsp;&raquo;');
+document.write('</li>');
+document.write('</ul></div>');

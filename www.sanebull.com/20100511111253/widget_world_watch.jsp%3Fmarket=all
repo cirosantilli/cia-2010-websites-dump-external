@@ -1,0 +1,338 @@
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>SaneBull World Market Watch Widget</title>
+	<meta name="description" content="SaneBull"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="keywords" content="web development, marketing, seo"/>
+	<style type="text/css">
+
+		body{margin: 0px; font: 11px Verdana,Tahoma; background:#ffffff;}
+		#widget-box{position: relative; width: 208px; height: 353px; padding-bottom: 55px; border: 1px solid #8c8c8c;}
+		#widget-box h1{position: relative; margin: 0px; padding-top: 2px; text-align: center; width: 100%; height: 21px; background: url("http://cdn.sanebull.com/images/widget-bg.gif") no-repeat left top; font-size: 12px; cursor: pointer;}
+		#widget-box a{position: relative; text-decoration: none; color: #656565; font-family: Verdana;}
+			#widget-box a:hover{text-decoration: underline; color: #425e7d}
+		#widget-bottom{position: absolute; bottom: 0px; left: 0px; width: 100%; height: 54px; background: url("http://cdn.sanebull.com/images/widget-bg.gif") no-repeat left bottom; padding: 0px 0px 0px 43px;}
+			#get-quote-box{position: absolute; top: 31px; left: 45px; border: 1px solid #6d6d6d;}
+			#get-quote-box input{border: 1px solid #d8d8d8; font-size: 12px; padding: 0px 0px 1px 3px; width: 118px; text-transform: uppercase;}
+			#get-quote-go{position: absolute; top: 30px; left: 174px; width: 30px; height: 22px; text-align: center; padding: 0px;}
+		#tableCaptions{position: relative; font-weight: bold; color: #515151}
+		#widget-content{line-height:1em}
+		#widget-content a{color: #1e63b0; text-decoration: underline;}
+		#widget-content a:hover{color: #000000;}
+		*{outline-color:-moz-use-text-color; outline-style:none; outline-width:0px;}
+		.sanebull_red {color: rgb(204, 0, 0);}
+		.sanebull_green {color: rgb(0, 136, 0);}
+		.odd{background:#f1f1f1;}
+
+	</style>
+	<!--[if IE]>
+		<style type="text/css">
+			#get-quote-box input{border: 0px; font-size: 12px; padding: 1px 0px 1px 3px; width: 121px;}
+		</style>
+	<![endif]-->
+
+	<script  type="text/javascript" src="http://www.google.com/jsapi"></script>
+	<script type="text/javascript">
+		google.load("prototype", "1.6");
+		google.load("scriptaculous", "1.8.1");
+	</script>
+
+	<script type="text/javascript">
+// <![CDATA[
+
+var SBWidget = {
+	controlUrl : "/main_handler",
+	asu : 0,
+	ticker : '',
+
+	ta:	{'^AEX':'aex','^JKSE':'jkse','^NZ50':'nz50','^TWII':'twii','^MERV':'merv','^BVSP':'bvsp','^GSPTSE':'tor','^MXX':'mxx','^NSEI':'nse','^BSESN':'bse','000001.SS':'ssec','^STI':'sti','^IXIC':'nasdaq','^GSPC':'sp','^DJI':'dow','^FTSE':'ftse','^GDAXI':'dax','^FCHI':'cac','^N225':'n225','^HSI':'hsi'},
+	tr:	{'aex':'^AEX','jkse':'^JKSE','nz50':'^NZ50','twii':'^TWII','merv':'^MERV','bvsp':'^BVSP','tor':'^GSPTSE','mxx':'^MXX','nse':'^NSEI','bse':'^BSESN','ssec':'000001.SS','sti':'^STI','nasdaq':'^IXIC','sp':'^GSPC','dow':'^DJI','ftse':'^FTSE','dax':'^GDAXI','cac':'^FCHI','n225':'^N225','hsi':'^HSI'},
+
+
+
+
+
+
+
+
+	doStart : function () {
+		Element.hide('chart_content');
+		SBWidget.doMarketWatch();
+		SBWidget.asu = setInterval(SBWidget.doMarketWatch, 30 * 1000);
+	},
+
+	doMarketWatch : function() {
+		SBWidget.doServerRequest('9', SBWidget.drawMarketWatch);
+	},
+
+	drawMarketWatch : function(r) {
+		var q = eval(r.responseText);
+
+		for (i = 0; i < q.length; i++) {
+			var c = SBWidget.ta[q[i].ticker];
+			if (c === undefined) continue;
+ 
+			var changeClass = "sanebull_green";
+			if (q[i].change < 0) { changeClass = "sanebull_red"; }
+			$(c + '_change').className = changeClass;
+			new Effect.CashRegister(c + '_current', q[i].current);	
+			new Effect.CashRegister(c + '_change', q[i].change);
+
+			if (SBWidget.ticker === c) {
+				new Effect.CashRegister('c_lst', q[i].current);
+				new Effect.CashRegister('c_chn', q[i].change);
+				$('c_chn').className = changeClass;
+			}
+		}
+	},
+
+	showChart: function(w) {
+		SBWidget.ticker = w;
+		$('c_tik').innerHTML = $(w + '_name').innerHTML;
+		$('c_lst').innerHTML = $(w + '_current').innerHTML;
+		$('c_chn').innerHTML = $(w + '_change').innerHTML;
+		$('c_chn').className = $(w + '_change').className;
+
+		if (w === 'dow') {
+			$('sanebull_ch').innerHTML = "<br>Dow Jones Indexes are End-of-Day only. Please refer to <a href=\"http://www.sanebull.com/privacy-policy\" target=\"_blank\">SaneBull TOS</a> for more info.";
+
+		} else {
+			 SBWidget.doRedirect2(SBWidget.tr[w]);
+		}
+/*		
+		else
+			$('sanebull_ch').innerHTML = "<a href=\"http://www.sanebull.com/m?symbol=" + SBWidget.tr[w] + "\" target=\"_blank\"><img width=\"190\" id=\"tchart_chart_img\" border=\"0\" src=\"http://ichart.finance.yahoo.com/t?s=" + SBWidget.tr[w] + "&c=" + Math.random() * 99999 + "\"\/><\/a>";
+*/
+		Element.hide('main_content');
+		Element.show('chart_content');
+		return false;
+	},
+
+	hideChart: function() {
+		Element.show('main_content');
+		Element.hide('chart_content');
+
+		return false;
+	},
+
+	doRedirect: function() {
+		if ( ($('stock-entry').value != 'GET QUOTE..') && ($('stock-entry').value != '') ) {
+			$('form-sub').action = 'http://www.sanebull.com/redirect?symbol=' + $('stock-entry').value;
+		} else {
+			$('stock-entry').value = 'YHOO';
+		}
+	},
+
+	doRedirect2: function(s) {
+		$('form-sub').action = 'http://www.sanebull.com/redirect?symbol=' + $('stock-entry').value;
+		$('stock-entry').value = s;
+		$('form-sub').submit();
+	},
+
+	doServerRequest : function (a, callback) {
+		new Ajax.Request(SBWidget.controlUrl, { method: 'get', parameters: 'actionName=' + a, onComplete: callback });		
+	}
+};
+
+Effect.CashRegister = Class.create();
+Object.extend(Object.extend(Effect.CashRegister.prototype, Effect.Base.prototype), {
+	initialize: function(element, price) {
+		var options = arguments[2] || {};
+		this.element = $(element);
+		this.startPrice = parseFloat(this.element.innerHTML);
+		this.finishPrice = price;
+		this.delta = (this.finishPrice - this.startPrice);
+		this.start(options);
+	},
+	update: function(position) {
+		var value = (this.startPrice + (this.delta * position)).toString().split('.');
+		if (this.startPrice < 100000) {
+			var cent  = value.length==1 ? '' : (value[1].length == 1 ? "." + value[1]+"0" : "." + value[1].substring(0,2));
+			Element.update(this.element, value[0] + cent);
+		} else {
+			Element.update(this.element, value[0]);
+		}
+	}
+});
+
+Event.observe(window, 'load', SBWidget.doStart, false);
+
+// ]]>
+	</script>
+</head><body>
+	<div id="widget-box"><a href="http://www.sanebull.com/" target="_blank"><h1>World Market Watch</h1></a>
+		<div id="widget-content">
+			<table id="main_content" width="100%" cellspacing="1" cellpadding="1">
+				<tbody>
+					<tr id="tableCaptions">
+						<td style="width:45%;">Exchange</td>
+						<td>Last</td>
+						<td>Change</td>
+					</tr>
+
+					<tr>
+						<td><img alt="United States Stock Market" src="http://cdn.sanebull.com/images/flags/us.gif" /> <a id="dow_name" href="#" onclick="SBWidget.showChart('dow');">DJIA&reg;</a> *</td>
+						<td class="sanebull_data_response"><div id="dow_current">0.0</div></td>
+						<td class="sanebull_data_response" style="padding-left:3px;"><div id="dow_change">0.0</div></td>
+					</tr>
+
+
+					<tr class="odd">
+						<td><img alt="United States Stock Market" src="http://cdn.sanebull.com/images/flags/us.gif" /> <a href="#" onclick="SBWidget.doRedirect2('^IXIC'); return false;" target="_blank">Nasdaq</a></td>
+						<td class="sanebull_data_response"><div id="nasdaq_current">0.0</div></td>
+						<td class="sanebull_data_response" style="padding-left:3px;"><div id="nasdaq_change">0.0</div></td>
+					</tr>
+
+
+					<tr>
+						<td><img alt="United States Stock Market" src="http://cdn.sanebull.com/images/flags/us.gif" /> <a href="#" onclick="SBWidget.doRedirect2('^GSPC');return false;" target="_blank">S &amp; P 500</a></td>
+						<td class="sanebull_data_response"><div id="sp_current">0.0</div></td>
+						<td class="sanebull_data_response" style="padding-left:3px;"><div id="sp_change">0.0</div></td>
+					</tr>
+
+
+					<tr class="odd">
+						<td><img alt="Argentina Stock Exchange" src="http://cdn.sanebull.com/images/flags/ar.gif" /> <a href="http://www.sanebull.com/m?symbol=^MERV" target="_blank">MerVal</a></td>
+						<td class="sanebull_data_response"><div id="merv_current">0.0</div></td>
+						<td class="sanebull_data_response" style="padding-left:3px;"><div id="merv_change">0.0</div></td>
+					</tr>
+
+
+					<tr>
+						<td><img alt="Brazilian Stock Exchange" src="http://cdn.sanebull.com/images/flags/br.gif" /> <a href="http://www.sanebull.com/m?symbol=^BVSP" target="_blank">Bovespa</a></td>
+						<td class="sanebull_data_response"><div id="bvsp_current">0.0</div></td>
+						<td class="sanebull_data_response" style="padding-left:3px;"><div id="bvsp_change">0.0</div></td>
+					</tr>
+
+
+					<tr class="odd">
+						<td><img alt="Canada Stock Exchange" src="http://cdn.sanebull.com/images/flags/ca.gif" /> <a href="http://www.sanebull.com/m?symbol=^GSPTSE" target="_blank">TSX</a></td>
+						<td class="sanebull_data_response"><div id="tor_current">0.0</div></td>
+						<td class="sanebull_data_response" style="padding-left:3px;"><div id="tor_change">0.0</div></td>
+					</tr>
+
+
+					<tr>
+						<td><img alt="Mexican Stock Exchange" src="http://cdn.sanebull.com/images/flags/mx.gif" /> <a href="http://www.sanebull.com/m?symbol=^MXX" target="_blank">IPC</a></td>
+						<td class="sanebull_data_response"><div id="mxx_current">0.0</div></td>
+						<td class="sanebull_data_response" style="padding-left:3px;"><div id="mxx_change">0.0</div></td>
+					</tr>
+
+
+					<tr class="odd">
+						<td><img alt="Amsterdam Stock Exchange" src="http://cdn.sanebull.com/images/flags/nl.gif" /> <a href="http://www.sanebull.com/m?symbol=^AEX" target="_blank">AEX</a></td>
+						<td class="sanebull_data_response"><div id="aex_current">0.0</div></td>
+						<td class="sanebull_data_response" style="padding-left:3px;"><div id="aex_change">0.0</div></td>
+					</tr>
+
+
+					<tr>
+						<td><img alt="London Stock Exchange" src="http://cdn.sanebull.com/images/flags/uk.gif" /> <a href="http://www.sanebull.com/m?symbol=^FTSE" target="_blank">FTSE 100</a></td>
+						<td class="sanebull_data_response"><div id="ftse_current">0.0</div></td>
+						<td class="sanebull_data_response" style="padding-left:3px;"><div id="ftse_change">0.0</div></td>
+					</tr>
+
+
+					<tr class="odd">
+						<td><img alt="Frankfurt Stock Exchange" src="http://cdn.sanebull.com/images/flags/de.gif" /> <a href="http://www.sanebull.com/m?symbol=^GDAXI" target="_blank">DAX</a></td>
+						<td class="sanebull_data_response"><div id="dax_current">0.0</div></td>
+						<td class="sanebull_data_response" style="padding-left:3px;"><div id="dax_change">0.0</div></td>
+					</tr>
+
+
+					<tr>
+						<td><img alt="French Stock Market" src="http://cdn.sanebull.com/images/flags/fr.gif" /> <a href="http://www.sanebull.com/m?symbol=^FCHI" target="_blank">CAC 40</a></td>
+						<td class="sanebull_data_response"><div id="cac_current">0.0</div></td>
+						<td class="sanebull_data_response" style="padding-left:3px;"><div id="cac_change">0.0</div></td>
+					</tr>
+
+
+					<tr class="odd">
+						<td><img alt="Japan Stock Market" src="http://cdn.sanebull.com/images/flags/jp.gif" /> <a id="n225_name" href="#" onclick="SBWidget.showChart('n225');">Nikkei</a></td>
+						<td class="sanebull_data_response"><div id="n225_current">0.0</div></td>
+						<td class="sanebull_data_response" style="padding-left:3px;"><div id="n225_change">0.0</div></td>
+					</tr>
+
+
+					<tr>
+						<td><img alt="Hong Kong Stock Market" src="http://cdn.sanebull.com/images/flags/hk.gif" /> <a href="http://www.sanebull.com/m?symbol=^HSI" target="_blank">Hang Seng</a></td>
+						<td class="sanebull_data_response"><div id="hsi_current">0.0</div></td>
+						<td class="sanebull_data_response" style="padding-left:3px;"><div id="hsi_change">0.0</div></td>
+					</tr>
+
+
+					<tr class="odd">
+						<td><img alt="China Stock Market" src="http://cdn.sanebull.com/images/flags/cn.gif" /> <a href="http://www.sanebull.com/m?symbol=000001.SS" target="_blank">Shanghai</a></td>
+						<td class="sanebull_data_response"><div id="ssec_current">0.0</div></td>
+						<td class="sanebull_data_response" style="padding-left:3px;"><div id="ssec_change">0.0</div></td>
+					</tr>
+
+
+					<tr>
+						<td><img alt="Singapore Stock Market" src="http://cdn.sanebull.com/images/flags/sg.gif" /> <a href="http://www.sanebull.com/m?symbol=^STI" target="_blank">Straits</a></td>
+						<td class="sanebull_data_response"><div id="sti_current">0.0</div></td>
+						<td class="sanebull_data_response" style="padding-left:3px;"><div id="sti_change">0.0</div></td>
+					</tr>
+
+
+					<tr class="odd">
+						<td><img alt="Jakarta Stock Exchange" src="http://cdn.sanebull.com/images/flags/id.gif" /> <a href="http://www.sanebull.com/m?symbol=^JKSE" target="_blank">Jakarta</a></td>
+						<td class="sanebull_data_response"><div id="jkse_current">0.0</div></td>
+						<td class="sanebull_data_response" style="padding-left:3px;"><div id="jkse_change">0.0</div></td>
+					</tr>
+
+
+					<tr>
+						<td><img alt="New Zealand Stock Exchange" src="http://cdn.sanebull.com/images/flags/nz.gif" /> <a href="http://www.sanebull.com/m?symbol=^NZ50" target="_blank">NZX 50</a></td>
+						<td class="sanebull_data_response"><div id="nz50_current">0.0</div></td>
+						<td class="sanebull_data_response" style="padding-left:3px;"><div id="nz50_change">0.0</div></td>
+					</tr>
+
+
+					<tr class="odd">
+						<td><img alt="Taiwan Stock Exchange" src="http://cdn.sanebull.com/images/flags/tw.gif" /> <a href="http://www.sanebull.com/m?symbol=^TWII" target="_blank">TSEC</a></td>
+						<td class="sanebull_data_response"><div id="twii_current">0.0</div></td>
+						<td class="sanebull_data_response" style="padding-left:3px;"><div id="twii_change">0.0</div></td>
+					</tr>
+
+
+					<tr>
+						<td><img alt="Bombay Stock Exchange" src="http://cdn.sanebull.com/images/flags/in.gif" /> <a href="http://www.sanebull.com/m?symbol=^BSESN" target="_blank">Sensex</a></td>
+						<td class="sanebull_data_response"><div id="bse_current">0.0</div></td>
+						<td class="sanebull_data_response" style="padding-left:3px;"><div id="bse_change">0.0</div></td>
+					</tr>
+
+
+					<tr class="odd">
+						<td><img alt="Indian National Stock Exchange" src="http://cdn.sanebull.com/images/flags/in.gif" /> <a href="http://www.sanebull.com/m?symbol=^NSEI" target="_blank">Nifty</a></td>
+						<td class="sanebull_data_response"><div id="nse_current">0.0</div></td>
+						<td class="sanebull_data_response" style="padding-left:3px;"><div id="nse_change">0.0</div></td>
+					</tr>
+
+				</tbody>
+			</table>
+			<table id="chart_content" style="display: none; width:100%" cellspacing="0" cellpadding="2">
+				<tbody>
+					<tr>
+						<td><div style="text-align:center;font-weight: bold;"><span id="c_tik"></span> | <span id="c_lst"></span> | <span id="c_chn"></span> | <a href="#" onclick="SBWidget.hideChart();">back</a></div></td>
+					</tr>
+					<tr><td><hr/></td></tr>
+					<tr>
+						<td><div id="sanebull_ch" style="width:100%;text-align:center;"></div></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div id="widget-bottom"><form id="form-sub" action="http://www.sanebull.com/redirect" method="get" target="_blank">
+			<div id="get-quote-box"><input id="stock-entry" name="symbol" type="text" value="GET QUOTE.." onclick="if(this.value == 'GET QUOTE..') this.value='';" onblur="if (this.value=='') this.value='GET QUOTE..';"/></div>
+			<input id="get-quote-go" type="submit" value="Go" onclick="SBWidget.doRedirect();"/>
+		</form></div><!--widget-bottom-->
+	</div><!--widget-box-->
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script><script type="text/javascript">_uacct = "UA-84011-5";urchinTracker();</script>
+<script type="text/javascript">_qoptions={qacct:"p-d5Jx7v2GUyT6Y"};</script><script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script><noscript><img src="http://pixel.quantserve.com/pixel/p-d5Jx7v2GUyT6Y.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/></noscript>
+
+</body></html>

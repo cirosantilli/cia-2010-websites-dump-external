@@ -1,0 +1,17 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.marketwire.com/mw/release.do?id=1377290&sourceType=3" target="_blank">CNSX: Suspension-Triangle Multi-Services Corp. (TMS)</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.marketwire.com/mw/release.do?id=1377266&sourceType=3" target="_blank">Rainy River Closes $75 Million Bought Deal Financing</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.marketwire.com/mw/release.do?id=1377245&sourceType=3" target="_blank">IIROC: Halt, ISEEMEDIA INC</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.marketwire.com/mw/release.do?id=1377221&sourceType=3" target="_blank">Hinterland Grants 3.3-Million Incentive Stock Options</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.marketwire.com/mw/release.do?id=1377197&sourceType=3" target="_blank">IIROC: Resume, Hawthorne Gold Corp.</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.marketwire.com/mw/release.do?id=1377192&sourceType=3" target="_blank">IIROC: Halt, Border Petroleum Corp</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

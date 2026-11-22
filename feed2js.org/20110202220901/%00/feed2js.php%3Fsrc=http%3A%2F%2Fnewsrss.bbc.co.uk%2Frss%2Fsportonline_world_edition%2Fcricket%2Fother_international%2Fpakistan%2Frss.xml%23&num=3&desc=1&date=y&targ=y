@@ -1,0 +1,17 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.bbc.co.uk/go/rss/-/sport2/hi/cricket/9383261.stm" target="_blank">Misbah guides Pakistan to victory</a><br />');
+document.write('<span class="rss-date">Tue, 01 Feb 2011 10:55:11 GMT</span><br />');
+document.write('An unbeaten 93 from Misbah-ul-Haq helps Pakistan to a two-wicket win over New Zealand in the fourth one-day international in Napier.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.bbc.co.uk/go/rss/-/sport2/hi/cricket/9380617.stm" target="_blank">Hafeez hits ton in Pakistan win</a><br />');
+document.write('<span class="rss-date">Sat, 29 Jan 2011 10:26:07 GMT</span><br />');
+document.write('Mohammad Hafeez hits his maiden century to set up a 43-run victory over New Zealand in the third one-day international in Christchurch.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.bbc.co.uk/go/rss/-/sport2/hi/cricket/9373884.stm" target="_blank">NZ and Pakistan ODI is abandoned</a><br />');
+document.write('<span class="rss-date">Wed, 26 Jan 2011 05:08:57 GMT</span><br />');
+document.write('Rain washes out the second one-day international between New Zealand and Pakistan in Queenstown.');
+document.write('</li>');
+document.write('</ul></div>');

@@ -1,0 +1,8 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.msnbc.msn.com/id/41413667/ns/news/displaymode/1247/beginSlide/1/beginChapter/1/beginTab/1/" target="_blank">Slideshow: Jan. 27 - Feb. 3</a><br />');
+document.write('<p><a href=\"http://www.msnbc.msn.com/id/41413667/ns/news/displaymode/1247/beginSlide/1/beginChapter/1/beginTab/1/\"><img align=\"left\" border=\"0\" src=\"http://msnbcmedia.msn.com/j/MSNBC/Components/Slideshows/_production/twip_110203_/twip_110203_-tease.thumb.jpg\" alt=\"Officers are remembered in Florida, protesters face off in Egypt, Australia reels from a cyclone, Hong Kong ushers in a new year and more images from around the world.\" style=\"margin:0 5px 5px 0\" /></a>Officers are remembered in Florida, protesters face off in Egypt, Australia reels from a cyclone, Hong Kong ushers in a new year and more images from around the world.</p><br clear=\"all\" />');
+document.write('</li>');
+document.write('</ul></div>');

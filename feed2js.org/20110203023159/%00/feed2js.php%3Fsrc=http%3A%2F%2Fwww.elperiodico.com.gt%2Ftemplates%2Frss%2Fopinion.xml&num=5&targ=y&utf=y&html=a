@@ -1,0 +1,20 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item">');
+document.write('(...)');
+document.write(' <a class="rss-item" href="http://www.elperiodico.com.gt/es/20110202/opinion/" target="_blank">&laquo;details&raquo;</a></li>');
+document.write('<li class="rss-item">');
+document.write('(...)');
+document.write(' <a class="rss-item" href="http://www.elperiodico.com.gt/es/20110202/opinion/" target="_blank">&laquo;details&raquo;</a></li>');
+document.write('<li class="rss-item">');
+document.write('(...)');
+document.write(' <a class="rss-item" href="http://www.elperiodico.com.gt/es/20110202/opinion/" target="_blank">&laquo;details&raquo;</a></li>');
+document.write('<li class="rss-item">');
+document.write('(...)');
+document.write(' <a class="rss-item" href="http://www.elperiodico.com.gt/es/20110202/opinion/" target="_blank">&laquo;details&raquo;</a></li>');
+document.write('<li class="rss-item">');
+document.write('(...)');
+document.write(' <a class="rss-item" href="http://www.elperiodico.com.gt/es/20110202/opinion/" target="_blank">&laquo;details&raquo;</a></li>');
+document.write('</ul></div>');

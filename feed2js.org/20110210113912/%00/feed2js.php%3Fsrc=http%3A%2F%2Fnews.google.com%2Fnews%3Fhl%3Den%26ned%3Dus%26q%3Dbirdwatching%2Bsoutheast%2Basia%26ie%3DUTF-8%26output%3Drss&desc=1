@@ -1,0 +1,23 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNEGhkuLtvPayfM9lG1YnnikyLlkOQ&url=http://www.metro.co.uk/news/855082-birdwatcher-only-takes-a-year-to-track-down-worlds-most-secretive-species" target="_self">Birdwatcher only takes a year to track down world\'s most secretive species - Metro</a><br />');
+document.write('MetroBirdwatcher only takes a year to track down world&#39;s most secretive speciesMetroThe 46-year-old suffered dysentery and stepped on a poisonous snake during his trek to track down the birds, which live in rainforests in south-east Asia, ...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNFBIdbut8tt71E6UOqZAoclyHV0PA&url=http://scienceblogs.com/tetrapodzoology/2011/02/hypsipetes_passerine_tree.php?utm_source%3Dsbhomepage%26utm_medium%3Dlink%26utm_content%3Dchannellink" target="_self">Amphibians, reptiles, birds and mammals - living and extinct - ScienceBlogs (blog)</a><br />');
+document.write('Amphibians, reptiles, birds and mammals - living and extinctScienceBlogs (blog)Once upon a time, it was thought that just about all of the animals of the Mascarenes came from India or south-east Asia, but we now know that many groups ...and more&nbsp;&raquo;');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNF5BSE77HRBvKE8Jyp7bWleW4DzHQ&url=http://www.abc.net.au/local/stories/2011/01/31/3126031.htm" target="_self">Rare birds fly into the strangest of places - ABC Online</a><br />');
+document.write('Rare birds fly into the strangest of placesABC OnlineBut you wouldn&#39;t expect to see a rare bird strutting across the oval, who has just flown in from South East Asia. The Red Throated Pipit thought the local ...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNGN00jqdM0NoZQB_j2YhhvsNfu7OA&url=http://www.dailypioneer.com/315838/Bristled-Grassbirds-alight-at-Dadri-lake.html" target="_self">Bristled Grassbirds alight at Dadri lake - Daily Pioneer</a><br />');
+document.write('Bristled Grassbirds alight at Dadri lakeDaily PioneerBirdwatchers from Delhi and NCR have recorded the presence of over 220 species of rare migrant and resident birds in and around Bil Akbarpur village, ...and more&nbsp;&raquo;');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNEePWLM2K7xmZlmZV4GiR_fQBKwkw&url=http://www.skyscanner.net/news/articles/2011/01/009132-spring-sun-at-new-hotels-ask-skyscanner.html" target="_self">Spring sun at new hotels: Ask Skyscanner - Skyscanner News</a><br />');
+document.write('Skyscanner NewsSpring sun at new hotels: Ask SkyscannerSkyscanner NewsLet&#39;s start with south-east Asia. It&#39;s a thrilling region to visit at any time of year ? beaches, jungle, wildlife, wonderful people and exotic food. ...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNFzbeqMNajGRwEq2OUhXNGU9bhcvg&url=http://www.adelaidenow.com.au/ipad/my-life-on-christmas-island/story-fn6bqphm-1225992819574" target="_self">My love affair with Christmas Island - Adelaide Now</a><br />');
+document.write('My love affair with Christmas IslandAdelaide Now&quot;It was like South-East Asia and Australia in a blender. &quot;It&#39;s also like a country town; the people are very welcoming and friendly, everyone knows everyone ...and more&nbsp;&raquo;');
+document.write('</li>');
+document.write('</ul></div>');

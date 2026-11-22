@@ -1,0 +1,37 @@
+function sa(url,headline_text,source,media_type,cluster,tagline,document_url,harvest_time,access_status,access_registration) 
+{
+   this.url = url;
+   this.headline_text = headline_text;
+   this.source = source;
+   this.media_type = media_type;
+   this.cluster = cluster;
+   this.tagline = tagline;
+   this.document_url = document_url;
+   this.harvest_time = harvest_time;
+   this.access_status = access_status;
+   this.access_registration = access_registration;
+}
+article = new Array(
+  new sa("http://click.pulse360.com/cgi-bin/clickthrough.cgi?db=context&position=7001&tid=bhnhbmnlbonmbmnnbgnpzeraroxrrc&eid=1&id=87967252&brightads_used=&partner_override=&query=travel&clickid=77921078&UNQ=01116586670955290368&cgroup=consumertravelnews","Join The United States Army!","Ad - www.goarmy.com","text","Consumer: travel news"," ","http://click.pulse360.com/cgi-bin/clickthrough.cgi?db=context&position=7001&tid=bhnhbmnlbonmbmnnbgnpzeraroxrrc&eid=1&id=87967252&brightads_used=&partner_override=&query=travel&clickid=77921078&UNQ=01116586670955290368&cgroup=consumertravelnews",""," "," "),
+  new sa("http://c.feeddirect.com/click/here.pl?j732121878","Bustling yule markets abound for travellers in Germany","Canada.com","text","Consumer: travel news"," ","http://www.canada.com","11 Dec 2006 17:28:55"," "," "),
+  new sa("http://c.feeddirect.com/click/here.pl?j732121790","Shopping in Florence","Canada.com","text","Consumer: travel news"," ","http://www.canada.com","11 Dec 2006 17:28:48"," "," "),
+  new sa("http://c.feeddirect.com/click/here.pl?j732121661","Rub elbows with the locals and absorb the atmosphere","Canada.com","text","Consumer: travel news"," ","http://www.canada.com","11 Dec 2006 17:28:41"," "," "),
+  new sa("http://c.feeddirect.com/click/here.pl?j732054678","Discounting NBA tickets like airline seats","Fortune","text","Consumer: travel news"," ","http://money.cnn.com","11 Dec 2006 16:18:21"," "," "),
+  new sa("http://c.feeddirect.com/click/here.pl?j732024068","Discounting NBA tickets like airline seats","CNN Money","text","Consumer: travel news"," ","http://money.cnn.com","11 Dec 2006 15:47:40"," "," "),
+  new sa("http://c.feeddirect.com/click/here.pl?j732015178","World's largest cruise ship held in port after 2nd norovirus outbreak","Vancouver Sun","text","Consumer: travel news"," ","http://www.canada.com","11 Dec 2006 15:39:26"," "," "),
+  new sa("http://c.feeddirect.com/click/here.pl?j731990504","Book now for after-the-holiday airfare and cruise deals","San Jose Mercury News","text","Consumer: travel news"," ","http://www.mercurynews.com","11 Dec 2006 15:16:56","reg","https://registration.mercurynews.com/reg/createAccount.do"),
+  new sa("http://c.feeddirect.com/click/here.pl?j731990368","Lincoln holds treasure for lovers of quilts, elephants and tractors","San Jose Mercury News","text","Consumer: travel news"," ","http://www.mercurynews.com","11 Dec 2006 15:16:49","reg","https://registration.mercurynews.com/reg/createAccount.do"),
+  new sa("http://c.feeddirect.com/click/here.pl?j731990333","'Happy Feet' puts renewed spotlight on penguins","San Jose Mercury News","text","Consumer: travel news"," ","http://www.mercurynews.com","11 Dec 2006 15:16:48","reg","https://registration.mercurynews.com/reg/createAccount.do"),
+  new sa("http://c.feeddirect.com/click/here.pl?j731990155","Nebraska's state capital is licorice capital, too","San Jose Mercury News","text","Consumer: travel news"," ","http://www.mercurynews.com","11 Dec 2006 15:16:38","reg","https://registration.mercurynews.com/reg/createAccount.do"),
+  new sa("http://c.feeddirect.com/click/here.pl?j731990122","See the forest for the trees in rugged Pennsylvania","San Jose Mercury News","text","Consumer: travel news"," ","http://www.mercurynews.com","11 Dec 2006 15:16:36","reg","https://registration.mercurynews.com/reg/createAccount.do"),
+  new sa("http://c.feeddirect.com/click/here.pl?j731990088","Book helps globe-trotting Americans live down stereotypes","San Jose Mercury News","text","Consumer: travel news"," ","http://www.mercurynews.com","11 Dec 2006 15:16:33","reg","https://registration.mercurynews.com/reg/createAccount.do"),
+  new sa("http://c.feeddirect.com/click/here.pl?j731990036","Penguins, seals and glaciers thrill visitors on Chilean cruise","San Jose Mercury News","text","Consumer: travel news"," ","http://www.mercurynews.com","11 Dec 2006 15:16:29","reg","https://registration.mercurynews.com/reg/createAccount.do"),
+  new sa("http://c.feeddirect.com/click/here.pl?j731990002","The Christmas season is a grand time in the British capital","San Jose Mercury News","text","Consumer: travel news"," ","http://www.mercurynews.com","11 Dec 2006 15:16:27","reg","https://registration.mercurynews.com/reg/createAccount.do"),
+  new sa("http://c.feeddirect.com/click/here.pl?j731989954","B&B owners help guests trace the genealogy of Jones surname","San Jose Mercury News","text","Consumer: travel news"," ","http://www.mercurynews.com","11 Dec 2006 15:16:26","reg","https://registration.mercurynews.com/reg/createAccount.do"),
+  new sa("http://c.feeddirect.com/click/here.pl?j731989877","Holiday travelers can indulge in several intriguing exhibits","San Jose Mercury News","text","Consumer: travel news"," ","http://www.mercurynews.com","11 Dec 2006 15:16:21","reg","https://registration.mercurynews.com/reg/createAccount.do"),
+  new sa("http://c.feeddirect.com/click/here.pl?j731983592","Cooper-Hewitt exhibit in New York City focuses on latest in design","Leader-Post","text","Consumer: travel news"," ","http://www.canada.com","11 Dec 2006 15:10:46","sub","http://www.canada.com/regina/leaderpost/subscribe/leaderpostlanding.html"),
+  new sa("http://c.feeddirect.com/click/here.pl?j731983557","World's largest cruise ship held in port after 2nd norovirus outbreak","Leader-Post","text","Consumer: travel news"," ","http://www.canada.com","11 Dec 2006 15:10:44","sub","http://www.canada.com/regina/leaderpost/subscribe/leaderpostlanding.html"),
+  new sa("http://c.feeddirect.com/click/here.pl?j731962617","Gifts For The Traveler","Forbes.com","text","Consumer: travel news"," ","http://www.forbes.com","11 Dec 2006 14:49:35"," "," "),
+  new sa("http://c.feeddirect.com/click/here.pl?j731954140","Tours to old tea area","NhanDan Online","text","Consumer: travel news"," ","http://www.nhandan.com.vn","11 Dec 2006 14:40:42"," "," ")
+);
+ 

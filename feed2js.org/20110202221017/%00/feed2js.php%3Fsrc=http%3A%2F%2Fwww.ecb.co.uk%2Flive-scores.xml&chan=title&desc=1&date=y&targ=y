@@ -1,0 +1,10 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<p class="rss-title"><a class="rss-title" href="http://www.ecb.co.uk/" target="_blank">ECB Live Scores</a></p>');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.ecb.co.uk/stats/fixtures-results/score-card.html?Pfixture=com.othermedia.ecb.stats.Fixture-L-16344" target="_blank">Australia 334-8 v England 333</a><br />');
+document.write('<span class="rss-date">Wed, 2 Feb 11 11:38:00 GMT</span><br />');
+document.write('Australia 334-8 v England 333 Close');
+document.write('</li>');
+document.write('</ul></div>');

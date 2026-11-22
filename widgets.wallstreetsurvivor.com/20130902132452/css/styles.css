@@ -1,0 +1,152 @@
+﻿body { margin: 0px; font: 11px Verdana,Tahoma; background: #fff }
+#widget-box { width: 208px;  border: 1px solid #8c8c8c }
+#widget-box.wide{ width: 298px;  border: 1px solid #8c8c8c }
+#widget-box div.h440{ height:438px; }
+#widget-box h1{ margin: 0px; padding-top: 2px; text-align: center; width: 100%; height: 21px; background: url("/img/widget-bg-wss.gif") no-repeat left top; font-size: 12px; cursor: pointer;}
+#widget-box.wide h1{ margin: 0px; padding-top: 2px; text-align: center; width: 100%; height: 21px; background: url("/img/widget-wide-bg-wss.gif") no-repeat left top; font-size: 12px; cursor: pointer;}
+#widget-box a {text-decoration: none; color: #656565; font-family: Verdana }
+#widget-box a:hover {text-decoration: underline; color: #425e7d }
+#widget-bottom { 
+    position: relative; bottom: 0; left: 0; width: 100%; height: 30px; 
+    background-color:#f1f1f1; font-size: 10px
+}
+#widget-bottom .wss { float: left; margin: 10px 0 0 3px }
+#widget-bottom .desc { float: left; margin: 10px 0 0 5px }
+
+.sanebull_data_response { text-align: right }
+
+#get-quote-box { position: absolute; top: 5px; left: 45px; border: 1px solid #6d6d6d }
+#get-quote-box.wide { position: absolute; top: 5px; left: 135px; border: 1px solid #6d6d6d }
+#get-quote-box input { border: 1px solid #d8d8d8; font-size: 12px; padding: 0 0 1px 3px; width: 118px; text-transform: uppercase;}
+#get-quote-go { position: absolute; top: 5px; left: 174px; width: 30px; height: 22px; text-align: center; padding: 0px;}
+#get-quote-go.wide { position: absolute; top: 5px; left: 264px; width: 30px; height: 22px; text-align: center; padding: 0px;}
+#tableCaptions, tr.table-captions{ font-weight: bold; color: #515151}
+#widget-content { line-height: 1em }
+#widget-content a {color: #1e63b0; text-decoration: underline; }
+#widget-content a:hover{color: #000000;}
+*{outline-color:-moz-use-text-color; outline-style:none; outline-width:0}
+.sanebull_red {color: rgb(204, 0, 0);}
+.sanebull_green {color: rgb(0, 136, 0);}
+.odd{background:#f1f1f1;}
+
+.float-left { float: left }
+.float-right { float: right }
+.clear-both { clear: both }
+.h-20 { height: 20px }
+.marginL-10 { margin-left: 10px }
+.padding-20 { padding: 20px }
+.paddingL-20 { padding-left: 20px }
+.paddingV-10 { padding-top: 10px; padding-bottom: 10px }
+.txt-center { text-align: center }
+.txt-positive { color: #59d124 }
+.txt-negative { color: #b3373a }
+.border { border: 1px solid #ececec }
+
+
+a:link, a:visited, a:active { color: #336394 }
+a:hover { color: #aacfff }
+
+h3 { font: bold 14px Helvetica, Arial, Sans-serif; color: #494949 }
+
+/* gradients */
+.gradient-grey { background: #fff url(/img/common/bg-grey-gradient.jpg) 0 0 repeat-x }
+.gradient-blue { background: #266a9b url(/img/common/bg-input-blue.jpg) 0 0 repeat-x }
+.shadow {
+    -moz-box-shadow: 1px 1px 1px #616662;
+    -webkit-box-shadow: 1px 1px 1px #616662;
+    box-shadow: 1px 1px 1px #616662;
+    /* IE6-7 */ filter: progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Color='#616662');
+    /* IE8 */ -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Color='#616662')"
+}
+
+/* form */
+input { background: #fff url(/img/common/bg-input-grey.jpg) 0 0 repeat-x; border: 1px solid #bebebe; padding: 2px 0 0 5px }
+input.btn { padding: 1px 20px; border: 0; color: #fff }
+
+
+/* frame size */
+table.data, .stock-infos, .symbol-box { width: 600px }
+
+
+table.data { border: 1px solid #f0f1f3 }
+table.data tr th { background-color: #d3d3d3; border-bottom: 1px solid #c1c1c1; color: #000; height: 30px; line-height: 14px; padding: 0 2px }
+table.data tr td { border-bottom: 1px solid #f0f1f3; line-height: 28px; padding: 0 2px }
+table.data tr { background-color: #fff }
+table.data tr.alt { background-color: #eef2f5 }
+table.data .table-page-nav td { border: 0; padding-top: 10px }
+table.data .table-page-nav table tr td { border: 1px solid #eaeaea; background-color: #fff; line-height: 15px; padding: 0 }
+table.data .table-page-nav table tr td span { padding: 0 3px; border: 1px solid #2d5076; background-color: #0b3567; color: #fff }
+table.data .table-page-nav table tr td a { padding: 0 3px; text-decoration: none }
+
+/* quotes */
+.stock-infos { margin: 0 }
+.stock-infos .col1, .stock-infos .col2 { width: 270px; float: left }
+.stock-infos .col2 { margin-left: 20px }
+.stock-infos span { float: right; width: 95px; text-align: right; padding: 5px 20px 2px; border-bottom: 1px solid #d6d6d6; color: #0a3d6f; font: 12px Helvetica, Arial, Sans-serif }
+.stock-infos .title { float: left; width: 115px; text-align: left; padding: 5px 0 2px 20px; color: #4d4d4d; font: 12px Helvetica, Arial, Sans-serif }
+
+/* options chain */
+.pricePerformance { font-size: 13px; color: #14528f; font-weight: bold; line-height: 22px }
+.pricePerformance span { color: #464646 }
+
+.pricePerf-column { float: left; width: auto; margin-right: 30px }
+table.optionChain-calls { width: 375px; margin-top: -14px; border-right: 0 }
+table.optionChain-puts { width: 300px; margin-top: -14px; border-left: 0 }
+table.data tr th.strike { background-color: #9db6ba }
+table.data tr td.strike { background-color: #bfd5e0 }
+table.data tr td.inTheMoney { background-color: #e4f8df }
+table.data tr.alt td.inTheMoney { background-color: #d5edd7 }
+.legend div { width: 25px; height: 25px; float: left; margin-right: 10px; background-color: #e4f8df }
+.legend { line-height: 25px }
+
+.wrapper-widget { width: 698px; height: 998px; background-color: #f0eff0; border: 1px solid #d9d9d9; padding-left: 40px; font-family: Verdana, Arial, Sans-Serif }
+.wrapper-widget h1 { margin: 0 0 0 -40px; padding-left: 40px; height: 28px; line-height: 28px; font-size: 18px; color: #fff; background: transparent url('/img/bg-h1.jpg') 0 0 repeat-x }
+.wrapper-widget .customize { float: left; width: 330px }
+.wrapper-widget p { margin-top: 25px; color: #333333; font-weight: bold; font-size: 14px }
+.wrapper-widget h3 { color: #236fb8; font-size: 14px; font-weight: bold; padding-left: 155px; margin: 20px 0 10px 0 }
+.wrapper-widget label { display: block; float: left; width: 140px; margin-right: 15px; text-align: right; line-height: 30px }
+.wrapper-widget input, .wrapper-widget select { margin-top: 5px }
+.wrapper-widget select { text-align: center }
+.wrapper-widget a.btn-getCodes { margin: 15px 0 0 155px; display: block; width: 103px; height: 24px; background: transparent url('/img/btn-getCodes.jpg') 0 0 no-repeat; text-indent: -9999px }
+.wrapper-widget .getCode { margin-left: 155px; width: 500px }
+.wrapper-widget .getCode p { font-size: 12px; width: 500px }
+
+.wrapper-widget .preview { width: 310px;padding:0 5px 5px 5px; float: right; margin: 79px 40px 0 0; background-color: #ffffff; border: 1px solid #b9b9b9 }
+.wrapper-widget .preview h3 { padding-left: 15px }
+
+/* css below used for customization don't touch */
+.widgetPreview .border{ border: 1px solid #909090 }
+.widgetPreview .row td { background-color: #ffffff }
+.widgetPreview .altRow td { background-color: #edf6ff }
+.widgetPreview .header{ background-color: #003366 }
+/* end css below used for customization don't touch */
+
+/* widget 160x300 */
+#preview .smallWidget{ margin: 15px }
+.smallWidget { width: 158px; height: 298px}
+.smallWidget .header {text-align: center; height: 65px }
+.smallWidget h1 { color: #ffffff; font-size: 15px; width: 158px; text-align: center; margin: 0; padding: 0; background-image: none }
+.smallWidget table tr td { border-bottom: 1px solid #909090;  padding: 0 10px; font-weight: bold; font-size: 10px }
+.smallWidget input.searchSymbol { float: left; width: 90px; height: 17px; border: 1px solid #82b1b1; margin: 5px 5px 0 5px; padding: 2px 3px; font-style: italic; font-size: 11px }
+/* hack IE7 */ *:first-child+html .smallWidget input.searchSymbol { margin-left: -8px }
+.smallWidget input.btn { border: 0; width: 42px; height: 24px; background: transparent url('/img/btn-go.jpg') 0 0 no-repeat; text-indent: -9999px }
+.smallWidget .linkSymbolLookup { padding: 2px 0 ; text-align: center }
+.smallWidget .wrapperFooter { width: 152px; height: 56px; background-color: #dddddd; padding: 3px; margin-top: 2px }
+/* hack IE7 */ *:first-child+html .smallWidget .wrapperFooter { margin-top: -1px }
+.smallWidget .wrapperFooter { margin-top: 9px\0/;} /* for IE8, going last */
+/* saf and chrome */ body:nth-of-type(1) .smallWidget .wrapperFooter { margin-top: -1px }
+.smallWidget .footer { background-color: #ffffff; padding: 2px 5px 0; font-size: 9px; margin: 0 2px }
+.smallWidget .footer img { margin: 0 0 1px; border: 0 }
+
+/* widget 300x250 */
+.bigWidget { width: 298px; height: 248px;  }
+.bigWidget .header { text-align: center; height: 42px; padding-top: 3px }
+.bigWidget h1 { float: left; color: #ffffff; font-size: 15px; width: 158px; text-align: center; margin: 0; padding: 6px 0 0; background-image: none }
+.bigWidget table tr td { border-bottom: 1px solid #909090;  padding: 5px 10px; font-weight: bold; font-size: 10px }
+.bigWidget input.searchSymbol { float: left; width: 110px; height: 17px; border: 1px solid #82b1b1; margin: 5px 5px 0 5px; padding: 2px 3px; font-style: italic; font-size: 11px }
+.bigWidget input.btn { float: left; border: 0; width: 42px; height: 24px; background: transparent url('/img/btn-go.jpg') 0 0 no-repeat; text-indent: -9999px }
+.bigWidget .linkSymbolLookup { float: left; padding: 10px 0 0; text-align: center; margin-left: 15px }
+.bigWidget .wrapperFooter { clear: both; width: 292px; height: 48px; background-color: #dddddd; padding: 3px; margin-top: 5px }
+.bigWidget .footer { background-color: #ffffff; padding: 5px; font-size: 9px; margin: 2px }
+.bigWidget .footer img { float: left; margin: 0 5px 1px; border: 0 }
+

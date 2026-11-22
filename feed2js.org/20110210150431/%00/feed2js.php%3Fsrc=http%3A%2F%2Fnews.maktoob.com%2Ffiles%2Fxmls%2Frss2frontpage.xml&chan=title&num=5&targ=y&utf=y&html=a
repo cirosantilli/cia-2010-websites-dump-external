@@ -1,0 +1,21 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<p class="rss-title"><a class="rss-title" href="http://news.maktoob.com/" target="_blank">اخبار مكتوب</a></p>');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.maktoob.com/article/6004030" target="_blank">بلاغ للنائب العام يطالب الرئيس مبارك بتسليم مقار \"الوطنى\" للدولة</a><br />');
+document.write('<p><a href=\"http://news.maktoob.com/article/6004030\"><img src=\"http://news.makcdn.com/imageConvert.php?path=6004032\" align=\"left\" height=\"91\" width=\"130\" alt=\"بلاغ للنائب العام يطالب الرئيس مبارك بتسليم مقار &quot;الوطنى&quot; للدولة\" border=\"0\" /></a> تقدم الدكتور سمير صبرى المحامى ببلاغ للنائب العام المستشار الدكتور عبد المجيد محمود، ضد الرئيس محمد حسنى مبارك بصفته رئيس الحزب الوطنى، ضد وقائع الاعتداء على الحيازة والاستيلاء على مقار</p>');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.maktoob.com/article/6004034" target="_blank">14شركة طيران تلغى رحلاتها إلى مصر لعدم وجود ركاب</a><br />');
+document.write('<p><a href=\"http://news.maktoob.com/article/6004034\"><img src=\"http://news.makcdn.com/imageConvert.php?path=5957334\" align=\"left\" height=\"91\" width=\"130\" alt=\"14شركة طيران تلغى رحلاتها إلى مصر لعدم وجود ركاب\" border=\"0\" /></a> ألغت 14 شركة طيران عالمية رحلاتها، أمس الأربعاء، إلى القاهرة لعدم جدواها اقتصاديا بسبب انخفاض عدد الركاب، وصرحت مصادر ملاحية بمطار القاهرة، نقلا عن دبى العربية نت، بأنه فى الوقت</p>');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.maktoob.com/article/6004026" target="_blank">لجان الجرد: آثار الإسكندرية سليمة وفى آمان</a><br />');
+document.write('<p><a href=\"http://news.maktoob.com/article/6004026\"><img src=\"http://news.makcdn.com/imageConvert.php?path=6004028\" align=\"left\" height=\"91\" width=\"130\" alt=\"لجان الجرد: آثار الإسكندرية سليمة وفى آمان\" border=\"0\" /></a> أكدت لجان جرد المقتنيات النادرة التى أعدتها المناطق الأثرية بالإسكندرية، التى تتواجد بمختلف المناطق وتعود لعصور تاريخية مختلفة، فى تقارير لها أن جميع المناطق وما تضمه من مقتنيات فرعونية ويونانية</p>');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.maktoob.com/article/6004024" target="_blank">مسعد فوده: نقابة السينمائيين مع مطالب الثورة</a><br />');
+document.write('<p><a href=\"http://news.maktoob.com/article/6004024\"><img src=\"http://news.makcdn.com/imageConvert.php?path=6001254\" align=\"left\" height=\"91\" width=\"130\" alt=\"مسعد فوده: نقابة السينمائيين مع مطالب الثورة\" border=\"0\" /></a> فى اجتماع طارئ لمجلس نقابة المهن السينمائية، أصدر النقيب مسعد فوده بيانا أكد فيه أن النقابة مع مطالب الثورة والنقابة تريد عدة مطالب هى المطالبة بتنحية النظام الحاكم ومحاكمة كل</p>');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.maktoob.com/article/6004020" target="_blank">تجمهر المضارين من الشغب أمام مأمورية ضرائب الساحل</a><br />');
+document.write('<p><a href=\"http://news.maktoob.com/article/6004020\"><img src=\"http://news.makcdn.com/imageConvert.php?path=6004022\" align=\"left\" height=\"91\" width=\"130\" alt=\"تجمهر المضارين من الشغب أمام مأمورية ضرائب الساحل\" border=\"0\" /></a> أكدت مصادر بمصلحة الضرائب المصرية أن هناك نقصاً فى توافر نماذج تعويضات المتضررين من أحداث ثورة الغضب فى بعض المأموريات، وهو ما تسعى وزارة المالية لتوفيره بأقصى سرعة. ونتيجة لعدم وجود</p>');
+document.write('</li>');
+document.write('</ul></div>');

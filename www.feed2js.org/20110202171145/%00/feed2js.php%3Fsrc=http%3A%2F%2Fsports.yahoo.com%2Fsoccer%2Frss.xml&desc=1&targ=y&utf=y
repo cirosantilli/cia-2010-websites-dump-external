@@ -1,0 +1,26 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://us.rd.yahoo.com/sports/rss/sow/SIG=11r3nbi7d/*http%3A//sports.yahoo.com/sow/news?slug=reu-africaalgeria" target="_blank">Algeria match called off after Egypt game cancelled (Reuters)</a><br />');
+document.write('Algeria\'s friendly international against Tunisia scheduled for next Wednesday has been called off because there is not a suitable stadium available to stage the match, the country\'s soccer federation said.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://us.rd.yahoo.com/sports/rss/sow/SIG=11q2uumsq/*http%3A//sports.yahoo.com/sow/news?slug=ap-frenchroundup" target="_blank">Chambery upsets Sochaux in French Cup (AP)</a><br />');
+document.write('Fifth-division team Chambery won its third consecutive French Cup match over a topflight club on Wednesday, rallying to knock out Sochaux 2-1 to reach the quarterfinals. Nigeria striker Brown Ideye headed home the opener for Sochaux in the 21st minute. Fabien Tissot-Rosset leveled with a volley from a free kick in the 61st, before Aissa Yahia Bey surprised goalkeeper Pierrick Cross with a 30-meter...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://us.rd.yahoo.com/sports/rss/sow/SIG=123ksb41e/*http%3A//sports.yahoo.com/sow/news?slug=ap-villa-dunne-drivingban" target="_blank">Villa defender Dunne gets 6-month driving ban (AP)</a><br />');
+document.write('Aston Villa defender Richard Dunne has been banned from driving for six months for passing a \"No Entry\" sign to head the wrong way on a one-way road. The Ireland international was stopped for the offense by police in September. The 31-year-old Dunne was banned for the relatively minor offense because he had been penalized for other offenses.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://us.rd.yahoo.com/sports/rss/sow/SIG=11ro2c74d/*http%3A//sports.yahoo.com/sow/news?slug=reu-europeukraine" target="_blank">Ukraine president acts to calm Euro 2012 row (Reuters)</a><br />');
+document.write('* Yanukovich wants row over soccer leadership postponed');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://us.rd.yahoo.com/sports/rss/sow/SIG=123ahso4f/*http%3A//sports.yahoo.com/sow/news?slug=reu-francecupchambery_pix" target="_blank">Amateurs Chambery produce another French Cup shock (Reuters)</a><br />');
+document.write('Amateur team Chambery continued their extraordinary French Cup run on Wednesday, defeating Sochaux 2-1 to knock out a Ligue 1 side for the third match running and reach the quarter-finals.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://us.rd.yahoo.com/sports/rss/sow/SIG=126qtmlaf/*http%3A//sports.yahoo.com/sow/news?slug=ap-netherlands-bayern-robben" target="_blank">Netherlands, Bayern hammer out Robben compromise (AP)</a><br />');
+document.write('World Cup finalist the Netherlands and Bayern Munich agreed on Wednesday to play each other next year as a way of \"burying the hatchet\" in their long-running dispute over injured winger Arjen Robben. The friendly will be on May 22, 2012, at Bayern\'s Allianz Arena. The two sides also agreed to disagree in their dispute over compensation for Robben\'s left hamstring injury.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://us.rd.yahoo.com/sports/rss/sow/SIG=124fgg64q/*http%3A//sports.yahoo.com/sow/news?slug=reu-englandtottenhammodric" target="_blank">Spurs\'s Modric out for two weeks after surgery (Reuters)</a><br />');
+document.write('* Croatia midfielder has appendix removed');
+document.write('</li>');
+document.write('</ul></div>');

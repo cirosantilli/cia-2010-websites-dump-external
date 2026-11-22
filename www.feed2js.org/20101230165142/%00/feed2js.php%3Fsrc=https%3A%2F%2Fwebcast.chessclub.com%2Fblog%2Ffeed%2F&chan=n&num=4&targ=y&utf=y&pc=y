@@ -1,0 +1,13 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="https://webcast.chessclub.com/blog/2009/10/21/debriefed-anna-and-camilla/" target="_blank">Debriefed: Anna and Camilla</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="https://webcast.chessclub.com/blog/2009/10/19/uscl-readies-for-playoffs/" target="_blank">USCL Readies for Playoffs</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="https://webcast.chessclub.com/blog/2009/10/17/krush-post-mortem/" target="_blank">Krush post-mortem</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="https://webcast.chessclub.com/blog/2009/10/16/runner-up-baginskaite/" target="_blank">Runner Up: Baginskaite</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

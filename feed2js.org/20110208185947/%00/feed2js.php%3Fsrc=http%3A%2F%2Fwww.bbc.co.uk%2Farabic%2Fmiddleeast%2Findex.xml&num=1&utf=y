@@ -1,0 +1,7 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/middleeast/2011/02/110207_southernsudan_bashir.shtml" target="_self">البشير: \"قبلنا بصدر رحب\" نتيجة استفتاء تقرير مصير الجنوب</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

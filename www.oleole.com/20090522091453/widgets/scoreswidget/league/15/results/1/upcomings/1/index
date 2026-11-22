@@ -1,0 +1,47 @@
+document.write('<div id="oleole_widget_div">'+
+'<link rel="stylesheet" type"text/css" href="http://www.oleole.com/css/scoreswidget.css">'+
+'<div class="widgetbox_sco">'+
+'<table width="100%" cellspacing="0">'+
+'<tr>'+
+'<td>'+
+'<div id="widget_scores_results_div">'+
+'<p class="widget_score_switch">'+
+'<a href="#scorewidget" onClick="document.getElementById(\'widget_scores_results_div\').style.display=\'none\';document.getElementById(\'widget_scores_fixtures_div\').style.display=\'block\';">Show fixtures</a>'+
+'</p>'+
+'<h3>Last results</h3>'+
+'<div class="widgetbox_sco_inner">'+
+'<div class="widget_sco_leaguename"><a target="_top" href="http://www.oleole.com/france/ligue1/el7k.html">Ligue 1</a></div><div>'+
+'</div>'+
+'        <div class="scoresleague">'+
+'        <p class="widget_sco_date">17/5/2009</p>'+
+'        <p class="widget_sco_match"><a target="_top" href="http://www.oleole.com/footballresults/matchreport/marseille-lyon170509/ml5e6s.html">Marseille 1 - 3 Lyon</a></p>'+
+'        <p class="widget_sco_match"><a target="_top" href="http://www.oleole.com/footballresults/matchreport/lille-nice170509/ml5e6w.html">Lille 1 - 1 Nice</a></p>'+
+'        <p class="widget_sco_match"><a target="_top" href="http://www.oleole.com/footballresults/matchreport/nantes-rennes170509/ml5e6x.html">Nantes 1 - 1 Rennes</a></p></div>'+
+'        <div class="scoresleague">'+
+'        <p class="widget_sco_date">16/5/2009</p>'+
+'        <p class="widget_sco_match"><a target="_top" href="http://www.oleole.com/footballresults/matchreport/parissg-auxerre160509/ml5e6z.html">Paris SG 1 - 2 Auxerre</a></p>'+
+'        <p class="widget_sco_match"><a target="_top" href="http://www.oleole.com/footballresults/matchreport/caen-sochaux160509/ml5e6q.html">Caen 2 - 0 Sochaux</a></p></div>'+
+'</div>'+
+'<h5><a href="http://www.oleole.com" target="_top">Powered by OleOle</a></h5>'+
+'</div>'+
+'</td>'+
+'</tr>'+
+'<tr>'+
+'<td>'+
+'<div id="widget_scores_fixtures_div" style="display: none">'+
+'<p class="widget_score_switch">'+
+'<a href="#scorewidget" onClick="document.getElementById(\'widget_scores_results_div\').style.display=\'block\';document.getElementById(\'widget_scores_fixtures_div\').style.display=\'none\';">Show last results</a>'+
+'</p>'+
+'<h3>Upcoming matches</h3>'+
+'<div class="widgetbox_sco_inner">'+
+'<div class="widget_sco_leaguename"><a target="_top" href="http://www.oleole.com/france/ligue1/el7k.html">Ligue 1</a></div><div>'+
+'</div>'+
+'        <div class="scoresleague">'+
+'        <p class="widget_sco_date">23/5/2009</p>        <p class="widget_sco_match"><a target="_top" href="http://www.oleole.com/footballresults/matchreport/lemans-grenoble230509/ml5e70.html">Le Mans v Grenoble</a></p>        <p class="widget_sco_match"><a target="_top" href="http://www.oleole.com/footballresults/matchreport/sochaux-nantes230509/ml5e79.html">Sochaux v Nantes</a></p>        <p class="widget_sco_match"><a target="_top" href="http://www.oleole.com/footballresults/matchreport/valenciennes-parissg230509/ml5e78.html">Valenciennes v Paris SG</a></p>        <p class="widget_sco_match"><a target="_top" href="http://www.oleole.com/footballresults/matchreport/lyon-caen230509/ml5e77.html">Lyon v Caen</a></p>        <p class="widget_sco_match"><a target="_top" href="http://www.oleole.com/footballresults/matchreport/rennes-lorient230509/ml5e76.html">Rennes v Lorient</a></p></div>'+
+'</div>'+
+'</div>'+
+'</td>'+
+'</tr>'+
+'</table>'+
+'</div>'+
+'</div>');

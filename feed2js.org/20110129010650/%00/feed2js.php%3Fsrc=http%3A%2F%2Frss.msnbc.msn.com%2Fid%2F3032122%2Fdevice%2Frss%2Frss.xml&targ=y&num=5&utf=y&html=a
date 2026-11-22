@@ -1,0 +1,20 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.msnbc.msn.com/id/41261109/ns/travel-destination_travel/" target="_blank">Celebrating the Year of the Rabbit</a><br />');
+document.write('This year marks the Year of the Rabbit, so it’s a great time to jump in and join a Chinese New Year celebration in Singapore, Beijing, New York City, Washington, D.C. or one of these other good luck cities.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.msnbc.msn.com/id/41300978/ns/travel-business_travel/" target="_blank">Marriott pulls skin flicks from hotel rooms</a><br />');
+document.write('Skin flicks soon will be stripped from all Marriott TV screens, but industry insiders say X-rated offerings are not likely to disappear soon from America’s hotel rooms.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.msnbc.msn.com/id/41317750/ns/travel-news/" target="_blank">Americans change Egypt travel plans</a><br />');
+document.write('An increasingly unstable situation in Egypt forced cruise companies, tour providers and solo U.S. travelers to cancel trips and change plans Friday.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.msnbc.msn.com/id/41302877/ns/travel-news/" target="_blank">Family booted from plane over infant carrier</a><br />');
+document.write('A California mother says she was forced off a United Airlines flight in a dispute over a seat row too narrow to accommodate an infant carrier.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.msnbc.msn.com/id/41309826/ns/travel-news/" target="_blank">Report calls for Newark, JFK airport expansions</a><br />');
+document.write('A study calls for new runways and other expansions at two of the three main airports serving the New York region, where airline delays and cancellations frequently wreak chaos on air travel throughout the United States.');
+document.write('</li>');
+document.write('</ul></div>');

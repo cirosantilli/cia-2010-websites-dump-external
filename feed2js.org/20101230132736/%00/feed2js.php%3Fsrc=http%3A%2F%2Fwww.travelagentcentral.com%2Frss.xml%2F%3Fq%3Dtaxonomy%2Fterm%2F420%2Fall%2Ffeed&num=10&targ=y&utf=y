@@ -1,0 +1,25 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.travelagentcentral.com/usa-las-vegas/the-venetian-and-palazzo-add-2-new-chefs-26054" target="_blank">The Venetian and Palazzo Add 2 New Chefs</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.travelagentcentral.com/usa-las-vegas/downtown-las-vegas" target="_blank">Downtown Las Vegas</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.travelagentcentral.com/usa-las-vegas/savile-row-to-open-at-luxor-on-new-years-eve-25998" target="_blank">Savile Row To Open At Luxor On New Year&#039;s Eve</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.travelagentcentral.com/usa-las-vegas/marquee-nightclub-and-dayclub-cosmopolitan-las-vegas-open-january-1-25994" target="_blank">Marquee Nightclub and Dayclub at Cosmopolitan Las Vegas to open January 1</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.travelagentcentral.com/usa-las-vegas/celebrate-chinese-new-year-caesars-forum-shops-25981" target="_blank">Celebrate Chinese New Year at Caesars&#039; Forum Shops</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.travelagentcentral.com/usa-las-vegas/usa-las-vegas-news" target="_blank">USA-Las Vegas News</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.travelagentcentral.com/usa-las-vegas/usa-las-vegas-deals" target="_blank">USA-Las Vegas Deals</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.travelagentcentral.com/usa-las-vegas/usa-las-vegas-stories" target="_blank">USA-Las Vegas Stories</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.travelagentcentral.com/usa-las-vegas/las-vegas-tops-travel-leaders-2011-top-destinations-list-25406" target="_blank">Las Vegas Tops Travel Leaders&#039; 2011 Top Destinations List</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.travelagentcentral.com/usa-las-vegas/the-black-keys-to-play-the-cosmopolitan-presidents-day-25405" target="_blank">The Black Keys To Play The Cosmopolitan on President&#039;s Day</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

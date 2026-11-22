@@ -1,0 +1,20 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.orbitz.com/App/PerformMDLPDealsContent?deal_id=promotions&cnt=PRO&type=vd_dp&WT.mc_id=rssp_top&WT.mc_ev=click" title="..." target="_blank">Winter Hotel Sale: Save up to 50% - Go!</a><br />');
+document.write('');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.orbitz.com/App/PerformMDLPDealsContent?deal_id=caribbean&cnt=PKH&type=vd_dp&WT.mc_id=rssp_top&WT.mc_ev=click" title="..." target="_blank">Save now on Caribbean vacations - Save!</a><br />');
+document.write('');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.orbitz.com/App/PerformMDLPDealsContent?deal_id=ski&cnt=PRO&type=vd_dp&WT.mc_id=rssp_top&WT.mc_ev=click" title="..." target="_blank">Save up to 40% on Ski trips - Save!</a><br />');
+document.write('');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.orbitz.com/App/PerformMDLPDealsContent?deal_id=allinclusive&cnt=PKH&type=vd_dp&WT.mc_id=rssp_top&WT.mc_ev=click" title="..." target="_blank">Save now at All Inclusive resorts - Save!</a><br />');
+document.write('');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.orbitz.com/App/PerformMDLPDealsContent?deal_id=aruba-vacations&cnt=PKH&type=vd_dp&WT.mc_id=rssp_top&WT.mc_ev=click" title="..." target="_blank">Save up to 35% on Aruba resorts - Go!</a><br />');
+document.write('');
+document.write('</li>');
+document.write('</ul></div>');

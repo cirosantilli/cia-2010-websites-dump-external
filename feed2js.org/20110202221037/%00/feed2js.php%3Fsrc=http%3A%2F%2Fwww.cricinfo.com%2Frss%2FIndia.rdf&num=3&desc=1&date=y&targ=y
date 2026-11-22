@@ -1,0 +1,17 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.espncricinfo.com/duleeptrophy2010-11/content/story/499251.html?CMP=OTC-RSS" target="_blank">South Zone on top as bowlers dominate</a><br />');
+document.write('<span class="rss-date">Wed, 02 Feb 2011 14:42:28 GMT</span><br />');
+document.write('South Zone had the better of the first day of the Duleep Trophy final despite Paras Dogra\'s aggressive century');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.espncricinfo.com/icc_cricket_worldcup2011/content/story/499077.html?CMP=OTC-RSS" target="_blank">Dhoni unfazed by World Cup pressure</a><br />');
+document.write('<span class="rss-date">Tue, 01 Feb 2011 12:34:02 GMT</span><br />');
+document.write('MS Dhoni, the India captain, has said performing under pressure has become India\'s strength and that will hold them in good stead for the World Cup');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.espncricinfo.com/india/content/story/499070.html?CMP=OTC-RSS" target="_blank">Cricket officials are public servants, rules India\'s Supreme Court</a><br />');
+document.write('<span class="rss-date">Tue, 01 Feb 2011 11:48:28 GMT</span><br />');
+document.write('In a ruling that has widespread repercussions for cricket administration in India, the Supreme Court has upheld a Kerala High Court decision that the officials of the Kerala Cricket Association (KCA) are public servants');
+document.write('</li>');
+document.write('</ul></div>');

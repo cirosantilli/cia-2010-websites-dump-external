@@ -1,0 +1,8 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.cnet.com/8301-17938_105-20031025-1.html?part=rss&subj=news&tag=2547-1_3-0-20" target="_blank">Dell rolls out 10-inch Windows 7 tablet</a><br />');
+document.write('At Dell Means Business event in San Francisco, company unleashes 39 new products, including a new Windows tablet aimed at the enterprise.');
+document.write('</li>');
+document.write('</ul></div>');

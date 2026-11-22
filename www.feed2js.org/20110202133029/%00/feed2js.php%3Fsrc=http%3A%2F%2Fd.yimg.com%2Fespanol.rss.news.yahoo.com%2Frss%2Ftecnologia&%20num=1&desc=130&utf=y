@@ -1,0 +1,8 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://e1.rd.yahoo.com/dailynews/rss/tecnologia/*http://espanol.news.yahoo.com/s/afp/110202/tecnologia/internet_egipto_pol__tica_manif" target="_self">El servicio de Internet es restablecido parcialmente en Egipto</a><br />');
+document.write('AFP - EL CAIRO (AFP) - El servicio de Internet fue restablecido, al menos parcialmente, este miércoles en Egipto, después de ci...');
+document.write('</li>');
+document.write('</ul></div>');

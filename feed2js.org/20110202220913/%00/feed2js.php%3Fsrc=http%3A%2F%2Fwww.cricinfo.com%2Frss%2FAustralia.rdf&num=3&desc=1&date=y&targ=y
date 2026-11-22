@@ -1,0 +1,17 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.espncricinfo.com/icc_cricket_worldcup2011/content/story/499274.html?CMP=OTC-RSS" target="_blank">Australia have an outside chance, says Steve Waugh</a><br />');
+document.write('<span class="rss-date">Wed, 02 Feb 2011 14:53:17 GMT</span><br />');
+document.write('World Cup winning captain Steve Waugh has said Australia are in with a chance to defend their World Cup crown despite inconsistent results since the start of 2010');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.espncricinfo.com/the-ashes-2010-11/content/story/499257.html?CMP=OTC-RSS" target="_blank">Strauss rues injury crisis</a><br />');
+document.write('<span class="rss-date">Wed, 02 Feb 2011 13:40:02 GMT</span><br />');
+document.write('Andrew Strauss could only curse England\'s injury crisis as a shortage of bowling options meant a record-breaking batting effort went to waste at Sydney');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.espncricinfo.com/the-ashes-2010-11/content/story/499256.html?CMP=OTC-RSS" target="_blank">Big chases prepare us for the World Cup - Clarke</a><br />');
+document.write('<span class="rss-date">Wed, 02 Feb 2011 13:26:31 GMT</span><br />');
+document.write('Michael Clarke believes Australia\'s record run chase against England was the perfect preparation for the World Cup where large totals are going to dominate the tournament');
+document.write('</li>');
+document.write('</ul></div>');

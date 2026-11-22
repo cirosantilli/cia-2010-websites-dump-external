@@ -1,0 +1,17 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.ibtimes.com/articles/98752/20110107/dean-foods-soar-on-tepper-stake.htm" target="_blank">Dean Foods soar on Tepper stake</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.ibtimes.com/articles/98742/20110107/tanzania-top-coffee-prices-hit-season-high.htm" target="_blank">Tanzania top coffee prices hit season high</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.ibtimes.com/articles/98741/20110107/nigeria-sees-eurobond-wealth-fund-before-polls.htm" target="_blank">Nigeria sees Eurobond, wealth fund before polls</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.ibtimes.com/articles/98736/20110107/s-africa-stocks-drop-on-miners-rand-reverses-losses.htm" target="_blank">S.Africa stocks drop on miners, rand reverses losses</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.ibtimes.com/articles/98734/20110107/g20-to-tackle-food-prices-as-countries-reassure.htm" target="_blank">G20 to tackle food prices as countries reassure</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.ibtimes.com/articles/98723/20110107/banks-foreclosure-court-ruling-wells-fargo.htm" target="_blank">Bank shares falling on Mass. Court ruling on foreclosures</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

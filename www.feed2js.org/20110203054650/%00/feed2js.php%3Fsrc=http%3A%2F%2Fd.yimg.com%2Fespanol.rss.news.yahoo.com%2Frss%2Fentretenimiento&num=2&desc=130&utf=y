@@ -1,0 +1,11 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://e1.rd.yahoo.com/dailynews/rss/entretenimiento/*http://espanol.news.yahoo.com/s/ap/110203/entretenimiento/esp_cel_stevie_wonder" target="_self">Stevie Wonder entra al Salón de la Fama del Teatro Apollo de NY</a><br />');
+document.write('NUEVA YORK (AP) - Stevie Wonder será admitido en el Salón de la Fama del Teatro Apollo de Nueva York, informó el miércoles la ...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://e1.rd.yahoo.com/dailynews/rss/entretenimiento/*http://espanol.news.yahoo.com/s/ap/110203/entretenimiento/esp_mus_miami_musicos_cubanos" target="_self">Festival con músicos de Cuba llega a Miami</a><br />');
+document.write('MIAMI (AP) - Un festival con más de una decena de músicos de Cuba y un puñado de colegas exiliados en las inmediaciones de un t...');
+document.write('</li>');
+document.write('</ul></div>');

@@ -1,0 +1,8 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://e1.rd.yahoo.com/dailynews/rss/internacionales/*http://espanol.news.yahoo.com/s/reuters/110128/internacional/internacional_egipto" target="_blank">ubarak pide renuncia de gabinete egipcio por protestas -</a><br />');
+document.write('<p><a href=\"http://e1.rd.yahoo.com/dailynews/rss/internacionales/*http://espanol.news.yahoo.com/s/reuters/110128/internacional/internacional_egipto\"><img src=\"http://d.yimg.com/cg/p/110128/reuters/bsie70r1nes00bsie70r1nes00i96249780.jpg?x=130&y=86&q=85&sig=dNIfWy2PE51gS74C8aa0Pw--\" align=\"left\" height=\"86\" width=\"130\" alt=\"Un manifestante es reprimido por policías durante unas manifestaciones en El Cairo, ene 28 2011. Fuerzas egipcias, respaldadas por vehículos blindados, se desplegaron el viernes en El Cairo y otras grandes ciudades del país para terminar con las enormes protestas populares que exigen la renuncia del presidente Hosni Mubarak. REUTERS/Amr Abdallah Dalsh\" border=\"0\" /></a>Reuters - EL CAIRO (Reuters) - El presidente de Egipto, Hosni Mubarak, anunció el viernes que pidió la renuncia de su gabinete, pero no mencionó elecciones ni dijo que dejaría su cargo, luego de una de las peores jornadas de protestas para exigirle que abandone el poder tras 30 años de mandato.</p><br clear=all>');
+document.write('</li>');
+document.write('</ul></div>');

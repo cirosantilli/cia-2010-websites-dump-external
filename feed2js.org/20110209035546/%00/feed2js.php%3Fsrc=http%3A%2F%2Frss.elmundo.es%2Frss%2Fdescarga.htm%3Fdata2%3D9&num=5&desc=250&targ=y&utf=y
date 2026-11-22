@@ -1,0 +1,20 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://elmundo.feedsportal.com/c/32791/f/532781/s/1294fec7/l/0L0Selmundo0Bes0Celmundo0C20A110C0A20C0A80Cinternacional0C12971825640Bhtml/story01.htm" target="_blank">Tras dos semanas, el grito de los egipcios es más multitudinario que nunca</a><br />');
+document.write('La protesta se reactiva con la visita a la plaza Tahrir de Wael Ghomin, encarcelado 12 días. &#34;Vamos a limpiar este país de esta basura&#34;, dice.&#160;Leer.&#160;Escuchar...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://elmundo.feedsportal.com/c/32791/f/532781/s/129374fb/l/0L0Selmundo0Bes0Celmundo0C20A110C0A20C0A80Cinternacional0C12971684370Bhtml/story01.htm" target="_blank">Brutal ataque a seguidores de la secta islamista ahmadi en Indonesia</a><br />');
+document.write('El linchamiento, ocurrido el domingo, ha sido difundido ahora en televisión. Los extremistas atacaron la vivienda de un clérigo.&#160;Leer.&#160;Escuchar...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://elmundo.feedsportal.com/c/32791/f/532781/s/1295ba9f/l/0L0Selmundo0Bes0Celmundo0C20A110C0A20C0A80Cinternacional0C12971933430Bhtml/story01.htm" target="_blank">El abogado de Assange pide a la fiscal sueca que acuda a declarar a Londres</a><br />');
+document.write('La fiscal Marianne Ny ha enviado una declaración en la que justifica la emisión de una orden europea de arresto para detener al fundador de Wikileaks.&#160;Leer.&#160;Escuchar...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://elmundo.feedsportal.com/c/32791/f/532781/s/1295baa1/l/0L0Selmundo0Bes0Celmundo0C20A110C0A20C0A80Cinternacional0C1297190A3290Bhtml/story01.htm" target="_blank">Las tribus jordanas arremeten contra la reina Rania: Es un peligro para la nación</a><br />');
+document.write('Una treintena de figuras de las poderosas tribus jordanas instan al rey a que ponga fin al papel de Rania en política. La comparan con las esposas de Mubarak y Ben Ali.&#160;Leer.&#160;Escuchar...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://elmundo.feedsportal.com/c/32791/f/532781/s/1294611b/l/0L0Selmundo0Bes0Celmundo0C20A110C0A20C0A80Cinternacional0C12971758670Bhtml/story01.htm" target="_blank">La madre de las mellizas desaparecidas recibe 5.000 euros por correo</a><br />');
+document.write('La policía helvética baraja la posibilidad de que nunca abandonaran el territorio suizo y han iniciado una búsqueda en las orillas del lago.&#160;Leer.&#160;Escuchar...');
+document.write('</li>');
+document.write('</ul></div>');

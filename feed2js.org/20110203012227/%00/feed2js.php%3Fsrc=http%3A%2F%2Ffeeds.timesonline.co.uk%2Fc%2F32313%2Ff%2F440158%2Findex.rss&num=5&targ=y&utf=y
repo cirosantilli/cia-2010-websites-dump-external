@@ -1,0 +1,15 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.timesonline.co.uk/tol/news/world/us_and_americas/article7150297.ece#cid=OTC-RSS&attr=797093" target="_blank">Bull 1, Mexican matador: never again</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.timesonline.co.uk/tol/news/environment/article7150296.ece#cid=OTC-RSS&attr=797093" target="_blank">Emails ‘prove BP systematically put safety at risk’</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.timesonline.co.uk/tol/news/world/europe/article7150276.ece#cid=OTC-RSS&attr=797093" target="_blank">Uzbekistan closes borders to refugees</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.timesonline.co.uk/tol/news/world/europe/article7150221.ece#cid=OTC-RSS&attr=797093" target="_blank">Serbia closer to EU membership thanks to ‘co-operation’ over Ratko Mladic</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.timesonline.co.uk/tol/news/world/asia/article7150197.ece#cid=OTC-RSS&attr=797093" target="_blank">Russia poised to intervene as ethnic violence rages in Kyrgyzstan</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

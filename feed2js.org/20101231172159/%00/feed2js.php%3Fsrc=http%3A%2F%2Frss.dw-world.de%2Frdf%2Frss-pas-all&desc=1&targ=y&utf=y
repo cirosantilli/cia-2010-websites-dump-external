@@ -1,0 +1,23 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.dw-world.de/dw/article/0,,6379496,00.html?maca=pas-rss-pas-all-1490-rdf" target="_blank">رپوټ:2010 کال د ژونالستان لپاره هم خونړی ؤ</a><br />');
+document.write('د بي سرحده خبريالانو سازمان په خپل کلني رپوټ کي چي د پنجشنبې په ورځ په برلين کي خپور سوی پکښي راغلي، چي په ټوله نړۍ کي 57 تنه ژورنالستان وژل سوي دي.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.dw-world.de/dw/article/0,,6379252,00.html?maca=pas-rss-pas-all-1490-rdf" target="_blank">آلمان په افغانستان کښي تعليمي پروګرام نور هم پراخوي</a><br />');
+document.write('په پوهه او تعلیم کښي پانګه اچونه ددموکراسۍ او بشري حقونو په لار کښي يوه ډيره ښه سرمايه ګذاري او په عين حال کښي د ترهګرۍ سره د مبارزې ډيره مؤثره لار ده.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.dw-world.de/dw/article/0,,6379262,00.html?maca=pas-rss-pas-all-1490-rdf" target="_blank">موشه کتساف تقريباً په ټولو قضيو کي مجرم وبلل سو</a><br />');
+document.write('د اولي پلا دپاره بايد د اسراييلو يوه پخواني جمهوررييس د محکمې په مخکي جوابونه ويلي وای . د هيجانه ډکه يوه محاکمه کي جمهوررييس موشه کتساف پرون پر دوو ښځو باندي د جنسي تيري له کبله مجرم وبلل سو');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.dw-world.de/dw/article/0,,6378078,00.html?maca=pas-rss-pas-all-1490-rdf" target="_blank">روسيه: د افغانستان د ترياکو زېرمي بېله کښته د نړۍ بازارونه چلولای سي</a><br />');
+document.write('د روسيې د نشه يي موادو د کنترول ادارې ريس ويلي دي چي افغانستان د نشه يي موادو دومره زيرمي لري، چي کولای سي دوه کاله بېله کښته نړيوال بازار وساتي.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.dw-world.de/dw/article/0,,6376829,00.html?maca=pas-rss-pas-all-1490-rdf" target="_blank">په ۲۰۱۰ کال کي د افغانستان حالاتو ته لنډه کتنه</a><br />');
+document.write('2010 کال د افغانستان لپاره بيا هم د تيرو کلونوو په څير پر محدودو پرمختګونو سربيره له ناخوالو ډک وو.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.dw-world.de/dw/article/0,,6375167,00.html?maca=pas-rss-pas-all-1490-rdf" target="_blank">عمر: تر بل هر وخت د پاکستان سره د خبرو زمينه برابره ده</a><br />');
+document.write('افغان حکومت وايي چي اوس هغه وخت دی چي د پاکستان سره په لوړه کچه خبري وسي، او ددې څخه په ګټه اخستني په راتلونکې اونۍ کي د سولي عالي شورا د پاکستاني چارواکو سره د خبرو په موخه هغه هيواد ته سفر کوي.');
+document.write('</li>');
+document.write('</ul></div>');

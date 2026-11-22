@@ -1,0 +1,8 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://movies.msn.com/celebs/celeb.aspx?c=186410&affid=100055" target="_blank">Jennifer Aniston</a><br />');
+document.write('<div><a href=\'http://movies.msn.com/celebs/celeb.aspx?c=186410&affid=100055\'><img src=\'http://entimg.s-msn.com/i/150/Movies/Actors/AnistonJennifer166050020_150x200.jpg\' title=\'Armando Gallo/Retna Ltd.\' style=\'float:left;border:none\'></a>Jennifer Aniston makes a good case for proving that acting talent can be absorbed by osmosis. From her father John Aniston\'s stardom on Days of Our Lives to her godfather Telly Savalas, the actress was surrounded by plenty of inspiration from an early age. As Aniston attended the Rudolph Steiner School as a child, she was interested in many forms of art and proved to be a talented painter, eventually having one of her pieces displayed at the New York Metropolitan Museum of Art. Acting also appealed to her, and...&nbsp;[<a href=\'http://movies.msn.com/celebs/celeb.aspx?c=186410&affid=100055&mp=b\'>more</a>]<br clear=all></div>');
+document.write('</li>');
+document.write('</ul></div>');

@@ -1,0 +1,9 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<p class="rss-title"><a class="rss-title" href="http://www.bbc.co.uk/go/wsy/syn/rss/2.0/-/arabic/worldnews/full.xml" target="_blank">BBCArabic.com | العالم</a></p>');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/wsy/syn/rss/2.0/-/arabic/worldnews/2010/12/101229_ivorycoast_africa.shtml" title="قال مبعوث ساحل العاج الى الأمم المتحدة في مقابلة تلفزيونية إن بلاده على شفا إبادة جماعية، وإن الوضع السياسي الحالي أدى الى انتهاكات كثيرة ل�..." target="_blank">مبعوث ساحل العاج إلى الأمم المتحدة: البلاد على شفا إبادة جماعية</a><br />');
+document.write('قال مبعوث ساحل العاج الى الأمم المتحدة في مقابلة تلفزيونية إن بلاده �...');
+document.write('</li>');
+document.write('</ul></div>');

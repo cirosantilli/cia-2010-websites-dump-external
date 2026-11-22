@@ -1,0 +1,20 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.eluniverso.com/2011/02/08/1/1356/pronunciamiento-cal-pendiente.html" target="_blank">Pronunciamiento del CAL pendiente</a><br />');
+document.write('El Consejo de Administración Legislativa (CAL) tendrá que calificar en esta semana la petición presentada por el asambleísta César Montúfar (CND), de destituir al oficialista Francisco Velasco Andrade por violar el artículo 127 de la Constitución, que prohíbe desempeñar otra función pública o privada y dedicarse a actividades profesionales que son incompatibles al cargo de legislador.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.eluniverso.com/2011/02/08/1/1356/deficit-2010-record-25-anos.html" target="_blank">Déficit del 2010, récord en 25 años</a><br />');
+document.write('La balanza comercial no petrolera del 2010 cerró con un déficit de $ 7.705,11 millones, según reportes del Banco Central del Ecuador, colocándose como la peor en dólares registrada en los últimos 25 años.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.eluniverso.com/2011/02/08/1/1356/refineria-operara-siete-meses-2012.html" target="_blank">Refinería no operará por siete meses en el 2012</a><br />');
+document.write('La refinería de Esmeraldas, la más importante del país, saldrá de operaciones hasta por siete meses y medio desde marzo del próximo año como parte de su proceso de rehabilitación, dijo ayer el gerente general de la empresa pública Petroecuador, Marco Calvopiña.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.eluniverso.com/2011/02/08/1/1356/congreso-eeuu-debate-atpdea.html" target="_blank">Congreso de EE.UU. debate Atpdea</a><br />');
+document.write('El Congreso estadounidense tiene previsto reabrir hoy el debate para extender las preferencias arancelarias a Colombia y Ecuador, el tratado vigente conocido como Atpdea, que vence esta semana.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.eluniverso.com/2011/02/08/1/1356/show-dias-dinosaurio-temporalmente-local-ocupaba-casa-tosi.html" target="_blank">Show Días de dinosaurio temporalmente en local que ocupaba Casa Tosi</a><br />');
+document.write('El próximo 1 de marzo se abrirá en el Mall del Sol la exposición Días de dinosaurio, una franquicia estadounidense adquirida por la empresa ecuatoriana de espectáculos Top Show.');
+document.write('</li>');
+document.write('</ul></div>');

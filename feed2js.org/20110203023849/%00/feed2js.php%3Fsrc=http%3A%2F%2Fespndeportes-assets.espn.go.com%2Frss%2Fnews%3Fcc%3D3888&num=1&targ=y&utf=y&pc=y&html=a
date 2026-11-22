@@ -1,0 +1,8 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://espndeportes.espn.go.com/news/story?id=1219480&s=esp&type=story&campaign=rss&source=ESPNdeportesPortada" target="_blank">José Mourinho: \"En las finales no hay favoritos\"</a><br />');
+document.write('MADRID -- José Mourinho, entrenador del Real Madrid, afirmó tras lograr el pase a la final de la Copa del Rey que su equipo \"es el que merece\" jugar el partido decisivo del torneo, que disputará en abril ante el Barcelona. \"Ganas normales de jugar una final y de intentar ganar, como siempre. La historia dice que en las finales no hay favoritos. Tantas veces, el equipo que se piensa que tiene menos posibilidades, gana. Ahora hay que olvidar la Copa, que nos ha hecho daño. Nos...');
+document.write('</li>');
+document.write('</ul></div>');

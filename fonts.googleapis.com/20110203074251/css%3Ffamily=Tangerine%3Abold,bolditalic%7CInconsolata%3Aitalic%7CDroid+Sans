@@ -1,0 +1,17 @@
+/* Tangerine (style: italic, weight: 700) is not available */
+/* However, style: normal, weight: normal is available */
+/* However, style: normal, weight: bold is available */
+/* Inconsolata (style: italic, weight: 400) is not available */
+/* However, style: normal, weight: normal is available */
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Droid Sans'), local('DroidSans'), url('http://themes.googleusercontent.com/font?kit=s-BiyweUPV0v-yRb-cjciC3USBnSvpkopQaUR-2r7iU') format('truetype');
+}
+@font-face {
+  font-family: 'Tangerine';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Tangerine Bold'), local('Tangerine-Bold'), url('http://themes.googleusercontent.com/font?kit=UkFsr-RwJB_d2l9fIWsx3onF5uFdDttMLvmWuJdhhgs') format('truetype');
+}

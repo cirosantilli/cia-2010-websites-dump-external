@@ -1,0 +1,19 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://allafrica.com/stories/201102080285.html" target="_blank">South Africa: Outrage at Zuma\'s Promises of Heaven</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://allafrica.com/stories/201102080099.html" target="_blank">Nigeria: Sect Lays Down Conditions to Stop Killings</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://allafrica.com/stories/201102080643.html" target="_blank">Angola: Priest to Inaugurate Our Lady of Fatima Church</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://allafrica.com/stories/201102080259.html" target="_blank">Uganda: Clergy Hit Back At Kayihura On Anti-Gays Campaign</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://allafrica.com/stories/201102080222.html" target="_blank">Uganda: Gulu Muslims Block Road Expansion</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://allafrica.com/stories/201102080150.html" target="_blank">Uganda: Emulate Oloya - Bishop Oboma</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://allafrica.com/stories/201102071366.html" target="_blank">Nigeria: Yuguda Queries Council Chairmen Over Qur\'anic Competition</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

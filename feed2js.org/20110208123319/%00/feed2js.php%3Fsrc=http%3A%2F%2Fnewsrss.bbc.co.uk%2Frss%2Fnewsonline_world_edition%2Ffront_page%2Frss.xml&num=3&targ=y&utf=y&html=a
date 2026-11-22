@@ -1,0 +1,14 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/world-europe-12388681" target="_blank">Chechen claims airport bombing</a><br />');
+document.write('One of Russia\'s most wanted men, Chechen warlord Doku Umarov, says he ordered last month\'s bomb attack which left 36 dead at a Moscow airport.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/world-africa-12389550" target="_blank">Charles Taylor lawyer storms out of trial</a><br />');
+document.write('Liberia\'s former leader Charles Taylor\'s defence lawyer walks out of the closing stages of his war crimes trial in the Hague.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/world-middle-east-12388844" target="_blank">Egypt protesters seek new resolve</a><br />');
+document.write('Protesters occupying Tahrir Square in central Cairo insist they will stand firm, amid signs they are losing momentum after two weeks.');
+document.write('</li>');
+document.write('</ul></div>');

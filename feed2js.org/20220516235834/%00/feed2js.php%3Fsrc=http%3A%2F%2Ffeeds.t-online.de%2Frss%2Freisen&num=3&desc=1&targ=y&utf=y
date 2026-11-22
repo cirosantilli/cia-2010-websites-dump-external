@@ -1,0 +1,14 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="https://www.t-online.de/digital/computer/id_92193916/sharing-economy-hast-du-keinen-miete-dir-einen-pool-ueber-swimmy.html" target="_blank">Sharing Economy: Hast du keinen, miete dir einen Pool über Swimmy</a><br />');
+document.write('Paris/Berlin (dpa/tmn) - Mit den ersten warmen Tagen im Jahr füllen sich auch wieder die Pools in den Gärten. Schade nur, dass viele ihr privates Schwimmbecken gar nicht so oft nutzen. Besitzerinnen und Besitzer, die das stört, können ihren Pool im Garten, aber natürlich auch Indoor-Pools, über \"Swi');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="https://www.t-online.de/leben/reisen/kreuzfahrten/id_92137886/kreuzfahrt-aida-und-tui-cruises-die-beliebten-anbieter-im-vergleich.html" target="_blank">Kreuzfahrt | Aida und Tui Cruises: Die beliebten Anbieter im Vergleich</a><br />');
+document.write('Vor der Corona-Pandemie erreichte der deutsche Kreuzfahrtmarkt einen Rekordwert mit mehr als 2, 9 Millionen Passagieren. Zu den beliebtesten Reedereien gehören Aida und Tui Cruises. Doch was haben sie zu bieten? Ein Überblick. Den Alltag hinter sich lassen, neue Ziele entdecken, im Pool entspannen un');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="https://www.t-online.de/leben/reisen/reisetipps/id_92189494/neun-euro-ticket-der-deutschen-bahn-dann-beginnt-der-verkauf.html" target="_blank">Neun-Euro-Ticket der Deutschen Bahn: Dann beginnt der Verkauf</a><br />');
+document.write('Pünktlich zum Sommer kommt das Neun-Euro-Ticket: Die Bahn nennt nun einen Termin für den Verkaufsstart. Eine wichtige Hürde muss das Ticket vorher aber noch nehmen. Für wenige Euro im Monat mit Bus und Bahn durchs ganze Land: Mit dem sogenannten Neun-Euro-Monatsticket will der Bund Verbraucher entla');
+document.write('</li>');
+document.write('</ul></div>');

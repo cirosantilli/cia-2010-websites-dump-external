@@ -1,0 +1,11 @@
+
+
+
+
+
+
+
+
+
+/*<script language="javascript"></script>*/
+document.writeln("\r\n\r\n<html>\r\n\r\n<link rel=\"stylesheet\" type=\"text\/css\" href=\"https:\/\/app.quotemedia.com\/css\/tools.css\" \/>\r\n\r\n<table cellpadding=\"0\" cellspacing=\"0\" border=0 width=\"600\"><tr><td>\r\n\r\n\r\n\r\n        <table align=\'center\' cellpadding=\'0\' cellspacing=\'0\' border=\'0\' class=\'qmmt_main\'><tr><td class=\"qmmt_text\" style=\'padding-left:10px; padding-right:10px;\'>\r\n            <br><b>Authentication error:<\/b> Unauthorized quotetools usage: 2023-07-02T12:16:48.634 Please contact quotemedia.com<br><br>\r\n        <\/td><\/tr><\/table>\r\n\r\n    \r\n\r\n\r\n<\/td><\/tr><\/table>\r\n<\/html>\r\n");

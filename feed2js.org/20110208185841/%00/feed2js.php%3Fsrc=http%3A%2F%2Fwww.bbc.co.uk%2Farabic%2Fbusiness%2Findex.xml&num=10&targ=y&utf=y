@@ -1,0 +1,25 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/business/2011/02/110208_egypt_bank.shtml" target="_blank">البنك المركزي المصري يتدخل في سوق الصرف لدعم الجنيه</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/business/2011/02/110208_china_rates.shtml" target="_blank">الصين ترفع قيمة الفائدة</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/business/2011/02/110207_egypt_finance.shtml" target="_blank">الحكومة المصرية تبحث عن التمويل بعد هرب المستثمرين</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/business/2011/02/110207_aol_huffington.shtml" target="_blank">شركة AOL تشتري صحيفة هفنغتون بوست الاليكترونية</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/business/2011/02/110207_egyptian_pound_tc2.shtml" target="_blank">الجنيه المصري يسجل أقل مستوى له أمام الدولار الأمريكي</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/business/2011/02/110205_iraq_oil_kurdistan.shtml" target="_blank">رئيس الوزراء العراقي يؤكد موافقته على العقود النفطية في اقليم كردستان</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/business/2011/02/110204_ghali_imf.shtml" target="_blank">استقالة وزير المالية المصري السابق من منصبه في صندوق النقد</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/business/2011/02/110204_egypt_fund.shtml" target="_blank">الحكومة المصرية تنشئ صندوقا لتعويض المتضررين من الاحداث</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/business/2011/02/110204_oil_prices.shtml" target="_blank">ارتفاع أسعار النفط على خلفية أحداث مصر</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/business/2011/02/110202_zoelik-support_me_nations.shtml" target="_blank">رئيس البنك الدولي: سندعم دول الشرق الأوسط</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

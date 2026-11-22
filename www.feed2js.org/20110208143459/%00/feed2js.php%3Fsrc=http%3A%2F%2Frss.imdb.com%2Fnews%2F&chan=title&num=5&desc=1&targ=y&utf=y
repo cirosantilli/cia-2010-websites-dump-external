@@ -1,0 +1,21 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<p class="rss-title"><a class="rss-title" href="http://www.imdb.com/rg/rss/news-channel/news/" target="_blank">IMDb News</a></p>');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.imdb.com/rg/rss/news/news/ni7553715/" target="_blank">Beckham Warns Fans Off Fake Facebook Pages</a><br />');
+document.write('');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.imdb.com/rg/rss/news/news/ni7553714/" target="_blank">Seymour: \'Wrinkles Have Boosted Career\'</a><br />');
+document.write('');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.imdb.com/rg/rss/news/news/ni7553713/" target="_blank">Perry Shocked By Hardworking TV Creators</a><br />');
+document.write('');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.imdb.com/rg/rss/news/news/ni7553712/" target="_blank">No Sex Prequel For Lively</a><br />');
+document.write('');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.imdb.com/rg/rss/news/news/ni7553711/" target="_blank">Kardashian Starstruck By Prince Onstage</a><br />');
+document.write('');
+document.write('</li>');
+document.write('</ul></div>');

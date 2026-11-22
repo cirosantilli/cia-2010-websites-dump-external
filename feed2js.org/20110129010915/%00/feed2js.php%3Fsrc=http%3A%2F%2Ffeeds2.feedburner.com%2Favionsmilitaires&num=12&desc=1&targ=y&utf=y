@@ -1,0 +1,8 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.avions-militaires.net/fiches/yal1.php" target="_blank">YAL-1 – Airborne Laser Testbed</a><br />');
+document.write('Le Boeing YAL-1 Airborne Laser Testbed (Y = Appareil en essais, AL = Airborne Laser), est un élément important du programme de bouclier anti-missile poursuivi par l’administration du Président George W.Bush (2001-2009). Ce système d’armement peu conventionnel s’articule autour d’un laser COIL (Chemical Oxygen Iodine Laser), aéroporté par le biais d’appareils Boeing 747-400 lourdement modifié. [...]');
+document.write('</li>');
+document.write('</ul></div>');

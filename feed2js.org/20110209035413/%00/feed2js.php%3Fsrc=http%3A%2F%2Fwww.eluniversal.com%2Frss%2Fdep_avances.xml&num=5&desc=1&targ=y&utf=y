@@ -1,0 +1,8 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.eluniversal.com/2011/02/04/dep_ava_vegas-recargara-bate_04A5113453.shtml" target="_blank">Vegas recargará baterías en su día libre</a><br />');
+document.write('El jugador venezolano anunció en su cuenta de twitter la probabilidad de que la jornada de hoy sea suspendida y que el Abierto Waste Management Phoenix se reanude mañana.');
+document.write('</li>');
+document.write('</ul></div>');

@@ -1,0 +1,23 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/world-europe-12081564" target="_blank">Russian oil tycoon \'found guilty\'</a><br />');
+document.write('Former oil tycoon Mikhail Khodorkovsky is found guilty in his second trial on charges of embezzlement, Russian news agencies say....');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/world-us-canada-12081749" target="_blank">Travel chaos as blizzards hit US</a><br />');
+document.write('Blizzards sweep north along the eastern coast of the US, forcing the cancellation of more than 2,000 flights and disrupting rail and road traffic....');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/world-middle-east-12082042" target="_blank">Twin blasts kill 14 in Iraqi town</a><br />');
+document.write('Two suicide bombers kill at least 14 people, including police, near a government compound in the Iraqi town of Ramadi....');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/world-africa-12081492" target="_blank">Ivory Coast general strike called</a><br />');
+document.write('Political parties loyal to Ivory Coast presidential claimant Alassane Ouattara call a general strike to force incumbent Laurent Gbagbo to cede power....');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/world-asia-pacific-12081666" target="_blank">Unite to survive, S Koreans told</a><br />');
+document.write('South Korean President Lee Myung-bak tells his nation it must unite to survive in the face of military aggression from the North....');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/world-africa-12081785" target="_blank">UN chief condemns Nigeria clashes</a><br />');
+document.write('UN Secretary General Ban Ki-moon condemns the \"deplorable\" violence in Nigeria that left at least 38 dead over Christmas....');
+document.write('</li>');
+document.write('</ul></div>');

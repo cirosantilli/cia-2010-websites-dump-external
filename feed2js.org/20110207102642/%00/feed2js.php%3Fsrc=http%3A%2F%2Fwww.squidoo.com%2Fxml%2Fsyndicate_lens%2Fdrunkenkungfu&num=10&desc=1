@@ -1,0 +1,8 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.squidoo.com/drunkenkungfu" target="_self">Drunken Kung Fu updated Sat Aug 1 2009 9:55 am CDT</a><br />');
+document.write('Drunken Kung Fu is one of the most unusual and engaging styles of Chinese martial arts. Swaying and staggerring motions imitate the drunkard in a similar way that other styles imtate the movements of animals. The characteristic movements of drunken kung fu are used to generate power from the movement of the hips and the core abdominal strength, which is channelled into strikes. The style is also based upon deception, both in causing the opponent to underestimate you, and in striking when your opponent least expects it, and in an unpredictable manner.');
+document.write('</li>');
+document.write('</ul></div>');

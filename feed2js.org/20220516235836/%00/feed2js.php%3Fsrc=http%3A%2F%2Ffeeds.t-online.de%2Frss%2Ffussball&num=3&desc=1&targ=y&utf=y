@@ -1,0 +1,14 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="https://www.t-online.de/sport/fussball/international/id_92199818/premier-league-kampf-um-die-koenigsklasse-rueckschlag-fuer-arsenal.html" target="_blank">Premier League: Kampf um die Königsklasse – Rückschlag für Arsenal</a><br />');
+document.write('Der FC Arsenal musste gegen Newcastle eine Niederlage einstecken. Damit bleibt das Team von Mikel Arteta weiterhin hinter Tottenham – und muss am letzten Spieltag um die Champions-League-Qualifikation zittern. Am 37. Spieltag der Premier League verpasste Arsenal auswärts bei Newcastle United mit ein');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="https://www.t-online.de/sport/fussball/bundesliga/id_92199426/fc-bayern-muenchen-bayern-praesident-hainer-lewandowski-wird-vertrag-erfuellen.html" target="_blank">FC Bayern München - Bayern-Präsident Hainer: Lewandowski wird Vertrag erfüllen</a><br />');
+document.write('München (dpa) - Auch Bayern Münchens Präsident Herbert Hainer geht davon aus, dass Torjäger Robert Lewandowski in der kommenden Saison noch für den deutschen Fußball-Rekordmeister spielen wird. In einem Interview der \"Süddeutschen Zeitung\" verwies Hainer auf den noch ein Jahr laufenden Vertrag des 3');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="https://www.t-online.de/sport/fussball/international/id_92199892/fc-blackpool-17-jaehriger-profi-bekennt-sich-zu-seiner-homosexualitaet.html" target="_blank">FC Blackpool: 17-jähriger Profi bekennt sich zu seiner Homosexualität</a><br />');
+document.write('Fußballprofi Jake Daniels vom FC Blackpool hat sich offen zu seiner Sexualität bekannt und als homosexuell geoutet. Neben seinem Klub unterstützt auch Thomas Hitzlsperger den 17-Jährigen. Der Fußballspieler Jake Daniels hat als erster Profi in der britischen Liga seit über drei Jahrzehnten seine Hom');
+document.write('</li>');
+document.write('</ul></div>');

@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>Google Video News</title>
+  </head>
+  <body>
+    <div id="videonews"></div>
+    <script type="text/javascript">
+      function parseCgiParamsForLanguage() {
+        var str = window.location.href;
+        var params = {};
+        str = str.replace(/#.*$/,"");
+        var urlHalves = str.split("?");
+        var parts = urlHalves[urlHalves.length - 1].split("&");
+        for (var i = 0; i < parts.length; i++) {
+          var keyvalue = parts[i].split("=");
+          if (keyvalue[0] && keyvalue[0].toLowerCase() == "hl") {
+            if (keyvalue.length > 1) {
+              // since the value here is used in the formation of a
+              // script tag, there is an xss vulnerability when a value
+              // of say:
+              // hl=&quot;&gt;&lt;/SCRIPT&gt;&lt;SCRIPT&gt;alert(document.domain+document.cookie)&lt;/SCRIPT&gt;
+              // is used. To defeat this, we ensure that hl may only contain valid characters for language
+              // selection a-zA-Z-
+              if (keyvalue[1].match(/^[\w]{1,3}-{0,1}[\w]{0,3}$/)) {
+                return keyvalue[1];
+              } else {
+                return 'en';
+              }
+            }
+          }
+        }
+        return null;
+      };
+
+      var hl = parseCgiParamsForLanguage();
+
+      var autoloadParams = [
+          "{modules:[",
+          "{name:search,version:1,language:en},",
+          "{name:elements,version:1,packages:[videonews]",
+          (hl ? [",language:", hl].join("") : ""),
+          "}]}"
+        ].join("");
+
+      var loaderUrl = [
+          "/jsapi",
+          "?key=internal-videonews",
+          "&amp;autoload=",
+          encodeURIComponent(autoloadParams)
+        ].join("");
+
+      var scriptTag = [
+          "<script type=\"text/javascript\" src=\"",
+          loaderUrl,
+          "\"><",
+          "/script>"
+        ].join("");
+
+      document.write(scriptTag);
+    </script>
+
+    <script type="text/javascript">
+      google.setOnLoadCallback(initialize, true);
+      function initialize() {
+        var options = google.elements.VideoNews.UrlToOptions();
+        if (hl) {
+          options.hl = hl;
+        }
+        var videonews = document.getElementById("videonews");
+        videonews.style.width = "300px";
+        videonews.style.height = "250px";
+        var v = new google.elements.VideoNews(videonews, options);
+      };
+    </script>
+  </body>
+</html>

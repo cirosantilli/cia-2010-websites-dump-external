@@ -1,0 +1,26 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.dw-world.de/dw/article/0,,6430291,00.html?maca=dar-standard_feed-dar-621-xml" target="_blank">تحلیلگران: اراده سیاسی برای مبارزه با فساد وجود ندارد</a><br />');
+document.write('حامد کرزی، رییس جمهور افغانستان در کنفرانس مونشن در آلمان بر مبارزه با گردانندگان فساد تاکید کرد، اما تحلیل گران می‌گویند اراده سیاسی برای مباره با فساد وجود ندارد و اظهارات کرزی به امر تکراری و بی⁯نتیجه تبدیل شده است.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.dw-world.de/dw/article/0,,6430105,00.html?maca=dar-standard_feed-dar-621-xml" target="_blank">افغانستان توافق تامین همه مواد سوخت از ایران را رد کرد</a><br />');
+document.write('افغانستان این ادعای ایران را که دو کشور به توافق رسیده اند تا همه مواد سوختی مورد نیاز سکتور خصوصی افغانستان از ایران تامین شود، رد نمود. ایران روز یک شنبه از چنین توافقی با افغانستان خبر داد.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.dw-world.de/dw/article/0,,6429938,00.html?maca=dar-standard_feed-dar-621-xml" target="_blank">گفتگوی حکومت مصر و مخالفان به اعتراض⁯ها پایان می⁯بخشد؟</a><br />');
+document.write('بعد از دو هفته تظاهرات در مصر، برای نخستین بار حکومت به رهبری حسنی مبارک و مخالفان گفتگو کردند. در این گفتگو عمر سلیمان، معاون رییس جمهور و نمایندگان مخالفان توضیح دادند که در تشکیل یک کمیته با همدیگر توافق کرده اند.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.dw-world.de/dw/article/0,,6429840,00.html?maca=dar-standard_feed-dar-621-xml" target="_blank">صنعت اسلحه سازی در شمال غرب پاکستان رو به افول است</a><br />');
+document.write('کاهش شدیدی در صنعت اسلحه سازی منطقه سرکش شمال غرب پاکستان، در سه دهه گذشته دیده می⁯شود. این کاهش در دهه 1980، هنگامی شروع شد که شوروی افغانستان را اشغال کرد.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.dw-world.de/dw/article/0,,6429827,00.html?maca=dar-standard_feed-dar-621-xml" target="_blank">آلمان: 2014 پایان مسوولیت⁯ها در افغانستان نیست</a><br />');
+document.write('آلمان در روز نهایی کنفرانس امنیتی مونشن بر ادامه حمایت خود از افغانستان تاکید کرد. همزمان وزیر خارجه آلمان از وجود فساد و خویش خوری در ادارات افغانستان انتقاد نمود و حامد کرزی را به «همکاری خوب» با پارلمان فراخواند.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.dw-world.de/dw/article/0,,6426510,00.html?maca=dar-standard_feed-dar-621-xml" target="_blank">بختیاری: مشکل پارلمان ناشی از «ساختارهای قومی» است</a><br />');
+document.write('انتخابات پارلمانی افغانستان که انتظار می⁯رفت گرهی از مشکلات بگشاید، خود دارد به یک مشکل تبدیل می⁯شود. نتیجه انتخابات با جنجال⁯های زیاد اعلام گردید، مجلس بعد از هفته⁯ها کشمکش گشایش یافت و اکنون جنجال بر سر ریاست مجلس است.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.dw-world.de/dw/article/0,,6424035,00.html?maca=dar-standard_feed-dar-621-xml" target="_blank">تجارت اعضای بدن در کوزوو باید تحقیق شود</a><br />');
+document.write('هاشم تاشی در زمان جنگ⁯های داخلی یوگوسلاویا معمولاً در رسانه⁯ها به نام رهبر آزادی⁯خواهان آلبانیایی تبار کوزوو یاد می⁯شد. او پس از تجزیه یوگوسلاویا به مقام⁯های بلند سیاسی دست یافت و اکنون نخست وزیر کوزوو می⁯باشد.');
+document.write('</li>');
+document.write('</ul></div>');

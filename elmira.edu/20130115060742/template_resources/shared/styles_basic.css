@@ -1,0 +1,1064 @@
+/* 
+AT:2006.05.16 - splitting up styles between homepage (styles_basic.css) and rest of site (styles_extended.css)
+all styles deemed not in use are archived in unused.css
+
+This document contains styles for the homepage only, but does contain classes defined from both both legacy docs new_styles.css and new_modules.css
+In respect to the optimazation efforts, comments will be kept to a minimum
+*/
+
+ @import url("../../../resources/shared/fonts/Sorts-Mill-Goudy/stylesheet.css");
+ 
+
+/*{{{ ======== #1 - Common block level/Layout ======== */
+  body {
+    font-family:Verdana, Arial, sans-serif;
+	  margin:0; 
+    padding:0;
+    font-size:10px;
+	}
+  
+  .site{
+    background:#3A1B56 url(/template_images/shared/layout/page_bg.gif) top left repeat-x ;
+    color:#4E4E4E;
+  }
+  
+  .printer{
+    color:#000000;
+  }
+  
+  .blank{
+    margin:10;
+    color:#4E4E4E;
+  }
+  
+  .page {
+    width:100%;
+    text-align:center;
+  }
+
+  .contentArea {
+    width:771px;
+    text-align:left;
+    margin:1px auto 0 auto;
+    padding:0;
+    position:relative;
+    border-left:1px solid #F5C035;
+    border-bottom:1px solid #F5C035;
+    border-right:none;
+    background:url(/template_images/shared/layout/container_BG.gif) top left repeat-y;
+  }
+  
+  div.home {
+    background:#4A2467 url(/template_images/shared/layout/container_BG_home.gif) top left repeat-y;
+  }
+  
+  .leftWatermark{
+    background:url(/template_images/shared/layout/leftCol_Watermark.gif) 0 371px no-repeat;
+  }
+  
+  #topNav {
+    width:769px;
+    height:40px;
+    border-top:1px solid #F5C035;
+    border-right:1px solid #F5C035;
+    background:#000000;
+  }
+  
+  #LeftColumn {
+    float:left;
+    padding-bottom:10px;
+    width:239px;
+    border-top:1px solid #F5C035;
+    text-align:center;
+    padding-top:14px;
+    }
+  
+  .leftLogo {
+    text-align:center;
+  }
+    
+  .leftNav {
+    margin-top: 20px;
+    text-align:left;
+  }
+  
+  #LeftColumn hr {
+    height:1px;
+    width:85%;
+    border:0;
+    border-top:1px solid #816695;
+    margin:0 auto;
+  }
+  
+  .leftNav .section {
+    text-align:center;
+    font-family:Verdana, Arial, sans-serif;
+    color:#fff;
+  }
+  
+  #mainColumn {
+    float:left;
+    width:529px;
+    border-top:1px solid #F5C035;
+    border-right:1px solid #F5C035;
+    border-left:1px solid #F5C035;
+    clear:right;
+  }
+  
+	
+  /* .mainPhoto {
+    position:relative;
+    top:0;
+    left:0;
+  } */
+  
+  .mainPhoto ul {
+    margin:0;
+    padding:0;
+    list-style:none;
+    position:absolute;
+    top:126px; 
+    left:269px;
+  }
+  
+  .mainPhoto ul li{
+    list-style:none;
+  }
+  
+  .mainPhoto a {
+   font-family:"Goudy Old Style", "SortsMillGoudyRegular", "Times New Roman", Times, Serif;
+   font-size:16px;
+  }
+  
+  .mainPhoto .banner {
+    margin:0;
+    padding:0;
+    list-style:none;
+    position:absolute;
+    top:41px; 
+    left:240px;
+  }
+
+  
+  .midBar {
+    width:529px;
+    background:#F5C035;
+    line-height:20px;
+    padding:5px 0;
+    height:17px;/* AS:RT#21087 */
+  }
+  
+  .announcements {
+    background:#F5C035;
+    font-size:14px;
+		font-weight:bold;
+		color: #482366;
+		font-family: 'Microsoft Sans Serif', Verdana, Arial, Helvetica, sans-serif;
+  }
+  
+  .announcements div {
+		display:inline;
+	}
+	
+  #maincontentArea {
+    width: 509px;
+  }
+  
+  .maincontent {
+    
+    font-size:11px;
+    color:#4E4E4E;
+    line-height:18px;
+    padding:10px 10px 20px 10px;
+    } 
+  
+  .mainNestedContent {
+    width:509px;
+  }
+  
+  .maincontent #column_1 {
+    width:242px;
+    margin:0 10px 0 0;
+    float:left;
+  } 
+  
+  .homeText {
+    color:#fff;
+  }
+  
+  .maincontent #column_2 {
+    width:226px;
+    float:left;
+  }
+  
+  .listing {
+    margin-bottom:12px;
+    font-size:1em;
+    line-height:1.4em;
+  }
+  
+  .footer {
+    padding:0 0 0 240px;
+    background:url(/template_images/shared/layout/container_BG.gif) top left repeat-y;
+    }
+    
+  .footer .pageControls{
+    text-align: left;
+    padding:0 0 10px 10px;
+    font-size:9px;
+  }
+  
+  .footer .pageControls img {
+    vertical-align:middle;
+    margin:-2px 0 0 0;
+  }
+  
+  .footerBottom {
+    width:529px;
+    color:#fff;
+    border-top:1px solid #F5C035;
+    background:#4A2467;
+  }
+    
+  .footerBottom div {
+    font-size:10px;
+    font-family:Arial;
+    padding:7px 0 7px 10px;
+  }
+  
+  .footerBottom a:link {color: #fff;text-decoration: underline;}
+  .footerBottom a:visited{color: #fff;text-decoration: underline;}
+  .footerBottom a:hover{color:#fff;text-decoration: underline;}
+  .footerBottom a:active{color: #fff;text-decoration: underline;}
+    
+  td {
+    vertical-align:top;
+    padding:0;
+    }
+     /*}}}*/
+    
+/*{{{  ======== #2 - Common inline/formatting ======== */ 
+  
+  a:link {color:#4A2467;text-decoration: underline;}
+  a:visited{color:#4A2467;text-decoration: underline;}
+  a:hover {color:#816695;text-decoration: underline;}
+  a:active {color:#816695;text-decoration: underline;}
+  
+  #LeftColumn .section a:link {color:#fff;text-decoration: underline;}
+  #LeftColumn .section a:visited{color:#fff;text-decoration: underline;}
+  #LeftColumn .section a:hover {color:#fff;text-decoration: underline;}
+  #LeftColumn .section a:active {color:#fff;text-decoration: underline;}
+  
+  .mainPhoto a:link {color:#F5C035;}
+  .mainPhoto a:visited {color:#F5C035;}
+  .mainPhoto a:hover {color:#F5C035; text-decoration:underline;}
+  .mainPhoto a:active {color:#F5C035; text-decoration:none;}
+    
+  h1 {
+    font-family:"Goudy Old Style", "SortsMillGoudyRegular", "Times New Roman", Times, Serif;
+    font-size:24px;
+    color:#3A1B56;
+    font-weight:normal;
+    margin: 12px 0 8px 0;
+    padding: 10px 14px 6px 0;
+    white-space: normal;
+    line-height:26px;
+    }
+ /* Attempting a Font smoothing fix for IE */   
+ .mainPhoto a, h1, .topNavAnchor, .leftHomeItem { 
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=hIEfix.png,sizingMethod=crop);
+    zoom: 1; 
+}
+
+  /* #LeftColumn .section{
+      font-family:  Times New Roman, Times;
+      color:#F5C035;
+      text-align:center;
+      font-size: 13px;
+    } */
+    
+  /* #leftColumn h1 {
+      color:#F5C035;
+      font-family:  Times New Roman, Times;
+      font-size: 13px;
+      font-weight:bold;
+    } */
+    
+  #mainContent_column1 h1, #mainContent_column2 h1, #mainContent_column3 h1 {
+    font-family:  Times New Roman, Times;
+    font-size: 16pt;
+    color:#000;
+    font-weight:normal;
+    margin: 12px 0 8px 0;
+    padding: 10px 0px 6px 0px;
+    white-space: normal;
+    background: transparent;
+  }
+
+  img{
+    border:none;
+padding:0px;
+  }
+    
+  .text {
+    font-size:1em;
+    line-height:1.6em;
+    }
+  /*
+	td div.text {
+		font-size: 0.8em !important;
+		line-height:1.2em !important;
+		}
+		*/
+  .small {
+    font-size:9px;
+    }
+
+  strong {
+    font-weight:600;
+    }
+
+  b {
+    font-weight:600;
+    }
+
+  ol {
+    list-style-type : decimal;
+    }
+
+  ul {
+    list-style-type : square;
+    }
+
+  li {
+    list-style-position : outside;
+    }
+  
+  h2 a {
+    font-weight:bold;
+    }
+  
+  .date {
+    float:right;
+    font-style:italic;
+    font-size:10px;
+    color:#666666;
+    margin-top:4px;
+    }
+    
+  .summary {
+    font-size:1em;
+    line-height:1.6em;
+    }
+    
+  .details {
+    color:#7a7a7a;
+    font-size:9px;
+    margin-top:15px;
+    }   
+
+  .morelink {
+    display:inline;
+    font-size:10px;
+    padding-left:10px;
+    }
+    
+  .backlink {
+    padding:15px 0 0 0;
+    font-size:10px;
+    text-align:right;
+    }
+    
+  .clear{
+    clear:both;
+  }
+  .content_clear{
+    clear:both;
+    padding:30px 0 0 0;
+  }
+  
+/*}}}*/
+    
+/*{{{ ======== #3 - Navigation ======== */
+  
+  #imenus0 a.topNavAnchor {
+    display:block;
+    height: 40px;
+    padding: 0;
+    text-align: center;
+    font: 14px/38px "Times New Roman", Times, Serif !important;
+    letter-spacing: 0;
+    color: #F5C035;
+    text-transform: uppercase;
+  }
+
+   #imenus0 a.topNavAnchor .caret {
+      display: block;
+      position: absolute;
+      right: 2px;
+      top: 16px;
+      width: 0;
+      height: 0;
+      text-indent: -99999px;
+      border-left: 4px solid transparent;
+      border-right: 4px solid transparent;
+      border-top: 4px solid black;
+      opacity: 0.3;
+      filter: alpha(opacity=30);
+      content: "\2191";*/
+  }
+  
+
+   #imenus0 li:hover a.topNavAnchor, #ulitem0_6 a.topNavAnchor, .topNavAnchor.ovr { color: black !important; }
+
+  .ovr {background:#F5C035;}
+  
+  .topNavAnchor img{margin:13px 0 0 0;}
+  
+
+  .topSubNode, .topSubNode li{
+    list-style:none;
+  }
+  
+  .leftHomeNode a{
+    display:block;
+    width:100%;
+    margin:0;
+    padding:0;
+  }
+  
+  .leftHomeNode a:link {color:#fff; text-decoration:none; background:none;}
+  .leftHomeNode a:visited {color:#fff; text-decoration:none; background:none;}
+  .leftHomeNode a:hover {color:#fff; text-decoration:none; background:#7d5357;}    
+  .leftHomeNode a:active {color:#fff; text-decoration:none; background:#7d5357;}
+  
+
+  .leftHomeItem{
+  cursor: pointer;
+  display: block;
+  padding: 3px 0 3px 17px;
+  font: 20px/20px "Times New Roman", Times, Serif;
+  letter-spacing: 0;
+  color: #F5C035;
+  }
+  
+  .leftHomeDesc{
+    display:block;
+    padding:0 3px;
+  }
+  
+  .leftHomeLinks{
+    display:block;
+    padding:0 0 13px 17px;
+  }
+  
+  .leftHomeLinks a:link {color:#fff; text-decoration:none; background:none;}
+  .leftHomeLinks a:visited {color:#fff; text-decoration:none; background:none;}
+  .leftHomeLinks a:hover {color:#fff; text-decoration:underline; background:none;}    
+  .leftHomeLinks a:active {color:#fff; text-decoration:underline; background:none;}
+  
+ /*}}}*/
+
+/*{{{ ======== #4 - Forms ========  */
+
+  fieldset{
+    padding:0;
+    margin:0;
+    border:none;
+  }
+  
+  legend {
+    display:none;
+  }
+
+  label {
+    font-size: 11px;
+    cursor: hand;
+    width: 250px;
+    height:30px;
+    display:block;
+    float:left;
+    clear:left;
+  }
+  
+  input {
+    background-color:#f8f8f8;
+    color:#434343;
+    font-size: 11px;
+    }
+
+  input.searchBox {
+    background-color:#fff;
+    color:#434343;
+    font-size:11px;
+    height:20px;
+    width:89px;
+    vertical-align:middle;
+    border:1px solid #4A2467;
+    border-right:none;
+    padding-left:3px;
+    margin:0 0 0 7px;
+    }
+  
+  input.submit {
+    float:none;
+    display:inline;
+    margin:0;
+    vertical-align:middle;
+    }
+ /*}}}*/
+
+/*{{{ ======== #5 - Rich Content ======== */
+
+  table.content{
+    font-size:1em;
+  }
+
+  .leftNav .section table.content{
+    color:#fff;
+  }
+  
+  table.content th {
+    vertical-align:top;
+    text-align:left;
+    border-bottom : 1px solid #6F6F6F;
+    }
+    
+  
+  table.content td {
+    vertical-align:top;
+    }
+		
+
+  .strong {
+    font-weight:bold;
+    }
+    
+  .weak {
+    font-style:italic;
+    }
+    
+  /* same as h2 */
+  div.subheader {
+    font-family:  Verdana, Sans-Serif;
+    font-size: 14px;
+    color:#7a7a7a;
+    font-weight:bold;
+    margin: 7px 0 4px 0;
+    padding: 10px 14px 2px 0;
+    white-space: normal;
+  }
+  
+  div.header3 {
+    font-family:  Arial, sans-serif;
+    font-size:12px;
+    color:#4a2467;
+    font-weight : bold;    
+    margin-top:12px;
+    margin-bottom:4px;
+  }
+  
+  div.sidenote {
+    float:right;
+    padding: 2px;
+    border:1px solid #aaa;
+    font-size:9px;
+    background-color:#ffffcc;
+  }
+  div.highlight {
+    display:inline;
+    background-color:#b6e5ff;
+  }  
+  
+  div.code
+  {
+    border: #8b4513 1px solid;
+    padding-right: 5px;
+    padding-left: 5px;
+    color: #000066;
+    font-family: 'Courier New' , Monospace;
+    background-color: #ff9933;
+  }
+    
+  .image-left {
+    padding: 3px 10px 5px 0px;
+    text-align:left;
+    }
+
+  .image-right {  
+    padding: 3px 0px 5px 10px;
+    text-align:right;
+    }
+
+  .image-inline {
+    margin: 0px 10px 5px 10px;
+    text-align:center;
+    }
+    
+    /* added to fix display issues */
+    table.content td .image-inline {
+      margin: 0px 5px 5px 5px;
+    }
+    
+
+  #LeftColumn .image-left {
+    padding:0;
+    text-align:left;
+    }
+
+  #LeftColumn .image-right {  
+    padding:0;
+    text-align:right;
+    }
+
+  #LeftColumn .image-inline {
+    margin:0;
+    text-align:center;
+    } 
+    
+  .image-caption {
+    color:#434343;
+    font-size:.9em;
+    }
+
+ /*}}}*/
+    
+ /*{{{ ======== #7 - Common Misc ======== */
+
+  /* Ticker Items */
+  #tickerContainer {
+    position: relative;
+    overflow: hidden;
+    top:0;
+    left:0;
+    width: 155px;
+    height: 75px;
+  }
+  #ticker {
+    visibility: visible;
+    position: relative;
+    width: 153px;
+    height: 100%;
+    padding: 0px;
+    margin: 1px;
+  }
+  .tickerItem {
+    margin:0 0 10px 0;
+  }
+  .tickerItem span{
+    display:block;
+    font-weight:600;
+  }
+  
+  #todoList {
+    position:absolute;
+    z-index:100;
+    right:1px;
+  }
+  
+  #todoListContents {
+		z-index:100;
+    width:180px;
+    text-align: left;
+    line-height: 1.4em;
+		color: #fff;
+		background: #4a296b;
+    border-top: 0px solid #f7c631;
+		border-right: 1px solid #f7c631;
+		border-bottom: 1px solid #f7c631;
+		border-left: 1px solid #f7c631;
+    padding: 15px 10px 10px 10px;
+    margin: 0 0 -1px 0;
+  }
+  
+	#todoListContents a:link {color: #fff;text-decoration: underline;}
+  #todoListContents a:visited{color: #fff;text-decoration: underline;}
+  #todoListContents a:hover{color:#fff;text-decoration: underline;}
+  #todoListContents a:active{color: #fff;text-decoration: underline;}
+	#todoListContents img{padding-right:5px;margin-bottom:10px;padding-top:3px;}
+	
+
+	#todoListColumn1 {float:left;}
+	#todoListColumn2 {display:inline;padding-top:13px;}
+	
+  /* MS: turn links in two-column homepage white */
+  .homeContent #mainContent a:link {
+    color: #fff;
+    text-decoration: underline;
+  }
+  .homeContent #mainContent a:visited{
+    color: #fff;
+    text-decoration: underline;
+  }
+  .homeContent #mainContent a:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+  .homeContent #mainContent a:active {
+    color: #fff;
+    text-decoration: underline;
+  }
+  
+  
+  .homeContent #mainContent .mini_calendar .highlight a:link, .homeContent #mainContent .mini_calendar .day a:link {
+    color: #000;
+    text-decoration:none;
+    font-weight:bold;
+    }
+  .homeContent #mainContent .mini_calendar .highlight a:visited, .homeContent #mainContent .mini_calendar .day a:visited {
+    color: #000;
+    text-decoration:none;
+    font-weight:bold;
+    }
+  .homeContent #mainContent .mini_calendar .highlight a:hover, .homeContent #mainContent .mini_calendar .day a:hover {
+    color:#000;
+    text-decoration:none;
+    font-weight:bold;
+    }
+  .homeContent #mainContent .mini_calendar .highlight a:active, .homeContent #mainContent .mini_calendar .day a:active {
+    color: #000;
+    text-decoration:none;
+    font-weight:bold;
+    }
+    
+
+  
+  /* AT:2006.05.15 - needed here for css layout control because of the top nav dropdowns */
+  .cmsdropdownbox{
+    position:absolute;
+    z-index:99;
+  }
+  
+  /* AT:2006.03.24 - defining styles for the personlized portal top bar */
+  
+  .p_portal {
+    background:#25103C url(/template_images/shared/layout/portalBar_barBG.gif) top left repeat-x; 
+    width:100%; 
+    height:21px;
+    vertical-align:bottom;
+    text-align:center;
+  }
+  
+  .p_portal .logo {
+    float:left;
+    vertical-align:bottom;
+  }
+  
+  .p_portalMenu {
+    vertical-align:bottom;
+    margin:0 0 0 1px;
+    padding:0;
+    float:left;
+  }
+  
+  
+  .p_portalMenu a{
+    text-decoration:none;
+    font-size:10px;
+  }
+  
+ .p_portalMenu a span{
+   display:block;
+   padding:3px 0 4px 5px;
+  }
+  
+  .p_portalMenu a:link{
+    color:#F5C035;
+  }
+  .p_portalMenu a:visited{
+    color:#F5C035;
+  }
+  .p_portalMenu a:hover{
+    color:#ffffff;
+  }
+  .p_portalMenu a:active{
+    color:#F5C035;
+  }
+  
+  .portalHover, .portalStart {
+    background:url(/template_images/shared/layout/portalBar_tabBG.gif) top left repeat-x;
+  }
+  .portalOut{
+    
+  }
+  .hidden{
+    visibility:hidden;
+  }
+  
+  /* calendar view */
+  .calendar table{
+    /* width:100%; */
+    width:509px;
+  }
+  
+  .calendar th{
+    font-size:11px;
+  }
+  
+  .calendar .day {
+    width: 14%;
+    padding: 3px;
+    height: 50px;
+    font-size:10px;
+    background: #ebe0c3;
+  }
+  
+  .calendar .current_day {
+    color: #3a1b56;
+    background: #ccc;
+  }
+  
+  .calendar .weekend {
+    width: 15%;
+    background: #f7f4ec;
+  }
+  
+  .calendar .highlight {
+    border: 1px solid #000;
+    background: #eee8f0;
+  }
+  
+  .month th {
+  border:1px solid #6F6F6F;
+  }
+
+  /* in weekly view, days are not 14% wide */
+  .calendar .week_view {
+    width: auto;
+    background: none;
+  }
+  
+  .calendar .week_view .listing {
+    padding: 7px 0 0 10px;
+  }
+  
+  .changeview {
+    text-align: center;
+  }
+  
+  /* mini styles are in addition to and/or override calendar styles */
+  .mini_calendar table{
+    width:100%;
+  }
+  
+    .mini_calendar .month th {
+  border:none;
+  }
+  
+  .mini_calendar .month {
+    border: 8px solid #3a1b56;
+    border-collapse: collapse;
+    margin:0;
+  }
+
+  .mini_calendar th {
+    font-weight: normal;
+    background:#7a3d85;
+    color: #fff;
+    font-size:11px;
+  }
+  
+  .mini_calendar .day {
+    height: auto;
+    text-align: center;
+    font-size:11px;		
+		background:#dac5f2;
+    color:#fff;
+  }
+	
+  .mini_calendar .current_day {
+    background: #967ad7;
+    border: 1px solid #974bbe;
+  }
+  
+  .mini_calendar .day_on {
+    background: #ccc;
+    height: auto;
+    font-size:11px;
+    text-align: center;
+    color:#1e1e5f;
+
+  }
+  
+  .mini_calendar .weekend {
+    background: #fff;
+    color:#1e1e5f;
+  }
+  
+  .mini_calendar .highlight {
+    cursor: hand;
+		background:#b990ce;
+    border: 1px solid #974bbe;
+  }
+  
+  .mini_calendar .dayOVR {
+    cursor: hand;
+		background:#e1bff2;
+    border: 1px solid #974bbe;
+  }
+  
+  .mini_calendar .event_hover {
+    padding: 5px;
+    border: 8px solid #3a1b56;
+    /* background: #eee8f0; */
+    background:#b990ce;
+    color: #000;
+    line-height: 100%;
+  }
+  
+  /* event view */
+  .events .listing {
+    padding-bottom: 10px;
+  }
+  
+  .events .date {
+    float:none;
+    font-style:normal;
+    color: #293474;
+    font-weight:bold;
+  }
+  
+  .mini_events {
+    margin: 2em 0 7px 0;
+  }
+  
+  .mini_events .listing {
+    line-height: 100%;
+    padding: 0;
+    margin: 0 0 8px 0;
+  }
+  
+  .eventPanel {
+    background: #7a3d85;
+    color: #fff;
+    margin: -5px -5px 5px -5px; 
+    padding: 5px
+  }
+  
+  .miniTitle{
+    margin-bottom: 3px;
+  }
+                                          
+  /* SK: 2006.10.03 - needed for new calendar ajax */
+    .calendar_header {
+      color: #fff;
+      text-decoration: none;
+    }    
+    
+    .calendar_link {
+      text-decoration: none; 
+    }
+
+    .calendar_header_container {
+      width: 228px;
+    }
+					
+	.divShow { visibility: visible; }
+	.divHide { visibility: hidden; }
+	
+ /* SK: 2006.11.27 - needed for user profile */
+ 
+ .profile_error {
+     display:none; 
+     color: #FF0000; 
+     font-weight: bold;
+     border: 1px solid #4A2467; 
+     padding: 4px;
+     margin-bottom: 8px;
+ }
+ 
+ .profile_error li {
+     list-style-type: none;
+     margin-left: 16px;
+ }
+ 
+ .general_message {
+    padding-bottom: 10px; 
+ }
+ 
+ 
+ select {
+    font-size: 11px; 
+    width:222;/* AS: */
+ }
+ 
+ div.generalPaging table tr td {
+     font-size: 11px;
+ }
+ 
+ 
+.pageMetaInfo {
+  background:#FFFFFF none repeat scroll 0%;
+  clear: both;
+}
+
+
+   .i_profiles_image {
+    
+    width: 125px; 
+    float: left; 
+    line-height: 1.6em;
+  }
+
+  .i_profiles_info {
+    width: 358px; 
+    float: left;
+  }
+      
+  .news_more {
+    text-align: right;
+    padding-bottom: 4px;
+  }
+   .news_more a {
+    color: #F5C035 !important; 
+  }
+
+  .aboutNewsHeader a {
+    border-bottom: 1px solid #4A2467;
+  }
+  .aboutNewsHeader a:hover {
+    border-bottom: 1px solid #F5C035;
+  }
+
+ /*}}}*/
+ /*
+ .quicklinks li a {
+    color: #000 !important;
+ }
+ .quicklinks li a:hover {
+    color: #F5C035 !important;
+    background-color: #000 !important;
+ }
+ */
+ 
+ /* spotlight */
+ 
+.spotlight-listing dd,
+.spotlight-listing dt {
+  float: left;  
+  padding: 0;
+  
+ }
+ 
+ .spotlight-listing dt {
+width:300px;
+  
+ }
+ 
+.spotlight-listing dd {
+    padding-left: 12px;
+    width: 140px; 
+ } 
+ 
+ .spotlight-listing {
+    clear: both; 
+ }  
+ 
+ 
+ .win .mainPhoto a, .win h1, .win #imenus0 a.topNavAnchor, .win .leftHomeItem {
+ font-family:"Times New Roman", Times, Serif;
+} 
+
+.win #imenus0 a.topNavAnchor {
+    font-weight: bold !important;
+}

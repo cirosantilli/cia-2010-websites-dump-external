@@ -1,0 +1,25 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.footballfancast.com/2011/02/football-blogs/new-blueprint-for-english-football-simply-too-little-too-late" target="_blank">New Blueprint for English football simply too little, too late?</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.footballfancast.com/2011/02/football-news/walcott-dawson-ready-for-england" target="_blank">Walcott, Dawson ready for England</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.footballfancast.com/2011/02/football-news/houllier-sings-walkers-praises" target="_blank">Houllier sings Walker’s praises</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.footballfancast.com/2011/02/football-news/walker-stockdale-set-for-england-debuts" target="_blank">Walker, Stockdale set for England debuts</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.footballfancast.com/2011/02/football-blogs/a-convenient-excuse-for-our-current-failings" target="_blank">A convenient excuse for our current failings?</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.footballfancast.com/2011/01/football-blogs/arsenal-star-will-be-wasted-well-in-my-opinion" target="_blank">Arsenal star will be wasted…well in my opinion</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.footballfancast.com/2011/01/football-blogs/the-answer-to-tottenhams-prayers-and-englands" target="_blank">The answer to Tottenham’s prayers…and England’s?</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.footballfancast.com/2011/01/football-blogs/top-ten-iconic-football-moments-of-the-1990s" target="_blank">Top TEN Iconic football moments of the 1990s</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.footballfancast.com/2011/01/football-blogs/football-in-the-90s-euro-96-and-the-three-weeks-that-changed-my-life" target="_blank">‘Football in the 90s’ – Euro 96 and the three weeks that changed my life</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.footballfancast.com/2011/01/football-news/todd-walks-out-on-glory" target="_blank">Todd walks out on Glory</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

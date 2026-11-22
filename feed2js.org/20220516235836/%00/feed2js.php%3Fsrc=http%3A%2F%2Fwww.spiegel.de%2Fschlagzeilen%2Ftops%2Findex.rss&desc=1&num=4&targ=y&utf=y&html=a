@@ -1,0 +1,17 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="https://www.spiegel.de/ausland/mariupol-hunderte-ukrainische-kaempfer-koennen-asow-stahlwerk-verlassen-a-8e70b1b8-7468-434f-86af-e4943673efeb#ref=rss" target="_blank">Mariupol: Hunderte ukrainische Kämpfer können Asow-Stahlwerk verlassen</a><br />');
+document.write('Über Wochen hielten sie sich verschanzt – unter katastrophalen Bedingungen: Nun wurden rund 260 ukrainische Soldaten aus dem umkämpften Stahlwerk in Mariupol evakuiert. Busse brachten sie vom Gelände.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="https://www.spiegel.de/ausland/schweden-will-in-die-nato-historische-kehrtwende-mit-bauchschmerzen-a-f4da4ea9-8fbd-4fe5-8378-58080aced4a0#ref=rss" target="_blank">Schweden will in die Nato: Historische Kehrtwende mit Bauchschmerzen</a><br />');
+document.write('Nach mehr als 200 Jahren Bündnisfreiheit bemüht sich Schweden um eine Nato-Mitgliedschaft. Für das Land ist das keine einfache Entscheidung. Experten fürchten, Russland könnte nun für Grenzzwischenfälle sorgen.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="https://www.spiegel.de/politik/deutschland/friedrich-merz-und-die-cdu-nach-der-nrw-wahl-laeuft-fuer-den-parteichef-a-72a97240-d950-4f3d-b946-72124fa11ee4#ref=rss" target="_blank">Friedrich Merz und die CDU nach der NRW-Wahl: Läuft für den Parteichef</a><br />');
+document.write('Triumph in Schleswig-Holstein, Sieg in NRW – die CDU feiert nach den jüngsten Wahlen ihr Comeback, Friedrich Merz wähnt die Partei »zurück auf Platz eins«. Aber welchen Anteil hat der Vorsitzende am Erfolg?');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="https://www.spiegel.de/kultur/josef-joffe-zeit-herausgeber-dankt-ab-a-b60217b4-0872-437f-becc-35565d9c6a80#ref=rss" target="_blank">Josef Joffe: »Zeit«-Mitherausgeber dankt ab</a><br />');
+document.write('Bankier Max Warburg war gewarnt: »Zeit«-Mitherausgeber Josef Joffe informierte ihn über Recherchen seiner eigenen Zeitung gegen das Geldhaus. Der SPIEGEL hat den Vorgang enthüllt, nun gibt es Konsequenzen.');
+document.write('</li>');
+document.write('</ul></div>');

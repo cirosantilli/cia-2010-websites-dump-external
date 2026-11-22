@@ -1,0 +1,17 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNGeJonRgUvvTiwtztU6AybvZeGHfQ&url=http://www.floridatoday.com/article/20110131/NEWS01/101310323/1006/news01/Tourists%2Bflock%2Bto%2BBrevard%2Bfor%2Bbirds" target="_blank">Tourists flock to Brevard for birds - Florida Today</a><br />');
+document.write('<span class="rss-date">Mon, 31 Jan 2011 13:32:37 GMT+00:00</span><br />');
+document.write('Tourists flock to Brevard for birdsFlorida TodayThe focus in the past week, though, was on bird-watching. The winter is a peak viewing time for the birds, many of which are migratory species that spend ...and more&nbsp;&raquo;');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNFBIdbut8tt71E6UOqZAoclyHV0PA&url=http://scienceblogs.com/tetrapodzoology/2011/02/hypsipetes_passerine_tree.php?utm_source%3Dsbhomepage%26utm_medium%3Dlink%26utm_content%3Dchannellink" target="_blank">Amphibians, reptiles, birds and mammals - living and extinct - ScienceBlogs (blog)</a><br />');
+document.write('<span class="rss-date">Wed, 02 Feb 2011 14:09:05 GMT+00:00</span><br />');
+document.write('Amphibians, reptiles, birds and mammals - living and extinctScienceBlogs (blog)An avid interest in modern wildlife and conservation has resulted in many adventures in lizard-chasing, bird-watching and litter-collecting. ...and more&nbsp;&raquo;');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNGADSTRI9AJh0CG8eswRiKginXFHQ&url=http://focustaiwan.tw/ShowNews/WebNews_Detail.aspx?Type%3DaALL%26ID%3D201101250017" target="_blank">Taiwan sees sharp drop in black-faced spoonbill numbers - Focus Taiwan News Channel</a><br />');
+document.write('<span class="rss-date">Tue, 25 Jan 2011 07:32:16 GMT+00:00</span><br />');
+document.write('Focus Taiwan News ChannelTaiwan sees sharp drop in black-faced spoonbill numbersFocus Taiwan News ChannelThe census by the Hong Kong Bird Watching Society found that only 777 black-faced spoonbills are overwintering in Tainan this year, the lowest in four years ...');
+document.write('</li>');
+document.write('</ul></div>');

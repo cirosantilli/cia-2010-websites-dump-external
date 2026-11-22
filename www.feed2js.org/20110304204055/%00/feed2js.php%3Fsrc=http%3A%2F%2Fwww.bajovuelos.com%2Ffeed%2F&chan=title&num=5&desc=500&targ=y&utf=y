@@ -1,0 +1,21 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<p class="rss-title"><a class="rss-title" href="http://www.bajovuelos.com" target="_blank">BajoVuelos.com: Vuelos Baratos y Ofertas de Viajes</a></p>');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bajovuelos.com/revista-viajes/" target="_blank">Revista de Viajes “MiNuevoViaje.com”</a><br />');
+document.write('Nos informan que han lanzado una nueva de revista de viajes online (www.minuevoviaje.com). Tienen artículos con ideas y consejos para viajes y por lo que hemos visto algunas son bastante interesantes. Nos han llamado la atención el itinerario de los cementerios de París y varias de las rutas sugeridas para un viaje a la Toscana italiana que parece bastante relajante. Además cuenta con un buscador de vuelos baratos. ¡Mucha suerte! ...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bajovuelos.com/quantum-air/" target="_blank">Quantum Air: Nuevos Vuelos de Bajo Coste en España</a><br />');
+document.write('A finales de 2009 nació Quantum Air, una nueva compañía de bajo coste que opera entre aeropuertos españoles (vuelos de bajo coste nacionales). Los aeropuertos desde los que vuela son: Madrid, Málaga, Sevilla, Bilbao, Ibiza, Palma de Mallorca, Gran Canaria, Tenerife Norte y Lanzarote. Es de agradecer que en una época donde la oferta de compañías low cost se reduce (ver los casos de Air Comet en España o My Air y Sky Europe en otros puntos de Europa), haya empresarios que sigan apostando ...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bajovuelos.com/viajes-canarias-crisis/" target="_blank">Aprovecha la crisis para viajar a Canarias al mejor precio</a><br />');
+document.write('Si la crisis de por sí ya es dura, más aún lo estan sintiendo en las Islas Canarias. El turismo en Canarias durante 2009 ha caído más de un 10% y casi un 20% en algunas islas como Fuerteventura o Lanzarote, sobre todo por la caída de turistas británicos y alemanes, los principales vistantes de las islas afortunadas. Es por ello que cada vez se pueden encontrar mejores ofertas de vuelos y viajes a Canarias a precios antes impensables. Por eso te recomendamos estos destinos con vistas a tus...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bajovuelos.com/vuelos-praga/" target="_blank">Vuelos baratos y viajes a Praga</a><br />');
+document.write('¿Preparado para descubrir una ciudad de lo más interesante? Praga es la capital de la República Checa, una ciudad preciosa con calles adoquinadas, plazas fascinantes y una sorprendente arquitectura que te traslada a la edad media. A Praga se le conoce por diferentes nombres como &#8220;la madre de todas las ciudades&#8220;, &#8220;el corazón de Europa&#8221; o &#8220;la ciudad dorada&#8220;. Está situada en la región de Bohemia, a orillas del río Moldava. A la derecha de este río se encu...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bajovuelos.com/vuelos-marruecos/" target="_blank">Vuelos baratos a Marruecos con Jet4you</a><br />');
+document.write('Jet4you es la primera compañía aérea low cost de Marruecos. Esta aerolínea es la séptima compañía afiliada a TUI – airlines y ofrece vuelos frecuentes con salida de las principales ciudades marroquíes hacia varios destinos europeos. Los vuelos que ofrece Jet4you con salida desde España son: Barcelona – Casablanca, Barcelona – Nador y Barcelona – Tánger. Marruecos es un país con multitud de lugares de interés turístico, no podemos dejar de visitar sus magníficas playas o ciu...');
+document.write('</li>');
+document.write('</ul></div>');

@@ -1,0 +1,19 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.playbillarts.com/features/article/8514.html" target="_blank">Beyond Their Years: Andris Nelsons and Daniel Harding</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.playbillarts.com/features/article/8513.html" target="_blank">We Are What We Wear: A Dancer\'s Perspective</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.playbillarts.com/features/article/8512.html" target="_blank">The Myth of History: John Adams and Peter Sellars Talk <i>Nixon in China</i></a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.playbillarts.com/features/article/8511.html" target="_blank">Gergiev and Mahler at Lincoln Center</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.playbillarts.com/features/article/8508.html" target="_blank">20 (PLUS) QUESTIONS WITH: Baritone Paulo Szot</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.playbillarts.com/features/article/8509.html" target="_blank">Ahmad Jamal: One of A Kind</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.playbillarts.com/features/article/8510.html" target="_blank">\"Beethoven for the Indus Valley\" Concert to Benefit Flood Victims Jan. 31</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

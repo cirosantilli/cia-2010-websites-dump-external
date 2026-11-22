@@ -1,0 +1,26 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<p class="rss-title"><a class="rss-title" href="http://www.espncricinfo.com" target="_blank">Cricket news from ESPN Cricinfo.com</a></p>');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.espncricinfo.com/england/content/story/525862.html?CMP=OTC-RSS" target="_blank">Silva sparkles before quicks strike back</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.espncricinfo.com/zimbabwe-v-bangladesh-2011/content/story/525859.html?CMP=OTC-RSS" target="_blank">ZC rejects Taibu allegations</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.espncricinfo.com/zimbabwe-v-bangladesh-2011/content/story/525855.html?CMP=OTC-RSS" target="_blank">Hope in the air as familiar foes face off</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.espncricinfo.com/county-cricket-2011/content/story/525846.html?CMP=OTC-RSS" target="_blank">Ramprakash angry at Surrey ban</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.espncricinfo.com/emerging-players-tournament-2011/content/story/525840.html?CMP=OTC-RSS" target="_blank">Bad light denies India and New Zealand victories</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.espncricinfo.com/champions-league-twenty20-2011/content/story/525833.html?CMP=OTC-RSS" target="_blank">Airtel pulls out as Champions League title sponsor</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.espncricinfo.com/england/content/story/525829.html?CMP=OTC-RSS" target="_blank">Young talent given chance to impress</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.espncricinfo.com/england-v-west-indies-2011/content/story/525822.html?CMP=OTC-RSS" target="_blank">ECB confirm two extra Twenty20s</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.espncricinfo.com/sri-lanka-v-australia-2011/content/story/525792.html?CMP=OTC-RSS" target="_blank">Hussey braced for spinning surfaces</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.espncricinfo.com/england-v-india-2011/content/story/525791.html?CMP=OTC-RSS" target="_blank">Injured Yuvraj and Harbhajan out of Test series</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

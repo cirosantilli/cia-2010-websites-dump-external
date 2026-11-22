@@ -1,0 +1,17 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.reuters.com/~r/reuters/worldNews/~3/QQlgIi3V2pc/us-egypt-idUSTRE70O3UW20110208" target="_blank">Egyptians stage big protest, dismiss power plan</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.reuters.com/~r/reuters/worldNews/~3/o2c_7dibTDA/us-turkey-explosion-idUSTRE7174QH20110208" target="_blank">Explosion in southeast Turkey, some injured: report</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.reuters.com/~r/reuters/worldNews/~3/wVOHVBuUe-k/us-warcrimes-taylor-idUSTRE7171BV20110208" target="_blank">Taylor\'s lawyer storms out of war crimes court</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.reuters.com/~r/reuters/worldNews/~3/sIs4tspHNLM/us-korea-north-idUSTRE7170EJ20110208" target="_blank">Rival Koreas meet for talks as tensions ease</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.reuters.com/~r/reuters/worldNews/~3/q56n1rX5IoY/us-pakistan-usa-idUSTRE7170SV20110208" target="_blank">U.S official\'s fate may threaten U.S., Pakistan ties: diplomat</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.reuters.com/~r/reuters/worldNews/~3/I51qWyp-y8s/us-sudan-referendum-idUSTRE7161KV20110208" target="_blank">South Sudan votes for independence by a landslide</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

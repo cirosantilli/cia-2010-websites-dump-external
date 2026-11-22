@@ -1,0 +1,20 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.pcworld.com/click.phdo?i=bd898989b3bd3e4ad6720f50b451245a" target="_blank">iPhone 5: A GSM/CDMA World Phone?</a><br />');
+document.write('iFixit discovered that the Verizon iPhone has a Qualcomm dual-mode GSM/CDMA chip, prompting questions about whether Apple will make its next iPhone a GSM-CDMA device?');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.pcworld.com/click.phdo?i=7c3f5859f1988d36b05c9c7fee0b4539" target="_blank">Mobile Number Portability Flops in India</a><br />');
+document.write('Mobile number portability does not take off in India');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://ads.pheedo.com/click.phdo?s=7c3f5859f1988d36b05c9c7fee0b4539&p=4" target="_blank">Presented By:</a><br />');
+document.write('');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.pcworld.com/click.phdo?i=51e3c580f795406c8adbfb9c0d14fc23" target="_blank">HTC Invests in Online Gaming, Multimedia Delivery</a><br />');
+document.write('Smartphone maker HTC has acquired multimedia delivery specialist Saffron Digital and plans to pay US$40 million for a stake in online gaming company OnLive.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.pcworld.com/click.phdo?i=afc121b074da1fa2a151c6a85cc6db2a" target="_blank">Which Tech Billionaires Donated the Most to Charities in 2010?</a><br />');
+document.write('Facebook\'s Mark Zuckerberg, Salesforce.com founder Marc Benioff and Oracle chief Larry Ellison rank among last year\'s most generous philanthropists, according to...');
+document.write('</li>');
+document.write('</ul></div>');

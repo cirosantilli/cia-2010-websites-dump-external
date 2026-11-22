@@ -1,0 +1,15 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.ameinfo.com/173625.html" target="_self">Last minutes speculations undo Saudi and Dubai gains</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.ameinfo.com/173451.html" target="_self">Strong rebound for Tadawul, head of Gulf Bank resigns</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.ameinfo.com/173295.html" target="_self">Emaar share buy-back pushes Dubai market down</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.ameinfo.com/173102.html" target="_self">Gulf markets continue slump</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.ameinfo.com/172905.html" target="_self">Saudi shares decline sharply ahead of Riyadh meeting</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

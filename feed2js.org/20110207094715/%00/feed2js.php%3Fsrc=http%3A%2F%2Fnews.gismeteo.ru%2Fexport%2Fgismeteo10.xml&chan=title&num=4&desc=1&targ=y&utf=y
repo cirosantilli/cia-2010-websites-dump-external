@@ -1,0 +1,18 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<p class="rss-title"><a class="rss-title" href="http://news.gismeteo.ru/" target="_blank">GISMETEO.Новости: Все новости о погоде</a></p>');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.gismeteo.ru/news.n2?item=63432761067" target="_blank">Аномальные холода погубили мексиканскую фауну</a><br />');
+document.write('Многие обитатели тропических лесов Мексики не пережили аномальные холода. Показательной в этом плане является статистика смертности в зоопарке города...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.gismeteo.ru/news.n2?item=63432758214" target="_blank">Зафиксирована самая сильная магнитная буря в этом году</a><br />');
+document.write('В ночь с 4 на 5 февраля 2011 года по московскому времени зарегистрировано первое по значимости геомагнитное событие этого года (Кр=6)...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.gismeteo.ru/news.n2?item=63432757752" target="_blank">Реактивный «Николас» несется в Россию</a><br />');
+document.write('Над Восточной Атлантикой, в зоне струйного течения, которому соответствует линия активного атмосферного фронта...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.gismeteo.ru/news.n2?item=63432755961" target="_blank">Погода сегодня в Санкт-Петербурге</a><br />');
+document.write('Сегодня Санкт-Петербург будет находиться вблизи фронтального раздела, протянувшегося между двумя циклонами – того, что уходит на восток, к Уралу...');
+document.write('</li>');
+document.write('</ul></div>');

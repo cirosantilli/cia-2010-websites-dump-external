@@ -1,0 +1,9 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://es.noticias.yahoo.com/9/20110129/twl-el-cne-de-ecuador-advierte-a-la-cort-e1e34ad.html" target="_blank">El CNE de Ecuador advierte a la Corte de sanciones si interfiere en la revocación</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://es.noticias.yahoo.com/9/20110129/twl-obama-exige-a-mubarak-concretar-refo-abc30d1.html" target="_blank">Obama exige a Mubarak concretar reformas, en un momento clave para la región</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

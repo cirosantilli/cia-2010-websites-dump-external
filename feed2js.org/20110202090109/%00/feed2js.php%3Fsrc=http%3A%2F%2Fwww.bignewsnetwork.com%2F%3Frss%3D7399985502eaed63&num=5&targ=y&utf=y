@@ -1,0 +1,15 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.bignewsnetwork.com/?rid=42576728&cat=7399985502eaed63" target="_blank">Ex-Indian Army soldier dupes Nepal banks to &#039;malign&#039; Maoists</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.bignewsnetwork.com/?rid=42575062&cat=7399985502eaed63" target="_blank">Nepal to recall Saudi envoy involved in insurance scandal</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.bignewsnetwork.com/?rid=42572632&cat=7399985502eaed63" target="_blank">Kathmandu ponders closing British shops</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.bignewsnetwork.com/?rid=42572631&cat=7399985502eaed63" target="_blank">Nepal President calls for strengthening ties with India</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.bignewsnetwork.com/?rid=42566140&cat=7399985502eaed63" target="_blank">Govt clueless about schools in remote areas</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

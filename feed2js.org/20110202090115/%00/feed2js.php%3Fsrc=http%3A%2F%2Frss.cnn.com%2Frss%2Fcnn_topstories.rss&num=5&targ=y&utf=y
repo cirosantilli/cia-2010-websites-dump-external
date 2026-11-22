@@ -1,0 +1,15 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://rss.cnn.com/~r/rss/cnn_topstories/~3/wlQuKc6Pcew/index.html" target="_blank">Egyptian military may speed Mubarak\'s exit</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://rss.cnn.com/~r/rss/cnn_topstories/~3/ytH_TobFBI4/index.html" target="_blank">Japanese volcano erupts again</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://rss.cnn.com/~r/rss/cnn_topstories/~3/r59OSOlkZtQ/index.html" target="_blank">Jordan\'s king dismisses government</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://rss.cnn.com/~r/rss/cnn_topstories/~3/xaAVUAmKEFk/index.html" target="_blank">World\'s oldest person dies at 114</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://rss.cnn.com/~r/rss/cnn_topstories/~3/KARq8MoDMNk/index.html" target="_blank">Senate to vote on health care repeal</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

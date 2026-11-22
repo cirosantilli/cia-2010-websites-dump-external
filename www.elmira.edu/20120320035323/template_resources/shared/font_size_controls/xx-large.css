@@ -1,0 +1,11 @@
+.maincontent, .maincontent td	{
+	font-size:	xx-large !important;
+ line-height:100px;
+	voice-family:	"\"}\"";
+	voice-family:	inherit;
+}
+
+html>.maincontent, html>.maincontent td {
+	font-size:	x-large !important;
+ line-height:100px;
+}  

@@ -1,0 +1,11 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.radioaustralia.net.au/news/stories/200811/s2427513.htm" target="_blank">No further trade barriers: APEC</a><br />');
+document.write('The 21 APEC leaders have ended their summit in Peru with a final declaration that says they will take all necessary economic and financial measures to respond to the global crisis.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.radioaustralia.net.au/news/stories/200811/s2427233.htm" target="_blank">APEC leaders statement an echo of past</a><br />');
+document.write('Leaders from Asia and the Americas have pledged to push global trade talks and to reform global lending institutions in an effort to keep the world from sliding into a deep recession.');
+document.write('</li>');
+document.write('</ul></div>');

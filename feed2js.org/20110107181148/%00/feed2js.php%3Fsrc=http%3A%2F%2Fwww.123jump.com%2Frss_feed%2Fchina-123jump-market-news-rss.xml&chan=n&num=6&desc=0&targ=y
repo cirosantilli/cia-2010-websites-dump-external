@@ -1,0 +1,17 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://china.123jump.com/market-update/Shanghai-Index-Down-14.3-in-2010;-China-Steps-Up-Land-Auction-Scrutiny/42231/" target="_blank">Shanghai Index Down 14.3% in 2010; China Steps Up Land Auction Scrutiny</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://china.123jump.com/market-update/China-Fines-79-Banks-and-Deems-Internet-Telephony-Providers-Illegal/42214/" target="_blank">China Fines 79 Banks and Deems Internet Telephony Providers Illegal</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://china.123jump.com/market-update/Shanghai-Index-in-2-day-Decline-of-3.6/42175/" target="_blank">Shanghai Index in 2-day Decline of 3.6%</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://china.123jump.com/market-update/Shanghai-Indexes-Drop-2-on-Rate-Increase/42168/" target="_blank">Shanghai Indexes Drop 2% on Rate Increase</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://china.123jump.com/market-update/China-Targets-Lower-Growth;-U.S.-Files-WTO-Case-for-Wind-Energy/42159/" target="_blank">China Targets Lower Growth; U.S. Files WTO Case for Wind Energy</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://china.123jump.com/market-update/China-Estimates-FDI-to-Increase-11-to-$100-Billion/42139/" target="_blank">China Estimates FDI to Increase 11% to $100 Billion</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

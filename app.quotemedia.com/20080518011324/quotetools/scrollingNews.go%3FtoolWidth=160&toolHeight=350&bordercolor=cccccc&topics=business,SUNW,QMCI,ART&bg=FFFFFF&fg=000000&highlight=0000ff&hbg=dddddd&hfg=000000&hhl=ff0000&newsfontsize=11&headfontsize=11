@@ -1,0 +1,7 @@
+
+
+
+	
+/*<script language="javascript"></script>*/
+document.writeln("\n\n<table cellpadding=1 cellspacing=0 border=0 bgcolor=\"#cccccc\" width=\"160\"><tr><td>\n\n<applet codebase=\"http://app.quotemedia.com/quotetools/applet/vnews\" code=\"vnews.class\" archive=\"vnews.jar\" width=\"158\" height=\"350\" MAYSCRIPT>\n<param name=\"hbg\" value=\"#dddddd\">\n<param name=\"hfg\" value=\"#000000\">\n<param name=\"hhl\" value=\"#ff0000\">\n<param name=\"bg\" value=\"#FFFFFF\">\n<param name=\"fg\" value=\"#000000\">\n<param name=\"highlight\" value=\"#0000ff\">\n<param name=\"newsFontSize\" value=\"11\">\n<param name=\"headerFontSize\" value=\"11\">\n<param name=\"topics\" value=\"business,SUNW,QMCI,ART\">\n<param name=\"disclaimer\" value=\"on\">\n\n<param name=\"header\" value=\"on\">\n<param name=\"perTopic\" value=\"5\">\n\n\n<param name=\"delay\" value=\"60\"> \n \n \nTo view the News (Java Applet), you must first download the <a href=\"http://java.com\">Java Plugin</a>.\n \n\n</applet></td></tr></table>\n\n");
+

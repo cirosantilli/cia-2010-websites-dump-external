@@ -1,0 +1,11 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.cnet.com/8301-17938_105-20030459-1.html?part=rss&subj=news&tag=2547-1_3-0-20" target="_blank">Android Honeycomb on Xoom, hands-on</a><br />');
+document.write('At Google\'s Android Honeycomb demo day, CNET\'s Donald Bell gives the Motorola Xoom tablet a test-drive and highlights his favorite features.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.cnet.com/8301-10805_3-20030454-75.html?part=rss&subj=news&tag=2547-1_3-0-20" target="_blank">Microsoft: Google\'s Bing test was \'good subterfuge\'</a><br />');
+document.write('CNET talks to Bing Director Stefan Weitz about Google\'s claims that Microsoft copied search results from its index.');
+document.write('</li>');
+document.write('</ul></div>');

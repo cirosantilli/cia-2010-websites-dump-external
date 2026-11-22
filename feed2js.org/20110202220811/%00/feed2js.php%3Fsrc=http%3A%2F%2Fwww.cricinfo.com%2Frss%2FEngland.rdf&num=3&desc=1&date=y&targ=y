@@ -1,0 +1,17 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.espncricinfo.com/the-ashes-2010-11/content/story/499257.html?CMP=OTC-RSS" target="_blank">Strauss rues injury crisis</a><br />');
+document.write('<span class="rss-date">Wed, 02 Feb 2011 13:40:02 GMT</span><br />');
+document.write('Andrew Strauss could only curse England\'s injury crisis as a shortage of bowling options meant a record-breaking batting effort went to waste at Sydney');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.espncricinfo.com/the-ashes-2010-11/content/story/499256.html?CMP=OTC-RSS" target="_blank">Big chases prepare us for the World Cup - Clarke</a><br />');
+document.write('<span class="rss-date">Wed, 02 Feb 2011 13:26:31 GMT</span><br />');
+document.write('Michael Clarke believes Australia\'s record run chase against England was the perfect preparation for the World Cup where large totals are going to dominate the tournament');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.espncricinfo.com/the-ashes-2010-11/content/story/499132.html?CMP=OTC-RSS" target="_blank">Clarke\'s acceleration seals thrilling win</a><br />');
+document.write('<span class="rss-date">Wed, 02 Feb 2011 15:20:42 GMT</span><br />');
+document.write('Australia kept pace with a huge run chase at the SCG after a rapid opening stand between Shane Watson and Brad Haddin gave them a chance of hunting down 334');
+document.write('</li>');
+document.write('</ul></div>');

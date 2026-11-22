@@ -1,0 +1,14 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.un.org/apps/news/story.asp?NewsID=37444&Cr=Burundi&Cr1=" target="_blank">UN expert calls on Burundi to set up national human rights body without delay</a><br />');
+document.write('An independent United Nations expert today welcomed the adoption of the law on setting up Burundi\'s national human rights body and urged the authorities to set it up without delay.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.un.org/apps/news/story.asp?NewsID=37443&Cr=Iran&Cr1=" target="_blank">Alarmed at rise in killings, UN rights chief urges Iran to halt executions</a><br />');
+document.write('Voicing alarm at reports that at least 66 people have been executed in Iran in January alone, including several political activists, the United Nations human rights chief today once again called on the Government to halt the use of the death penalty.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.un.org/apps/news/story.asp?NewsID=37442&Cr=slave&Cr1=" target="_blank">Launch of website for slavery memorial important step forward, says Ban</a><br />');
+document.write('Secretary-General Ban Ki-moon today lauded the launch of a website for the permanent memorial honouring the victims of slavery and the transatlantic slave trade, calling it an important step forward in making the memorial a reality at the United Nations Headquarters complex.');
+document.write('</li>');
+document.write('</ul></div>');

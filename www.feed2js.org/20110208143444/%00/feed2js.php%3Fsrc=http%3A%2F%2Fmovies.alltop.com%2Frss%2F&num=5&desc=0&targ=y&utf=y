@@ -1,0 +1,15 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://themovieblog.com/2011/02/yelchin-to-play-odd-thomas" target="_blank">Yelchin to play Odd Thomas</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feedproxy.google.com/%7Er/slashfilm/%7E3/0HV_hWKvDF8/" target="_blank">‘Monsters’ Sequel or TV Show to Go Ahead Without Director Gareth Edwards</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feedproxy.google.com/%7Er/thr/film/%7E3/c6LK-0wKnM4/bafta-honor-christopher-lee-highest-97304" target="_blank">BAFTA to Honor Christopher Lee With Highest Accolade</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feedproxy.google.com/%7Er/slashfilm/%7E3/2WJtQi6QW9s/" target="_blank">Infographic: The Animated History of the Oscars</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feedproxy.google.com/%7Er/ETMovies/%7E3/8I-bBF8kz7I/index.html" target="_blank">Oscar Nominees Share Their Excitement with Leonard Maltin</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

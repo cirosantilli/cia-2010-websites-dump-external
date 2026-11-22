@@ -1,0 +1,8 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://es.noticias.yahoo.com/9/20110207/twl-alan-garcia-dice-que-la-cumbre-arabe-e1e34ad.html" target="_blank">Alan García dice que la cumbre árabe-suramericana se aplaza pero que \"se hará de todas maneras\"</a><br />');
+document.write('Lima, 6 feb (EFE).- El presidente de Perú, Alan García, confirmó hoy el aplazamiento de la III Cumbre América del Sur-Países Árabes (ASPA), prevista para realizarse en Lima del 13 al 16 de febrero, pero asegura que se celebrará \"de todas maneras\" en otra fecha.');
+document.write('</li>');
+document.write('</ul></div>');

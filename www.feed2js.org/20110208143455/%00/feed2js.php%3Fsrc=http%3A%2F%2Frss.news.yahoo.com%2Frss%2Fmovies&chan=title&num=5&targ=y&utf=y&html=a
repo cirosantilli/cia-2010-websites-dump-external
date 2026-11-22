@@ -1,0 +1,21 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<p class="rss-title"><a class="rss-title" href="http://news.yahoo.com/entertainment/movies" target="_blank">Yahoo! News: Movie News</a></p>');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://us.rd.yahoo.com/dailynews/rss/movies/*http://news.yahoo.com/s/ap/20110208/ap_en_mo/as_pakistan_slacker_film" target="_blank">No guns, no bombs: Film follows Pakistani slackers (AP)</a><br />');
+document.write('<p><a href=\"http://us.rd.yahoo.com/dailynews/rss/movies/*http://news.yahoo.com/s/ap/20110208/ap_en_mo/as_pakistan_slacker_film\"><img src=\"http://d.yimg.com/a/p/ap/20110207/capt.066612ab867340eebf1ebb7aa4aab8e0-d8546ed3028a4e09acb5236590239a01-0.jpg?x=76&y=130&q=85&sig=CqsuaNQf5fo4h6aS5RvnAQ--\" align=\"left\" height=\"130\" width=\"76\" alt=\"In this Feb. 3, 2011 photo, Pakistani actress Shahana Khan Khalil who performed a role of Zara in Pakistani film \'Slackistan\', arrives at her office in Islamabad, Pakistan. (AP Photo/B.K.Bangash)\" border=\"0\" /></a>AP - In a country scarred by Taliban attacks and hobbled by political bickering, film director Hammad Khan found himself riveted by a creature so out of touch with reality that it almost inspires jealousy: the Pakistani slacker.</p><br clear=\"all\"/>');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://us.rd.yahoo.com/dailynews/rss/movies/*http://news.yahoo.com/s/nm/20110208/film_nm/us_berlin" target="_blank">Tough topics, Tinseltown mix at Berlin film event (Reuters)</a><br />');
+document.write('Reuters - The financial crisis, living in a dictatorship, the Chernobyl nuclear accident and immigration in Germany -- the Berlin film festival promises its trademark mix of entertainment and hard-hitting commentary in 2011.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://us.rd.yahoo.com/dailynews/rss/movies/*http://news.yahoo.com/s/nm/20110208/film_nm/us_bafta_christopherlee" target="_blank">Horror star Christopher Lee to receive BAFTA award (Reuters)</a><br />');
+document.write('Reuters - British actor Christopher Lee, best known for his roles in horror classics, is to receive a lifetime achievement award from the British Academy of Film and Television Arts (BAFTA), organizers said on Tuesday.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://us.rd.yahoo.com/dailynews/rss/movies/*http://news.yahoo.com/s/ap/20110208/ap_on_en_mo/as_film_hong_kong_film_awards" target="_blank">\'Detective,\' \'Assassins\' top Hong Kong nominees (AP)</a><br />');
+document.write('<p><a href=\"http://us.rd.yahoo.com/dailynews/rss/movies/*http://news.yahoo.com/s/ap/20110208/ap_on_en_mo/as_film_hong_kong_film_awards\"><img src=\"http://d.yimg.com/a/p/ap/20110208/capt.9f2a2ceaea67476f84cf835d2c56920e-62eb5608572543dd80c5e87778fe05b7-0.jpg?x=88&y=130&q=85&sig=tbSPqEZWCqTsqt6v4m0Qsw--\" align=\"left\" height=\"130\" width=\"88\" alt=\"CORRECTS YEAR OF THE DATE - Hong Kong actor Nick Cheung smiles at the press conference of the announcement of nominations of the 30th Hong Kong Film Awards in Hong Kong Tuesday, Feb. 8, 2011. (AP Photo/Vincent Yu)\" border=\"0\" /></a>AP - Director Tsui Hark\'s new costume drama, former Bond girl Michelle Yeoh\'s latest kung fu thriller and Donnie Yen\'s second biopic of Bruce Lee\'s kung fu master were the top nominees in the Hong Kong Film Awards shortlist announced on Tuesday.</p><br clear=\"all\"/>');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://us.rd.yahoo.com/dailynews/rss/movies/*http://news.yahoo.com/s/ap/20110208/ap_on_en_mo/us_oscars_moms" target="_blank">Oscar producers say moms to be part of the program (AP)</a><br />');
+document.write('AP - Oscar producers are taking \"thanks, Mom\" to another level.');
+document.write('</li>');
+document.write('</ul></div>');

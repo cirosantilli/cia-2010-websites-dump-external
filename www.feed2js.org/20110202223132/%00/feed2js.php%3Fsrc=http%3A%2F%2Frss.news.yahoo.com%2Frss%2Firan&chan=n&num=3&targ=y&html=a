@@ -1,0 +1,14 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://us.rd.yahoo.com/dailynews/rss/iran/*http://news.yahoo.com/s/ap/20110202/ap_on_re_mi_ea/ml_iran" target="_blank">Iran jails lawyer who has defended activists (AP)</a><br />');
+document.write('<p><a href=\"http://us.rd.yahoo.com/dailynews/rss/iran/*http://news.yahoo.com/s/ap/20110202/ap_on_re_mi_ea/ml_iran\"><img src=\"http://d.yimg.com/a/p/ap/20110201/capt.5c10c6ace01e42f38971b890b75f8776-5c10c6ace01e42f38971b890b75f8776-0.jpg?x=114&y=130&q=85&sig=bGHl74MX2f0KXvBdOrJwEg--\" align=\"left\" height=\"130\" width=\"114\" alt=\"Iranian cleric lawmakers, Morteza Agha Tehrani, right, and Mohammad Taghi Rahbar, left, talk as they walk through the parliament, while an unidentified lawmaker talk on his cell phone, in an open session to debate on impeachment of Transportation Minister Hamid Behbahani, unseen, in Tehran, Iran, Tuesday, Feb. 1, 2011. The Iranian parliament has dismissed the transportation minister and ally of President Mahmoud Ahmadinejad in the wake of several deadly plane crashes in the country. (AP Photo)\" border=\"0\" /></a>AP - An opposition website says a prominent Iranian lawyer who has defended opposition activists has been sentenced to 18 months in prison.</p><br clear=\"all\"/>');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://us.rd.yahoo.com/dailynews/rss/iran/*http://news.yahoo.com/s/ap/20110202/ap_on_re_eu/un_un_iran_executions" target="_blank">UN says Iran has executed at least 66 this year (AP)</a><br />');
+document.write('AP - Iran has executed at least 66 people this year, an alarming surge that has defied outside pressure, the U.N.\'s top human rights official said Wednesday.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://us.rd.yahoo.com/dailynews/rss/iran/*http://news.yahoo.com/s/nm/20110202/wl_nm/us_iran_executions" target="_blank">Iran executions three times last year\'s rate: U.N. (Reuters)</a><br />');
+document.write('Reuters - Iran has witnessed a dramatic increase in executions so far in 2011, United Nations human rights chief Navi Pillay said on Wednesday and her office said the rate was three times that of last year.');
+document.write('</li>');
+document.write('</ul></div>');

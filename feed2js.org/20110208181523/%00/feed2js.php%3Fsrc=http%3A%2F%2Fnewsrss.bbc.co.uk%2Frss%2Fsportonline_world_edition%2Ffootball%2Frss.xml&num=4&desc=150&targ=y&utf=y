@@ -1,0 +1,17 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.bbc.co.uk/go/rss/-/sport2/hi/football/teams/p/portsmouth/9390973.stm" target="_blank">Russian group hold Pompey talks</a><br />');
+document.write('Portsmouth confirm they have held talks with Russian consortium Convers Sport Initiative (CSI), who are interested in buying the club....');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.bbc.co.uk/go/rss/-/sport2/hi/football/9391367.stm" target="_blank">Lampard named as England captain</a><br />');
+document.write('Chelsea\'s Frank Lampard is named England captain for the international friendly against Denmark on Wednesday with Arsenal\'s Jack Wilshere set to start...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.bbc.co.uk/go/rss/-/sport2/hi/football/teams/c/chelsea/9390811.stm" target="_blank">Arnesen defends Chelsea spending</a><br />');
+document.write('Chelsea\'s sporting director Frank Arnesen defends the capture of £50m striker Fernando Torres saying it does not stop the club producing its own tale...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.bbc.co.uk/go/rss/-/sport2/hi/football/9390382.stm" target="_blank">Triesman criticises FA regulation</a><br />');
+document.write('Former FA chairman Lord Triesman accuses the organisation of \"backing out of regulating altogether\"....');
+document.write('</li>');
+document.write('</ul></div>');

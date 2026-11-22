@@ -1,0 +1,17 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://travel.sohu.com/20080218/n255214069.shtml" title="&lt;a href=&quot;http://travel.sohu.com/20080218/n255214069.shtml&quot;&gt;&lt;img src=&quot;http://photocdn.sohu.com/20080218/Img255214070_ss.jpg&quot; style=&quot;border: 1px solid #000000;&quot; /&gt;&lt;/a&gt;海德堡《汽车旅行》　　德国是..." target="_blank">精致德国：绿色海洋之中的城堡</a><br />');
+document.write('海德堡《汽车旅行》　　德国是一座浸泡在绿色海洋之中的城堡，沿途公路两旁低矮的丘陵上覆盖的都是一望无际地毯似的翠绿野草，点缀着漫天飞舞的金灿灿的蒲公英，一簇簇一片片娇美缤纷，还有许多叫不出名字的各色花卉，争先恐后地展示着妖娆的美丽。此次德国之行是我人生中最棒的一次汽车旅行体验，沿着阿尔卑斯山脉用了十几...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://travel.sohu.com/20080218/n255213509.shtml" title="&lt;a href=&quot;http://travel.sohu.com/20080218/n255213509.shtml&quot;&gt;&lt;img src=&quot;http://photocdn.sohu.com/20080218/Img255213510_ss.jpg&quot; style=&quot;border: 1px solid #000000;&quot; /&gt;&lt;/a&gt;《汽车旅行》文/图 张晓春瑞士�..." target="_blank">瑞士 多元文化的天堂</a><br />');
+document.write('《汽车旅行》文/图 张晓春瑞士被很多人誉为“梦想中的国度”，也是我一直憧憬的地方。在我的印象中，瑞士是一个安静祥和的国家，经济上的发达和政治上的中立，给人和蔼可亲的感觉。真正驾着车在瑞士开开停停的逛了一周之后，我更加真切地感觉到她的温和和包容。这是一个具有多元文化的国家，周边国度的语言和文化深深地影...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://travel.sohu.com/20080218/n255212790.shtml" title="&lt;a href=&quot;http://travel.sohu.com/20080218/n255212790.shtml&quot;&gt;&lt;img src=&quot;http://photocdn.sohu.com/20080218/Img255212791_ss.jpg&quot; style=&quot;border: 1px solid #000000;&quot; /&gt;&lt;/a&gt;　　——参加马来西亚雨林赛侧..." target="_blank">马来西亚：被雨水淋湿的日子</a><br />');
+document.write('　　——参加马来西亚雨林赛侧记来源：《汽车旅行》　　马来西亚雨林赛终于因为连日的暴雨而被迫中断，赛场上原本人声鼎沸忽然戛然而止。许多外国同行一直在相互问：明年还会不会再来参加雨林赛？认真想了想，我的答案很明显，我要再来。因为在丛林里，我们所做的不仅仅是淋雨，被淋的也不仅仅是我们的身体。　　撰文/摄影...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://travel.sohu.com/20080215/n255181337.shtml" title="&lt;a href=&quot;http://travel.sohu.com/20080215/n255181337.shtml&quot;&gt;&lt;img src=&quot;http://photocdn.sohu.com/20080215/Img255181342_ss.jpg&quot; style=&quot;border: 1px solid #000000;&quot; /&gt;&lt;/a&gt;　　世间万物的存在都是上帝的..." target="_blank">心陷巴厘 不过七日轮回</a><br />');
+document.write('　　世间万物的存在都是上帝的造化，巧手施画，便有了炊烟袅袅的田园农舍，便有了高耸无垠的森林草原，便有了海天一色的落日余辉，也便有了雄伟奇观的火山岩浆。可谁曾想，上帝竟如此偏爱巴厘岛，将万物的一切都施于了它。在这东西长不过140公里，南北宽不过90公里的小小岛屿上，沙滩碧海、热带雨林点点分布，田园农舍...');
+document.write('</li>');
+document.write('</ul></div>');

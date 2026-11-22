@@ -1,0 +1,25 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/worldnews/2011/02/110208_indonesia_demos.shtml" target="_blank">متشددون اسلاميون يهاجمون كنائس ومحكمة في اندونيسيا</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/worldnews/2011/02/110208_tv_beheading.shtml" target="_blank">ادانة صاحب محطة تلفزيون اسلامية في نيويورك بذبح زوجته</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/worldnews/2011/02/110208_russia_chechen_bombing_umarov.shtml" target="_blank">عمروف يتبنى مسؤولية عملية التفجير بمطار موسكو</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/worldnews/2011/02/110207_us_gulf_workers_exploitation.shtml" target="_blank">تحقيق: عمال بسفارات أمريكية في الخليج \"عرضة للاستغلال\"</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/worldnews/2011/02/110207_bangladesh_lashings_death_inquiry.shtml" target="_blank">قضية الفتاة المجلودة: القضاء في بنجلاديش يأمر باستخراج الجثة</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/worldnews/2011/02/110208_assange_trial_update.shtml" target="_blank">قضية اسانج: شاهد دفاع يؤكد أن المحققين لم يتبعوا الإجراء الصحيح للتحقيق معه</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/worldnews/2011/02/110207_musharraf_bhutto.shtml" target="_blank">باكستان: توجيه اصبع الاتهام لبرفيز مشرف في عملية اغتيال بينظير بوتو</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/worldnews/2011/02/110206_rolls_royce_centenary.shtml" target="_blank">بالصور: رولز رويس تحتفل بمئوية رمزها</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/worldnews/2011/02/110208_cockfighting.shtml" target="_blank">ديك يطعن رجلا فيرديه قتيلا</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/worldnews/2011/02/110207_mafia_tomatoes.shtml" target="_blank">السلطات الايطالية تحقق في احتكار عصابات الجريمة المنظمة لتجارة الطماطم</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

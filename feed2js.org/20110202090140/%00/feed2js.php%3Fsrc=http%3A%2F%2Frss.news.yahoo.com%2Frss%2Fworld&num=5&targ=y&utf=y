@@ -1,0 +1,15 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://us.rd.yahoo.com/dailynews/rss/world/*http://news.yahoo.com/s/nm/20110202/wl_nm/us_egypt" target="_blank">Mubarak pledge to step down dismissed as too slow (Reuters)</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://us.rd.yahoo.com/dailynews/rss/world/*http://news.yahoo.com/s/nm/20110202/wl_nm/us_yemen_president" target="_blank">Yemen president says won\'t extend presidential term (Reuters)</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://us.rd.yahoo.com/dailynews/rss/world/*http://news.yahoo.com/s/nm/20110201/wl_nm/us_jordan" target="_blank">Jordan\'s king appoints new PM after protests (Reuters)</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://us.rd.yahoo.com/dailynews/rss/world/*http://news.yahoo.com/s/nm/20110202/wl_nm/us_australia_cyclone" target="_blank">Giant cyclone closes on Australia, shelters run out of room (Reuters)</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://us.rd.yahoo.com/dailynews/rss/world/*http://news.yahoo.com/s/nm/20110202/wl_nm/us_mauritania_blast" target="_blank">Soldiers wounded in Mauritania blast: source (Reuters)</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

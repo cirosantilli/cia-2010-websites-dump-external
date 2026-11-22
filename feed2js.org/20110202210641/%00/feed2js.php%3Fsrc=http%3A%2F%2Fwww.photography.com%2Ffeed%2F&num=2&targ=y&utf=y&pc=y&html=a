@@ -1,0 +1,11 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.photography.com/questions/landscape-and-nature/i-have-a-sony-dsc-h7-please-advice-me-some-basic-rules-of-using-it/" target="_blank">I have a sony DSC-H7, please advice me some basic rules of using it.</a><br />');
+document.write('Well, several time, i&#8217;ve seen that photos turns out to be like a painting and blurred&#8230; When i take a photo i can&#8217;t take other very quick, why is that.? Is there anyway i can change the setting.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.photography.com/questions/cameras/i-cant-seem-to-get-my-camera-canon-xsi-to-focus-on-the-subject-but-everything-else-is-in-focus-any-tips/" target="_blank">I can’t seem to get my camera (Canon xsi) to focus on the subject, but everything else is in focus. Any tips?</a><br />');
+document.write('my focus');
+document.write('</li>');
+document.write('</ul></div>');

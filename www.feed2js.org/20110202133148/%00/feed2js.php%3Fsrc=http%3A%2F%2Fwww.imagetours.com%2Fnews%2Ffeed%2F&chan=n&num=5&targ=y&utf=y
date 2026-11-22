@@ -1,0 +1,15 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.imagetours.com/news/europe-travel-tip-label/399/" target="_blank">Europe Travel Tip – Label</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.imagetours.com/news/european-vacation-packages-2011/397/" target="_blank">European Vacation Packages 2011</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.imagetours.com/news/europe-travel-tip-water-bottles/393/" target="_blank">Europe Travel Tip – Water Bottles</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.imagetours.com/news/europe-travel-tip-airplane-sinks/390/" target="_blank">Europe Travel Tip – Airplane Sinks</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.imagetours.com/news/europe-travel-tip-place-mat-souvenir/388/" target="_blank">Europe Travel Tip – Place Mat Souvenir</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

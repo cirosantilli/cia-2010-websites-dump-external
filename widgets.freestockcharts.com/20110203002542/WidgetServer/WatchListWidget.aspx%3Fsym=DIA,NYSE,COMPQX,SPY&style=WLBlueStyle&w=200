@@ -1,0 +1,152 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head><title>
+
+</title><link href="WLBase.css" rel="stylesheet" type="text/css" />
+    <link href="WLBlueStyle.css" rel="stylesheet" type="text/css" />
+ 
+    <script src="../js/jquery-1.3.1.min.js" type="text/javascript"></script>
+    <script src="../js/jquery.autocomplete.js" type="text/javascript"></script>
+<style type="text/css">
+
+.autocomplete-w1 { background:url(img/shadow.png) no-repeat bottom right; position:absolute; top:0px; left:0px; margin:6px 0 0 6px; /* IE6 fix: */ _background:none; _margin:1px 0 0 0; }
+.autocomplete { border:1px solid #999; font-family: Arial, Helvetica, sans-serif;font-size: 12px; background:#FFF; cursor:default; text-align:left; max-height:350px; overflow:auto; margin:-6px 6px 6px -6px; /* IE6 specific: */ _height:350px;  _margin:0; _overflow-x:hidden; }
+.autocomplete .selected { background:#F0F0F0; }
+.autocomplete div { padding:2px 5px; white-space:nowrap; overflow:hidden; }
+.autocomplete strong { font-weight:normal; color:#3399FF; }
+
+</style>
+</head>    
+       
+<body>
+    
+    <script type="text/javascript">
+        var sub_symbols = 'DIA,NYSE,COMPQX,SPY'
+        $(document).ready(function() {
+            //updateSymbol('dow', 7856, '+58',true);
+            UpdatePrices();
+            setInterval('UpdatePrices()', 15000);
+            swapValues = [];
+            $(".swap_value").each(
+            function(i) {
+                swapValues[i] = $(this).val();
+                $(this).focus(function() {
+                    if ($(this).val() == swapValues[i]) {
+                        $(this).val("")
+                    }
+                }
+                ).blur(function() {
+                    if ($.trim($(this).val()) == "") {
+                        $(this).val(swapValues[i])
+                    }
+                }
+                 )
+            }
+      )
+
+            a = $('#quoteGetter').autocomplete({
+                serviceUrl: '/AjaxServer.ASPX?service=LOOKUP',
+                minChars: 2,
+                maxHeight: 400,
+                width: 300,
+                zIndex: 9999,
+                deferRequestBy: 100, //miliseconds
+                onSelect: function(value, data) { $("#quoteGetter").val(data); getQuote(); }
+
+            });
+
+
+        });
+
+
+
+        function UpdatePrices() {
+            var current = new Date();
+            var cBust = current.getHours().toString() + current.getMinutes().toString() + current.getSeconds().toString() + current.getMilliseconds().toString();
+            $.getJSON('/Ajaxserver.aspx?service=DATA2&sym=' + sub_symbols + '&cbust=' + cBust,
+            function newTweetsCallback(data, text) {
+                if ((data != null) ) {
+                    if ((data.quotes != null) && (data.quotes.length > 0)) {
+                        $("#updatedthrough").text(data.udt);
+                        for (i = 0; i <= data.quotes.length - 1; i++) {
+                            updateSymbol(data.quotes[i].s, data.quotes[i].p, data.quotes[i].n, data.quotes[i].u);
+                        }
+                    }
+                }
+            })
+        }
+
+        function updateSymbol(sym,price,change,isup) {
+            sym = sym.replace("/", "_");
+            var qid = '#' + sym + '_quote';
+            var cid = '#' + sym + '_change';
+            var did = '#' + sym + '_dir';
+            var iid = '#' + sym + '_img';
+
+            $(qid).text(price);
+            $(cid).text(change);            
+            if (isup) {
+                $(cid).removeClass('changedown');
+                $(cid).addClass('changeup');
+                $(did).removeClass('dirdown');
+                $(did).addClass('dirup');
+                $(iid).attr('src', 'images/greenup.png');
+            } else {
+                $(cid).removeClass('changeup');
+                $(cid).addClass('changedown');
+                $(did).removeClass('dirup');
+                $(did).addClass('dirdown');
+                $(iid).attr('src','images/reddown.png');
+            }
+        }
+
+        function getQuote() {
+            var sym = $("#quoteGetter").val();
+            var url = 'http://www.freestockcharts.com/?Symbol=' + sym
+           
+            window.parent.location = url;
+        }
+    </script>
+    <div id="ticker">
+    <table border=0 cellpadding=0 cellspacing=0>
+                
+            <tr>
+                <td class="sym"><a class="sym" target="_parent" href="http://www.freestockcharts.com/?Symbol=DIA&source=WLWidget">DIA</a></td><td class="quoteup" id="DIA_quote"></td><td class="changeup" id="DIA_change"></td><td class="dirup" id="DIA_dir"><img alt="" id="DIA_img" src="images/greenup.png" /></td>
+            </tr>
+                  
+            <tr>
+                <td class="sym"><a class="sym" target="_parent" href="http://www.freestockcharts.com/?Symbol=NYSE&source=WLWidget">NYSE</a></td><td class="quoteup" id="NYSE_quote"></td><td class="changeup" id="NYSE_change"></td><td class="dirup" id="NYSE_dir"><img alt="" id="NYSE_img" src="images/greenup.png" /></td>
+            </tr>
+                  
+            <tr>
+                <td class="sym"><a class="sym" target="_parent" href="http://www.freestockcharts.com/?Symbol=COMPQX&source=WLWidget">COMPQX</a></td><td class="quoteup" id="COMPQX_quote"></td><td class="changeup" id="COMPQX_change"></td><td class="dirup" id="COMPQX_dir"><img alt="" id="COMPQX_img" src="images/greenup.png" /></td>
+            </tr>
+                  
+            <tr>
+                <td class="sym"><a class="sym" target="_parent" href="http://www.freestockcharts.com/?Symbol=SPY&source=WLWidget">SPY</a></td><td class="quoteup" id="SPY_quote"></td><td class="changeup" id="SPY_change"></td><td class="dirup" id="SPY_dir"><img alt="" id="SPY_img" src="images/greenup.png" /></td>
+            </tr>
+      
+    </table>
+    
+    <input id="quoteGetter" class="swap_value" type="text" value="Get Chart.." style="width:150px;color:#666666;" /><input onclick="getQuote();" type="button" style="width:35px;color:#666666;" value="Go" /></br>
+    <div id="asOf">RealTime from BATS <span id="updatedthrough"></span></div>
+    <a id="fsclink" class="footerLink" target="_parent" href="http://www.freestockcharts.com/?source=WLWidget">FreeStockCharts.com</a><br />
+
+    <div>
+        
+    </div>
+    </div>
+<script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+    try {
+        var pageTracker = _gat._getTracker("UA-1276382-11");
+        pageTracker._trackPageview();
+    } catch (err) { }</script>
+</body>
+</html>

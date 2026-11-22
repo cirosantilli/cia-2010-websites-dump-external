@@ -1,0 +1,25 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.golf.com/golf/courses_travel/article/0,28136,2043179,00.html?cid=feed-courses_travel-20110119-2043179" target="_blank">At Al Ghazal, you\'ll find a course of sand and a taste of old Abu Dhabi</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.golf.com/golf/courses_travel/article/0,28136,2041413,00.html?cid=feed-courses_travel-20110108-2041413" target="_blank">Course Spy: Ko\'olau Golf Club</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.golf.com/golf/courses_travel/article/0,28136,2040590,00.html?cid=feed-courses_travel-20110103-2040590" target="_blank">Travelin\' Joe\'s Wish List: 10 courses I need to play</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.golf.com/golf/courses_travel/article/0,28136,2040623,00.html?cid=feed-courses_travel-20110103-2040623" target="_blank">Arizona\'s Sedona Golf Resort is a feast for the eyes -- and the wallet</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.golf.com/golf/courses_travel/article/0,28136,2039317,00.html?cid=feed-courses_travel-20101221-2039317" target="_blank">Travelin\' Joe\'s Last-Minute Holiday Gifts for the Traveling Golfer</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.golf.com/golf/courses_travel/article/0,28136,2031916,00.html?cid=feed-courses_travel-20101209-2031916" target="_blank">Best New Golf Courses You Can Play 2010</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.golf.com/golf/courses_travel/article/0,28136,2032066,00.html?cid=feed-courses_travel-20101209-2032066" target="_blank">2010 Architects of the Year: Tom Doak and Jim Urbina</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.golf.com/golf/courses_travel/article/0,28136,2033467,00.html?cid=feed-courses_travel-20101205-2033467" target="_blank">Top 10 New International Golf Courses 2010</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.golf.com/golf/courses_travel/article/0,28136,2032060,00.html?cid=feed-courses_travel-20101205-2032060" target="_blank">Best New Private Golf Courses 2010</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.golf.com/golf/courses_travel/article/0,28136,2032145,00.html?cid=feed-courses_travel-20101205-2032145" target="_blank">Greensboro Country Club (Farm Course): 2010 Renovation of the Year</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

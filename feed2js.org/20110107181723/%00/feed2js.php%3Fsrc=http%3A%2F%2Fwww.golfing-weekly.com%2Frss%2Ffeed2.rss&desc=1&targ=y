@@ -1,0 +1,20 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.golfing-weekly.com/articles/woods-wins-dunlop.htm" target="_blank">Eight Stroke Victory for Woods in Japan</a><br />');
+document.write('Tiger Woods has won his final ranking tournament of the season and he did so in style. A final round 67 gave him a 16 under par total of 264 and an eight stroke, wire-to-wire victory at the Dunlop Phoenix Tournament in Japan. more>>');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.golfing-weekly.com/articles/learn-from-the-pros.htm" target="_blank">Golf Instruction - Do what the TOP FIVE do to keep scores low</a><br />');
+document.write('When you take a look at the Official World Golf Rankings, the first thing that stands out is how far the top three or even the top five are ahead of the rest of the players. Why is there such a big gap? more>>');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.golfing-weekly.com/articles/2004-TOUR-cship.htm" target="_blank">Goosen captures Tour finale</a><br />');
+document.write('U.S. Open Champion, Retief Goosen, was four strokes behind at the start of play on Sunday at East Lake Golf Club in Atlanta but shot a six under par round of 64 to overcome the deficit and capture the TOUR Championship title. more>>');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.golfing-weekly.com/articles/2004-chrysler-cship.htm" target="_blank">Singh wins again and breaks $10million mark</a><br />');
+document.write('At the Westin Innisbrook Golf Resort in Palm Harbour, Florida on Sunday, world number one, Vijay Singh cruised to the easiest of his nine victories this season, setting more records in the process. more>>');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.golfing-weekly.com/articles/2004-volvo-masters.htm" target="_blank">Poulter Wins Battle of Euro Young Guns at Volvo Masters</a><br />');
+document.write('Ian Poulter made his par on the 18th hole at Valderrama to defeat Sergio Garcia on the first hole of a sudden death playoff for the Volvo Masters title. more>>');
+document.write('</li>');
+document.write('</ul></div>');

@@ -1,0 +1,21 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<p class="rss-title"><a class="rss-title" href="http://elviajero.elpais.com/" target="_blank">EL VIAJERO - Portada el viajero</a></p>');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://elviajero.elpais.com/fotografia/viajero/Burano/elppor/20110303elpepuvia_1/Ies/" target="_blank">Burano</a><br />');
+document.write('');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://elviajero.elpais.com/articulo/viajero/Escapar/ajetreo/Venecia/elppor/20110303elpepuvia_2/Tes" target="_blank">Escapar del ajetreo de Venecia</a><br />');
+document.write('');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://elviajero.elpais.com/fotografia/viajero/vaporetto/elppor/20110302elpepuvia_1/Ies/" target="_blank">Desde el \'vaporetto\'</a><br />');
+document.write('');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://elviajero.elpais.com/articulo/viajero/carnavales/Once/elppor/20110302elpepuvia_1/Tes" target="_blank">De carnavales con \'el Once\'</a><br />');
+document.write('');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://elviajero.elpais.com/fotografia/viajero/Esqui/fuera/pista/Grandvalira/elppor/20110301elpepuvia_1/Ies/" target="_blank">Esquí fuera de pista en Grandvalira</a><br />');
+document.write('');
+document.write('</li>');
+document.write('</ul></div>');

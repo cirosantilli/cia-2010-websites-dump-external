@@ -1,0 +1,15 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://article.wn.com/view/2010/12/27/Khodorkovsky_trial_to_deliver_verdict_on_Russian_politics/" target="_blank">Khodorkovsky trial to deliver verdict on Russian politics</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://article.wn.com/view/2010/12/26/Oil_rig_blast_that_shook_the_world/" target="_blank">Oil rig blast that shook the world</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://article.wn.com/view/2010/12/26/Christchurch_reopens_after_quakes/" target="_blank">Christchurch reopens after quakes</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://article.wn.com/view/2010/12/26/Musharraf_eyes_people_power/" target="_blank">Musharraf eyes people power</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://article.wn.com/view/2010/12/26/Turkeys_apology_demand_chutzpah_says_Israel_FM/" target="_blank">Turkey\'s apology demand \'chutzpah\', says Israel FM</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

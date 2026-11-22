@@ -1,0 +1,20 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feedproxy.google.com/~r/Hoy-en-AOL-Latino/~3/wvmR2aIpmVM/" target="_self">Im&aacute;genes in&eacute;ditas del Sol en 360&deg;</a><br />');
+document.write('En Noticias AFP/Getty Images Imágenes inéditasdel Sol en 360° La NASA mostró la atmósfera ysuperficie completa en 3D: MiraConcierto cósmicoAstronauta flautista toca en el espacioContra la ciudadaníaSenador insistirá con leyanti inmigrante en Arizona Próximo');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feedproxy.google.com/~r/Hoy-en-AOL-Latino/~3/J7tAnuUqDjg/" target="_self">A Luis Miguel no le importa ni su familia</a><br />');
+document.write('En Celestrellas Getty Images A Luis Miguel no leimporta ni su familia Ex empleado dice que no se compromete con nadie?y Aracely ArámbulaHabla y rompe su silencioEn AuroraSara Maldonado cambia de amorVieth habla de su escándalo sexual Next');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feedproxy.google.com/~r/Hoy-en-AOL-Latino/~3/-qLJHFUlpQs/" target="_self">&iquest;Est&aacute;s estresada?, intenta con esto</a><br />');
+document.write('En Tu Voz Corbis ¿Estás estresada?,intenta con esto Baños de vapor: la vagina también quiere ir a un Spa¡No te engañes!Hábitos que él nunca cambiaráPara tu corazónConoce los alimentos más saludables¿Qué te impide meditar? Próximo');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feedproxy.google.com/~r/Hoy-en-AOL-Latino/~3/dGdnHcoqCqA/" target="_self">La esperanza azteca \'reverdece\'</a><br />');
+document.write('En Fanáticos Mexsport La esperanza azteca\'reverdece\' La selección mexicana inició unanueva era con triunfo: Fotos y detallesJuegos perversos del CMBBuscan coronar al \'Canelo\' ÁlvarezOtra cachetada a CR7Messi le ganó la partidaa Cristiano Ronaldo: Mira Próximo');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feedproxy.google.com/~r/Hoy-en-AOL-Latino/~3/9uAw5i9_yU8/" target="_self">Ideas originales para declararte</a><br />');
+document.write('En San Valentín Getty Ideas originalespara declararte Para asegurar un \'sí\', elige el escenario perfecto y...¿Sin pareja?5 tips para corazones en dueloPuro amorFeng Shui para la alcobaPrepara una cena romántica Próximo');
+document.write('</li>');
+document.write('</ul></div>');

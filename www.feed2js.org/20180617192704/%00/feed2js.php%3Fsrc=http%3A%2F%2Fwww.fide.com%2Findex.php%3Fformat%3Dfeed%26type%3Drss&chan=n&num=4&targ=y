@@ -1,0 +1,14 @@
+
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.fide.com/component/content/article/1-fide-news/10975-world-junior-u20-chess-championship-2018.html" target="_blank">World Junior U20 Chess Championship 2018</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.fide.com/component/content/article/1-fide-news/10959-2018-batumi-chess-olympiad-principals.html" target="_blank">2018 Batumi Chess Olympiad Principals</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.fide.com/component/content/article/1-fide-news/10958-cas-dismisses-appeal-of-im-fernando-braga.html" target="_blank">CAS dismisses appeal of IM Fernando Braga</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.fide.com/component/content/article/1-fide-news/10950-bidding-opens-to-host-the-2020-world-chess-candidates-tournament-.html" target="_blank">Bidding opens to Host the 2020 World Chess Candidates Tournament</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

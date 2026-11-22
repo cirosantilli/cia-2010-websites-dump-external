@@ -1,0 +1,175 @@
+//YBot Start
+
+//YBot End
+
+// CRITEO Start
+
+  if (!window.criteoInit){
+    var crtg_nid="1806";
+    var crtg_cookiename="cto_invest";
+    var crtg_varname="strICCriteoKvals";
+    function crtg_getCookie(c_name){
+      var i,x,y,ARRCookies=document.cookie.split(";");
+      for(i=0; i < ARRCookies.length; i++){
+        x=ARRCookies[i].substr(0,ARRCookies[i].indexOf("="));
+        y=ARRCookies[i].substr(ARRCookies[i].indexOf("=")+1);
+        x=x.replace(/^\s+|\s+$/g,"");
+        if(x==c_name){
+          return unescape(y);
+        }
+      }
+      return'';
+    }
+    strICCriteoKvals = crtg_getCookie(crtg_cookiename);
+    var crtg_rnd=Math.floor(Math.random()*99999999999);
+    var crtg_url=location.protocol+'//rtax.criteo.com/delivery/rta/rta.js?netId='+escape(crtg_nid);
+    crtg_url+='&cookieName='+escape(crtg_cookiename);
+    crtg_url+='&rnd='+crtg_rnd;
+    crtg_url+='&varName=' + escape(crtg_varname);
+    var crtg_script=document.createElement('script');
+    crtg_script.type='text/javascript';
+    crtg_script.src=crtg_url;
+    crtg_script.async=true;
+    if(document.getElementsByTagName("head").length>0)
+      {document.getElementsByTagName("head")[0].appendChild(crtg_script);}
+    else if(document.getElementsByTagName("body").length>0)
+      {document.getElementsByTagName("body")[0].appendChild(crtg_script);}
+    window.criteoInit = 1;
+  }
+
+// CRITEO End
+
+
+  //postScribe Start. This will override document.write even writes even after the page is completely loaded.
+  if(!window.postScribeInIt) {
+    var psscript = document.createElement('script');
+    psscript.src = "http://cdn.investingchannel.com/ic_htmlParser.min.js";
+    var pssib = document.getElementsByTagName('script')[0];
+    pssib.parentNode.insertBefore(psscript, pssib);
+    var psscript2 = document.createElement('script');
+    psscript2.src = "http://cdn.investingchannel.com/ic_postscribe.min.js";
+    var pssib2 = document.getElementsByTagName('script')[0];
+    pssib2.parentNode.insertBefore(psscript2, pssib2);
+
+    if(document.getElementsByTagName("head").length>0)
+      {document.getElementsByTagName("head")[0].appendChild(psscript);
+      document.getElementsByTagName("head")[0].appendChild(psscript2);}
+    else if(document.getElementsByTagName("body").length>0)
+      {document.getElementsByTagName("body")[0].appendChild(psscript);
+      document.getElementsByTagName("body")[0].appendChild(psscript2);}
+    var postScribeInIt = 1;
+  }
+  //postScribe End
+
+  var icRandomNumber = Math.round(Math.random() * 100000000000000);
+  var infocusAdtagLogParams = "sanebull" + "/" + "quotepages" + ";;sz=120x60" + ";kval=content_ad" + ";rnd="+icRandomNumber+";atype=pi;";
+  document.write('<img src="http://ads.investingchannel.com/adtags/log_dart_url?url=' + escape(infocusAdtagLogParams) + '" height="1" width="1" border="0" style="display:none;height:1px;width:1px;border:none;"/>');
+
+  function icClientWindowWidth() {
+    var icWindowWidth = 0;
+    if( typeof( window.innerWidth ) == 'number' ) {
+      //Non-IE
+      icWindowWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth ) {
+        //IE 6+ in 'standards compliant mode'
+        icWindowWidth = document.documentElement.clientWidth;
+    } else if( document.body && document.body.clientWidth ) {
+        //IE 4 compatible
+        icWindowWidth = document.body.clientWidth;
+    }
+    return icWindowWidth;
+  }
+
+  function icClientWindowHeight() {
+    var icWindowHeight = 0;
+    if( typeof( window.innerHeight ) == 'number' ) {
+      //Non-IE
+      icWindowHeight = window.innerHeight;
+    } else if( document.documentElement && document.documentElement.clientHeight ) {
+      //IE 6+ in 'standards compliant mode'
+      icWindowHeight = document.documentElement.clientHeight;
+    } else if( document.body && document.body.clientHeight ) {
+      //IE 4 compatible
+      icWindowHeight = document.body.clientHeight;
+    }
+    return icWindowHeight;
+  }
+
+  function icElementInViewport(el) {
+    var rect = el.getBoundingClientRect();
+    return (
+      rect.bottom >= 0 &&
+      rect.right >= 0 &&
+      rect.top <= icClientWindowHeight() &&
+      rect.left <= icClientWindowWidth()
+    )
+  }
+
+  function icCreateInFocusAdTag(uniqueSpanId, adsize, adtagurl){
+    var intWidth = adsize.split('x')[0];
+    var intHeight = adsize.split('x')[1];
+    var icAdtagSpan = document.getElementById(uniqueSpanId);
+    postscribe(icAdtagSpan, '<scr' + 'ipt type="text/javascript" src="'+adtagurl+'"></scr' + 'ipt>', inprocess=0);
+  }
+
+  function getAllICAdTagSpans(){
+    var allspans;
+    if(document.getElementsByClassName){
+      allspans = document.getElementsByClassName('icAdtagSpanClass');
+    }
+    else{
+      allspans = document.getElementsByTagName('span')
+    }
+    var adtagspans = [];
+    for (var i=0; i < allspans.length; i++)
+      if(allspans[i].className == 'icAdtagSpanClass')
+    adtagspans.push(allspans[i])
+    return adtagspans;
+  }
+
+  function icDisplayAdsInViewPort(){
+    if(document.readyState != "complete")
+      return;
+    var arrSpans = getAllICAdTagSpans();
+    for(i=0; i < arrSpans.length; i++){
+      strSpan = arrSpans[i];
+      if(icElementInViewport(strSpan)){
+        icCreateInFocusAdTag(strSpan.id, strSpan.getAttribute("adsize"), strSpan.getAttribute("adtagparams"));
+        strSpan.className = "adDelivered";
+      }
+    }
+  }
+
+  function addEvent(obj, evt, fn, capture) {
+    if ( window.attachEvent ) {
+      obj.attachEvent("on" + evt, fn);
+    }
+    else {
+      if ( !capture ) capture = false; // capture
+      obj.addEventListener(evt, fn, capture)
+    }
+  }
+
+  if(!icAdCount) var icAdCount = 0;
+  icAdCount++;
+
+  if(icAdCount == 1)
+  {
+    addEvent(window, "load", function(){
+      icDisplayAdsInViewPort();
+    });
+    addEvent(window, "scroll", function(){
+      icDisplayAdsInViewPort();
+    });
+    addEvent(window, "resize", function(){
+      icDisplayAdsInViewPort();
+    });
+  }
+
+  var icUniqueSpanId = "ic_adtag"+icAdCount;
+  var icAdtagUrlForJs = 'http://ads.investingchannel.com/adtags/sanebull/quotepages/120x60.jsx?&kval=content_ad&atype=si&rnd='+icRandomNumber;
+  var icAdsizeWidth = "120x60".split('x')[0]
+  var icAdsizeHeight = "120x60".split('x')[1]
+  var icSpanStyle = 'width:'+icAdsizeWidth+'px;height:'+icAdsizeHeight+'px';
+
+  document.write('<span id="'+icUniqueSpanId+'" class="icAdtagSpanClass" style="'+icSpanStyle+'" adsize="120x60" adtagparams="'+icAdtagUrlForJs+'"></span>');

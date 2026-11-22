@@ -1,0 +1,7 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.economist.com/daily/chartgallery/displaystory.cfm?story_id=17295600&fsrc=rss" target="_blank">Pad tie</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

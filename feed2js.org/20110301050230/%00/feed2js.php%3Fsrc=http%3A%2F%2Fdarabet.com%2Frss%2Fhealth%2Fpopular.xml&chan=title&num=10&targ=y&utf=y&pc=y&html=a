@@ -1,0 +1,12 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<p class="rss-title"><a class="rss-title" href="http://darabet.com" target="_blank">ضربت.كوم - صحة - الأخبار الشائعة</a></p>');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://darabet.com/health/1340099" target="_blank">منتديات عالم حواء</a><br />');
+document.write('منتديات عالم حواء خاص في النساء فقط مستلمزمات يحتاجها البنات ,');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://darabet.com/health/1339049" target="_blank">فوائد الثوم</a><br />');
+document.write('لثوم نبات عشبي موطنه الأصلي في بلاد البحر الأبيض المتوسط ومنها انتشر إلى بقية البلاد و يعتبر الثوم من أقدم النباتات التي عرفت في مصر حيث وجد منقوشا على جدران معابد الفراعنة .ويزرع على فترتين من العام..الأولى من منتصف شهر إيلول, سبتمبر إلى أواخر تـشرين الأول , أكتوبر، والثانية من تشرين الأول, أكتوبر وحتى نهاية تـشرين الثاني, نوفمبر وتقول قصص مصرية باللغة الهيروغليفية إن الثوم كان يعطى للعمال الذين يبنون الأهرام لتقويتهم والمحافظة على صحتهم وكان الرياضيون الإغريقيون في اليونان القديمة يأكلون ثوما');
+document.write('</li>');
+document.write('</ul></div>');

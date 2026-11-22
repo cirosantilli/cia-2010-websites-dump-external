@@ -1,0 +1,17 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://rss.cnn.com/~r/rss/money_markets/~3/EVSJz0eMAm4/index.htm" target="_blank">Bank stocks drag markets lower</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://rss.cnn.com/~r/rss/money_markets/~3/FsLnTTUHKD0/index.htm" target="_blank">Stocks stall ahead of December jobs report</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://rss.cnn.com/~r/rss/money_markets/~3/kuLHK-DbbUs/index.htm" target="_blank">Dow climbs again in 3-day winning streak</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://rss.cnn.com/~r/rss/money_markets/~3/yPl1iNwmH9U/index.htm" target="_blank">After rocky day, stocks end mixed</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://rss.cnn.com/~r/rss/money_markets/~3/-bVaseWqQWo/index.htm" target="_blank">Stock outlook for 2011: Recovery rally will continue</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://rss.cnn.com/~r/rss/money_markets/~3/5AGijigganQ/index.htm" target="_blank">Stocks off to a rockin\' start in 2011</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

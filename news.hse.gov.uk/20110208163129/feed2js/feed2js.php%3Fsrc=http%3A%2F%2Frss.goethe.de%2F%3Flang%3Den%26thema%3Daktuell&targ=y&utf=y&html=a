@@ -1,0 +1,20 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.goethe.de/kue/bku/nac/en7165142.htm" title="A year before Gerhard Richter’s 80th birthday, the Bucerius Kunst Forum in Hamburg presents 50 of the artist’s works from German and international collections......." target="_blank">Gerhard Richter – Images of an Epoch</a><br />');
+document.write('<table align=\"left\" valign=\"top\" ><tr><td><IMG ALT=\"\" SRC=\"http://www.goethe.de/mmo/priv/7165184-STANDARD.jpg\"  width=\"100px\"></IMG></td></tr></table>A year before Gerhard Richter’s 80th birthday, the Bucerius Kunst Forum in Hamburg presents 50 of the artist’s works from German and international collections....');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.goethe.de/kue/tut/nac/en7152779.htm" title="50 years ago, John Cranko took up his position as ballet director in Stuttgart. The Stuttgart Ballet is now celebrating this anniversary with festival weeks......." target="_blank">50 Year Anniversary Festival for John Cranko at the Stuttgart Ballet (02/05/2011)</a><br />');
+document.write('<table align=\"left\" valign=\"top\" ><tr><td><IMG ALT=\"\" SRC=\"http://www.goethe.de/mmo/priv/7152805-STANDARD.jpg\"  width=\"100px\"></IMG></td></tr></table>50 years ago, John Cranko took up his position as ballet director in Stuttgart. The Stuttgart Ballet is now celebrating this anniversary with festival weeks....');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.goethe.de/kue/arc/nac/en7147692.htm" title="Photographs on the theme of contemporary architecture can still be seen in Berlin through 5 March 2011......." target="_blank">Contemporary Architecture – Photograph Exhibition in Berlin (02/04/2011)</a><br />');
+document.write('<table align=\"left\" valign=\"top\" ><tr><td><IMG ALT=\"\" SRC=\"http://www.goethe.de/mmo/priv/7148060-STANDARD.jpg\"  width=\"100px\"></IMG></td></tr></table>Photographs on the theme of contemporary architecture can still be seen in Berlin through 5 March 2011....');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.goethe.de/kue/tut/nac/en7142412.htm" title="An exhibition through 1 May 2011 in Hannover’s Sprengel Museum presents the development of portrayals of dance in the period from 1900 into the 1930’s. ......" target="_blank">“Without Ecstasy, No Dance!” – An Exhibition in Hannover (02/03/2011)</a><br />');
+document.write('<table align=\"left\" valign=\"top\" ><tr><td><IMG ALT=\"\" SRC=\"http://www.goethe.de/mmo/priv/7142512-STANDARD.jpg\"  width=\"100px\"></IMG></td></tr></table>An exhibition through 1 May 2011 in Hannover’s Sprengel Museum presents the development of portrayals of dance in the period from 1900 into the 1930’s. ...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.goethe.de/kue/arc/nac/en7131547.htm" title="For their reconstruction of the New Museum on Berlin’s Museum Island, David Chipperfield’s architecture firm has been awarded the 2010 prize for architecture......." target="_blank">Architecture-Prize for Chipperfield – Exhibition in Frankfurt (02/01/2011)</a><br />');
+document.write('<table align=\"left\" valign=\"top\" ><tr><td><IMG ALT=\"\" SRC=\"http://www.goethe.de/mmo/priv/7132058-STANDARD.jpg\"  width=\"100px\"></IMG></td></tr></table>For their reconstruction of the New Museum on Berlin’s Museum Island, David Chipperfield’s architecture firm has been awarded the 2010 prize for architecture....');
+document.write('</li>');
+document.write('</ul></div>');

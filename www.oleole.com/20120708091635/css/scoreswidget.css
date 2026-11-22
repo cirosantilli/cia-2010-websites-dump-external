@@ -1,0 +1,116 @@
+.widgetbox_sco {
+  width:150px;
+  text-align:center;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.widgetbox_sco table {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+.widgetbox_sco .widget_score_switch {
+	width:150px;
+	font-size: 10px;
+	padding: 5px 0;
+	margin: 0;
+	border-bottom: 1px solid #333;
+	color: #FFF;
+	background: transparent url(/images/widget_header_150_flat.gif) no-repeat top;
+	text-align:center;
+}
+.widgetbox_sco .widget_score_switch a:link,
+.widgetbox_sco .widget_score_switch a:visited {
+	color: #FFF;
+}
+.widgetbox_sco h3 {
+	margin: 0;
+	border-top: 1px solid #444;
+	border-bottom: 1px solid #222;
+	color: #FFF;
+	font-size: 12px;
+	background: transparent url(/images/widget_header_team.gif) no-repeat top;
+	text-align:center;
+}
+.widgetbox_sco_inner {
+  border: 1px solid #333;
+	text-align:center;
+  
+}
+.widget_sco_leaguename {
+	padding: 2px 5px 3px;
+	font-size: 10px; 
+	font-weight: normal;
+	color: #333;
+	border-top: 1px solid #B3A064;
+	border-bottom: 1px solid #B3A064;
+	background-color: #D4CAA9;
+}
+.widget_sco_leaguename a:link,
+.widget_sco_leaguename a:visited {
+	color: #333;
+	text-decoration: none;
+}
+.widget_sco_leaguename a:hover {
+	color: #F30;
+}
+.widgetbox_sco h4 {
+ width:100%;
+ background:#e1e1e1;
+  font-size:11px;
+ font-weight:bold;
+ color:#333;
+ margin:2px 0 0;
+ background:#e1e1e1;
+}
+.widgetbox_sco h1 {
+ font-size:11px;
+ font-weight:bold;
+ color:#fff;
+ margin:2px 0 0;
+ background:#333;
+}
+.widgetbox_sco h1 a:link, .widgetbox_sco h1 a:visited {
+ text-decoration: none;
+ color:#fff;
+}
+.widgetbox_sco_inner .scoresleague {
+	padding: 0 0 5px;
+	background: #FFF url(/images/widget_table_bg.gif) repeat-x bottom;
+	margin: 0;
+	border-bottom: 1px solid #CCC;
+}
+.widgetbox_sco_inner .scoresleague p {
+	font-size: 11px;
+	margin: 0;
+}
+.widgetbox_sco_inner .scoresleague .widget_sco_date {
+	border-bottom: 1px dotted #CCC;
+	padding: 2px 5px;
+	margin-bottom: 2px;
+}
+.widgetbox_sco_inner .scoresleague .widget_sco_match {
+	color: #F30;
+	padding: 2px 5px;
+}
+.widgetbox_sco_inner .scoresleague .widget_sco_match a:link,
+.widgetbox_sco_inner .scoresleague .widget_sco_match a:visited {
+	color: #069;
+	text-decoration: none;
+ font-weight: normal;
+}
+.widgetbox_sco_inner .scoresleague .widget_sco_match a:hover {
+	color: #999;
+}
+.widgetbox_sco h5 {
+	font-size:11px;
+	font-weight:bold;
+	color:#fff;
+	margin: 0;
+	background:transparent url(/images/widget_bottom_150.gif) no-repeat bottom;
+	padding: 2px 0 3px;
+	text-align:center;
+}
+.widgetbox_sco h5 a:link, .widgetbox_sco h5 a:visited {
+	text-decoration: none;
+	color:#fff;
+}

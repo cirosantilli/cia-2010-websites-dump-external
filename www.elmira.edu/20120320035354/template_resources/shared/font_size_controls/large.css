@@ -1,0 +1,9 @@
+.maincontent, .maincontent td	{
+	font-size:	large !important;
+	voice-family:	"\"}\"";
+	voice-family:	inherit;
+}
+
+html>.maincontent, html>.maincontent td	{
+	font-size:	x-large !important;
+}

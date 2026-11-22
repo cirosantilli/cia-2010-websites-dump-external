@@ -1,0 +1,20 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.bbc.co.uk/go/rss/-/sport1/hi/football/teams/l/liverpool/9380322.stm" target="_blank">Suarez suffers from \'fiery\' temperament</a><br />');
+document.write('South American football expert Tim Vickery tells Radio 5 live\'s Colin Murray that Luis Suarez will complement Fernando Torres\'s style of play if he signs an agreed £23m deal with Liverpool, but the Uruguayan has a \'fiery\" temperament.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.bbc.co.uk/go/rss/-/sport1/hi/football/9380052.stm" target="_blank">Ancelotti respects Liverpool on Torres</a><br />');
+document.write('Chelsea manager Carlo Ancelotti refuses to be drawn on speculation surrounding Fernando Torres as Liverpool reject an offer from the London club for the Spanish striker.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.bbc.co.uk/go/rss/-/sport1/hi/football/9379419.stm" target="_blank">Sexism row has helped women\'s football - Powell</a><br />');
+document.write('England women\'s football coach Hope Powell says the furore over the sexist remarks by Andy Gray and Richard Keys have actually helped the women\'s game.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.bbc.co.uk/go/rss/-/sport1/hi/football/teams/w/west_ham_utd/9380247.stm" target="_blank">Gold confident on Olympic stadium</a><br />');
+document.write('West Ham joint-chairman David Gold says his club are best placed to take over the Olympic stadium after London 2012 and believes that manager Avram Grant is the right man to lead the Hammers through their relegation battle.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.bbc.co.uk/go/rss/-/sport1/hi/football/teams/m/man_utd/9373808.stm" target="_blank">Terrific fightback pleases Phelan</a><br />');
+document.write('Manchester United assistant manager Mike Phelan praises the resilience of his side after they fought back from two-goals down to beat Blackpool 3-2 at Bloomfield Road.');
+document.write('</li>');
+document.write('</ul></div>');

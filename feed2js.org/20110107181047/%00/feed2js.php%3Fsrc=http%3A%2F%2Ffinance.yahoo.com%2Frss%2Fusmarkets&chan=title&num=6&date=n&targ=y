@@ -1,0 +1,18 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<p class="rss-title"><a class="rss-title" href="http://finance.yahoo.com/news/category-stocks" target="_blank">Yahoo! Finance: Stocks News</a></p>');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://us.rd.yahoo.com/finance/external/wsj/SIG=12isvo9tk/*http%3A//online.wsj.com/article/SB10001424052748704739504576067382362177032.html?ru=yahoo&mod=yahoo_hs" target="_blank">Stocks Fall After Jobs Data, Bank Ruling</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://finance.yahoo.com/news/Sector-Snap-Nursing-home-apf-3644396081.html?x=0" target="_blank">Sector Snap: Nursing home operators</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.reuters.com/article/idUSWEN523220110107?feedType=RSS&feedName=hotStocksNews&rpc=43" target="_blank">U.S. crude turns lower on dollar rise, equity dip</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://us.rd.yahoo.com/finance/external/wsj/SIG=12iocmh2j/*http%3A//online.wsj.com/article/SB10001424052748704739504576067553569434650.html?ru=yahoo&mod=yahoo_hs" target="_blank">[$$] Treasury Prices Gain as Stocks Slip</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://us.rd.yahoo.com/finance/external/cnbc/SIG=1132r1lts/*http%3A//www.cnbc.com/id/40963726?__source=yahoo%7Cheadline%7Cquote%7Ctext%7C&par=yahoo" target="_blank">Stocks Sink as Banks Slide; Boeing Gains</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://finance.yahoo.com/news/Wall-Street-falls-as-ruling-rb-3786079438.html?x=0" target="_blank">Wall Street falls as ruling hurts bank shares</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

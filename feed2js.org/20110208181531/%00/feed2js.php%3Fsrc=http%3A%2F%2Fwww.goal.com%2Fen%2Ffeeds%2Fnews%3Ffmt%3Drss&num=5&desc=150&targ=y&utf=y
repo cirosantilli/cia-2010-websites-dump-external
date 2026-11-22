@@ -1,0 +1,20 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.goal.com/en/news/1716/champions-league/2011/02/08/2343639/barcelonas-david-villa-arsenal-are-a-great-team" target="_blank">Barcelona\'s David Villa: Arsenal Are A Great Team</a><br />');
+document.write('David Villa has warned Barcelona about Arsenal\'s threat......');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.goal.com/en/news/1056/copa-libertadores/2011/02/08/2341951/copa-libertadores-special-whos-who-in-the-group-stage" target="_blank">Copa Libertadores Special: Who\'s Who In The Group Stage</a><br />');
+document.write('Thirty-two teams will fight for the chance to reach the knockout round in the Copa Libertadores group stages. Daniel Edwards profiles the teams and pl...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.goal.com/en/news/10/italy/2011/02/08/2343618/alessandro-nesta-back-in-training-for-milan" target="_blank">Alessandro Nesta Back In Training For Milan</a><br />');
+document.write('Nesta has gone through a full training session and should be ready to face Spurs....');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.goal.com/en/news/468/internationals/2011/02/08/2343616/denmark-coach-morten-olsen-a-winter-break-would-benefit" target="_blank">Denmark Coach Morten Olsen: A Winter Break Would Benefit English Football</a><br />');
+document.write('Denmark coach Morten Olsen has voiced his opinion that a winter break would benefit English football....');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.goal.com/en/news/12/spain/2011/02/08/2343529/atletico-madrids-diego-godin-the-europa-league-is-now-our" target="_blank">Atletico Madrid\'s Diego Godin: The Europa League Is Now Our Realistic Target</a><br />');
+document.write('Atletico Madrid defender Diego Godin believes qualification for the Europa League is now a more realistic target this season......');
+document.write('</li>');
+document.write('</ul></div>');

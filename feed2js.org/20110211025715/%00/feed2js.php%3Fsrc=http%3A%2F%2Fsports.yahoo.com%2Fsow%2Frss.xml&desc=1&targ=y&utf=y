@@ -1,0 +1,26 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://us.rd.yahoo.com/sports/rss/sow/SIG=12a8ndh4a/*http%3A//sports.yahoo.com/sow/news?slug=goal-barcelonasvictorvaldesicant" target="_blank">Barcelona\'s Victor Valdes: I Can\'t Imagine Cesc Fabregas Joining Real Madrid (Goal.com)</a><br />');
+document.write('Barcelona goalkeeper Victor Valdes says Cesc Fabregas will never join Real Madrid.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://us.rd.yahoo.com/sports/rss/sow/SIG=12af0basa/*http%3A//sports.yahoo.com/sow/news?slug=goal-johancruyfftorejoinajaxinad" target="_blank">Johan Cruyff To Rejoin Ajax In Advisory Role (Goal.com)</a><br />');
+document.write('Johan Cruyff is set to return to Ajax in advisory role, with a focus on improving the club\'s youth academy.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://us.rd.yahoo.com/sports/rss/sow/SIG=11v2inoh0/*http%3A//sports.yahoo.com/sow/news?slug=ap-secondchanceplayer" target="_blank">After jail, a 2nd chance to rebuild football dream (AP)</a><br />');
+document.write('Mara Kante saw his football dreams crushed when he was convicted of carrying a weapon during riots outside Paris in 2007. Now the young Frenchman who trained with clubs in England and Italy is getting a second chance. The powerful left back is trying to rebuild his career, playing with fourth-division club Louhans-Cuiseaux for next to nothing.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://us.rd.yahoo.com/sports/rss/sow/SIG=11rl6pndu/*http%3A//sports.yahoo.com/sow/news?slug=ap-uswomensroster" target="_blank">Wambach returns for Algarve Cup (AP)</a><br />');
+document.write('Star forward Abby Wambach will return to the U.S. women\'s team in preparation for the prestigious Algarve Cup in Portugal. Coach Pia Sundhage chose 24 players Thursday who will train for one week in Fort Lauderdale, Fla. Wambach is back from a heel injury that forced her to miss January\'s Four Nations Tournament in China, which the Americans won.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://us.rd.yahoo.com/sports/rss/sow/SIG=12a3ib0uf/*http%3A//sports.yahoo.com/sow/news?slug=goal-realmadridcoachjosemourinho" target="_blank">Real Madrid Coach Jose Mourinho: I Feel No Champions League Pressure (Goal.com)</a><br />');
+document.write('Mourinho is looking forward to European action with Real Madrid.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://us.rd.yahoo.com/sports/rss/sow/SIG=11nijo2j1/*http%3A//sports.yahoo.com/sow/news?slug=reu-italybari" target="_blank">Rock bottom Bari replace coach Ventura with Mutti (Reuters)</a><br />');
+document.write('Serie A basement side Bari appointed veteran coach Bortolo Mutti to succeed Giampiero Ventura on Thursday in a last-ditch bid to avoid relegation.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://us.rd.yahoo.com/sports/rss/sow/SIG=125m2i4v1/*http%3A//sports.yahoo.com/sow/news?slug=ap-robertocarlos-fanthreats" target="_blank">Roberto Carlos threatened by fans for defeat (AP)</a><br />');
+document.write('Veteran left back Roberto Carlos may leave Brazilian football because Corinthians fans have been threatening his family. Roberto Carlos told the Lancenet website on Thursday he has been receiving threatening phone calls and people have been following him on the streets ever since the popular Brazilian club was eliminated from the Copa Libertadores last week.');
+document.write('</li>');
+document.write('</ul></div>');

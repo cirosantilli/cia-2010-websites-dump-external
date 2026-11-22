@@ -1,0 +1,25 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNEpmaX9x6DptaJj5ThcCrcAiOJFew&url=http://www.bbc.co.uk/go/rss/int/news/-/news/world-middle-east-12394941" target="_self">Egypt protests: Hosni Mubarak\'s concessions rejected - BBC News</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNGkjFXXkRufjkG_Ip2U-0U66wnisg&url=http://www.google.com/hostednews/ap/article/ALeqM5g-fkRSr2t_1GTjVdJyrU6fZEGhsg?docId%3Dbea2225a54794a4dbd7eeec4d3247acb" target="_self">Obama to call for $53B for high-speed rail - The Associated Press</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNEX0Cy0aPGGrphviNhsgNXcHTf_EA&url=http://www.washingtonpost.com/wp-dyn/content/article/2011/02/08/AR2011020803176.html?hpid%3Dtopnews" target="_self">Obama to propose relief for states overburdened by debt - Washington Post</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNGNGtF46kANwr6CXtA6tthVAdpV8g&url=http://online.wsj.com/article/SB10001424052748704364004576132230334238742.html?mod%3Dgooglenews_wsj" target="_self">Senate Democrats Target Oil, Gas Tax Breaks - Wall Street Journal</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNHk1a5mWT8tX_hhzKft4lh5Ja3gkQ&url=http://www.nytimes.com/2011/02/08/world/africa/08sudan.html?src%3Dtwrhp" target="_self">Sudan Leader to Accept Secession of South - New York Times</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNFLj4unv4DNwmjTrQmKc452KJxerA&url=http://laist.com/2011/02/08/no_cluckin_way_man_stabbed_to_death.php" target="_self">No Cluckin\' WAY! Man Stabbed To Death By Rooster At Cockfight - LAist</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNFn52xsyyF0FccP778EsU9xIfgmdQ&url=http://www.washingtonpost.com/wp-dyn/content/article/2011/02/07/AR2011020706187.html" target="_self">Obama says businesses must hire, invest to grow economy - Washington Post</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNFanQqlhvx_2lu52fkT48YSYRLGmQ&url=http://newsfeed.time.com/2011/02/08/courtroom-conflict-julian-assanges-prosector-accused-of-anti-men-bias/" target="_self">Courtroom Conflict: Julian Assange\'s Prosector Accused of Anti-Men Bias - TIME</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNHuTCo9Gtgx8cGLIEjxCm6NF7yXag&url=http://www.politico.com/news/stories/0211/48984.html" target="_self">Rep. Jane Harman to resign from House - Politico</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNF4bWWjMbkA1u-bVpS5UT3ShCfJYw&url=http://content.usatoday.com/communities/technologylive/post/2011/02/lots-of-phone-deals-ahead-of-verizon-iphone-sale-push/1" target="_self">Lots of phone deals ahead of Verizon iPhone sales push - USA Today</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

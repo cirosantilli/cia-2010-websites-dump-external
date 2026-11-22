@@ -1,0 +1,20 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.rottentomatoes.com/m/i_am_number_four/" target="_blank">I Am Number Four</a><br />');
+document.write('Three are dead. He is Number Four. D.J. Caruso (\"Eagle Eye,\" \"Disturbia\") helms an action-packed thriller about an extraordinary young man, John Smith (Alex Pettyfer), who is a fugitive on the run from ruthless enemies sent to destroy him. Changing...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.rottentomatoes.com/m/unknown_white_male/" target="_blank">Unknown</a><br />');
+document.write('Dr. Martin Harris (Liam Neeson) awakens after a car accident in Berlin to discover that his wife (January Jones) suddenly doesn\'t recognize him and another man (Aidan Quinn) has assumed his identity. Ignored by disbelieving authorities and hunted by...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.rottentomatoes.com/m/big_mommas_like_father_like_son_2011/" target="_blank">Big Mommas: Like Father, Like Son</a><br />');
+document.write('Big Momma is back - and this time he has big backup: his teenage stepson Trent (Brendan T. Jackson). Martin Lawrence returns as FBI agent Malcolm Turner and as Turner\'s deep-cover alter-ego Big Momma. Turner is joined by Trent, as they go undercover...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.rottentomatoes.com/m/shelter/" target="_blank">Shelter</a><br />');
+document.write('A female psychiatrist comes to some discoveries in her latest case that puts her and her daughter in grave danger.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.rottentomatoes.com/m/drive-angry/" target="_blank">Drive Angry</a><br />');
+document.write('A vengeful father chases after the men who killed his daughter.');
+document.write('</li>');
+document.write('</ul></div>');

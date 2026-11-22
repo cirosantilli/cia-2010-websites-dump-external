@@ -1,0 +1,7 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/business/2011/02/110208_egypt_bank.shtml" target="_self">البنك المركزي المصري يتدخل في سوق الصرف لدعم الجنيه</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

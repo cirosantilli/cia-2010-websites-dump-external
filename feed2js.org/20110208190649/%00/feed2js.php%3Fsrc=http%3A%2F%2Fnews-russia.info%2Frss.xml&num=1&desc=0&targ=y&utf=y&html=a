@@ -1,0 +1,8 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news-russia.info/community/4223-snimki-pjanykh-sotrudnikov-dps-dokazatelstvom-ne-javljajutsja.html" target="_blank">Снимки пьяных сотрудников ДПС доказательством не являются</a><br />');
+document.write('<img src=\"http://news-russia.info/uploads/posts/2011-02/1297154962_1347871_20110208104904.jpg\" align=\"left\" style=\"border: none;\" alt=\'Снимки пьяных сотрудников ДПС доказательством не являются\' title=\'Снимки пьяных сотрудников ДПС доказательством не являются\' />Прокуратура Забайкальского края обеспокоилась появлением в сети Интернет снимков пьяных сотрудников ДПС. На фото, пьяные милиционеры пытаются совладать с законами земного притяжения, попутно мочась на парадное жилого дома. Автора «неприглядных картинок» со стражами порядка уже вызвали для дачи показаний.');
+document.write('</li>');
+document.write('</ul></div>');

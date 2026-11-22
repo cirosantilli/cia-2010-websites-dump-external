@@ -1,0 +1,524 @@
+
+.qmmt_main
+{
+    background-color: #ffffff;
+    border: 1px solid #999999;
+}
+.qmmt_tab
+{
+    font: 10px Tahoma, Arial, Helvetica, sans-serif;
+	 font-weight: bold;
+    color: #000000;
+    background-color: #dddddd;
+    padding: 1px;
+    padding-left: 2px;
+    padding-right: 2px;
+    text-align: center;
+    border-left: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+    border-top: 1px solid #999999;
+    cursor: pointer;
+    voice-family: "\"}\"";
+    voice-family:inherit;
+}
+.qmmt_tabactive
+{
+    font: 10px Tahoma, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 1px;
+    padding-left: 2px;
+    padding-right: 2px;
+    text-align: center;
+    border-left: 1px solid #999999;
+	cursor: pointer;
+    voice-family: "\"}\"";
+    voice-family:inherit;
+}
+
+.qmmt_realtime_text
+{
+    font: 9px Tahoma, Arial, Helvetica, sans-serif;
+    color: #008000;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+.qmmt_nonrt_text
+{
+    font: 9px Tahoma, Arial, Helvetica, sans-serif;
+    color: #465665;
+    font-weight: bold;
+    font-style: italic;
+}
+.qmmt_messages {
+   background-color: #FFCCCC;
+   font: 10px bold Tahoma, Arial, Helvetica, sans-serif;
+   color: #000000;
+   padding: 2px 0px 2px 0px;
+}
+.qmmt_text
+{
+    font: 10px Tahoma, Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.qmmt_text_bold
+{
+    font: 10px Tahoma, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #000000;
+}
+.qmmt_text_up
+{
+    color: #009900;
+}
+.qmmt_text_down
+{
+    color: #ff0000;
+}
+
+.qmmt_text, .qmmt_text_up, .qmmt_text_down { padding-left: 4px;}
+
+.qmmt_cycle
+{
+    background-color: #eeeeee;
+}
+
+.qmmt_cycleup
+{
+    background-color: #eeffee;
+    color: #000000;
+}
+.qmmt_cycledown
+{
+    background-color: #ffeeee;
+    color: #000000;
+}
+.qmmt_header_text
+{
+    font: 11px Tahoma, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #000000;
+    text-align: left;
+    padding-left: 3px;
+}
+a.qmmt_header_text {
+    color: #0000aa;
+    text-decoration: none;
+}
+a:visited.qmmt_header_text {
+    color: #0000aa;
+    text-decoration: none;
+}
+a:hover.qmmt_header_text {
+    color: #ff0000;
+    text-decoration: none;
+}
+.qmmt_header_bar
+{
+    background-color: #dddddd;
+    border: 0px solid #999999;
+    padding-left: 3px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    text-align: left;
+}
+.qmmt_sub_header_text
+{
+    font: 11px Tahoma, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #000000;
+    text-align: left;
+}
+.qmmt_sub_header_bar
+{
+    background-color: #dddddd;
+    border: 0px solid #999999;
+    padding-left: 3px;
+    text-align: left;
+}
+.qmmt_input
+{
+    font: 10px Tahoma, Arial, Helvetica, sans-serif;
+}
+a.qmmt {
+    color: #0000aa;
+    text-decoration: none;
+}
+a:visited.qmmt {
+    color: #0000aa;
+    text-decoration: none;
+}
+a:hover.qmmt {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+.qmmt_options_in_money {
+  background-color: #FFFFCC;
+  font: 10px Tahoma, Arial, Helvetica, sans-serif;
+  color: #000000;
+}
+
+/* CSS for Tools using Tree Menu/View */
+.qmmt_tree {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	white-space: nowrap;
+}
+.qmmt_tree img {
+	border: 0px;
+	vertical-align: middle;
+}
+.qmmt_tree a {
+	color: #000000;
+	text-decoration: none;
+}
+.qmmt_tree a.node, .qmmt_tree a.nodeSel {
+	white-space: nowrap;
+	padding: 1px 2px 1px 2px;
+}
+.qmmt_tree a.node:hover, .qmmt_tree a.nodeSel:hover {
+	color: #0000aa;
+	text-decoration: underline;
+}
+.qmmt_tree a.nodeSel {
+	background-color: #dddddd;
+}
+.qmmt_tree .clip {
+	overflow: hidden;
+}
+
+.qmmt_hovertext
+{
+	position:absolute;
+	width:210px;
+	border-top:1px solid #cccccc;
+	border-left:1px solid #cccccc;
+	border-right:1px solid #000000;
+	border-bottom:1px solid #000000;
+	background-color:#eeeeee;
+	padding:3px;
+	display:none;
+	font:normal 10px Tahoma, Arial, Helvetica, sans-serif;
+	text-align:left;
+	z-index:100;
+}
+
+.qmmt_hoverword
+{
+	text-decoration:underline;
+	cursor:pointer;
+	z-index:101;
+}
+
+
+/* No Need to really edit this, for Market Depth / Level II row colors */
+/* Level II Cycles */
+.qmmt_L2_cycle1 {
+   font: 10px Tahoma, Arial, Helvetica, sans-serif;
+   background-color:           #FFFEEF;
+   font-weight: normal;
+   color:                      #000000; }
+.qmmt_L2_cycle2 {
+   font: 10px Tahoma, Arial, Helvetica, sans-serif;
+   background-color:           #F0F7DE;
+   font-weight: normal;
+   color:                      #000000; }
+.qmmt_L2_cycle3 {
+	font: 10px Tahoma, Arial, Helvetica, sans-serif;
+    background-color:           #F4F0E8;
+	font-weight: normal;
+    color:                      #000000; }
+.qmmt_L2_cycle4 {
+	font: 10px Tahoma, Arial, Helvetica, sans-serif;
+    background-color:           #E0E0F7;
+	font-weight: normal;
+    color:                      #000000; }
+.qmmt_L2_cycle5 {
+	font: 10px Tahoma, Arial, Helvetica, sans-serif;
+    background-color:           #F7F7F7;
+	font-weight: normal;
+    color:                      #000000; }
+.qmmt_L2_cycle6 {
+	font: 10px Tahoma, Arial, Helvetica, sans-serif;
+    background-color:           #F5E8E8;
+	font-weight: normal;
+    color:                      #000000; }
+.qmmt_L2_cycle7 {
+	font: 10px Tahoma, Arial, Helvetica, sans-serif;
+    background-color:           #F6EDDA;
+	font-weight: normal;
+    color:                      #000000; }
+.qmmt_L2_cycle8 {
+	font: 10px Tahoma, Arial, Helvetica, sans-serif;
+    background-color:           #DCEAEE;
+	font-weight: normal;
+    color:                      #000000; }
+.qmmt_L2_cycle9 {
+	font: 10px Tahoma, Arial, Helvetica, sans-serif;
+    background-color:           #E9E2F4;
+	font-weight: normal;
+    color:                      #000000; }
+.qmmt_L2_cycle10 {
+	font: 10px Tahoma, Arial, Helvetica, sans-serif;
+    background-color:           #EEF2FA;
+	font-weight: normal;
+    color:                      #000000; }
+.qmmt_L2_cycle11 {
+	font: 10px Tahoma, Arial, Helvetica, sans-serif;
+    background-color:           #E1E2FA;
+	font-weight: normal;
+    color:                      #000000; }
+.qmmt_L2_cycle12 {
+	font: 10px Tahoma, Arial, Helvetica, sans-serif;
+    background-color:           #EEFAE1;
+	font-weight: normal;
+    color:                      #000000; }
+.qmmt_L2_cycle13 {
+	font: 10px Tahoma, Arial, Helvetica, sans-serif;
+    background-color:           #EDFCFB;
+	font-weight: normal;
+    color:                      #000000; }
+.qmmt_L2_cycle14 {
+	font: 10px Tahoma, Arial, Helvetica, sans-serif;
+    background-color:           #FBEBE8;
+	font-weight: normal;
+    color:                      #000000; }
+.qmmt_L2_cycle15 {
+	font: 10px Tahoma, Arial, Helvetica, sans-serif;
+    background-color:           #EDEDED;
+	font-weight: normal;
+    color:                      #000000; }
+.qmmt_L2_cycle16 {
+	font: 10px Tahoma, Arial, Helvetica, sans-serif;
+    background-color:           #F6EDDA;
+	font-weight: normal;
+    color:                      #000000; }
+
+.qmmt_cycleup
+{
+    background-color: #eeffee;
+    font: 10px Tahoma, Arial, Helvetica, sans-serif;
+    color: #000000;
+	font-weight: normal;
+}
+.qmmt_cycledown
+{
+    background-color: #ffeeee;
+    font: 10px Tahoma, Arial, Helvetica, sans-serif;
+    color: #000000;
+	font-weight: normal;
+}
+
+.qmmt_cyclenochange
+{
+    background-color: #ffffff;
+    font: 10px Tahoma, Arial, Helvetica, sans-serif;
+    color: #000000;
+	font-weight: normal;
+}
+
+.qmmt_tooltip 
+{ 
+	background : #ffe; 
+	color : #000; 
+	font: 11px Tahoma, Arial, Helvetica, sans-serif;
+	border: 1px solid #000; 
+	padding : 5px;
+}
+
+.qmmt_date-day, .qmmt_date-month, .qmmt_date-year, .qmmt_news-title, .qmmt_provider, .qmmt_news-summary, .qmmt_summary, .qmmt_provider-label
+{
+    font: 11px Tahoma, Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-weight: normal;
+}
+
+.qmmtOptionHelpHeaderMenuDropDown
+{
+  float: none;
+  z-index: 100;
+  background: #ffffff;
+  position: absolute;
+  width: 300px;
+  text-align: left;
+  border: 1px solid #999999;
+  padding: 2px;			
+}
+
+.qmmtOptionHelpIEPositioning
+{
+	right: 380px;
+}
+
+.qmmtOptionHelpFFPositioning
+{
+	right: 390px;
+}
+
+.qmmt_exchangePopup_bg
+{
+	background-color: #e1e1e1;
+}
+
+.qmmt_recentQuoteContainer { 
+background-color:#fff;
+}
+ 
+ .qmmt_recentQuotesBox{
+ text-align:left; 
+ width:250px; 
+ border:1px solid #cccccc; 
+ padding:5px;
+ margin-top:5px;
+ position:absolute;
+ clear:both;
+ left: 50%;
+ z-index: 150;
+
+ background-color:#fff;
+ }
+ 
+.qmmt_recentQuotesBoxIEPositioning
+{
+	top: 55px;
+}
+
+.qmmt_customIndicesRowResults{
+}
+
+.qmmt_customIndicesRowBg {
+	background-color:#FFF4DB;
+}
+
+.qmmt_movers_go { width : 50px; font-size : 12px; }
+
+.qm-highlight-cell { border: 1px solid transparent; border-width : 1px 0; }
+
+.qm-highlight-row .qm-highlight-cell { border: 1px solid #f00; border-width : 1px 0; }
+
+.qm_miniQuotes_chartScaleTab {display: none;}
+
+.qmmt_miniQuotes_activeRow { }
+
+.qmmt_miniQuotes.headerRow_cell {padding-left:4px; padding-top:5px;}
+
+.qmmt_miniQuotes_headerScale {
+padding-left: 0px;
+}
+
+.qmmt_miniQuotes_dateRow {
+	display:none;	
+}
+
+.qmmt_miniQuotes_headerRow {
+	display:none;	
+}
+
+.qmmt_selectableMarketStats_symbol{
+	text-decoration: none;	
+}
+
+.qmmt_miniQuotes_name{
+	cursor: pointer;
+}
+
+.qmmt_miniQuotes_change{
+	text-align: right; border-top-width: 0px;	
+}
+
+.qmmt_miniQuotes_changePercent{
+	text-align: right; border-top-width: 0px;	
+}
+
+
+.qmmt_sortArrow {
+        display: none;
+}
+.qmmt_headerSortUp .qmmt_sortArrow {
+        background-image:url(/images/qmSortAsc.gif);
+                background-position: 0px 0px;
+                display: none;
+                float: left;
+                text-decoration: none;
+                width: 7px;
+                height: 4px;
+                margin-top: 5px;
+                margin-right: 5px;              
+                overflow: hidden;
+                background-repeat: no-repeat;   
+}
+.qmmt_headerSortDown .qmmt_sortArrow {
+       background-image:url(/images/qmSortDesc.gif);
+                background-position: 0px 0px;
+                display: none;
+                float: left;
+                text-decoration: none;
+                width: 7px;
+                height: 4px;
+                margin-top: 5px;
+                margin-right: 5px;              
+                overflow: hidden;
+                background-repeat: no-repeat;           
+}
+.qmmt_headerContainer {
+        float: right;
+}
+.qmmt_sortHeaderText, .qmmt_scalingStats_name .qmmt_headerContainer,
+.qmmt_scalingStats_symbol .qmmt_headerContainer {
+        float: left;
+}
+
+
+/*.qmmt_headerSortUp {
+	background-image:url(/images/qmSortAsc.gif);
+}
+
+.qmmt_headerSortDown {
+	background-image:url(/images/qmSortDesc.gif);
+}
+
+.qm_sortHeader {
+	background-position:right center;
+  	background-repeat:no-repeat;
+}*/
+
+.qmmt_scalingStats_name {
+	font-weight: bold; text-align: left; padding-left: 3px;text-decoration: underline;
+}
+
+.qmmt_scalingStats_symbol {
+	font-weight: bold; text-align: left; padding-left: 3px;text-decoration: underline;
+}
+
+.qmmt_scalingStats_last {
+	font-weight: bold; text-align: right;text-decoration: underline;
+}
+
+.qmmt_scalingStats_change {
+	font-weight: bold; text-align: right;text-decoration: underline;
+}
+
+.qmmt_scalingStats_percentChange {
+	font-weight: bold; text-align: right;padding-left: 2px;text-decoration: underline;
+}
+
+.qmmt_scalingStats_open {
+	font-weight: bold; text-align: right;text-decoration: underline;
+}
+
+.qmmt_scalingStats_high {
+	font-weight: bold; text-align: right;text-decoration: underline;
+}
+
+.qmmt_scalingStats_low {
+	font-weight: bold; text-align: right;text-decoration: underline;
+}
+
+.qmmt_scalingStats_volume {
+	font-weight: bold; text-align: right; padding-right: 2px;text-decoration: underline;
+}

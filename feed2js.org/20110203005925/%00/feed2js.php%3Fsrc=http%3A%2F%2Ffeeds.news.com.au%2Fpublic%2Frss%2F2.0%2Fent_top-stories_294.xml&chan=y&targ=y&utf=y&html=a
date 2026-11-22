@@ -1,0 +1,21 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<p class="rss-title"><a class="rss-title" href="http://www.news.com.au/entertainment/" target="_blank">NEWS.com.au | Entertainment | Top Stories</a><br /><span class="rss-item">The latest entertainment news from NEWS.com.au</span></p>');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.news.com.au/entertainment/celebrity/first-look-at-sophie-monk039s-massive-ring/story-e6frfmqr-1225999226200?from=public_rss" target="_blank">First look at Sophie Monk\'s massive ring</a><br />');
+document.write('FORMER pop star reveals enormous rock from fiance businessman 20 years her senior.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.news.com.au/entertainment/celebrity/happy-anniversary-it039s-divorce-jordan/story-e6frfmqi-1225999248073?from=public_rss" target="_blank">Happy anniversary, it\'s divorce - Jordan</a><br />');
+document.write('SHE\'S famous for crazy statements, so is it a surprise her divorce is on her first wedding anniversary.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.news.com.au/entertainment/music/the-white-stripes-rock-duo-splitting-up/story-e6frfn09-1225999255140?from=public_rss" target="_blank">The White Stripes rock duo splitting up</a><br />');
+document.write('JACK White and his ex-wife Meg White announced today they were ending their musical collaboration after 14 years together.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.news.com.au/entertainment/movies/roxburgh-talks-sanctum039s-034brutal034-shoot/story-e6frfmvr-1225999241249?from=public_rss" target="_blank">Roxburgh talks Sanctum\'s \"brutal\" shoot</a><br />');
+document.write('SHOOTING James Cameron\'s 3-D underwater thriller was no picnic Richard Roxburgh reveals.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.news.com.au/entertainment/celebrity/inside-the-world-of-a-top-wag/story-e6frfmqr-1225998489645?from=public_rss" target="_blank">Inside the world of a top WAG</a><br />');
+document.write('TERRY Biviano is the first sporting spouse to sign up for a new reality series that will follow the most famous Australian WAGs.');
+document.write('</li>');
+document.write('</ul></div>');

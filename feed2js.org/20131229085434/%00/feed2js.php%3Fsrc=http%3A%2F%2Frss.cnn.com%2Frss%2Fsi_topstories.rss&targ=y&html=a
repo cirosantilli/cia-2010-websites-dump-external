@@ -1,0 +1,36 @@
+
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://sportsillustrated.cnn.com/mma/news/20131229/chris-weidman-tko-anderson-silva-broken-leg-ronda-rousey-meisha-tate/?xid=si_topstories" target="_blank">Chris Weidman TKO overshadowed by gruesome Anderson Silva injury</a><br />');
+document.write('Anderson Silva\'s broken leg overshadowed Chris Weidman and Ronda Rousey retaining their titles.<img src=\"http://feeds.feedburner.com/~r/rss/si_topstories/~4/o1nCYwE1KpI\" height=\"1\" width=\"1\"/>');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://nfl.si.com/2013/12/27/week-17-preview-packers-bears-eagles-cowboys/?xid=si_topstories" target="_blank">Week 17 Playbook: Previewing Packers-Bears, Eagles-Cowboys, more Week 17 games</a><br />');
+document.write('');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://college-football.si.com/2013/12/28/teddy-bridgewater-leads-louisville-past-miami-russell-athletic-bowl/?xid=si_topstories" target="_blank">Teddy Bridgewater powers Louisville past Miami, 36-9, in Russell Athletic Bowl</a><br />');
+document.write('');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://sportsillustrated.cnn.com/video/nfl/20131223/boomer-nfl-afc-playoff-contenders-steelers.sportsillustrated/?xid=si_topstories" target="_blank">VIDEO: Boomer Esiason picks most dangerous NFL team which might miss playoffs</a><br />');
+document.write('The Steelers may not even make the playoffs, but if they do, opponents should be worried.<img src=\"http://feeds.feedburner.com/~r/rss/si_topstories/~4/1YMwD4mVOXI\" height=\"1\" width=\"1\"/>');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://sportsillustrated.cnn.com/main/photos/1312/pictures-of-the-year-2013/?xid=si_topstories" target="_blank">SI\'s picks: The 100 best sports photos of 2013</a><br />');
+document.write('<img src=\"http://feeds.feedburner.com/~r/rss/si_topstories/~4/b6j4LVWH4-w\" height=\"1\" width=\"1\"/>');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://sportsillustrated.cnn.com/mma/news/20131229/chris-weidman-tko-anderson-silva-broken-leg-ronda-rousey-meisha-tate/?xid=si_topstories" target="_blank">Weidman TKOs Silva (broken leg); Rousey wins</a><br />');
+document.write('Chris Weidman defeated Anderson Silva by TKO after Silva broke his leg while kicking Weidman at UFC 168. Ronda Rousey retained her bantamweight title by defeating Miesha Tate via tap out.<img src=\"http://feeds.feedburner.com/~r/rss/si_topstories/~4/o1nCYwE1KpI\" height=\"1\" width=\"1\"/>');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://college-football.si.com/2013/12/28/bill-obrien-penn-state-houston-texans-coach/?xid=si_topstories" target="_blank">Report: O\'Brien, Texans intensify contract talks</a><br />');
+document.write('');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://tracking.si.com/2013/12/28/rex-ryan-jets-return/?xid=si_topstories" target="_blank">Report: Rex Ryan to return as Jets\' head coach</a><br />');
+document.write('');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://nba.si.com/2013/12/28/andrew-bynum-suspended-cleveland-cavaliers/?xid=si_topstories" target="_blank">Cavaliers suspend Bynum, will try to trade him</a><br />');
+document.write('');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://nba.si.com/2013/12/29/chris-bosh-game-winner-heat-blazers-video/?xid=si_topstories" target="_blank">Watch: Heat top Blazers on Bosh last-second 3</a><br />');
+document.write('<img src=\"http://feeds.feedburner.com/~r/rss/si_topstories/~4/aBOnm3bRS_g\" height=\"1\" width=\"1\"/>');
+document.write('</li>');
+document.write('</ul></div>');

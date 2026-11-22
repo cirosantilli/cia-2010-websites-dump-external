@@ -1,0 +1,37 @@
+
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<p class="rss-title"><a class="rss-title" href="http://www.bbcazeri.com" target="_self">BBC Azeri - Xəbərlər</a><br /><span class="rss-item">BBC Azeri - Xəbərlər</span></p>');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.com/azeri/region-43891368" target="_self">Ermənistan: Yerevan sakinləri yenidən küçələrə axışdılar</a><br />');
+document.write('Sarkisyanın istefaya getməsindən sonra indi də hökumətin istefası tələbi səslənir');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.com/azeri/azerbaijan-43870819" target="_self">Çiçəklənən Bakı: Azərbaycan paytaxtının əsrarəngiz arxitekturası</a><br />');
+document.write('BBC-nin Sənətsevərlərin bələdçisi (Art Lover\'s Guide) verilişinin ən son buraxılışında Alastair Sooke və Janina Ramirez Avropa və Asiyanın birləşdiyi bu məkana üz tutublar və onun paytaxtı Bakının necə qədim və müasir binalardan təşkil olunduğunu aşkar ediblər.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.com/azeri/region-43891018" target="_self">Financial Times: \"Türkiyədə növbədənkənar seçkinin nəticəsi əvvəldən müəyyən olmaya bilər\"</a><br />');
+document.write('Jurnalist David Gardner Financial Times qəzetində Türkiyə siyasətindəki son hadisələri qiymətləndirib. Gardner-in sözlərinə görə, prezident Erdoğan \"kamalçı sosial demokratları və millətçiləri birləşərək\" müxalifətə güc vermək kimi bir imic nümayiş etdirir.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.com/azeri/international-43883426" target="_self">Neft 75 dollar oldu: İrana qarşı sanksiyalar hədəsi əsas səbəbdir</a><br />');
+document.write('İrana qarşı yeni mümkün ABŞ sanksiyaları ilə bağlı narahatlıqlar artdığı bir vaxtda, son 3 il yarım ərzində ilk dəfə olaraq neftin qiyməti bir barel üçün 75 dollar həddini keçib.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.com/azeri/analysis-43883425" target="_self">Dünya mediası Ermənistandakı vəziyyət barədə nə yazır?</a><br />');
+document.write('Ermənistanda davam edən etiraz çıxışları bazar ertəsi 10 ildir ki, ölkəni idarə edən Serj Sarkisyanın istefası ilə nəticələnib.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.com/azeri/azerbaijan-43878047" target="_self">Əsabəli Mustafayev: \"Prokurorluğun vəkildən qisas almağa çalışması düzgün deyil\"</a><br />');
+document.write('Aprelin 23-də Vəkillər Kollegiyasının Rəyasət Heyəti Əsabəli Mustafayev və Nemət Kərimlinin vəkillik fəaliyyətinin bir illik dayandırılması barədə qərar qəbul edib.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.com/azeri/azerbaijan-43867702" target="_self">Avropa Şurasında Azərbaycan ittihamlarına cavablar</a><br />');
+document.write('Keçmiş səfir lobbiçilikdə əsas fuqurun Elxan Süleymanov olduğunu deyir, Elxan Süleymanov isə bu ittihamların \"sübut və faktla təsdiqini\" tapmadığını bildirir');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.com/azeri/region-43867706" target="_self">Kimdir? Nədir? Ermənistan</a><br />');
+document.write('Qərbdən Türkiyə, şimaldan Gürcüstan və şərqdən Azərbaycan ilə əhatələnən Ermənistan barədə rəqəmlər və faktlar');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.com/azeri/azerbaijan-43868561" target="_self">Serj Sarkisyanın istefası Azərbaycan üçün nə deməkdir?</a><br />');
+document.write('Ermənistanın baş naziri Serj Sarkisyanın etirazlar dalğasında istefa verməsi regiona, Qarabağ danışıqlarına nə verəcək, Azərbaycan şərhçiləri BBC Azərbaycancaya vəziyyəti təhlil edirlər.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.com/azeri/azerbaijan-43796263" target="_self">ADR 100: ADR və İrandakı ticarət imkanları</a><br />');
+document.write('Bu il Azərbaycan Demokratik Respublikasının elan edilməsinin 100 illik yubileyidir. BBC Azərbaycanca bu ərəfədə Azərbaycan xalqının epik və mühüm günlərini həftəlik esselərlə təqdim edir.');
+document.write('</li>');
+document.write('</ul></div>');

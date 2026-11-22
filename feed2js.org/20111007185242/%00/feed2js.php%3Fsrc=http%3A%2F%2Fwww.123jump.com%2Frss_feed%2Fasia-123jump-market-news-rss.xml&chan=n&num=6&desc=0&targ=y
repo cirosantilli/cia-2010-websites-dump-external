@@ -1,0 +1,18 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://asia.123jump.com/market-update/Nikkei-in-Japan-Up-0-.9;-Softbank-OSG-Rise;-Sony-in-Focus/46187/" target="_blank">Nikkei in Japan Up 0 .9%; Softbank, OSG Rise; Sony in Focus</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://asia.123jump.com/market-update/S&amp;amp;P-500-Index-in-3-day-Rally;-Oil-Silver-Up-3/46181/" target="_blank">S&P 500 Index in 3-day Rally; Oil, Silver Up 3%</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://asia.123jump.com/market-update/Nikkei-in-Japan-Advances-1.7;-Sony-Secures-EMI-Bid-Financing/46167/" target="_blank">Nikkei in Japan Advances 1.7%; Sony Secures EMI Bid Financing</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://asia.123jump.com/market-update/Wall-Street-Higher-on-Payrolls-Services-Growth;-Yahoo-RiM-Rumors/46164/" target="_blank">Wall Street Higher on Payrolls, Services Growth; Yahoo, RiM Rumors</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://asia.123jump.com/market-update/Nikkei-in-Japan-in-4-day-Decline;-Utilities-Plunge/46146/" target="_blank">Nikkei in Japan in 4-day Decline; Utilities Plunge</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://asia.123jump.com/market-update/World-Markets-in-Bear-Zone;-Late-Rally-Erases-U.S.-Losses/46137/" target="_blank">World Markets in Bear Zone; Late Rally Erases U.S. Losses</a><br />');
+document.write('</li>');
+document.write('<li class="f2jnag">Attn web site owners: <a href="http://feed2js.org/index.php?s=support">Please support Feed2JS!</a></li>');
+document.write('</ul></div>');

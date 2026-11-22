@@ -1,0 +1,9 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<p class="rss-title"><a class="rss-title" href="http://www.caribbeannewsdigital.com/rss" target="_blank">Caribbean News Digital</a></p>');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.caribbeannewsdigital.com/noticia/republica-dominicana-nh-hoteles-y-amresorts-sellan-alianza-estrategica-para-trabajar-en-este" target="_blank">República Dominicana: NH Hoteles y AMResorts sellan alianza estratégica para trabajar en este país</a><br />');
+document.write('');
+document.write('</li>');
+document.write('</ul></div>');

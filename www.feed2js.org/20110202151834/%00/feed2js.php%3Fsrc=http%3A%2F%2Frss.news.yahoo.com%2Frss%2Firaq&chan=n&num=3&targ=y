@@ -1,0 +1,11 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://us.rd.yahoo.com/dailynews/rss/iraq/*http://news.yahoo.com/s/afp/20110202/pl_afp/usdiplomacywikileaksinternetmilitaryrights" target="_blank">US warned WikiLeaks suspect unfit for Iraq: report (AFP)</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://us.rd.yahoo.com/dailynews/rss/iraq/*http://news.yahoo.com/s/afp/20110202/wl_mideast_afp/iraqpoliticscourt" target="_blank">Iraq court ruling is \'threat to democracy\' (AFP)</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://us.rd.yahoo.com/dailynews/rss/iraq/*http://news.yahoo.com/s/afp/20110202/wl_mideast_afp/britainiraqinquirymilitarypolitics" target="_blank">Iraqi regime change was not \'UK objective\' (AFP)</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

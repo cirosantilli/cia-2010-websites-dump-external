@@ -1,0 +1,278 @@
+var NV_PATH = '/';
+var NV_STATIC = 'http://cdn.netvibes.com';
+var NV_HOST = "www.netvibes.com";
+var NV_MODULES = "nvmodules.netvibes.com";
+var NV_AVATARS = "avatars.netvibes.com";
+var NV_ECO = "eco.netvibes.com";
+var NV_ECO_API = "api.eco.netvibes.com";
+var NV_API = "api.netvibes.com";
+var NV_API_PATH = "/api";
+// included files /home/netvibes/startpage/public/js/UWA/BlogWidget2.js (7Ko)
+// -------------------------------------------------------- 
+// TOTAL:  7Ko
+// -------------------------------------------------------- 
+
+if (typeof UWA == 'undefined') var UWA = {};
+
+UWA.BlogWidget = function(parameters) {
+  
+  this.elements = {};
+  
+  this.datas = {};
+  
+  this.defaultConfig = {
+    title: 'Default title',
+    height: '300',
+    color: 'white',
+    displayTitle: true,
+    displayFooter: true,
+    autoresize: false,
+    themeUrl: '/themes/exposition-blueberry/screen.css'
+  }
+  
+  this.config = {};
+  
+  for (i in this.defaultConfig) {
+    this.config[i] = this.defaultConfig[i];
+  }
+  
+  for (key in parameters) {
+    this[key] = parameters[key];
+  }
+  
+  if (typeof this.id == 'undefined') {
+    this.id = "uwa" + Math.ceil(Math.random() * 1000);
+  }
+  
+  if (typeof this.container != 'object') {
+    document.write('<div id="' + this.id + '"></div>');
+    this.container = document.getElementById(this.id);
+  }
+  
+  if (typeof this.moduleUrl != 'string') {
+    console.log('no moduleUrl defined');
+  }
+  
+  this.renderWidget();
+  
+  this.updateLayout();
+
+}
+
+UWA.BlogWidget.prototype = {
+  
+  setConfiguration: function(configuration) {
+    for (key in configuration) {
+      this.config[key] = configuration[key];
+    }
+    this.updateLayout();
+  },
+  
+  setPreferencesValues: function(values) {
+    this.datas = values;
+    this.updateIframeUrl();
+  },
+  
+  updateIframeUrl: function() {
+    var iframe = this.elements['iframe'];
+    var iframeUrl = this.getIframeUrl();
+    var iframeProperties = {};
+    
+    iframeProperties.width = '100%';
+    
+    if (this.config['autoresize']) {
+      iframeUrl += '&autoresize=1';
+      iframeUrl += '&commUrl=' + this.commUrl;
+      iframeProperties.scrolling = 'no';
+    } else {
+      iframeProperties.height = this.config['height'];
+      iframeProperties.scrolling = 'auto';
+    }
+    this.setProperties(iframe, iframeProperties)
+    iframe.src = iframeUrl;
+  },
+  
+  getIframeUrl: function() {
+    var iframeUrl = 'http://' + NV_MODULES + '/widget/frame?platform=blog&uwaUrl=' + encodeURIComponent(this.moduleUrl) + '&header=0&status=0&id=' + this.id ;
+    for (key in this.datas) {
+      iframeUrl += '&' + key + '=' + this.datas[key];
+    }
+    iframeUrl += '&NVthemeUrl=' + this.config['themeUrl'];
+    
+    if (typeof this['proxyUrl'] == 'string'){
+        iframeUrl += '&ifproxyUrl=' + encodeURIComponent(this['proxyUrl']);
+    }
+    
+    return iframeUrl;
+  },
+  
+  updateLayout: function() {
+    
+    var els = this.elements;
+    var cfg = this.config
+    
+    var color = (cfg['color']!='white') ? '-' + cfg['color'] : '';
+
+    var baseUrl =  NV_STATIC + '/themes/exposition-blueberry/img/m/moduleheader';
+
+    if (color!='transparent') {
+        els['title'].style.background =  'url('+ baseUrl + color + '.png?v=1) repeat-x scroll center top';
+    } else {
+        els['title'].style.background =  'none';
+    }
+    
+    els['titlespan'].innerHTML = cfg['title'];
+    
+    if (this.config['autoresize'] == false) {
+      els['iframe'].height = cfg['height'];
+    }
+
+    // els['title'].style.display = (cfg['displayTitle'] ? 'block' : 'none');
+    // els['footer'].style.display = (cfg['displayFooter'] ? 'block' : 'none');
+
+  },
+  
+  renderWidget: function() {
+    
+    var els = {};
+    
+    els['container'] = this.newEl('div');
+    
+    els['body'] = this.newEl('div', {
+      'className': 'nvcontent',
+      'styles': {
+        'padding': '0'
+      }
+    });
+    
+    els['title'] = this.newEl('div', {
+      'styles': {'padding': '4px 0 4px 10px'}
+    });
+    
+    els['titlespan'] = this.newEl('span', {
+      'innerHTML': this.config['title'],
+      'styles': {
+        'display': 'block',
+        'color': 'white',
+        'font': 'bold 11px "Lucida Grande",Tahoma,Helvetica,Arial,sans-serif',
+        'lineHeight' : '20px'
+      }
+    });
+    
+    els['title'].appendChild(els['titlespan']);
+
+    var footer = '<a href="http://' + NV_ECO + '/share/?url=' + encodeURIComponent(this.moduleUrl).replace(/\./g, '%2E') + '" title="Share this widget" class="share" target="_blank"><img src="' + NV_STATIC + '/img/share.png" alt="Share this widget" style="float: left; border: none;" /></a>';
+    footer += '<a href="http://' + NV_HOST + '/" class="powered" target="_blank" style="margin-left: -59px; color: #999; font: 8pt Arial, sans-serif; text-decoration: none;">powered by netvibes</a>';
+
+    els['footer'] = this.newEl('div', {
+      'innerHTML': footer,
+      'styles': {
+        'height': '20px',
+        'margin':'-30px 0 0 0',
+        'padding': '10px 0 0 10px',
+        'textAlign': 'center'
+      }
+    });
+
+    els['iframe'] = this.newEl('iframe', {
+      'frameBorder': 0, 'id':'frame_' + this.id,
+      'styles':{
+      	'margin':'0 0 25px 0'
+      }
+    });
+      
+    els['body'].appendChild(els['iframe']);
+   
+    els['container'].appendChild(els['title']);
+    els['container'].appendChild(els['body']);
+    els['container'].appendChild(els['footer']);
+
+    this.container.innerHTML = '';
+    this.container.appendChild(els['container']);
+      
+    this.elements = els;
+    
+    this.updateIframeUrl();
+    
+  },
+
+  newEl: function(tagName, properties) {
+    var el = document.createElement(tagName);
+    this.setProperties(el, properties);
+    return el;
+  },
+
+  setProperties: function(el, properties) {
+    for (name in properties) {
+      switch (name) {
+        case 'styles':
+          this.setStyles(el, properties[name]);
+          break;
+        case 'innerHTML':
+        case 'className':
+          el[name] = properties[name];
+          break;
+        default:
+          el.setAttribute(name, properties[name]);
+      }
+    }
+  },
+  
+  setStyles: function(el, styles) {
+    for (name in styles) {
+      el.style[name] = styles[name];
+    }
+  },
+
+  getConfigurationJson: function() {
+    var configuration = {};
+    for (i in this.config) {
+      if (this.config[i] != this.defaultConfig[i]) {
+        configuration[i] = this.config[i];
+      }
+    }
+    return this.getJson(configuration);
+  },
+
+  getDatasJson: function() {
+    return this.getJson(this.datas);
+  },
+
+  /* light jsification inspired by JSON.toString() */
+  getJson: function(object) {
+    var a = ['{'], b, i, v;
+    for (i in object) {
+      v = object[i];
+      if (b) { a.push(', '); }
+      a.push("'", i, "'", ':');
+      switch(typeof v) {
+        case 'string':
+          a.push("'", v.replace(/\'/g, "\\'"), "'");
+          break;
+        default:
+          a.push(v);
+          break;
+      }
+      b = true;
+    }
+    a.push('}');
+    return a.join('');
+  },
+
+  getCode: function() {
+    var code = '<script type="text/javascript" src="http://' + NV_HOST + '/js/UWA/load.js.php?env=BlogWidget2"></script>\n';
+    code += '<script type="text/javascript">\n';
+    code += "var BW = new UWA.BlogWidget({moduleUrl:'" + this.moduleUrl + "'});\n";
+    var datas = this.getDatasJson();
+    if (datas != "{}") {
+      code += 'BW.setPreferencesValues('+ datas +');\n';
+    }
+    var config = this.getConfigurationJson();
+    if (config != "{}") {
+      code += 'BW.setConfiguration('+ config +');\n';
+    }
+    code += '</script>';
+    return code;
+  }
+
+}

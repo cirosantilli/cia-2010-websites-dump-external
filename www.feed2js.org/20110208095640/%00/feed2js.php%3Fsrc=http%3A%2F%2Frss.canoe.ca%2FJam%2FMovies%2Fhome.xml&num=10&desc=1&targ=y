@@ -1,0 +1,23 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://jam.canoe.ca/Movies/2011/02/08/17191741-wenn-story.html?cid=rssentertainmentmovies" target="_blank">Haggis in Scientology dispute</a><br />');
+document.write('Crash director and former Scientologist Paul Haggis has sparked outrage among the church\'s leaders after revealing the inner workings of the religion to a magazine.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://jam.canoe.ca/Movies/2011/02/08/17191691-wenn-story.html?cid=rssentertainmentmovies" target="_blank">\'The Beaver\' release postponed</a><br />');
+document.write('The release of Mel Gibson\'s new film The Beaver has been postponed by six weeks.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://jam.canoe.ca/Movies/2011/02/08/17191306-wenn-story.html?cid=rssentertainmentmovies" target="_blank">McCarthy splits from lover</a><br />');
+document.write('Jenny McCarthy is single again after splitting from her sports agent boyfriend.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://jam.canoe.ca/Movies/2011/02/07/17184246-wenn-story.html?cid=rssentertainmentmovies" target="_blank">James Franco heading to Oz?</a><br />');
+document.write('Oscar nominee James Franco is in talks to replace Robert Downey, Jr. as the wonderful wizard in upcoming Disney movie Oz: The Great and Powerful.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://jam.canoe.ca/Movies/2011/02/07/17180266-wenn-story.html?cid=rssentertainmentmovies" target="_blank">Knightley steps out with mystery man</a><br />');
+document.write('Keira Knightley has sparked rumours she\'s found romance again after she was pictured arm-in-arm with a mystery man just weeks after her split from Rupert Friend.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://jam.canoe.ca/Movies/2011/02/07/17179656-wenn-story.html?cid=rssentertainmentmovies" target="_blank">Co-star says \'Arquette is doing great\'</a><br />');
+document.write('David Arquette is making good progress on his road to sobriety after checking out of rehab, according to his Scream 4 co-star Hayden Panettiere.');
+document.write('</li>');
+document.write('</ul></div>');

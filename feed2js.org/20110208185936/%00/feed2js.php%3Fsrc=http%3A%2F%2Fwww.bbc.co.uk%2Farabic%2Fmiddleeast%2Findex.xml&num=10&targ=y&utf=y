@@ -1,0 +1,25 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/middleeast/2011/02/110207_southernsudan_bashir.shtml" target="_blank">البشير: \"قبلنا بصدر رحب\" نتيجة استفتاء تقرير مصير الجنوب</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/middleeast/2011/02/110208_hamas_elections.shtml" target="_blank">حماس ترفض إعلان السلطة في رام الله عن موعد إجراء الإنتخابات المحلية</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/middleeast/2011/02/110207_iran_missile.shtml" target="_blank">ايران تطلق صاروخا باليستيا \"تتجاوز سرعته سرعة الصوت ثلاث مرات\"</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/middleeast/2011/02/110208_tunisia_army_parliament_president_unrest.shtml" target="_blank">تونس: استدعاء \"متقاعدي\" الجيش والرئيس بالنيابة سيحكم بالمراسيم</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/middleeast/2011/02/110208_morocco_eu_protests.shtml" target="_blank">الاتحاد الأوروبي يدعو المغرب إلى \"توزيع عادل\" لمكاسب النمو</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/middleeast/2011/02/110207_foc_visit_north_africa_middle_east.shtml" target="_blank">وزير الخارجية البريطاني يزور 5 بلدان في شمال أفريقيا والشرق الأوسط</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/middleeast/2011/02/110207_jerusalem_sheik_jarrah.shtml" target="_blank">بلدية القدس توافق على بناء وحدات استيطانية في حي الشيخ جراح</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/middleeast/2011/02/110201_egypt_israelifears.shtml" target="_blank">لماذا تخشى إسرائيل أصداء ما يحدث في مصر؟</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/middleeast/2011/01/110128_egypt_obama_dilemma.shtml" target="_blank">مأزق أوباما في أحداث مصر</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/middleeast/2011/01/110125_mikati_bio.shtml" target="_blank">نبذة عن نجيب ميقاتي المكلف بتشكيل الحكومة اللبنانية</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

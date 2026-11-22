@@ -1,0 +1,19 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/entertainment-arts-12333330" target="_blank">Picasso muse painting up for sale</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/entertainment-arts-12338053" target="_blank">Top Gear sparks Mexico complaints</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/business-12339299" target="_blank">Citigroup takes ownership of EMI</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/entertainment-arts-12324389" target="_blank">Lowry football painting up for sale</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/entertainment-arts-12333440" target="_blank">Whiley switches over to Radio 2</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/entertainment-arts-12333186" target="_blank">Dreamboats song contest launched</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/entertainment-arts-12333022" target="_blank">Crosby replaces Kaplinsky at Five</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

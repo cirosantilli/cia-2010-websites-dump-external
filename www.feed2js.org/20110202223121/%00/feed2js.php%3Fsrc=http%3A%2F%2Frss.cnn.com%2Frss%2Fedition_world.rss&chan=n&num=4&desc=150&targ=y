@@ -1,0 +1,17 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://rss.cnn.com/~r/rss/edition_world/~3/Cayh1LE2JE0/index.html" target="_blank">Cairo volatile as opposing sides clash</a><br />');
+document.write('Tear gas was fired in the epicenter of Cairo\'s demonstrations Wednesday amid clashes between pro- and anti-government forces. VIOLENCE ESCALATES | FUL...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://rss.cnn.com/~r/rss/edition_world/~3/llDu_z6Hwq4/index.html" target="_blank">Who are the pro-Mubarak demonstrators?</a><br />');
+document.write('For more than a week, opponents of Egypt\'s President Hosni Mubarak had the upper hand in Cairo, protesting with near impunity in the face of police an...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://rss.cnn.com/~r/rss/edition_world/~3/5K3yq2u22c8/index.html" target="_blank">Opinion: U.S. struggles to get Egypt policy right</a><br />');
+document.write('Watching the administration try to find the right balance in its response to the crisis in Egypt is like seeing the public face of the foreign policy ...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://rss.cnn.com/~r/rss/edition_world/~3/yJjnulmf8Zs/index.html" target="_blank">Powerful cyclone slams into flood-hit Queensland</a><br />');
+document.write('Australians braced Wednesday as a massive, powerful cyclone neared the country\'s northeastern coast. Tropical Cyclone Yasi was predicted to make landf...');
+document.write('</li>');
+document.write('</ul></div>');

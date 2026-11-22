@@ -1,0 +1,27 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<p class="rss-title"><a class="rss-title" href="http://news.google.com/news?pz=1&ned=ar_me&hl=ar&topic=s" target="_blank">رياضة - أخبار Google</a></p>');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNFIGqlKP7xabzD-hlzlZ98V6b9B0A&url=http://www.aleqt.com/2011/02/23/article_507653.html" target="_blank">إنتر ميلان مع بايرن ميونيخ.. الشرر يتطاير - الاقتصادية</a><br />');
+document.write('القبسإنتر ميلان مع بايرن ميونيخ.. الشرر يتطايرالاقتصاديةيعود مشهد نهائي الموسم الماضي بين فريقي إنتر ميلان الإيطالي وبايرن ميونيخ الألماني إلى الواجهة عندما يتواجه الفريقان مجدّدا، لكن هذه المرة في ذهاب الدور ثمن النه...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNH7ppH9wfkIHbS-vbrMugqEFJLyPQ&url=http://al-madina.com/node/289835" target="_blank">توريه : مانشستر أفضل من برشلونة - جريدة المدينة</a><br />');
+document.write('جريدة الآن الالكترونيةتوريه : مانشستر أفضل من برشلونةجريدة المدينةيعتقد الإيفواري توريه لاعب برشلونة السابق يعتقد أن فريقه الحالي مانشستر سيتي سيتفوق على النادي الكتالوني في غضون عامين, حيث قال: «لا يمكن أن نقارن السيت...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNH7Gqfdiv_IWwraFYvGlmIA36Y27Q&url=http://international.daralhayat.com/internationalarticle/237193" target="_blank">حمودي: سندعم ترشيح أحمد الفهد - دار الحياة</a><br />');
+document.write('مصراويحمودي: سندعم ترشيح أحمد الفهددار الحياةبغداد- ا ف ب -اكد رئيس اللجنة الاولمبية العراقية رعد حمودي دعمه الكامل لترشيح الشيخ احمد الفهد لمنصب رئاسة المجلس الاولمبي الآسيوي لولاية جديدة خلال اجتماع الجمعية العمومية ...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNHy_hFBtjUUQjN1u-01DzddyvvcJg&url=http://www.almustaqbal.com/stories.aspx?StoryID%3D454564" target="_blank">تنس دبي: ديوكوفيتش يستهل حملة الدفاع عن لقبه بنجاح وفيديرير يلحق به - المستقبل - لبنان</a><br />');
+document.write('مصراويتنس دبي: ديوكوفيتش يستهل حملة الدفاع عن لقبه بنجاح وفيديرير يلحق بهالمستقبل - لبناناستهل الصربي نوفاك ديوكوفيتش، المصنف ثانيا، حملة الدفاع عن لقبيه الاخيرين بنجاح في دورة دبي الدولية للتنس، والبالغة جوائزها 1619 م�...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNEkj3i7QtjZOf2X-sBj-l_Q38KoZQ&url=http://www.egynews.net/wps/portal/news?params%3D116498" target="_blank">اصابة زيدان بكسر في الضلوع يبعده عن الملاعب ثلاثة أسابيع - اتحاد الإذاعة والتلفزيون المصرى</a><br />');
+document.write('عرب نت 5اصابة زيدان بكسر في الضلوع يبعده عن الملاعب ثلاثة أسابيعاتحاد الإذاعة والتلفزيون المصرىتأكدت اصابة النجم الدولى المصري محمد زيدان اللاعب بنادى دورتموند الألماني بكسر في الضلوع ليتواصل ابتعاده عن الملاعب ثلاثة ...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNFRx3tkqah92j38DjfXu41oMiY9aQ&url=http://www.kooora.com/default.aspx?showarticle%3D97836%26obj%3D0" target="_blank">مانشستر يونايتد المثخن بالاصابات مستعد لمواجهة صعبة امام مرسيليا - كووورة</a><br />');
+document.write('يلا كورةمانشستر يونايتد المثخن بالاصابات مستعد لمواجهة صعبة امام مرسيلياكووورةهون اليكس فيرجسون مدرب مانشستر يونايتد الانجليزي من مشاكل الاصابات التي يعاني منها فريقه وقال إنه يتوقع مواجهة صعبة امام اولمبيك مرسيليا �...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNFOhpvmD4RKQ-oVkvoCg1YVpq5nNA&url=http://www.google.com/hostednews/afp/article/ALeqM5h2-8pDkYufrDZGL7YjwtdD4cvAMQ?docId%3DCNG.4b438d01a0c651827282e2ed1594f835.4d1" target="_blank">ترشيح الدوحة لاستضافة مباراة السوبر الفرنسية في تموز/يوليو المقبل - AFP</a><br />');
+document.write('تلفزيون ام بي سيترشيح الدوحة لاستضافة مباراة السوبر الفرنسية في تموز/يوليو المقبلAFPالدوحة (ا ف ب) - تستعد العاصمة القطرية الدوحة لاستضافة مباراة الكأس السوبر الفرنسية بين بطلي الدوري والكأس في تموز/يوليو المقبل. وذكر الم...');
+document.write('</li>');
+document.write('</ul></div>');

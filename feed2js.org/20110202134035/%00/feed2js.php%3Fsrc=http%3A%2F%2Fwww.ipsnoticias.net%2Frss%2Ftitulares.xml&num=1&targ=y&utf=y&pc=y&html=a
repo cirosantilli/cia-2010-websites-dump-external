@@ -1,0 +1,8 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.ipsnoticias.net/nota.asp?idnews=97436" target="_blank">América Central alza la voz en defensa de sus emigrantes</a><br />');
+document.write('GUATEMALA, 2 feb (IPS) - La escalada de violencia en territorio mexicano contra inmigrantes de América Central llevó a la creación en los países de la región de más mecanismos de protección ciudadana, reformas legales y acciones diplomáticas.');
+document.write('</li>');
+document.write('</ul></div>');

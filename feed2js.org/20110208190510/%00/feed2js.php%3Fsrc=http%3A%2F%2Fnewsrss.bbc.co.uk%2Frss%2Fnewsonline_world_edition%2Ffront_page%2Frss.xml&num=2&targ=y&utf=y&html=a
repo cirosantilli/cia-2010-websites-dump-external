@@ -1,0 +1,11 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/world-middle-east-12394941" target="_blank">Huge protest rejects Mubarak move</a><br />');
+document.write('Hundreds of thousands of Egyptian protesters in central Cairo reject President Mubarak\'s plans for a gradual handover of power.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/world-europe-12397397" target="_blank">Mubarak \'lent French PM a plane\'</a><br />');
+document.write('French PM Francois Fillon says Egyptian President Hosni Mubarak lent him a plane and paid for lodgings during a family holiday at new year.');
+document.write('</li>');
+document.write('</ul></div>');

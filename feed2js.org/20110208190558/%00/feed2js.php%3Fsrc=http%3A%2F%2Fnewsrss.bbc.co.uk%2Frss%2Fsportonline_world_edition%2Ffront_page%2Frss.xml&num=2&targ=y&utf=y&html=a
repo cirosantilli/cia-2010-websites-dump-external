@@ -1,0 +1,11 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.bbc.co.uk/go/rss/-/sport2/hi/cricket/england/9388533.stm" target="_blank">Injured Morgan replaced by Bopara</a><br />');
+document.write('England call Ravi Bopara into their 15-man World Cup squad after Eoin Morgan is ruled out with an injury.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.bbc.co.uk/go/rss/-/sport2/hi/motorsport/formula_one/9391462.stm" target="_blank">Three in frame to replace Kubica</a><br />');
+document.write('Renault announce that Bruno Senna, Vitantonio Liuzzi, and Nick Heidfeld are in the frame to replace the injured Robert Kubica.');
+document.write('</li>');
+document.write('</ul></div>');

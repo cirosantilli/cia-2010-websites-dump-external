@@ -1,0 +1,8 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feedproxy.google.com/~r/VentureDeal/~3/-79MwCOh5hI/SearchResultTransactionDetail.aspx" target="_blank">Aria Systems Secures $20,000,000 Series C Financing Round</a><br />');
+document.write('<b>Tuesday, February 01, 2011 7:11:01 PM</b> | VentureDeal Database<br>This investment – and new strategic partnership with a Fortune 500 company – allows us to cement our leadership position in the recurring billing marketplace.<img src=\"http://feeds.feedburner.com/~r/VentureDeal/~4/-79MwCOh5hI\" height=\"1\" width=\"1\"/>');
+document.write('</li>');
+document.write('</ul></div>');

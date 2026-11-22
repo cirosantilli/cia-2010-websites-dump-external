@@ -1,0 +1,21 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.nytimes.com/click.phdo?i=b274891e117ad3c5824659994a4ff7bd" target="_blank">Mubarak Orders Ministers to Resign but Backs Armed Response to Egypt Protests</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.nytimes.com/click.phdo?i=2d3e0b38cae39da49598d4344532686d" target="_blank">Obama Cautions Embattled Ally Against Violence</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.nytimes.com/click.phdo?i=712ddb216a4911c9271a482d74308654" target="_blank">Egypt Cuts Off Most Internet and Cell Service</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.nytimes.com/click.phdo?i=891e3d326c987d3895d9cd2fe8f758b1" target="_blank">Egyptian Hopes Converge in Fight for Cairo Bridge</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.nytimes.com/click.phdo?i=c5da7ac213e2c8ba199acae50a718569" target="_blank">Egypt’s Military Is Seen as Pivotal in Next Step</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.nytimes.com/click.phdo?i=4996378768a89828451624a07baea12b" target="_blank">The Lede: Latest Updates From the Lede Blog</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.nytimes.com/click.phdo?i=fe06d62e5372f29fc4d8747f6dfa1044" target="_blank">Al Jazeera Covers Protests Despite Hurdles</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.nytimes.com/click.phdo?i=4ebae5e2de6a953596eb19b0eabb299e" target="_blank">A Nobelist Has an Unfamiliar Role in Protests</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

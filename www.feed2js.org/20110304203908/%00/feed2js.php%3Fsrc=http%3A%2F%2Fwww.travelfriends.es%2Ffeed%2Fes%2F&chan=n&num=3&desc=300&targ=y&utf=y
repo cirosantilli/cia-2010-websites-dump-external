@@ -1,0 +1,14 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.travelfriends.es/es/destinos/noticias/rally-artico-laponia.php" target="_blank">Rally ártico de Laponia</a><br />');
+document.write('&iquest;Sabes qu&eacute; significa Kuusamo? Es la palabra finesa que denomina los d&iacute;as cortos ivernales de Finlandia. En enero es la temporada perfecta para vivir los d&iacute;as m&aacute;s cortos del a&ntilde;o, y poder disfrutar del espectacular Rally &Aacute;rtico de Laponia Consulta los v...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.travelfriends.es/es/destinos/noticias/en-laponia-vive-la-carrera-de-motonieves-snowstar-feria-de-bienestar.php" target="_blank">En Laponia vive la carrera de motonieves Snowstar, Feria de Bienestar</a><br />');
+document.write('Una carrera de motonieves por los p&aacute;ramos de Laponia, una aventura genial para despedir los &uacute;ltimos d&iacute;as de invierno. Para los amantes de los desiertos blancos que quieren aprovechar el &uacute;ltimo copo de nieve puede subir a Laponia y subir su adrenalina con actividades emoci...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.travelfriends.es/es/destinos/noticias/congreso-mundial-de-metropolis-el-cairo.php" target="_blank">Congreso Mundial de Metropolis, El Cairo</a><br />');
+document.write('Por primera vez en sus 25 a&ntilde;os de historia, Metropolis organizar&aacute; un congreso en &Aacute;frica: el X Congreso Mundial de Metropolis se celebrar&aacute; en El Cairo del 4 al 7 de abril de 2011. El evento El Ministerio de Vivienda y Desarrollo Urbano de Egipto ser&aacute; el anfitri&oacu...');
+document.write('</li>');
+document.write('</ul></div>');

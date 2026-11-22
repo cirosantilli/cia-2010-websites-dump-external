@@ -1,0 +1,9 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNGnxZYbxIat8eVGEJgkz14fpVP4Bg&url=http://globalnation.inquirer.net/cebudailynews/news/view/20110208-319103/Cebu-Flowerpecker-is-worlds-icon-for-biodiversity" target="_blank">Cebu Flowerpecker is world\'s icon for biodiversity - Cebu Daily News</a><br />');
+document.write('<span class="rss-date">Tue, 08 Feb 2011 01:22:23 GMT+00:00</span><br />');
+document.write('Cebu Flowerpecker is world&#39;s icon for biodiversityCebu Daily NewsThe selection was made during the annual British Birdwatching Fair held in 2009 in Rutland, England, which drew 20000 bird enthusiasts from around the globe ...');
+document.write('</li>');
+document.write('</ul></div>');

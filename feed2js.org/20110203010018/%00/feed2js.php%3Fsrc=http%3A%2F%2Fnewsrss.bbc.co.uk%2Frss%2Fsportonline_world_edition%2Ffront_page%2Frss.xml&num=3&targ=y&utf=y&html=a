@@ -1,0 +1,14 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.bbc.co.uk/go/rss/-/sport2/hi/football/9385586.stm" target="_blank">Wednesday football as it happened</a><br />');
+document.write('Manchester City are held by Birmingham but Tottenham and Liverpool win among six Premier League matches alongside two League One fixtures on a busy Wednesday of football.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.bbc.co.uk/go/rss/-/sport2/hi/football/eng_prem/9378729.stm" target="_blank">Liverpool 2-0 Stoke</a><br />');
+document.write('Luis Suarez scores on his Liverpool debut as the Reds begin their post-Fernando Torres era by beating Stoke.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.bbc.co.uk/go/rss/-/sport2/hi/football/teams/m/man_utd/9385692.stm" target="_blank">Man Utd\'s Neville announces retirement</a><br />');
+document.write('Manchester United great Gary Neville announces his retirement with immediate effect.');
+document.write('</li>');
+document.write('</ul></div>');

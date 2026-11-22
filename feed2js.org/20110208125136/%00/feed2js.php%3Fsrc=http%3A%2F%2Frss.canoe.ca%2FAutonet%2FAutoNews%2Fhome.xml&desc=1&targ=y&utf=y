@@ -1,0 +1,26 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.autonet.ca/Maintenance/Recalls/story.cfm?story=/Maintenance/Recalls/2010/06/08/14306916-ap.html" target="_blank">GM recalling 1.5M vehicles to fix windshield fluid system over fire concerns</a><br />');
+document.write('WASHINGTON - General Motors is recalling about 1.5 million vehicles worldwide to address a problem with a heated windshield wiper fluid system that could lead to a fire.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.autonet.ca/Maintenance/Recalls/story.cfm?story=/Maintenance/Recalls/2010/05/18/13993211-ap.html" target="_blank">Toyota pays $16.4M U.S. government fine over pedal recall: source tells The AP</a><br />');
+document.write('WASHINGTON - Toyota has reportedly paid a record US$16.4-million fine for its alleged slow response in the accelerator pedal recall case.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.autonet.ca/News/story.cfm?story=/News/2010/05/06/13847836-cp.html" target="_blank">Magna shares soar on move to new voting structure; Stronach supports proposal</a><br />');
+document.write('TORONTO - Magna International Inc. is giving shareholders a chance to end the Stronach family\'s absolute control over the auto parts giant âÂ€&quot; a move that company patriarch Frank Stronach says could actually give him more influence.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.autonet.ca/News/story.cfm?story=/News/2010/04/30/13772451-cp.html" target="_blank">North American auto market revs up: Scotia Economics</a><br />');
+document.write('TORONTO - Global car sales continue to accelerate, with purchases advancing 25 per cent year-over-year during March.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.autonet.ca/Environment/story.cfm?story=/Environment/2010/04/29/13757141-cp.html" target="_blank">Ballard Power Systems Inc. sees sales pick up, but takes hit from strong loonie</a><br />');
+document.write('Fuel cell developer Ballard Power Systems Inc. (TSX:BLD) says international interest in its hydrogen products pushed first quarter sales higher, but profit margins were squeezed by a $1.5 million hit from exposure to foreign exchange fluctuations.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.autonet.ca/Maintenance/Recalls/story.cfm?story=/Maintenance/Recalls/2010/04/17/13623381-cp.html" target="_blank">Toyota Cda recalls optional floor mat for Tundra, Highlander; risk of jammed accelerator pedal</a><br />');
+document.write('TORONTO - Toyota Canada has announced a safety recall for optional &quot;tray-type&quot; floor mats for its Tundra and Highlander models.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.autonet.ca/News/story.cfm?story=/News/2010/04/13/13566731-cp.html" target="_blank">Auto insurance rates jump 12 per cent in Ontario, fall in Quebec and Alberta</a><br />');
+document.write('TORONTO - Car insurance quote firm Kanetix says rates jumped by nearly 12 per cent in Ontario in the first three months of this year.');
+document.write('</li>');
+document.write('</ul></div>');

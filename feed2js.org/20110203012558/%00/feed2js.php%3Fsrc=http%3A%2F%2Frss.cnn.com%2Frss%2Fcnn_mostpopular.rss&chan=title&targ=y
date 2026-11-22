@@ -1,0 +1,26 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<p class="rss-title"><a class="rss-title" href="http://www.cnn.com/mostpopular/?eref=rss_mostpopular" target="_blank">CNN.com - Most Popular</a></p>');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://rss.cnn.com/~r/rss/cnn_mostpopular/~3/oPzNnb8WqIU/index.html" target="_blank">Elementary school principal is fatally shot in Northern California</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://rss.cnn.com/~r/rss/cnn_mostpopular/~3/2wO1CcxZEt8/index.html" target="_blank">Journalists targeted, beaten, detained by Mubarak supporters</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://rss.cnn.com/~r/rss/cnn_mostpopular/~3/JfVoPQYzSLo/index.html" target="_blank">Senate Democrats block GOP bid to repeal health care law</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://rss.cnn.com/~r/rss/cnn_mostpopular/~3/JfVoPQYzSLo/index.html" target="_blank">Senate Democrats block GOP bid to repeal health care law</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://rss.cnn.com/~r/rss/cnn_mostpopular/~3/7TqUZuIeMzA/index.html" target="_blank">\'Cake Boss\' baker loses cancer battle</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://rss.cnn.com/~r/rss/cnn_mostpopular/~3/bRA8Lk1ji1k/index.html" target="_blank">Category 5 cyclone slams into flood-hit Queensland</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://rss.cnn.com/~r/rss/cnn_mostpopular/~3/aTXsYgIIwVA/index.html" target="_blank">Group releases photos of uncontacted tribe to raise awareness</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://rss.cnn.com/~r/rss/cnn_mostpopular/~3/yP6i6ISQT3E/index.html" target="_blank">Google: Sting proves Bing copied search results</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://rss.cnn.com/~r/rss/cnn_mostpopular/~3/rQD-BLnFK58/index.html" target="_blank">Model indicted in killing of Portuguese journalist</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://rss.cnn.com/~r/rss/cnn_mostpopular/~3/_9EML8bv9wE/index.html" target="_blank">Officials: Threat closes schools, university in northern Michigan</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

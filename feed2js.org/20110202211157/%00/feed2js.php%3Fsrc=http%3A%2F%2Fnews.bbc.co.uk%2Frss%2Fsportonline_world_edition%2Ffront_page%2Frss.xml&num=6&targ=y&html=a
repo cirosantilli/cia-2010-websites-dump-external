@@ -1,0 +1,23 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.bbc.co.uk/go/rss/-/sport2/hi/football/9385586.stm" target="_blank">Live - Wednesday football</a><br />');
+document.write('Liverpool, Manchester City, Newcastle and Tottenham are among the teams involved in six Premier League matches alongside two League One fixtures on a busy Wednesday of football.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.bbc.co.uk/go/rss/-/sport2/hi/football/teams/m/man_utd/9385692.stm" target="_blank">Man Utd\'s Neville announces retirement</a><br />');
+document.write('Manchester United great Gary Neville announces his retirement with immediate effect.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.bbc.co.uk/go/rss/-/sport2/hi/football/scot_prem/9385674.stm" target="_blank">Live - Wednesday\'s Scottish football</a><br />');
+document.write('Rangers host Hearts, Kilmarnock travel to Motherwell and Hibs take on St Mirren in the Scottish Premier League.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.bbc.co.uk/go/rss/-/sport2/hi/cricket/england/9385129.stm" target="_blank">Strauss upbeat ahead of World Cup</a><br />');
+document.write('England skipper Andrew Strauss stays positive about his team\'s capabilities despite another defeat by Australia in the one-day international series.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.bbc.co.uk/go/rss/-/sport2/hi/rugby_union/my_club/saracens/9385402.stm" target="_blank">Saracens agree to Henson release</a><br />');
+document.write('Gavin Henson is released from his Saracens contract with immediate effect as the Wales centre looks set to sign for Toulon.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.bbc.co.uk/go/rss/-/sport2/hi/rugby_union/9384700.stm" target="_blank">Wood to debut as Tindall leads England</a><br />');
+document.write('Flanker Tom Wood will make his England debut in a side captained by Mike Tindall in Friday night\'s Six Nations game against Wales.');
+document.write('</li>');
+document.write('</ul></div>');

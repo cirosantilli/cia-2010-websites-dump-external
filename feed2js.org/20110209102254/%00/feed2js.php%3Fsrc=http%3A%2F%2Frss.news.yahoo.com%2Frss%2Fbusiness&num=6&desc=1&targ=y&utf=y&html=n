@@ -1,0 +1,23 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://us.rd.yahoo.com/dailynews/rss/business/*http://news.yahoo.com/s/nm/20110209/bs_nm/us_markets_global" target="_blank">Stocks slip after China hike (Reuters)</a><br />');
+document.write('Reuters - World stocks fell from this week\'s 29-month high on Wednesday as China\'s interest rate rise prompted investors to book profits, while general optimism over global growth sent 10-year U.S. bond yields to nine-month highs.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://us.rd.yahoo.com/dailynews/rss/business/*http://news.yahoo.com/s/nm/20110209/bs_nm/us_hedgefunds_insidertrading" target="_blank">Ex-SAC Capital employees charged in trading probe (Reuters)</a><br />');
+document.write('Reuters - Two people who once worked for billionaire trader Steven A. Cohen\'s SAC Capital Advisers were charged with insider trading, drawing the $12 billion hedge fund firm further into a high-profile investigation.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://us.rd.yahoo.com/dailynews/rss/business/*http://news.yahoo.com/s/nm/20110209/bs_nm/us_financial_regulation_creditraters" target="_blank">SEC to wean markets off credit ratings (Reuters)</a><br />');
+document.write('Reuters - Securities regulators on Wednesday will move to scale back markets\' reliance on credit rating agencies, after the financial crisis laid bare the industry\'s shortcomings.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://us.rd.yahoo.com/dailynews/rss/business/*http://news.yahoo.com/s/nm/20110209/bs_nm/us_sanofi_aventis" target="_blank">Sanofi says Genzyme bid talks progressing (Reuters)</a><br />');
+document.write('Reuters - Sanofi-Aventis reported progress in talks to buy U.S. biotech Genzyme and predicted 5-10 percent lower earnings in 2011, underscoring the French drugmaker\'s need to find new sources of revenue growth.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://us.rd.yahoo.com/dailynews/rss/business/*http://news.yahoo.com/s/nm/20110209/bs_nm/us_china_economy_rates_poll" target="_blank">China to stick to gradual tightening despite risk: Reuters poll (Reuters)</a><br />');
+document.write('Reuters - China\'s central bank is poised to raise benchmark interest rates twice more in the first half of 2011 for a total tightening of 50 basis points, before keeping them steady for the remainder of the year, a Reuters poll on Wednesday showed.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://us.rd.yahoo.com/dailynews/rss/business/*http://news.yahoo.com/s/nm/20110208/bs_nm/us_nyseeuronext" target="_blank">After tough year, NYSE Euronext poised to grow (Reuters)</a><br />');
+document.write('Reuters - After years of asking investors for patience, exchange operator NYSE Euronext says 2011 will be the year that things finally come together.');
+document.write('</li>');
+document.write('</ul></div>');

@@ -1,0 +1,17 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.autonews.com/article/20110107/RETAIL01/110109904/1448" target="_blank">U.S. auto sales to rise 11.3% this year, NADA predicts</a><br />');
+document.write('U.S. sales of new cars and light trucks will rise 11.3 percent this year as the economy recovers, lending eases, and interest rates stay low, a National Automobile Dealer Association forecast said. Sales will likely rise to about 12.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.autonews.com/article/20110106/OEM04/110109906/1115" target="_blank">Hyundai joins funk-box fray with Curb concept</a><br />');
+document.write('Hyundai, after targeting value-minded upscale buyers with the Genesis and Equus sedans, appears poised to take a crack at the youth market with a rakish snub-nosed compact crossover.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.autonews.com/article/20110106/RETAIL01/110109905/1422" target="_blank">Holly Petraeus named to consumer protection post</a><br />');
+document.write('The White House today appointed Holly Petraeus to a Consumer Financial Protection Bureau post designed to protect military members from auto loan abuses and other scams. Petraeus, the wife of Gen. David Petraeus, commander of U.S.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.autonews.com/article/20110106/OEM04/110109907/1115" target="_blank">Hyundai\'s Veloster will offer single rear passenger-side door</a><br />');
+document.write('The design of Hyundai\'s new Veloster sporty coupe features a front-hinged rear passenger door, wheels pushed to the corners and rear hatch that hinges above the heads of passengers in its second-row seats.');
+document.write('</li>');
+document.write('</ul></div>');

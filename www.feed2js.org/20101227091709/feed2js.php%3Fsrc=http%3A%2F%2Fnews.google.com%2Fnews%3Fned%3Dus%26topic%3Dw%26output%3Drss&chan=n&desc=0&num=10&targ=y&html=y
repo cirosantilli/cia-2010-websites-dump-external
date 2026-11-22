@@ -1,0 +1,25 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNEkeougKf0L_8AiK2mAinzDPPW_Vw&url=http://www.google.com/hostednews/ap/article/ALeqM5gefmEzlmyzghISEHqOzzltaY_0KQ?docId%3D35239e6faa2e4d6d8ec93817f757dbbf" target="_blank">9 charged with terror conspiracy in UK - The Associated Press</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNEN8JoU7lyftl9Fxf-00GQj43vr8A&url=http://edition.cnn.com/2010/WORLD/europe/12/27/russia.khodorkovsky.verdict/?hpt%3DT1" target="_blank">State media: Russian court finds Khodorkovsky guilty - CNN International</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNHF7vTCSiJv4zAx8iFxkATz-TaE7A&url=http://www.jpost.com/DiplomacyAndPolitics/Article.aspx?id%3D201112" target="_blank">FM: I am not a PM spokesman, I\'m entitled to my own opinion - Jerusalem Post</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNHzPha-m3ymd5KVQ8rPVL9xxRnrjg&url=http://www.voanews.com/english/news/africa/Butty-Ivory-Coast-Suggested-Negotiations-Mato-27december10-112491404.html" target="_blank">Nigerian Analyst Says Negotiations not Option in Ivory Coast Crisis - Voice of America</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNGC-4K5-yXz1mZbkxs2aI5RyQ8bZQ&url=http://www.bbc.co.uk/news/world-africa-12081695" target="_blank">Officials appeal for calm after violence in Jos - BBC News</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNF9zmqZwHJOAexciaDz9PjySKf-rQ&url=http://www.latimes.com/news/nationworld/world/la-fg-korea-clash-20101227,0,1360236.story" target="_blank">North Korean soldiers boast of Yeonpyeong Island attack - Los Angeles Times</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNHvDEFj9SP6posNL9-vyXRDeAbRPA&url=http://www.bbc.co.uk/news/world-south-asia-12081889" target="_blank">UN halts Pakistan food aid after suicide bombing - BBC News</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNFKpYbLfTiovQo6HQodD9I-hR0PGw&url=http://online.wsj.com/article/SB10001424052970203568004576043894046208056.html" target="_blank">Assange Memoir Sold in US, UK - Wall Street Journal</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNGrxMHyMRIudeAbNnr0Sj0QXZW8og&url=http://www.bloomberg.com/news/2010-12-26/domodedovo-airport-in-moscow-expects-to-resume-full-service-on-monday.html" target="_blank">Domodedovo Airport in Moscow Expects to Resume Full Service on Monday - Bloomberg</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNHcclOPVYRPI9FCrbUkv5xsi5OjqQ&url=http://www.star-telegram.com/2010/12/26/2728253/bus-crash-kills-eight-americans.html" target="_blank">Bus crash kills eight Americans in Egypt - Fort Worth Star Telegram</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

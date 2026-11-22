@@ -1,0 +1,21 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/russian/russia/2011/02/110208_harding_broke_rules.shtml" target="_blank">МИД России: Хардинг нарушил правила аккредитации</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/russian/russia/2011/02/110208_domodedovo_fsb_dismissals.shtml" target="_blank">Сотрудников ФСБ наказали за взрыв в Домодедове</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/russian/russia/2011/02/110208_russia_time_medvedev.shtml" target="_blank">Медведев отменяет переход России на зимнее время</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/russian/business/2011/02/110208_uk_banks_levy.shtml" target="_blank">Власти Британии взыщут с банков дополнительно 800 млн</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/russian/russia/2011/02/110207_umarov_claims_domodedovo.shtml" target="_blank">Умаров взял ответственность за взрыв в Домодедове</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/russian/russia/2011/02/110208_charukhin_sacked.shtml" target="_blank">Милиционера, давшего показания в пользу Яшина, уволили</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/russian/international/2011/02/110208_egypt_protests_decline.shtml" target="_blank">Протесты в Египте идут на спад</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/russian/international/2011/02/110207_philippines_general_suicide.shtml" target="_blank">Экс-министр обороны Филиппин покончил с собой</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

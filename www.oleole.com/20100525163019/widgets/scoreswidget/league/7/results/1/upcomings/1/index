@@ -1,0 +1,42 @@
+document.write('<div id="oleole_widget_div">'+
+'<link rel="stylesheet" type"text/css" href="http://www.oleole.com/css/scoreswidget.css">'+
+'<div class="widgetbox_sco">'+
+'<table width="100%" cellspacing="0">'+
+'<tr>'+
+'<td>'+
+'<div id="widget_scores_results_div">'+
+'<p class="widget_score_switch">'+
+'<a href="#scorewidget" onClick="document.getElementById(\'widget_scores_results_div\').style.display=\'none\';document.getElementById(\'widget_scores_fixtures_div\').style.display=\'block\';">Show fixtures</a>'+
+'</p>'+
+'<h3>Last results</h3>'+
+'<div class="widgetbox_sco_inner">'+
+'<div class="widget_sco_leaguename"><a target="_top" href="http://www.oleole.com/seriea/el7b.html">Serie A</a></div><div>'+
+'</div>'+
+'        <div class="scoresleague">'+
+'        <p class="widget_sco_date">16/5/2010</p>'+
+'        <p class="widget_sco_match"><a target="_top" href="http://www.oleole.com/footballresults/matchreport/cagliari-bologna160510/ml7udz.html">Cagliari 1 - 1 Bologna</a></p>'+
+'        <p class="widget_sco_match"><a target="_top" href="http://www.oleole.com/footballresults/matchreport/bari-fiorentina160510/ml7ue2.html">Bari 2 - 0 Fiorentina</a></p>'+
+'        <p class="widget_sco_match"><a target="_top" href="http://www.oleole.com/footballresults/matchreport/catania-genoa160510/ml7ue4.html">Catania 1 - 0 Genoa</a></p>'+
+'        <p class="widget_sco_match"><a target="_top" href="http://www.oleole.com/footballresults/matchreport/siena-inter160510/ml7uea.html">Siena 0 - 1 Inter</a></p>'+
+'        <p class="widget_sco_match"><a target="_top" href="http://www.oleole.com/footballresults/matchreport/parma-livorno160510/ml7uep.html">Parma 4 - 1 Livorno</a></p></div>'+
+'</div>'+
+'<h5><a href="http://www.oleole.com" target="_top">Powered by OleOle</a></h5>'+
+'</div>'+
+'</td>'+
+'</tr>'+
+'<tr>'+
+'<td>'+
+'<div id="widget_scores_fixtures_div" style="display: none">'+
+'<p class="widget_score_switch">'+
+'<a href="#scorewidget" onClick="document.getElementById(\'widget_scores_results_div\').style.display=\'block\';document.getElementById(\'widget_scores_fixtures_div\').style.display=\'none\';">Show last results</a>'+
+'</p>'+
+'<h3>Upcoming matches</h3>'+
+'<div class="widgetbox_sco_inner">'+
+'<div class="widget_sco_leaguename"><a target="_top" href="http://www.oleole.com/seriea/el7b.html">Serie A</a></div></div>'+
+'</div>'+
+'</div>'+
+'</td>'+
+'</tr>'+
+'</table>'+
+'</div>'+
+'</div>');

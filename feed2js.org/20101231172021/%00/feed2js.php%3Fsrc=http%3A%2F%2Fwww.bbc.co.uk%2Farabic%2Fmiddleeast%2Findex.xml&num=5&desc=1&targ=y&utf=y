@@ -1,0 +1,20 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/middleeast/2010/12/101230_iraq_christians.shtml" target="_blank">بغداد: مقتل شخصين في سلسلة هجمات استهدفت الأقلية المسيحية</a><br />');
+document.write('');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/middleeast/2010/12/101231_puntland_russia.shtml" target="_blank">أرض الصومال: سجن 6 طيارين روس لنقلهم أسلحة إلى إقليم بونتلاند</a><br />');
+document.write('tag:www.bbcarabic.com,2010-12-31:8234199 8234199 2010-12-31T05:23:28+00:00 2010-12-31T03:35:46+00:00 not restricted');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/middleeast/2010/12/101230_israel_katsav.shtml" target="_blank">ادانة رئيس اسرائيل السابق بتهمة الاغتصاب</a><br />');
+document.write('tag:www.bbcarabic.com,2010-12-30:8218736 8218736 2010-12-30T10:29:23+00:00 2010-12-30T06:59:47+00:00 restricted');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/middleeast/2010/12/101230_tunisia_governor.shtml" target="_blank">تونس: بن علي يقيل محافظ \"سيدي بوزيد\" على خلفية المظاهرات الأخيرة</a><br />');
+document.write('tag:www.bbcarabic.com,2010-12-30:8230665 8230665 2010-12-30T18:38:39+00:00 2010-12-30T18:09:39+00:00 not restricted');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/middleeast/2010/12/101230_yemen_shia_rebels_free.shtml" target="_blank">الحكومة اليمنية تفرج عن مئات من الحوثيين تنفيذا لـ \"اتفاق السلام\"</a><br />');
+document.write('tag:www.bbcarabic.com,2010-12-30:8230656 8230656 2010-12-30T19:01:04+00:00 2010-12-30T18:08:57+00:00 not restricted');
+document.write('</li>');
+document.write('</ul></div>');

@@ -1,0 +1,23 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.msnbc.msn.com/id/40816311/ns/world_news-europe/" target="_blank">9 charged with terror conspiracy in UK</a><br />');
+document.write('British police say they have charged nine men with a terror-related conspiracy.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.msnbc.msn.com/id/40816300/ns/world_news-europe/" target="_blank">Russian tycoon Khodorkovsky again found guilty</a><br />');
+document.write('<p><a href=\"http://www.msnbc.msn.com/id/40816300/ns/world_news-europe/\"><img align=\"left\" border=\"0\" src=\"http://msnbcmedia.msn.com/j/ap/russia khodorkovsky--705519775_v2.thumb.jpg\" alt=\"Mikhail Khodorkovsky, left, and his co-defendant Platon Lebedev, smile from behind bars at a court room in Moscow, Monday, Dec. 27, 2010. A Russian judge starts delivering the verdict in the second trial of jailed oil tycoon Mikhail Khodorkovsky, once Russia\'s richest man who is serving an eight-year sentence in a case widely seen as punishment for challenging the Kremlin and is now facing several more years in prison if convicted. (AP Photo/Sergey Ponomarev)\" style=\"margin:0 5px 5px 0\" /></a>A judge on Monday declared Mikhail Khodorkovsky guilty of theft and money laundering charges, a verdict that will likely keep the oil tycoon who was once Russia\'s richest man behind bars for several more years.</p><br clear=\"all\" />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.msnbc.msn.com/id/40816276/ns/world_news-mideastn_africa/" target="_blank">Twin suicide blasts kill 6 in western Iraq</a><br />');
+document.write('An Iraqi spokesman for Anbar province says two suicide bombers blew themselves up and killed six people in the provincial capital of Ramadi.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.msnbc.msn.com/id/40810087/ns/world_news-mideastn_africa/" target="_blank">Eight American tourists killed in Egypt crash</a><br />');
+document.write('<p><a href=\"http://www.msnbc.msn.com/id/40810087/ns/world_news-mideastn_africa/\"><img align=\"left\" border=\"0\" src=\"http://msnbcmedia.msn.com/j/MSNBC/Components/Photo/_new/101226_egyptcrash=443a.thumb.jpg\" alt=\"An unidentified injured tour bus passenger is treated at an Aswan hospital after a tour bus crashes into a truck on a journey from Aswan to the ancient temples of Abu Simbel.\" style=\"margin:0 5px 5px 0\" /></a>A tour bus slammed into a truck in southern Egypt on Sunday, killing eight American tourists and injuring 21 others in the latest fatal crash involving tourists, the state news agency said.</p><br clear=\"all\" />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.msnbc.msn.com/id/40811665/ns/world_news-mideastn_africa/" target="_blank">Israeli foreign minister: Peace is \'impossible\'</a><br />');
+document.write('<p><a href=\"http://www.msnbc.msn.com/id/40811665/ns/world_news-mideastn_africa/\"><img align=\"left\" border=\"0\" src=\"http://msnbcmedia.msn.com/j/ap/mideast israel palestinians-639370173_v2.thumb.jpg\" alt=\"Avigdor Lieberman, then Israel\'s Minister for Strategic Affairs, talks during a news conference at the Knesset, Israel\'s parliament in Jerusalem, on Jan. 16, 2008. Now Israel\'s Foreign Minister, Lieberman said that a peace deal with the Palestinians is impossible under current conditions and that Israel shouldn\'t pursue one.\" style=\"margin:0 5px 5px 0\" /></a>Israel\'s foreign minister said Sunday a peace deal with the Palestinians is impossible under current conditions and that Israel should pursue a lesser deal instead ? a concept the Palestinians swiftly rejected.</p><br clear=\"all\" />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.msnbc.msn.com/id/40815717/ns/weather/" target="_blank">Summer snow, floods in weird Australia weather</a><br />');
+document.write('Torrential rains across eastern Australia have left some towns flooded while the southern state of Tasmania has been hit by an unusual flurry of summer snow.');
+document.write('</li>');
+document.write('</ul></div>');

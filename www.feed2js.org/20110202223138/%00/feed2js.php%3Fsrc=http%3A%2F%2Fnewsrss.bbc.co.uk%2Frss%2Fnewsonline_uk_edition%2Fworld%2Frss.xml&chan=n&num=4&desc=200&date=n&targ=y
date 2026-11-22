@@ -1,0 +1,17 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/world-middle-east-12345656" target="_blank">Deadly clashes rock Egypt capital</a><br />');
+document.write('Three people are killed and hundreds wounded in the Egyptian capital, as supporters and opponents of President Hosni Mubarak fight pitched battles....');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/world-asia-pacific-12342031" target="_blank">Cyclone unleashed on Queensland</a><br />');
+document.write('Powerful winds and driving rains pound the northern coast of Queensland as Cyclone Yasi makes landfall in the Australian state....');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/world-middle-east-12343166" target="_blank">Yemen president to quit in 2013</a><br />');
+document.write('Yemeni President Ali Abdullah Saleh says he will not extend his presidency, or appoint his son to the role, when his current term expires in 2013....');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/technology-12343597" target="_blank">Google accuses Bing of \'copying\'</a><br />');
+document.write('A row has broken out between search engine giants Google and Microsoft over how results are obtained....');
+document.write('</li>');
+document.write('</ul></div>');

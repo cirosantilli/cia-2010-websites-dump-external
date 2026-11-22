@@ -1,0 +1,17 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.shop.com/adidas+Velocity+II+Tech+Backpack+NEW+-226582591-o+.xhtml" target="_blank">adidas Velocity II Tech Backpack - NEW!</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.shop.com/adidas+Velocity+II+Tech+Backpack+NEW+-229914821-o+.xhtml" target="_blank">adidas Velocity II Tech Backpack - NEW!</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.shop.com/adidas+Velocity+II+Tech+Backpack+NEW+-408291265-p+.xhtml" target="_blank">adidas Velocity II Tech Backpack - NEW!</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.shop.com/adidas+Fenwick+Backpack+Mid+Red+one+size+eBook+-242606538-o+.xhtml" target="_blank">adidas Fenwick Backpack,Mid Red,one size -eBook</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.shop.com/adidas+Fenwick+Backpack+Deep+Navy+one+size+eBook-407374264-p+.xhtml" target="_blank">adidas Fenwick Backpack,Deep Navy,one size -eBook</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.shop.com/adidas+Fenwick+Backpack+State+Blue+one+size-346837035-p+.xhtml" target="_blank">adidas Fenwick Backpack,State Blue,one size</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

@@ -1,0 +1,19 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.travelagentcentral.com/usa-florida/classic-florida-retreats" target="_blank">Classic Florida Retreats</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.travelagentcentral.com/historic-hotels/grand-hotels" target="_blank">Grand Hotels</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.travelagentcentral.com/usa-florida/usa-florida-news" target="_blank">USA-Florida News</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.travelagentcentral.com/usa-florida/usa-florida-deals" target="_blank">USA-Florida Deals</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.travelagentcentral.com/usa-florida/usa-florida-stories" target="_blank">USA-Florida Stories</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.travelagentcentral.com/all-inclusive/grand-opening-rate-club-med-sandpiper-bay" target="_blank">Grand Opening Rate at Club Med Sandpiper Bay</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.travelagentcentral.com/home-based/usa-florida/b-ocean-fort-lauderdale-offers-agent-rate-25370" target="_blank">B Ocean Fort Lauderdale Offers Agent Rate</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

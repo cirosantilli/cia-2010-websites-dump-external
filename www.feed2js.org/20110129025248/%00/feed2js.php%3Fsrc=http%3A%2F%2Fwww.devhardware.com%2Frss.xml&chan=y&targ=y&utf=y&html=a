@@ -1,0 +1,21 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<p class="rss-title"><a class="rss-title" href="http://www.devhardware.com" target="_blank">Hardware Reviews, Computer Hardware Reviews - RSS Feeds</a><br /><span class="rss-item">Hardware Reviews, Computer Hardware Reviews - RSS Feeds</span></p>');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.devhardware.com/c/a/Mobile-Devices/Top-Smartphones-and-Tablets-for-2011/" target="_blank">Top Smartphones and Tablets for 2011</a><br />');
+document.write('2 11 should be a great year for tech fans. New products and improved technology are on the way so let s begin by taking a look at some of this year s anticipated releases in terms of smartphones and tablets....');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.devhardware.com/c/a/PC-Gaming/Michael-Jackson-The-Experience-Game-Review/" target="_blank">Michael Jackson The Experience Game Review</a><br />');
+document.write('With so many dance and music-themed games hitting the market one had to wonder when the King of Pop Michael Jackson would get his proper due. It may have taken a while but fans of the musical icon finally got their wish when Michael Jackson The Experience was released for the Wii gaming console. Does it live up to the hopes of the fans Let s take a closer look....');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.devhardware.com/c/a/Mobile-Devices/Android-Productivity-App-Review/" target="_blank">Android Productivity App Review</a><br />');
+document.write('Productivity is just another in the long list of reasons why someone may purchase an Android smartphone or tablet. Here are two productivity apps that you should look into downloading to get your Android device off to a productive start....');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.devhardware.com/c/a/Mobile-Devices/Android-Tweetdeck-and-Meebo-App-Review/" target="_blank">Android Tweetdeck and Meebo App Review</a><br />');
+document.write('This holiday season you finally received the Android device you have been waiting for. You might be wondering which apps to download. Considering the wide variety that the Android Market offers deciding which apps to download first could be a daunting task. Many Android device owners will use them for productivity. It s safe to say however that many others will use them for social purposes as well. With that said here are a couple of social apps that you should look into getting for your Android device right off the bat....');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.devhardware.com/c/a/Hardware-News/Apple-Lists-Top-Mobile-Apps/" target="_blank">Apple Lists Top Mobile Apps</a><br />');
+document.write('Apple is close to reaching the 1 billion download mark for its App Store. To give some historical background to the store s success the tech giant has just released its top ten lists for app downloads on the iPhone and iPad....');
+document.write('</li>');
+document.write('</ul></div>');

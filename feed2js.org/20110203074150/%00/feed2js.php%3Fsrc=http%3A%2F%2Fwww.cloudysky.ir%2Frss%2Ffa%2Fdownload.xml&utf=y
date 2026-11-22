@@ -1,0 +1,25 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.cloudysky.ir/page/download_read.php?id=16" target="_self">نقشه های توپوگرافی هموار</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.cloudysky.ir/page/download_read.php?id=15" target="_self">بازسازی نقشه های توپوگرافی</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.cloudysky.ir/page/download_read.php?id=14" target="_self">MOSLO</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.cloudysky.ir/page/download_read.php?id=13" target="_self">مشاهده داده های گمانه زن ها</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.cloudysky.ir/page/download_read.php?id=12" target="_self">مشاهده گر داده های NEXRAD</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.cloudysky.ir/page/download_read.php?id=11" target="_self">مشاهده گر مدل های ابتدایی</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.cloudysky.ir/page/download_read.php?id=10" target="_self">مشاهده داده های METAR</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.cloudysky.ir/page/download_read.php?id=9" target="_self">رمزگذار جوی</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.cloudysky.ir/page/download_read.php?id=8" target="_self">آنالیزگر جوی Weather Audit</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.cloudysky.ir/page/download_read.php?id=7" target="_self">دانلود کننده نمودارهای هواشناسی Weatherpipe</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

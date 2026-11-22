@@ -1,0 +1,25 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/middleeast/2010/12/101231_sudan_south_darfur_wrap.shtml" target="_blank">عشرات الآلاف يعودون إلى جنوب السودان قبل الاستفتاء</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/worldnews/2010/12/101231_newyear_celebrations.shtml" target="_blank">العالم يبدأ الاحتفالات بالعام الجديد</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/worldnews/2010/12/101231_pakistan_blasphemy_law.shtml" target="_blank">باكستان: إضراب عام احتجاجا على \"تعديل\" قانون التجديف</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/worldnews/2010/12/101231_floods_australia.shtml" target="_blank">رئيسة وزراء استراليا تتفقد المناطق المنكوبة بالفيضانات</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/worldnews/2010/12/101229_ivorycoast_africa.shtml" target="_blank">بان كي مون يحذر من حرب أهلية في ساحل العاج</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/middleeast/2010/12/101230_iraq_christians.shtml" target="_blank">بغداد: مقتل شخصين في سلسلة هجمات استهدفت الأقلية المسيحية</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/middleeast/2010/12/101231_puntland_russia.shtml" target="_blank">أرض الصومال: سجن 6 طيارين روس لنقلهم أسلحة إلى إقليم بونتلاند</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/worldnews/2010/12/101231_northkorea_uk.shtml" target="_blank">تليفزيون كوريا الشمالية يعرض أول فيلم غربي</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/artandculture/2010/12/101230_bobbyfarrell_bonym.shtml" target="_blank">رحيل بوبي فاريل مغني البوني ام عن 61 عاما</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/worldnews/2010/12/101231_pakistan_drone.shtml" target="_blank">باكستان: مقتل 8 في غارة لطائرة امريكية بدون طيار</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

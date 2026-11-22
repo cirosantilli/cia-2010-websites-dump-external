@@ -1,0 +1,23 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.marketwatch.com/news/story.asp?guid=%7B3C38444C-2B2F-11E0-A215-00212804637C%7D&siteid=rss&rss=1" target="_blank">Taxing Times: Tax simplification is here, sort of</a><br />');
+document.write('Whatever your opinion of the Bush-era tax cuts and the wisdom or lack thereof of maintaining them, their extension in the Tax Relief Act did help to simplify the 2010 tax season, at least a little bit.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.marketwatch.com/news/story.asp?guid=%7BA033A296-2AFA-11E0-A215-00212804637C%7D&siteid=rss&rss=1" target="_blank">Emerging Markets Report: Mubarak fires Cabinet, defends army?s efforts</a><br />');
+document.write('Egyptian President Hosni Mubarak dismisses his Cabinet, calls on the army to help put down rising protests against his rule, which are prompting global financial unrest.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.marketwatch.com/news/story.asp?guid=%7B713C7C88-2B04-11E0-A215-00212804637C%7D&siteid=rss&rss=1" target="_blank">Fantasy Earnings leader profits from Halliburton</a><br />');
+document.write('This week?s winner in the MarketWatch Fantasy Earnings Trader competition won big by betting on Halliburton.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.marketwatch.com/news/story.asp?guid=%7BFF8C7C20-2B1A-11E0-A215-00212804637C%7D&siteid=rss&rss=1" target="_blank">Latin American Markets: LatAm stocks drop on Egypt worries</a><br />');
+document.write('Stocks in major Latin American markets fall as violent protests in Egypt hasten the search by investors for safe-haven assets.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.marketwatch.com/news/story.asp?guid=%7BF3CD9EA6-2B14-11E0-A215-00212804637C%7D&siteid=rss&rss=1" target="_blank">Top Ten: MarketWatch Top 10 stories Jan. 24 - 28</a><br />');
+document.write('Here?s at look at the week?s top stories from MarketWatch.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.marketwatch.com/news/story.asp?guid=%7B9984968E-2B28-11E0-A215-00212804637C%7D&siteid=rss&rss=1" target="_blank">After Hours: Ford Motor shares edge up in late trade</a><br />');
+document.write('The auto maker?s shares gain modest ground after a ratings agency raises Ford?s rating closer to investment grade.');
+document.write('</li>');
+document.write('</ul></div>');

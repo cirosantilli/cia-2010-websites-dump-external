@@ -1,0 +1,8 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://e1.rd.yahoo.com/dailynews/rss/deportes/*http://espanol.news.yahoo.com/s/ap/110202/deportes/dep_nfl_ap_jugador_ofensivo" target="_blank">La AP elige a Brady como Jugador Ofensivo del Año</a><br />');
+document.write('AP - DALLAS (AP) - Tom Brady despedazó las defensivas de la NFL con sus pases precisos y dinámico liderazgo del ataque de los Pa...');
+document.write('</li>');
+document.write('</ul></div>');

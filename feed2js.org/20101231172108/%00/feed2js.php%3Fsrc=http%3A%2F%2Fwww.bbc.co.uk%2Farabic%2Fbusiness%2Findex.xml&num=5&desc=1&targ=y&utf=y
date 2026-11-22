@@ -1,0 +1,20 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/worldnews/2010/12/101229_uae_visa_canadians.shtml" target="_blank">الكنديون يواجهون ارتفاعا باهظا في رسوم التأشيرة للإمارات</a><br />');
+document.write('');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/business/2010/12/101230_economy_eu.shtml" target="_blank">كبير اقتصاديي صندوق النقد الدولي يحض دولا اوروبية على طلب المساعدة</a><br />');
+document.write('tag:www.bbcarabic.com,2010-12-31:8233647 8233647 2010-12-31T02:28:55+00:00 2010-12-31T02:06:46+00:00 restricted');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/business/2010/12/101230_citibank_fraud.shtml" target="_blank">الهند: اعتقال موظف بشبهة \"اختلاس\" الملايين من فرع \"سيتي بنك\"</a><br />');
+document.write('tag:www.bbcarabic.com,2010-12-31:8233215 8233215 2010-12-31T00:57:48+00:00 2010-12-31T00:55:21+00:00 not restricted');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/worldnews/2010/12/101230_vatican_watchdog_money_laundering.shtml" target="_blank">الفاتيكان ينشئ هيئة رقابة مالية لمكافحة غسيل الأموال</a><br />');
+document.write('tag:www.bbcarabic.com,2010-12-30:8223750 8223750 2010-12-30T13:08:56+00:00 2010-12-30T12:20:01+00:00 not restricted');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/business/2010/12/101228_banks_bonuses_regulations.shtml" target="_blank">دعوة دولية إلى علنية المكافآت المصرفية</a><br />');
+document.write('tag:www.bbcarabic.com,2010-12-28:8198229 8198229 2010-12-28T17:28:32+00:00 2010-12-28T17:11:36+00:00 not restricted');
+document.write('</li>');
+document.write('</ul></div>');

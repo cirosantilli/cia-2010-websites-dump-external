@@ -1,0 +1,14 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.winespectator.com/dailypicks/show/date/2011-02-02/dwpid/7744" target="_blank">SUR ANDINO Chardonnay Central Valley Terra Andina 2009 $9 (Wine Spectator)</a><br />');
+document.write('A forward, friendly and honest Chilean Chardonnay');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.winespectator.com/dailypicks/show/date/2011-02-02/dwpid/7745" target="_blank">ANCIENT PEAKS Zinfandel Paso Robles 2008 $16 (Wine Spectator)</a><br />');
+document.write('A jammy Paso Zinfandel with pepper and toasty sage');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.winespectator.com/dailypicks/show/date/2011-02-02/dwpid/7746" target="_blank">CHÂTEAU FORTIA Châteauneuf-du-Pape Tradition 2008 $32 (Wine Spectator)</a><br />');
+document.write('A brawny Châteauneuf laced with licorice and coffee');
+document.write('</li>');
+document.write('</ul></div>');

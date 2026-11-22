@@ -1,0 +1,2 @@
+// Javascript document
+document.write("<a href=\"http://www.vcricket.com/live_cricket_scores/Sri-Lanka_vs_West-Indies.html\" target=\"_blank\" >");document.write("<img src=\"http://ifeed.vcricket.com/get_scorecard.aspx?sc=SL&sz=120x240&token=123456\" width=\"120\" height=\"240\" border=\"0\" alt=\"Cricket Score Updates powered by vCricket.com\">");document.write("</a>");

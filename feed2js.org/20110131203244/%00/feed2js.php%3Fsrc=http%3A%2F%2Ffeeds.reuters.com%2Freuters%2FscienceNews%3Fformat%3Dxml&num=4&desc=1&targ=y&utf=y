@@ -1,0 +1,17 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.reuters.com/~r/reuters/scienceNews/~3/3jElO-Sg_Yw/us-quake-chile-idUSTRE70T2UP20110131" target="_blank">Risk of new Chile quake seen after 2010 disaster</a><br />');
+document.write('OSLO (Reuters) - The risk of a new earthquake may have increased in an area of Chile\'s Pacific coast that suffered a massive quake and tsunamis last year that killed more than 500 people, a team of scientists said on Sunday.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.reuters.com/~r/reuters/scienceNews/~3/HkQ3F6TBfK0/us-food-meat-laboratory-feature-idUSTRE70T1WZ20110131" target="_blank">South Carolina scientist works to grow meat in lab</a><br />');
+document.write('CHARLESTON, South Carolina (Reuters) - In a small laboratory on an upper floor of the basic science building at the Medical University of South Carolina, Vladimir Mironov, M.D., Ph.D., has been working for a decade to grow meat.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.reuters.com/~r/reuters/scienceNews/~3/Dpax9U7iAOQ/us-pancreas-diabetes-idUSTRE70U00N20110131" target="_blank">\"Artificial pancreas\" shows promise in pregnancy</a><br />');
+document.write('LONDON (Reuters) - Scientists have shown how an \"artificial pancreas\" can help pregnant women with type 1 diabetes and say their finding could significantly reduce cases of stillbirth and death among diabetic expectant mothers.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.reuters.com/~r/reuters/scienceNews/~3/HIHWbdIDhLU/us-usa-shooting-congresswoman-astronaut-idUSTRE70T1QW20110130" target="_blank">Giffords husband to decide on space trip in mid-February</a><br />');
+document.write('HERZLIYA, Israel (Reuters) - The astronaut husband of a U.S. congresswoman seriously wounded when she was shot in head will decide by mid-February whether to join the last NASA shuttle launch as scheduled, the space agency said Sunday.');
+document.write('</li>');
+document.write('</ul></div>');

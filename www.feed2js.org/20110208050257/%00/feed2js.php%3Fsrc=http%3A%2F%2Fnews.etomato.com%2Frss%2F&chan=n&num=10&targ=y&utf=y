@@ -1,0 +1,25 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.etomato.com/news/etomato_news_read.asp?no=137893" target="_blank">\"미국 가면 한국도 오른다..대형株 위주 매매\"-현대證</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.etomato.com/news/etomato_news_read.asp?no=137894" target="_blank">대한유화 \"울산공장 사고 피해 미미\"</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.etomato.com/news/etomato_news_read.asp?no=137896" target="_blank">(시황)코스피, 外人 선·현물 \'팔자\'에 2080선 하회(1:20)</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.etomato.com/news/etomato_news_read.asp?no=137895" target="_blank">에듀언스, 대표이사 횡령혐의 없음 종결처리</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.etomato.com/news/etomato_news_read.asp?no=137902" target="_blank">헨켈, 새 기업 디자인 공개</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.etomato.com/news/etomato_news_read.asp?no=137901" target="_blank">영남제분, 작년 영업익 61억원..전년比 48.5%↓</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.etomato.com/news/etomato_news_read.asp?no=137900" target="_blank">신원, 작년 영업익 137억원..전년比 52.8% ↓</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.etomato.com/news/etomato_news_read.asp?no=137889" target="_blank">윤증현, \"경제살리기에 기업 협조 필요\"</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.etomato.com/news/etomato_news_read.asp?no=137875" target="_blank">토요타, 렉서스 IS250 리콜</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.etomato.com/news/etomato_news_read.asp?no=137823" target="_blank">르노삼성, 값 내리고 옵션 높인 \'QM5 프리미엄 패키지\' 출시</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

@@ -1,0 +1,49 @@
+document.write('<div id="oleole_widget_div">'+
+'<link rel="stylesheet" type"text/css" href="http://www.oleole.com/css/scoreswidget.css">'+
+'<div class="widgetbox_sco">'+
+'<table width="100%" cellspacing="0">'+
+'<tr>'+
+'<td>'+
+'<div id="widget_scores_results_div">'+
+'<p class="widget_score_switch">'+
+'<a href="#scorewidget" onClick="document.getElementById(\'widget_scores_results_div\').style.display=\'none\';document.getElementById(\'widget_scores_fixtures_div\').style.display=\'block\';">Show fixtures</a>'+
+'</p>'+
+'<h3>Last results</h3>'+
+'<div class="widgetbox_sco_inner">'+
+'<div class="widget_sco_leaguename"><a target="_top" href="http://www.oleole.com/germany/bundesliga/el6o.html">Bundesliga</a></div><div>'+
+'</div>'+
+'        <div class="scoresleague">'+
+'        <p class="widget_sco_date">3/5/2009</p>'+
+'        <p class="widget_sco_match"><a target="_top" href="http://www.oleole.com/footballresults/matchreport/fckoln-werderbremen030509/ml5l0l.html">FC Koln 1 - 0 Werder Bremen</a></p>'+
+'        <p class="widget_sco_match"><a target="_top" href="http://www.oleole.com/footballresults/matchreport/hamburgersv-herthaberlin030509/ml5l0s.html">Hamburger SV 1 - 1 Hertha Berlin</a></p></div>'+
+'        <div class="scoresleague">'+
+'        <p class="widget_sco_date">2/5/2009</p>'+
+'        <p class="widget_sco_match"><a target="_top" href="http://www.oleole.com/footballresults/matchreport/karlsruhe-cottbus020509/ml5l0n.html">Karlsruhe 0 - 0 Cottbus</a></p>'+
+'        <p class="widget_sco_match"><a target="_top" href="http://www.oleole.com/footballresults/matchreport/bielefeld-vfbstuttgart020509/ml5l0o.html">Bielefeld 2 - 2 VfB Stuttgart</a></p>'+
+'        <p class="widget_sco_match"><a target="_top" href="http://www.oleole.com/footballresults/matchreport/eintrachtfrankfurt-bordortmund020509/ml5l0p.html">Eintracht Frankfurt 0 - 2 Bor. Dortmund</a></p></div>'+
+'</div>'+
+'<h5><a href="http://www.oleole.com" target="_top">Powered by OleOle</a></h5>'+
+'</div>'+
+'</td>'+
+'</tr>'+
+'<tr>'+
+'<td>'+
+'<div id="widget_scores_fixtures_div" style="display: none">'+
+'<p class="widget_score_switch">'+
+'<a href="#scorewidget" onClick="document.getElementById(\'widget_scores_results_div\').style.display=\'block\';document.getElementById(\'widget_scores_fixtures_div\').style.display=\'none\';">Show last results</a>'+
+'</p>'+
+'<h3>Upcoming matches</h3>'+
+'<div class="widgetbox_sco_inner">'+
+'<div class="widget_sco_leaguename"><a target="_top" href="http://www.oleole.com/germany/bundesliga/el6o.html">Bundesliga</a></div><div>'+
+'</div>'+
+'        <div class="scoresleague">'+
+'        <p class="widget_sco_date">8/5/2009</p>        <p class="widget_sco_match"><a target="_top" href="http://www.oleole.com/footballresults/matchreport/bayerleverkusen-bielefeld080509/ml5l11.html">Bayer Leverkusen v Bielefeld</a></p></div>'+
+'        <div class="scoresleague">'+
+'        <p class="widget_sco_date">9/5/2009</p>        <p class="widget_sco_match"><a target="_top" href="http://www.oleole.com/footballresults/matchreport/vfbstuttgart-wolfsburg090509/ml5l12.html">VfB Stuttgart v Wolfsburg</a></p>        <p class="widget_sco_match"><a target="_top" href="http://www.oleole.com/footballresults/matchreport/cottbus-bayernmunich090509/ml5l0u.html">Cottbus v Bayern Munich</a></p>        <p class="widget_sco_match"><a target="_top" href="http://www.oleole.com/footballresults/matchreport/bordortmund-karlsruhe090509/ml5l10.html">Bor. Dortmund v Karlsruhe</a></p>        <p class="widget_sco_match"><a target="_top" href="http://www.oleole.com/footballresults/matchreport/hoffenheim-fckoln090509/ml5l0y.html">Hoffenheim v FC Koln</a></p></div>'+
+'</div>'+
+'</div>'+
+'</td>'+
+'</tr>'+
+'</table>'+
+'</div>'+
+'</div>');

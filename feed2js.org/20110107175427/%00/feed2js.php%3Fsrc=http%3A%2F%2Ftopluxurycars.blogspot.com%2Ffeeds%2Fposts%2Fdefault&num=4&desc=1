@@ -1,0 +1,17 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://topluxurycars.blogspot.com/2009/08/lamborghini-gallardo-spyder.html" target="_self">Lamborghini Gallardo Spyder</a><br />');
+document.write('Lamborghini Gallardo SpyderLamborghini Gallardo SpyderLamborghini Gallardo Spyder');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://topluxurycars.blogspot.com/2009/08/lamborghini-estoque.html" target="_self">Lamborghini Estoque</a><br />');
+document.write('Lamborghini EstoqueLamborghini EstoqueLamborghini Estoque');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://topluxurycars.blogspot.com/2009/08/lamborghini-murcielago-roadster.html" target="_self">Lamborghini Murcielago Roadster</a><br />');
+document.write('Lamborghini Murcielago RoadsterLamborghini Murcielago RoadsterLamborghini Murcielago Roadster');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://topluxurycars.blogspot.com/2009/08/lamborghini-gallardo.html" target="_self">Lamborghini Gallardo</a><br />');
+document.write('Lamborghini GallardoLamborghini GallardoLamborghini Gallardo');
+document.write('</li>');
+document.write('</ul></div>');

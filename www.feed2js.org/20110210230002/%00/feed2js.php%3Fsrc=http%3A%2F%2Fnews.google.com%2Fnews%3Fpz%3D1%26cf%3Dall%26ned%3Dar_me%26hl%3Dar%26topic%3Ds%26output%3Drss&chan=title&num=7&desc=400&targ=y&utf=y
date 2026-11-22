@@ -1,0 +1,27 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<p class="rss-title"><a class="rss-title" href="http://news.google.com/news?pz=1&ned=ar_me&hl=ar&topic=s" target="_blank">رياضة - أخبار Google</a></p>');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNEGziQwfAJZav6Z_pKqfcVgP0kODQ&url=http://ksa.daralhayat.com/ksaarticle/233202" target="_blank">القطري العطية بطلاً لرالي حائل الدولي - دار الحياة</a><br />');
+document.write('الوطنالقطري العطية بطلاً لرالي حائل الدوليدار الحياةتُوج السائق القطري ناصر العطية وملاحه تيموغوتشالك ببطولة رالي حائل الدولي لعام 2011 المخصص لسيارات الدفع الرباعي، بعد تصدره السباق بزمن وقدره (2:25:23 ساعة)، بعد أن واصل ت...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNE-BU13UKI27b82aH_13NhxLwIEaQ&url=http://international.daralhayat.com/internationalarticle/233068" target="_blank">الغرافة ولخويا يتنافسان على صدارة الدوري القطري - دار الحياة</a><br />');
+document.write('جريدة الآن الالكترونيةالغرافة ولخويا يتنافسان على صدارة الدوري القطريدار الحياةالدوحة - أ ف ب - تشهد المرحلة الـ13 من الدوري القطري لكرة القدم اليوم تنافساً مثيراً على الصدارة في قمة الغرافة ولخويا، وهي الجولة التي انطل�...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNFZxxjQ-jMxY7jffFSa3fM8nhKn7w&url=http://international.daralhayat.com/internationalarticle/233086" target="_blank">«الملكي» يواصل تربعة على عرش الأثرياء - دار الحياة</a><br />');
+document.write('فرانس 24«الملكي» يواصل تربعة على عرش الأثرياءدار الحياةلندن - ا ف ب -كشف تقرير نشرته مؤسسة ديلويت البريطانية المتخصصة في الاستشارات الضريبية والمالية ان ريال مدريد الاسباني هو النادي الكروي الاغنى في العالم بعدما وصلت ع�...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNExtH9fJPhkLfBFoJAZdNv8a8_xMQ&url=http://www.alraimedia.com/Alrai/Article.aspx?id%3D255778%26date%3D11022011" target="_blank">«ميسي الأرجنتين» أعلى من «رونالدو البرتغال» - صحيفة الرأي</a><br />');
+document.write('صحيفة الرأي«ميسي الأرجنتين» أعلى من «رونالدو البرتغال»صحيفة الرأيعواصم - ا ف ب ود ب ا - سجل ليونيل ميسي، نجم برشلونة الاسباني، ركلة جزاء في الدقيقة الاخيرة ليمنح فريقه الفوز على البرتغال 2-1 في جنيف ضمن سلسلة من المباريات ...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNFR0j87LDn2VTQNMx7raVPmh14A1A&url=http://www.elaph.com/Web/Sports/2011/2/631006.html?entry%3Dsportsnews" target="_blank">الكاميرون تلحق بالسودان الى ربع النهائي‏‎ - ايلاف</a><br />');
+document.write('نسيجالكاميرون تلحق بالسودان الى ربع النهائي‏‎ايلافلحقت الكاميرون بالسودان الى الدور ربع النهائي لمسابقة كأس امم افريقيا للاعبين المحليين بنسختها الثانية المقامة حاليا في السودان بفوزها على مالي 1-صفر اليوم الخميس عل...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNF6EYvdoBDRuvFHMe5MX8gVZJdrcA&url=http://www.alittihad.ae/details.php?id%3D14352%26y%3D2011" target="_blank">براجا: محظوظون بالفوز وضربة الجزاء صحيحة - الاتحاد</a><br />');
+document.write('جريدة الآن الالكترونيةبراجا: محظوظون بالفوز وضربة الجزاء صحيحةالاتحادبهدف قاتل سجله لاعب الوسط الجزراوي إبراهيما دياكيه في الدقيقة الأولى من الوقت المحتسب بدل الضائع من اللقاء الذي شهده أمس الأول ملعب خليفة بن زايد بن...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNF_oHdBsO5CC22UwhRqACu2TFCoMA&url=http://www.filgoal.com/Arabic/News.aspx?NewsID%3D76415" target="_blank">الزمالك ينقل مباراته مع ستارز إلى ليبيا - في الجول</a><br />');
+document.write('يلا كورةالزمالك ينقل مباراته مع ستارز إلى ليبيافي الجولقرر نادي الزمالك إقامة مباراته مع أولينزي ستارز الكيني في إياب دور الـ64 دوري أبطال إفريقيا في ليبيا نظرا لعدم الاستقرار الأمني في القاهرة. وتشهد مصر اضطرابات عديدة...');
+document.write('</li>');
+document.write('</ul></div>');

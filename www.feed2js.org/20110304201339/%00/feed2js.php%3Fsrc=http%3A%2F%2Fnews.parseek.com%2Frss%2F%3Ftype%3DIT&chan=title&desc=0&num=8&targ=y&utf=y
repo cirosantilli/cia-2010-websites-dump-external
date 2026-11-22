@@ -1,0 +1,22 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<p class="rss-title"><a class="rss-title" href="http://www.parseek.com" target="_blank">parseek.com</a></p>');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.parseek.com/Url/?id=4423999" target="_blank">IBM و HP پیشتاز بازار سرور جهان</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.parseek.com/Url/?id=4423966" target="_blank">انگلیس پیشرو در تجارت الکترونیک اروپا</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.parseek.com/Url/?id=4423965" target="_blank">آمار 90 درصدی تراکنش الکترونیکی یارانه‌ها</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.parseek.com/Url/?id=4423894" target="_blank">مقاله / VPL-VW90ES ، پروژکتور سه‌بعدی سونی</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.parseek.com/Url/?id=4423811" target="_blank">اینترنت و ویکی‌لیکس در انتظار صلح نوبل</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.parseek.com/Url/?id=4423810" target="_blank">وب‌سایت‌های کره جنوبی هدف حملات هکری</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.parseek.com/Url/?id=4423809" target="_blank">دو رقیب در تعقیب یک متقلب</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.parseek.com/Url/?id=4423718" target="_blank">خدمات کلود کمتر از انتظار کاربران</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

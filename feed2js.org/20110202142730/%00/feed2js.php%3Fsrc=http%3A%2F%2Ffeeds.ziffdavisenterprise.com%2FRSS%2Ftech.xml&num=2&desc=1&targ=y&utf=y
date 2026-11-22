@@ -1,0 +1,11 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.ziffdavisenterprise.com/~r/RSS/tech/~3/kl3cdmiszI4/" target="_blank">Businesses Diversifying Search Engine Strategies: Report</a><br />');
+document.write('A WebVisable survey finds video advertising to be an increasingly important component for small businesses. - Small businesses achieved more in search in the fourth quarter of 2010 by increasing their keyword portfolios and diversifying ad spending across the major search engines, according to a report released by WebVisible, a company that tracks small business search advertising trends. According to the r...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.ziffdavisenterprise.com/~r/RSS/tech/~3/byvmg30JRoA/" target="_blank">Move Over Facebook, IBM Goes Social for Business</a><br />');
+document.write('At its Lotusphere 2011 conference IBMs overall theme is Social Business and the systems giant is putting its collective might behind helping businesses get more social. - ORLANDO, Fla.  Move over Facebook, you might know consumers, but IBM knows business. And Big Blue has made a big push to define and capitalize on the market for Social Business. Indeed, not only has IBM made social business the thrust of its new strategy to help its customers and partners levera...');
+document.write('</li>');
+document.write('</ul></div>');

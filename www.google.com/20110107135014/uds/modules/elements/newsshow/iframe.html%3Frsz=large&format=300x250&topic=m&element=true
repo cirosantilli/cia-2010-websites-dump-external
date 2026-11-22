@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>Google News</title>
+  </head>
+  <body>
+    <div id="ns"></div>
+    <script type="text/javascript">
+      function parseCgiParamsForLanguage() {
+        var str = window.location.href;
+        var params = {};
+        str = str.replace(/#.*$/,"");
+        var urlHalves = str.split("?");
+        var parts = urlHalves[urlHalves.length - 1].split("&");
+        for (var i = 0; i < parts.length; i++) {
+          var keyvalue = parts[i].split("=");
+          if (keyvalue[0] && keyvalue[0].toLowerCase() == "hl") {
+            if (keyvalue.length > 1) {
+              // since the value here is used in the formation of a
+              // script tag, there is an xss vulnerability when a value
+              // of say:
+              // hl=&quot;&gt;&lt;/SCRIPT&gt;&lt;SCRIPT&gt;alert(document.domain+document.cookie)&lt;/SCRIPT&gt;
+              // is used. To defeat this, we ensure that hl may only contain valid characters for language
+              // selection a-zA-Z-
+              if (keyvalue[1].match(/^[\w]{1,3}-{0,1}[\w]{0,3}$/)) {
+                return keyvalue[1];
+              } else {
+                return 'en';
+              }
+            }
+          }
+        }
+        return null;
+      }
+
+      function parseCgiParamsForAds() {
+        var str = window.location.href;
+        var params = {};
+        str = str.replace(/#.*$/,"");
+        var urlHalves = str.split("?");
+        var parts = urlHalves[urlHalves.length - 1].split("&");
+        for (var i = 0; i < parts.length; i++) {
+          var keyvalue = parts[i].split("=");
+          if (keyvalue[0] && (keyvalue[0].toLowerCase() == "ea" ||
+              keyvalue[0].toLowerCase() == "client") ) {
+            if (keyvalue.length > 1) {
+              return keyvalue[1];
+            }
+          }
+        }
+        return null;
+      }
+
+      var jsapiUrlPrefix = '/jsapi?key=internal-newsshow&autoload={modules:[{name:elements;version:1;packages:[newsshow]';
+      var hl = parseCgiParamsForLanguage();
+      if (hl) {
+        jsapiUrlPrefix += ';language:' + hl;
+      }
+      var scriptSrc = '<script src="' + jsapiUrlPrefix + '}]}" type="text/javascript"><' + '/script>';
+      document.write(scriptSrc);
+    </script>
+
+    <script type="text/javascript">
+      var ea = parseCgiParamsForAds();
+      if (ea) {
+        google.load("ads", "1");
+      }
+      google.setOnLoadCallback(initialize, true);
+      function initialize() {
+        var options = google.elements.NewsShow.UrlToOptions();
+        if (options.ea && document.referrer != '') {
+          options.pageUrl = document.referrer;
+        }
+        var nse = document.getElementById("ns");
+        var width = "728px";
+        var height = "90px";
+        if (options.format && options.format == "300x250") {
+          var width = "300px";
+          var height = "250px";
+        }
+
+        // todo(markl): fix this. no need to double call
+        var hl = parseCgiParamsForLanguage();
+        if (hl) {
+          options.hl = hl;
+        }
+        nse.style.width = width;
+        nse.style.height = height;
+        new google.elements.NewsShow("ns", options);
+      }
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feedproxy.google.com/~r/worldsoccercom/feeds/rss/~3/P8Wfh9Qv9Rk/story01.htm" target="_blank">Torres retracts claim that Chelsea are bigger club than Liverpool</a><br />');
+document.write('Fernando Torres has admitted Liverpool are a bigger club than Chelsea but says he moved to Stamford Bridge because he was not enjoying his football at...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feedproxy.google.com/~r/worldsoccercom/feeds/rss/~3/7tAaKR6j3MI/story01.htm" target="_blank">Milito out for a month</a><br />');
+document.write('Milito out for a month...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feedproxy.google.com/~r/worldsoccercom/feeds/rss/~3/6smF9gisI2k/story01.htm" target="_blank">Wolfsburg appoint Littbarski</a><br />');
+document.write('Wolfsburg appoint Littbarski...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feedproxy.google.com/~r/worldsoccercom/feeds/rss/~3/iiZD4cDNMME/story01.htm" target="_blank">Tottenham pin hopes on Olympic stadium</a><br />');
+document.write('Tottenham pin hopes on Olympic stadium...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feedproxy.google.com/~r/worldsoccercom/feeds/rss/~3/nULS4zOdPzk/story01.htm" target="_blank">Arnesen defends Chelsea\'s big spending</a><br />');
+document.write('Arnesen defends Chelsea\'s big spending...');
+document.write('</li>');
+document.write('</ul></div>');

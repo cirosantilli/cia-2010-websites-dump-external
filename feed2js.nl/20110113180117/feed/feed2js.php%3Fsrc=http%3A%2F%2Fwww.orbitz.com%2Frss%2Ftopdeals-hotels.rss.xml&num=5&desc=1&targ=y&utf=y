@@ -1,0 +1,20 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.orbitz.com/hotel/United_States--CA/San_Diego/Paradise_Point_Resort_%26_Spa/#/&WT.mc_id=rssh_top&WT.mc_ev=click" title="..." target="_blank">San Diego: Save 25% at Paradise Point - $141</a><br />');
+document.write('');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.orbitz.com/hotel/United_States--NV/Las_Vegas/ARIA_Resort_%26_Casino_at_CityCenter/#/&WT.mc_id=rssh_top&WT.mc_ev=click" title="..." target="_blank">Las Vegas: $25 Daily Resort Credit at Aria - $169</a><br />');
+document.write('');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.orbitz.com/hotel/United_States--HI/Lahaina/Aston_Maui_Kaanapali_Villas/#/&WT.mc_id=rssh_top&WT.mc_ev=click" title="..." target="_blank">Maui: 5th night free at Aston Maui Kaanapali - $169</a><br />');
+document.write('');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.orbitz.com/hotel/United_States--LA/New_Orleans/Royal_Sonesta_New_Orleans/#/&WT.mc_id=rssh_top&WT.mc_ev=click" title="..." target="_blank">New Orleans: Save 25% at Royal Sonesta - $155</a><br />');
+document.write('');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.orbitz.com/hotel/United_States--FL/Orlando/Sheraton_Vistana_Villages_-_All_Villa_Resort_on_International_Drive/#/&WT.mc_id=rssh_top&WT.mc_ev=click" title="..." target="_blank">Orlando: Save 50% at Sheraton Vistana - $129</a><br />');
+document.write('');
+document.write('</li>');
+document.write('</ul></div>');

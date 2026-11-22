@@ -1,0 +1,1766 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Description" content="TC2000&#39;s stock screener uses rich graphics and an innovative trading interface to trade stocks, ETF&#39;s &amp; options.">
+    
+    <title>
+      TC2000&#174; | Software &amp; Brokerage
+    </title>
+    <style>
+
+    /*! CSS Used from: https://www.tc2000.com/cms/bundle/SCSSBasePlusComponents.css */
+
+html {line-height: 1.5;font-family: "Lato",Arial,Helvetica,sans-serif;font-weight: normal;color: rgba(0,0,0,0.87);box-sizing: border-box}
+
+@media only screen and (min-width: 0) {
+    html {font-size:14px}
+}
+
+@media only screen and (min-width: 768px) {
+    html {font-size:14.5px}
+}
+
+@media only screen and (min-width: 992px) {
+    html {font-size:15px}
+}
+
+*,*:before,*:after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit
+}
+
+
+
+h1,h2,h3,h4,h5,h6 {font-weight: 400;line-height: 1.3;color: #414959;font-weight: 400}
+
+.heavy {font-weight: 600}
+.collapsible{border-top:1px solid #ddd;border-right:1px solid #ddd;border-left:1px solid #ddd;margin:.5rem 0 1rem 0;box-shadow:0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.12),0 1px 5px 0 rgba(0,0,0,0.2);}
+.collapsible-header{display:flex;cursor:pointer;-webkit-tap-highlight-color:transparent;line-height:1.5;padding:1rem;background-color:#fff;border-bottom:1px solid #ddd;}
+.collapsible-header:focus{outline:0;}
+.collapsible-header i{width:2rem;font-size:15px;display:inline-block;text-align:center;margin-right:1rem;color:#414959;margin-left:auto;}
+.collapsible-body{display:none;border-bottom:1px solid #ddd;box-sizing:border-box;padding:2rem;}
+.sidenav .collapsible{border:none;box-shadow:none;}
+.sidenav .collapsible li{padding:0;}
+.sidenav .collapsible-header{background-color:transparent;border:none;line-height:inherit;height:inherit;padding:0 16px;border-top:1px solid #eee;font-size:16px;letter-spacing:1px;color:#414959;}
+.sidenav .collapsible-header:hover{background-color:rgba(0,0,0,0.05);}
+.sidenav .collapsible-header i{line-height:inherit;}
+.sidenav .collapsible-body{border:0;background-color:#fff;}
+.sidenav .collapsible-body li a{padding:0 23.5px 0 31px;}
+.sidenav .sidenav-base{border-top:1px solid #eee;}
+*,*:before,*:after{-webkit-box-sizing:inherit;box-sizing:inherit;}
+body{margin:0;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+p{line-height:1.6em;}
+h1,h4,h5{font-weight:400;line-height:1.3;color:#414959;font-weight:400;}
+h1{font-size:3.23rem;line-height:110%;margin:2.15333rem 0 1.292rem 0;}
+h4{font-size:1.75rem;line-height:110%;margin:1.16667rem 0 .7rem 0;}
+h5{font-size:1.5rem;line-height:110%;margin:1rem 0 .6rem 0;}
+em{font-style:italic;}
+.heavy{font-weight:600;}
+ul:not(.browser-default){padding-left:0;list-style-type:none;}
+ul:not(.browser-default)>li{list-style-type:none;}
+a{color:#3c8bc3;text-decoration:none;-webkit-tap-highlight-color:transparent;}
+.shadow-depth-thin{box-shadow:0 4px 8px 0px rgba(0,0,0,0.01),0px 1px 6px 0 rgba(0,0,0,0.08)!important;}
+.sidenav,.dropdown-content{box-shadow:0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.12),0 1px 5px 0 rgba(0,0,0,0.2);}
+.divider{height:1px;overflow:hidden;background-color:color("grey", "lighten-2");}
+.page-footer{padding-top:20px;padding-bottom:20px;color:#fff;background-color:#414959;}
+.center{text-align:center;}
+.container,.container-padded{width:100%;margin:auto;}
+.container-padded{padding-left:15px;padding-right:15px;}
+@media only screen and (min-width: 769px){
+.container,.container-padded{width:760px;}
+}
+@media only screen and (min-width: 993px){
+.container,.container-padded{width:970px;}
+}
+@media only screen and (min-width: 1201px){
+.container,.container-padded{width:1170px;}
+}
+.row{margin-left:auto;margin-right:auto;margin-bottom:20px;}
+.row:after{content:"";display:table;clear:both;}
+.row .col{float:left;box-sizing:border-box;padding:0 .75rem;min-height:1px;}
+.row .col.xs3{width:25%;margin-left:auto;left:auto;right:auto;}
+.row .col.xs9{width:75%;margin-left:auto;left:auto;right:auto;}
+.row .col.xs10{width:83.33333%;margin-left:auto;left:auto;right:auto;}
+.row .col.xs12{width:100%;margin-left:auto;left:auto;right:auto;}
+.row .col.offset-xs1{margin-left:8.33333%;}
+@media only screen and (min-width: 577px){
+.row .col.s12{width:100%;margin-left:auto;left:auto;right:auto;}
+}
+@media only screen and (min-width: 769px){
+.row .col.m4{width:33.33333%;margin-left:auto;left:auto;right:auto;}
+.row .col.m7{width:58.33333%;margin-left:auto;left:auto;right:auto;}
+.row .col.m8{width:66.66667%;margin-left:auto;left:auto;right:auto;}
+.row .col.m12{width:100%;margin-left:auto;left:auto;right:auto;}
+}
+@media only screen and (min-width: 993px){
+.row .col.l2{width:16.66667%;margin-left:auto;left:auto;right:auto;}
+.row .col.l6{width:50%;margin-left:auto;left:auto;right:auto;}
+.row .col.offset-l1{margin-left:8.33333%;}
+}
+@media only screen and (min-width: 1201px){
+.row .col.xl4{width:33.33333%;margin-left:auto;left:auto;right:auto;}
+.row .col.xl8{width:66.66667%;margin-left:auto;left:auto;right:auto;}
+}
+.btn.third,.btn.third:focus{background-color:#414959;}
+.btn.third{color:#fff;}
+.btn.third{color:#fff;}
+.btn.third:hover{background-color:#4c5568;}
+.btn.third:active{background-color:#2b313c;}
+.btn{padding-top:.25rem;}
+.pb-1,.btn{padding-bottom:.25rem;}
+.pt-2{padding-top:0.5rem;}
+.btn{padding-left:0.5rem;}
+.btn{padding-right:0.5rem;}
+.pt-5{padding-top:1.25rem;}
+.pb-5{padding-bottom:1.25rem;}
+.pr-10{padding-right:3rem;}
+.btn{border-radius:3px;}
+.btn.third.md{border-radius:19px;}
+.btn.third{border-radius:23px;}
+.btn{border:solid 1px;}
+.btn.third{border:solid 2px;}
+.btn.third:hover{border-color:#4c5568;}
+.btn.third:focus{border-color:#21252d;}
+.btn.third{border-color:#0b0d0f;}
+.sidenav{position:fixed;width:300px;left:0;top:0;margin:0;transform:translateX(-100%);height:100%;height:calc(100% + 60px);height:-moz-calc(100%);padding-bottom:60px;background-color:#fff;z-index:999;overflow-y:auto;will-change:transform;backface-visibility:hidden;transform:translateX(-105%);}
+.sidenav.right-aligned{right:0;transform:translateX(105%);left:auto;transform:translateX(100%);}
+.sidenav .collapsible{margin:0;}
+.sidenav li{float:none;line-height:48px;}
+.sidenav li>a{color:rgba(0,0,0,0.87);display:block;font-size:14px;font-weight:500;height:48px;line-height:48px;padding:0 32px;}
+.sidenav li>a:hover{background-color:rgba(0,0,0,0.05);}
+.sidenav li>a>i{float:left;height:48px;line-height:48px;margin:0 32px 0 0;width:24px;color:rgba(0,0,0,0.54);}
+.drag-target{height:100%;width:10px;position:fixed;top:0;z-index:998;}
+.drag-target.right-aligned{right:0;}
+.sidenav .collapsible-body{padding:0;}
+.sidenav-overlay{position:fixed;top:0;left:0;right:0;opacity:0;height:120vh;background-color:rgba(0,0,0,0.5);z-index:997;display:none;}
+main{padding-top:85px;}
+@media only screen and (min-width: 769px){
+main{padding-top:101px;}
+}
+@media only screen and (min-width: 993px){
+main{padding-top:110px;}
+}
+.btn{border-color:#e2e2e2;background-color:transparent;display:inline-block;text-align:center;white-space:nowrap;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;background-image:none;font-size:14px;line-height:1.42857143;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;letter-spacing:.5px;transition:all 0.3s ease-in-out 0s;}
+.btn:focus{background-color:transparent;}
+.btn:focus{outline:none;}
+.btn.md{font-size:1.1em;padding:5px .75em 5px .75em;}
+.btn.third{padding-left:1.75em;padding-right:1.75em;border-top:0;border-left:0;border-right:0;}
+.btn.third.md{font-weight:700;}
+.dropdown-content{background-color:#fff;margin:0;display:none;min-width:100px;overflow-y:auto;opacity:0;position:absolute;left:0;top:0;z-index:9999;transform-origin:0 0;}
+.dropdown-content:focus{outline:0;}
+.dropdown-content li{clear:both;color:rgba(0,0,0,0.87);cursor:pointer;min-height:30px;line-height:1.5rem;width:100%;text-align:left;}
+.dropdown-content li:hover{background-color:#eee;}
+.dropdown-content li:focus{outline:none;}
+.dropdown-content li.divider{min-height:0;height:1px;}
+.dropdown-content li>a{font-size:14px;color:#414959;display:block;line-height:22px;font-weight:400;text-transform:none;padding:7px 16px;}
+.dropdown-trigger{cursor:pointer;}
+@media only screen and (min-width: 769px){
+.hide-on-medium-and-up{display:none!important;}
+}
+@media only screen and (min-width: 769px){
+.show-on-small{display:none!important;}
+}
+@media only screen and (max-width: 768px){
+.show-on-small{display:inherit;}
+}
+@media only screen and (max-width: 768px){
+.show-on-medium-and-up{display:none!important;}
+}
+@media only screen and (min-width: 769px){
+.show-on-medium-and-up{display:inherit;}
+}
+.btn{margin-bottom:0;}
+.mt-1{margin-top:.25rem;}
+.mt-5{margin-top:1.25rem;}
+.mt-8{margin-top:2rem;}
+.mt-9{margin-top:2.5rem;}
+.mt-10{margin-top:3rem;}
+.mt-11{margin-top:4rem;}
+/*! CSS Used from: https://www.tc2000.com/cms/bundle/SCSSBasePlusComponents.css */
+.fa,.fab,.fal,.far{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;display:inline-block;font-style:normal;font-variant:normal;text-rendering:auto;line-height:1;}
+.fa-2x{font-size:2em;}
+.fa-3x{font-size:3em;}
+.fa-spin{animation:a 2s infinite linear;}
+.fa-angle-down:before{content:"\f107";}
+.fa-bars:before{content:"\f0c9";}
+.fa-briefcase:before{content:"\f0b1";}
+.fa-chart-area:before{content:"\f1fe";}
+.fa-comment-alt-lines:before{content:"\f4a6";}
+.fa-facebook-square:before{content:"\f082";}
+.fa-linkedin:before{content:"\f08c";}
+.fa-phone-square:before{content:"\f098";}
+.fa-sign-in:before{content:"\f090";}
+.fa-spinner:before{content:"\f110";}
+.fa-youtube:before{content:"\f167";}
+.fab{font-family:"Font Awesome 5 Brands";}
+.fal{font-weight:300;}
+.fal,.far{font-family:"Font Awesome 5 Pro";}
+.far{font-weight:400;}
+.fa{font-family:"Font Awesome 5 Pro";font-weight:900;}
+    </style>
+
+
+            <link rel="stylesheet" rel="preload"  href="/Content/font-awesome-5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+            <noscript><link rel="stylesheet" href="/Content/font-awesome-5/css/all.min.css"></noscript>
+
+    <link rel="preconnect" href="https://www.google.com">
+    <link rel="preconnect" href="https://stats.g.doubleclick.net">
+    <link rel="preconnect" href="https://www.google-analytics.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+    
+    
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+</head>
+      
+        
+<body>
+    
+        <script defer src="https://www.tc2000.com/cms/bundle/TC2000-JS-2020.js?v=20200610.1"></script>
+    
+
+
+
+
+
+
+
+<style>
+
+
+
+
+    .homeHero h1 {
+        margin-top: 0px;
+    }
+    
+   .no-webp .homeHero {
+        background-image: url('/CMS_Static/Uploads/79436E59793448/TC2000HomePageBG3.png');
+   }
+   .webp .homeHero {
+        background-image: url('/CMS_Static/Uploads/79436E59793448/TC2000HomePageBG3.webp');
+   }
+
+    .homeHero {
+        height: 610px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .topCont {
+        /* min-height: 125px; */
+        -webkit-box-shadow: inset 0px 13px 14px -17px rgba(224,224,224,1);
+        -moz-box-shadow: inset 0px 13px 14px -17px rgba(224,224,224,1);
+        box-shadow: inset 0px 13px 14px -17px rgba(224,224,224,1);
+        background-color: #fcfcfc;
+    }
+    
+    .topCont .row {
+        margin-bottom: 0px;
+    }
+    
+    .topCont h5 {
+        line-height: 24px;
+        letter-spacing: .8px;
+        margin: 0px;
+        font-size: 1rem;
+    } 
+    
+    .middleCont {
+        
+        -webkit-box-shadow: inset 0px 13px 14px -17px rgba(224,224,224,1);
+        -moz-box-shadow: inset 0px 13px 14px -17px rgba(224,224,224,1);
+        box-shadow: inset 0px 13px 14px -17px rgba(224,224,224,1);
+    }
+
+    .middleCont .featureItem {
+        min-height: 235px;
+    }
+    
+    .featureItem .itemCopy {
+        border-left: 2px solid #f2f2f2;
+        margin-top: 15px;
+    }
+    
+    .featureItem>.col p {
+        margin: 0px;
+    }
+    
+    .botCont {
+        min-height: 180px;
+        -webkit-box-shadow: inset 0px 13px 14px -17px rgba(224,224,224,1);
+        -moz-box-shadow: inset 0px 13px 14px -17px rgba(224,224,224,1);
+        box-shadow: inset 0px 13px 14px -17px rgba(224,224,224,1);
+        background-color: #fcfcfc;
+    }
+    
+    .botCont h5 {
+        line-height: 36px;
+        letter-spacing: .5px;
+    }
+    
+    .topBG-SVG svg {
+        height: 387px;
+        height: 487px;
+        position: absolute;
+        left: 0;
+        top: 941px;
+        top: 861px;
+        z-index: -1;
+    }
+    
+    .topBG-SVG .cls-1 {
+        fill:#eefff7;
+    }
+    
+    .midBG-SVG svg {
+        height: 387px;
+        height: 645px;
+        position: absolute;
+        right: 0;
+        top: 1401px;
+        z-index: -1;
+    }
+    
+    .midBG-SVG .cls-1 {
+        fill:#f0f3f7;
+    }
+    
+    .botBG-SVG {
+        margin-top: -218px;
+        position: absolute;
+    }    
+    .botBG-SVG svg {
+        height: 237px;
+        position: relative;
+        bottom: 0px;
+        left: 0;
+        z-index: -1;
+    }
+    
+    .pb-2 {
+        padding-bottom: 0.5rem;
+    }
+    
+    .flexwrapper {
+        display: flex;
+        align-items: center;
+        height: 455px;
+    }
+
+/* -- Mobile Banner ------------- */
+    .webp .mobileBanner{
+        background-image: url('/CMS_Static/Uploads/79436E59793448/homePageHeroBG_phone3.webp');
+    }
+    .no-webp .mobileBanner{
+        background-image: url('/CMS_Static/Uploads/79436E59793448/homePageHeroBG_phone3.png');
+    }
+    
+    .mobileBanner {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .mobileBanner {
+        height: 150px;    
+    }
+r
+/* -- Quote Row ----------------- */
+    .quoteRow {
+        margin-bottom: 0px;
+    }
+    
+    .quoteRow .item {
+        display: none;
+    }
+    
+    .quoteRow a {
+        color: #414959;
+    }
+    
+    .quote-placeholder {
+        display: flex;
+        height: 95px;
+    }
+    
+    .quote-placeholder .row {
+        margin-bottom: 0px;
+    }
+    
+    .quoteRow .item {
+        margin: auto;
+    }
+    .quoteRow .random-item {
+        margin: auto;
+    }
+
+
+/* Broker Check Button ----------*/
+.brkChk a {
+    text-decoration: underline;
+    color: rgba(0,0,0,0.87);
+}
+
+.brkChk-row {
+    position: absolute;
+    top: 550px;
+}
+
+.brkChk-cont {
+    width: auto;
+}
+
+/* -- Item SVG Icons ------------ */
+    .item-SVG {
+        margin-top: 15px;
+    }
+    
+    .row .item-SVG {
+        padding: 0px;
+    }
+    
+    .featureItem svg {
+        height: 70px;
+        width: 70px;
+    }
+
+    .SVG-one .cls-1 {
+        fill:#eefff7;
+        fill: #5ffcc2;
+    }
+    
+    .SVG-one .cls-2 {
+        fill:#414959;
+        opacity: 1;
+    }
+    
+    .SVG-two .cls-1 {
+        fill:#fff6f5;
+        fill: #fed4cd;
+    }
+    
+    .SVG-two .cls-2 {
+        fill:#414959;
+        opacity: 1;
+    }
+    
+    .SVG-three .cls-1 {
+        fill:#f0f3f7;
+        fill: #d8e4f3;
+    }
+    
+    .SVG-three .cls-2 {
+        fill:#414959;
+        opacity: 1;
+    }
+    
+    .SVG-four .cls-1 {
+        fill:#eefff7;
+        fill: #d8e4f3;
+    }
+    
+    .SVG-four .cls-2 {
+        fill:#414959;
+        opacity: 1;
+    }
+    
+    .SVG-five .cls-1 {
+        fill:#FFFFFF;
+    }
+    
+    .SVG-five .cls-2 {
+        fill:#eefff7;
+        fill: #5ffcc2;
+        opacity: 1;
+    }
+    
+    .SVG-five .cls-3 {
+        fill:#414959;
+        opacity: 1;
+    }
+    
+    .SVG-six .cls-1 {
+        fill: #5ffcc2;
+    }
+    
+    .SVG-six .cls-2 {
+        fill:#fed4cd;
+        opacity: 1;
+    }
+    
+    .SVG-six .cls-3 {
+        fill:#414959;
+        opacity: 1;
+    }
+    
+    .SVG-seven .cls-1 {
+        fill:#5ffcc2;
+    }
+    
+    .SVG-seven .cls-2 {
+        fill:#414959;
+        opacity: 1;
+    }
+    
+    .SVG-eight .cls-1 {
+        fill:#414959;
+    }
+    
+    .SVG-nine .cls-1 {
+        fill:#fed4cd;
+    }
+    
+    .SVG-nine .cls-2 {
+        fill:#414959;
+        opacity: 1;
+    }
+    
+    .SVG-ten .cls-1 {
+        fill:#d8e4f3;
+    }
+    
+    .SVG-ten .cls-2 {
+        fill:none;
+    }
+    
+    .SVG-ten .cls-3 {
+        fill:#eefff7;
+        fill: #5ffcc2;
+        opacity: 1;
+    }
+    
+    .SVG-ten .cls-4 {
+        fill:#414959;
+        opacity: 1;
+    }
+    
+    .SVG-eleven .cls-1 {
+        fill:#5ffcc2;
+        fill-rule:evenodd;
+    }
+    
+    .SVG-eleven .cls-2 { 
+        fill:#414959;
+        opacity: 1;
+    }
+    
+    .SVG-twelve .cls-1{
+         fill:#414959;
+    }
+
+    .SVG-thirteen .cls-1 {
+        fill:#fff;
+        fill-rule:evenodd;
+        opacity: 1;
+    }
+    
+    .SVG-thirteen .cls-2 {
+        fill:#d8e4f3;
+        opacity: 1;
+    }
+    
+    .SVG-thirteen .cls-3 {
+        fill:#414959;
+        opacity: 1;
+    }
+@media  (max-width : 1550px) {
+    .topBG-SVG .cls-2 {
+        display: none;
+    }
+    
+    .midBG-SVG .cls-2, .midBG-SVG .cls-3 {
+        display: none;
+    }
+    
+    .botBG-SVG .cls-2 {
+        display: none;
+    }
+}
+
+@media  (max-width : 1200px) {
+    .homeHero h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media  (max-width : 992px) {
+   .no-webp .homeHero {
+        background-image: url('/CMS_Static/Uploads/6E7A586D453831/homePageHeroBG_tablet_8bit.png');
+   }
+   .webp .homeHero {
+        background-image: url('/CMS_Static/Uploads/6E7A586D453831/homePageHeroBG_tablet_8bit.webp');
+   }
+
+    .homeHero {
+        background-position: bottom;
+        
+    }
+    .homeHero {
+        height: auto;
+    }
+    
+    .topCont h5 {
+        font-size: 1rem;
+        line-height: 24px;
+    }
+    
+    .topCont {
+        /* min-height: 110px; */
+    }
+    
+    .quote-placeholder {
+        /* height: 85px; */
+    }
+    
+    .middleCont .featureItem {
+        min-height: 0px;
+        margin-bottom: 30px;
+    }
+    
+    .featureItem svg {
+        height: 70px;
+        width: 70px;
+        display: block;
+        margin: auto;
+    }
+    
+    .midBG-SVG svg {
+        top: 1800px;
+    }
+}
+
+@media  (max-width : 768px) {
+   .webp .homeHero {
+        background-image: none;
+    }
+   .no-webp .homeHero {
+        background-image: none;
+    }
+    .homeHero {
+        background-image: none;
+    }
+    .quote-placeholder {
+        height: 120px;
+        margin-bottom: 14px;
+    }
+    .brkChk a {
+        font-size: 1rem;
+        letter-spacing: 0px;
+    }
+    .topBG-SVG, .midBG-SVG, .botBG-SVG {
+        display: none;
+    } 
+    .topCont h5 {
+        font-size: .9rem;
+        line-height: 19px;
+    }
+    .quote-placeholder {
+        margin-bottom: 0px;
+        padding: 0px;
+    }
+    .topCont {
+        /* min-height: 90px; */
+        padding: 0px 0px;
+        display: flex;
+    }
+    .quoteCont {
+        display: block;
+        margin: auto;
+    }
+}
+
+@media  (max-width : 576px) {
+    .brkChk-cont {
+        text-align: center;
+    }
+    
+    .headItem a {
+        display: block;
+        margin-top: 10px;
+    }
+    
+}
+
+/* Layout Template Queries ------------------------------------------- */
+
+.row .col.xs12 {
+    width: 100%;
+    margin-left: auto;
+    left: auto;
+    right: auto
+}
+
+
+@media only screen and (min-width: 769px) {
+    .row .col.m7 {
+        width: 58.33333%;
+        margin-left: auto;
+        left: auto;
+        right: auto
+    }
+    
+    .row .col.m10 {
+        width: 83.33333%;
+        margin-left: auto;
+        left: auto;
+        right: auto
+    }
+
+    .row .col.m12 {
+        width: 100%;
+        margin-left: auto;
+        left: auto;
+        right: auto
+    }
+
+    .row .col.offset-m1 {
+        margin-left: 8.33333%
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    .row .col.l6 {
+        width: 50%;
+        margin-left: auto;
+        left: auto;
+        right: auto
+    }
+    
+    .row .col.offset-l3 {
+        margin-left: 25%
+    }
+}
+
+@media  (max-width : 992px) {
+    .headItem {
+        padding-right: 0px;
+    }
+    .homeHero h1 {
+        margin-top: 50px;
+    }
+    .homeHero p {
+        padding-right: 0px;
+    }
+    .homeHero .heroCopy {
+        margin-bottom: 10px;
+    }
+    .brkChk-row {
+        position: initial;
+    }
+    .flexwrapper {
+        height: 355px;
+    }
+}
+
+@media  (max-width : 768px) {
+    .homeHero .heroCopy {
+        margin-top: 0px;
+    }
+    .homeHero h1 {
+        margin-top: 0px;
+    }
+    .flexwrapper {
+        height: auto;
+    }
+}
+
+</style>
+
+
+<style>
+    /*-- Nav Styles -------------------------------------- */
+    .tc2000-nav {
+        height:auto;
+        position: fixed;
+        z-index: 997;
+        background-color:#FFF;
+        width:100%;
+        line-height: 1.5;
+    }
+   
+    .nav-links {
+      list-style: none;
+      display: flex;
+      margin:0px;
+      /* justify-content: space-between; */
+      justify-content: flex-start;
+    }
+    .nav-item a {
+      display: inline-block;
+      text-decoration: none;
+      color: #414959;
+      font-size: 14px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-weight: 500;
+      vertical-align: middle;
+      padding: 15px 0px 17px;
+    }
+    
+    #nav-mobile .nav-item-space {
+        margin-left: 10px;
+        padding: 10px 0px;
+    }
+    
+
+    
+    .mobile-menu{
+        font-size: 1.4em;
+        color:#414959;
+    }
+    .logo {
+        position: relative;
+        display: inline-block;
+        line-height: normal;
+        
+    }
+    .tc2000-nav-logo {
+        padding-top: 4px;
+        display: inline-block; 
+    }
+    .tc2000-nav-logo img {
+        vertical-align: unset;
+    }
+    .nav-flex {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 7px;
+        padding-top: 7px;
+    }
+    .sub-menu .nav-item-space {
+        /* padding: 12px 0px; */
+        margin-right: 45px;
+    }
+    
+    .nav-separator {
+        height: 1px;
+        background-color: #f7f7f7;
+    }
+
+    a:focus {
+        outline: none;
+    }
+    
+    .btn-topNav>a {
+        padding: 3px 25px;
+        border-radius: 25px;
+        text-transform: none;
+        transition: all 0.3s ease-in-out 0s;
+    }
+    
+    .sub-menu .btn-splitPill {
+        margin-right: 0px;
+    }
+    
+    .btn-splitPill {
+        padding: 12px 0px;
+        margin-left: auto;
+    }
+    
+    .btn-chat>a {
+        padding: 3px 25px;
+        border-radius: 25px;
+        background-color: #FFFFFF;
+        text-transform: none;
+        color: #414959;
+        border: 1px solid #ffffff;
+        transition: all 0.3s ease-in-out 0s;
+    }
+    
+    .btn-chat>a:hover {
+        text-decoration: none;
+        color: #fd694f;
+        text-decoration: none;
+        color: #414959;
+        border-color: #fd694f
+    }
+    
+    .btn-chat i {
+        color: #fd694f;
+        margin-right: 5px;
+    }
+    
+    .btn-openAccount i {
+        margin-right: 5px;
+    }
+    
+    .btn-blue i {
+        margin-right: 5px;
+    }
+    
+    .btn-blue>a {
+        padding: 3px 25px;
+        border-radius: 25px;
+        background-color: #FFFFFF;
+        text-transform: none;
+        color: #414959;
+        border: 1px solid #ffffff;
+        transition: all 0.3s ease-in-out 0s;
+    }
+    
+    .btn-blue>a:hover {
+        text-decoration: none;
+        color: #414959;
+        border-color: #414959
+    }
+    
+    .btn-grey>a {
+        padding: 3px 25px;
+        border-radius: 25px;
+        background-color: #FFFFFF;
+        text-transform: none;
+        color: #414959;
+        border: 1px solid #eeeeee;
+        transition: all 0.3s ease-in-out 0s;
+    }
+    
+    .btn-grey>a:hover {
+        text-decoration: none;
+        color: #414959;
+        border-color: #414959
+    }
+    
+    .btn-openAccount>a {
+        background-color: #FFFFFF;
+        color: #414959;
+        border: 1px solid #ffffff;
+        transition: all 0.3s ease-in-out 0s;
+    }
+    
+    .btn-openAccount>a:hover {
+        text-decoration: none;
+        background-color: #ffffff;
+        color: #414959;
+        border-color: #04d88a;
+    }
+    
+    .vertical-rule {
+        width: 1px;
+        height: 32px;
+        margin: 10px 0px 0px 10px;
+        background-color: #eee;
+    }
+    
+/* -- Side Nav Styles --------------------------------- */    
+
+    .sidenav li>a {
+        color: #414959;
+        display: block;
+        font-size: 14px;
+        letter-spacing: 1px;
+        font-weight: 500;
+        height: 48px;
+        line-height: 48px;
+        padding: 0 16px;
+        text-decoration: none;
+    }
+    .sidenav li>a>i {
+        float: left;
+        height: 48px;
+        line-height: 48px;
+        margin: 0 1px 0 0;
+        width: 24px;
+        color: #414959;
+    }
+/*-- CSS Media Queries -------------------------------- */
+
+@media  (max-width : 1250px) {
+    .btn-topNav>a {
+        padding: 3px 10px;
+        
+    }
+}
+
+@media  (max-width : 1199px) {
+    .sub-menu .nav-item-space {
+        margin-right: 30px;
+    }
+    #nav-mobile .nav-item-space {
+        margin-left: 20px;
+    }
+}
+
+@media  (max-width : 1050px) {
+    .tc2000-nav .container {
+        width: 95%;
+    }
+    .sub-menu .nav-item-space {
+        margin-right: 20px;
+    }
+    #nav-mobile .nav-item-space {
+        margin-left: 10px;
+    }
+    .vertical-rule {
+        height: 28px;
+        margin: 10px 0px 0px 10px;
+}
+}
+
+@media  (max-width : 992px) {
+    .tc2000-nav-logo img {
+        width: 120px;
+    }
+    .nav-item a {
+        font-size: 11px;
+        letter-spacing: 1px;
+        
+    }
+    /*
+    .sub-menu .nav-item-space {
+        padding: 10px 0px;
+    }
+    */
+    .dropdown-content li>a,.dropdown-content li>span {
+        font-size: 12px;
+        padding: 6px 16px
+    }
+}
+
+@media  (max-width : 768px) {
+    .tc2000-nav-logo {
+        padding-top: 0px;
+    }
+    .nav-flex {
+        padding: 15px 0px;
+    }
+}
+
+.alertBanner {
+    background-color: #5ffcc2;
+    background-color: #a1ffdc;
+    min-height: 32px;
+    letter-spacing: .5px;
+}
+
+.alertBanner .row {
+    margin-bottom: 0px;
+}
+
+.alertBanner p {
+    margin-top: 0px;
+    margin-bottom: 8px;
+    padding-top: 8px;
+    color: #245440;
+}
+
+.alertBanner a {
+    text-decoration: underline;
+}
+
+</style>
+
+
+
+<!-- Navigation -------------->
+
+    <div class="tc2000-nav shadow-depth-thin">
+        
+        <!-- Alert Banner *************** -->
+
+        <!--
+        <div class="container-fluid alertBanner">
+            <div class="row">
+                <div class="col xs12 center">
+                    <p>Trading and account management are currently down for TC2000 Brokerage. <a href="https://status.tc2000.com/" target="_blank">See status page for updates.</a></p>
+                </div>
+            </div>
+        </div>
+        -->
+        
+        <!-- End Alert -->
+        
+        <div class="container container-padded">
+            <div class="nav-flex">
+                <div class="logo">
+                    <a href="https://www.tc2000.com/" class="tc2000-nav-logo">
+        	            <img alt="TC2000 Logo" src='/CMS_Static/Uploads/6E7A586D453831/TCLogo_160w.png'/>
+                    </a>
+                </div>
+                <a href="#" data-target="mobile-menu" class="sidenav-trigger mobile-menu hide-on-medium-and-up"> <i class="far fa-bars"></i></a>
+                 <ul id="nav-mobile" class="show-on-medium-and-up nav-links">
+                    <li class="nav-item nav-item-space btn-topNav btn-openAccount"><a href="https://webplatform.tc2000.com/"><i class="far fa-chart-area"></i>Web Platform</a></li>
+                    <div class="vertical-rule">
+                    </div>
+                    <li class="nav-item btn-topNav nav-item-space btn-blue"><a href="tel:+18007764940"><i class="far fa-phone-square"></i>1.800.776.4940</a></li>
+                    <div class="vertical-rule">
+                    </div>
+                    <li class="nav-item nav-item-space btn-topNav btn-blue"><a href="/brokerage/newaccount"><i class="far fa-briefcase"></i>Open Account</a></li>
+                    <div class="vertical-rule">
+                    </div>
+                    <li class="nav-item btn-topNav nav-item-space btn-chat"><a href="/support/chat"><i class="fal fa-comment-alt-lines"></i>Chat</a></li>
+                </ul>
+            </div>
+        </div>
+            
+        <div class="nav-separator"></div>
+            
+            <div class="container container-padded show-on-medium-and-up">
+                <div class="sub-menu">
+                  <ul class="nav-links">
+                      
+                    <li class="nav-item nav-item-space"><a class="dropdown-trigger" data-target="submenu3">Why TC2000 <i class="fal fa-angle-down"></i></a>
+                     <ul id="submenu3" class="dropdown-content" tabindex="0">
+                          <li tabindex="0"><a href="/features/overview">Overview</a></li>
+                          <li tabindex="0"><a href="/features/whatsnew">What's New</a></li>
+                          <li tabindex="0"><a href="/awards">Awards & Reviews</a></li>
+                          <li class="divider" tabindex="0"></li>
+                      </ul>
+                      
+                    <li class="nav-item nav-item-space"><a class="dropdown-trigger" data-target="submenu9">Downloads <i class="fal fa-angle-down"></i></a>
+                     <ul id="submenu9" class="dropdown-content" tabindex="0">
+                          <li tabindex="0"><a href="/download">TC2000 for Windows</a></li>
+                          <li tabindex="0"><a href="/anywhere">Platform for Mac</a></li>
+                          <li tabindex="0"><a href="/anywhere">Platform for Mobile</a></li>
+                          <li tabindex="0"><a href="https://webplatform.tc2000.com/">Run Web Platform</a></li>
+                          <li class="divider" tabindex="0"></li>
+                      </ul>  
+                      
+                     <li class="nav-item nav-item-space"><a class="dropdown-trigger" data-target="submenu6">Pricing <i class="fal fa-angle-down"></i></a>
+                     <ul id="submenu6" class="dropdown-content" tabindex="0">
+                          <li tabindex="0"><a href="/Pricing">Software & Data Plans</a></li>
+                          <li tabindex="0"><a href="/order/SelectServices">Activate Service</a></li>
+                          <li tabindex="0"><a href="/brokerage/commissions">Commissions & Margin Rates</a></li>
+                          <li tabindex="0"><a href="/academic">Student Program</a></li>
+                          <li tabindex="0"><a href="/affiliate/join">Affiliate Program</a></li>
+                          <li class="divider" tabindex="0"></li>
+                      </ul>
+                      
+                     <li class="nav-item nav-item-space"><a class="dropdown-trigger" data-target="submenu7">Learn <i class="fal fa-angle-down"></i></a>
+                     <ul id="submenu7" class="dropdown-content" tabindex="0">
+                          <li tabindex="0"><a href="/videos/tutorials">Tutorial Videos</a></li>
+                          <li tabindex="0"><a href="/classes">Nationwide Training Classes</a></li>
+                          <li tabindex="0"><a href="/premium/videos">2019 Training Class Recordings</a></li>
+                          <li class="divider" tabindex="0"></li>
+                      </ul> 
+                      
+                     <li class="nav-item nav-item-space"><a class="dropdown-trigger" data-target="submenu8">Support <i class="fal fa-angle-down"></i></a>
+                     <ul id="submenu8" class="dropdown-content" tabindex="0">
+                         <li tabindex="0"><a href="https://help.tc2000.com/">Help Site</a></li>
+                          <li tabindex="0"><a href="/customer-support">Contact Customer Service</a></li>
+                          <li tabindex="0"><a href="/brokerage/resources">Brokerage Resources</a></li>
+                          <li tabindex="0"><a href="/status">Check for Service Outages</a></li>
+                          <li class="divider" tabindex="0"></li>
+                      </ul>
+                      
+                        <li  class="nav-item nav-item-space btn-topNav btn-grey btn-splitPill"><a class="" href="https://www.tc2000.com/sign-in?returnURL=https%3a%2f%2fwww.tc2000.com%2f">Sign In <i class="fal fa-sign-in"></i></a></li>
+                  </ul>
+                  
+                </div>
+            </div>
+    </div>
+
+  <ul id="mobile-menu" class="sidenav" style="transform: translateX(105%);display:none;">
+           
+           
+              <ul class="collapsible">
+                <li>
+                  <div class="collapsible-header">Why TC2000 <i class="fal fa-angle-down"></i></div>
+                  <div class="collapsible-body">
+                        <ul>
+                            <li tabindex="0"><a href="/features/overview">Overview</a></li>
+                            <li tabindex="0"><a href="/features/whatsnew">What's New</a></li>
+                            <li tabindex="0"><a href="/awards">Awards & Reviews</a></li>
+                        </ul>
+                  </div>
+                </li>
+                <li>
+                  <div class="collapsible-header">Downloads <i class="fal fa-angle-down"></i></div>
+                  <div class="collapsible-body">
+                        <ul>
+                          <li tabindex="0"><a href="/download">TC2000 for Windows</a></li>
+                          <li tabindex="0"><a href="/anywhere">Platform for Mac</a></li>
+                          <li tabindex="0"><a href="/anywhere">Platform for Mobile</a></li>
+                          <li tabindex="0"><a href="https://webplatform.tc2000.com/">Run Web Platform</a></li>
+                        </ul>
+                  </div>
+                </li>
+                <li>
+                  <div class="collapsible-header">Pricing <i class="fal fa-angle-down"></i></div>
+                  <div class="collapsible-body">
+                        <ul>
+                            <li tabindex="0"><a href="/Pricing">Software & Data Plans</a></li>
+                            <li tabindex="0"><a href="/order/SelectServices">Activate Service</a></li>
+                            <li tabindex="0"><a href="/brokerage/commissions">Commissions & Margin Rates</a></li>
+                            <li tabindex="0"><a href="/academic">Student Program</a></li>
+                            <li tabindex="0"><a href="/affiliate/join">Affiliate Program</a></li>
+                      </ul>
+                  </div>
+                </li>
+                <li>
+                  <div class="collapsible-header">Learn <i class="fal fa-angle-down"></i></div>
+                  <div class="collapsible-body">
+                    <ul>
+                        <li tabindex="0"><a href="/videos/tutorials">Tutorial Videos</a></li>
+                        <li tabindex="0"><a href="/classes">Nationwide Training Classes</a></li>
+                        <li tabindex="0"><a href="/premium/videos">2019 Training Class Recordings</a></li>
+                     </ul>
+                  </div>
+                </li>
+                <li>
+                  <div class="collapsible-header">Support <i class="fal fa-angle-down"></i></div>
+                  <div class="collapsible-body">
+                    <ul>
+                        <li tabindex="0"><a href="https://help.tc2000.com/">Help Site</a></li>
+                        <li tabindex="0"><a href="/customer-support">Contact Customer Service</a></li>
+                        <li tabindex="0"><a href="/brokerage/resources">Brokerage Resources</a></li>
+                        <li tabindex="0"><a href="/status">Check for Service Outages</a></li>
+                     </ul>
+                  </div>
+                </li>
+                <div class="sidenav-base">
+                    <li><a href="tel:+18007764940">1.800.776.4940 <i class="far fa-phone-square"></i></a></li>
+                    <li><a href="/brokerage/newaccount">Open Account <i class="far fa-briefcase"></i></a></li>
+                    <li><a href="/support/chat">Chat <i class="far fa-comment-alt-lines"></i></a></li>
+                    <li><a href="/anywhere">Platform for Mobile <i class="far fa-chart-area"></i></a></li>
+                        <li><a href="https://www.tc2000.com/sign-in?returnURL=https%3a%2f%2fwww.tc2000.com%2f">Sign In <i class="far fa-sign-in"></i></a></li>
+                </div>
+              </ul>
+      </ul>
+
+
+
+
+<main class="homeHero">
+    <div class="container">
+        <div class="row">
+            <div class="col xs12 m7 l6 heroCopy">
+                <div class="flexwrapper">  
+                    <div class="headItem pr-10">
+                        <h1 class="heavy">Kick-start your morning with premarket buzz</h1>
+                        <p class="pr-10">Pour yourself a cup of coffee and browse through the pre-buzzing stocks before most traders even turn on their computers.</p>
+                        <!--<a href="/features/overview" class="btn third md mt-5">Learn More</a>-->
+                        <a href="/download" class="btn third md mt-5">Download Version 20</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row brkChk-row">
+                <div class="col xs10 offset-xs1 s12 brkChk-cont">
+                    <p class="brkChk">Check the background of TC2000 Brokerage, at <a rel="noopener" href="https://brokercheck.finra.org/firm/summary/155523" target="_blank">FINRA’s BrokerCheck</a></p>
+                </div>
+            </div>
+    </div>
+</main>
+
+
+<section class="mobileBanner show-on-small">
+    <div>
+    </div>
+</section>
+
+<section class="topCont pt-2 pb-2">
+    <div class="container-padded quoteCont">
+        <div class="row">
+            
+            
+            <!--
+            <div class="col xs10 offset-xs1 center">
+                <em><h5>"Aliquam nisi nisl, mattis non metus eget, dictum lacinia purus. Proin ultricies sed nunc ac convallis. Donec vehicula dolor ornare, ullamcorper dolor eu."</h5></em>
+                <hr class="clr-second-hr mt-5">
+            </div>
+            -->
+            
+            <!-- Quote Rotator -->
+
+                      <div class="row quoteRow">
+                        <div class="col xs12 m10 offset-m1">
+                            <div class="quote-placeholder">
+                                  <div class="random-item center">
+                                        <a href="/awards">
+                                          <div class="row">
+                                            <div>
+                                              <h5><em>Long time user and lover of the service! I know I&#39;ve personally sold 4 others on using your services, as well. Greatest thing since, Fresh Pizza!</em></h5>
+                                              <h5><em>- JS, Pensacola FL</em></h5>
+                                            </div>
+                                          </div>
+                                        </a>
+                                  </div>
+                            </div>
+                        </div>
+                      </div>
+
+<!-- End Quote Rotator -->
+            
+        </div>
+    </div>
+</section>
+
+<!--
+<section class="brkChk pt-4 pb-4">
+    <div class="container-padded">
+        <div class="row">
+            <div class="center">
+                <a href="https://brokercheck.finra.org/firm/summary/155523" target="_blank">Check the background of TC2000 Brokerage, at FINRA’s BrokerCheck</a>
+            </div>
+        </div>
+    </div>
+</section>
+-->
+
+<section class="middleCont pt-2 pb-5">
+    <div class="container-padded">
+        <div class="row pt-5">
+            <div class="col m12 l6 featureItem">
+                <h4 class="heavy">Dream It, Test It, Apply It</h4>
+                <div class="col xs3 l2 offset-l1 item-SVG SVG-one">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60"><defs><style>.cls-1{fill:#eefff7;}.cls-2{fill:#414959;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M44.2,1.07l-4,.93L37.64,3.85,35.42,7.39l-1,2.62S33,11,32.8,11.12l-1.87,1.35s-.28,3-.28,3.22,1.07,2.07,1.11,2.19a12.39,12.39,0,0,0,1.91,1.62c.16,0,3.62.64,3.76.64H51.19L56.64,19,59,14.9l-.39-3.7L56.08,7.86l-3.49-1-.8-1-2.42-3.1L46.15,1.43Z"/><path class="cls-2" d="M53,6.06A10.14,10.14,0,0,0,40,.71,9.7,9.7,0,0,0,33.7,9.34,6.05,6.05,0,0,0,29.48,15a6.17,6.17,0,0,0,6.31,6H52.12l.6,0A7.69,7.69,0,0,0,60,13.5,7.66,7.66,0,0,0,53,6.06ZM52.58,19l-.46,0H35.79A4,4,0,0,1,35,11.08a1,1,0,0,0,.84-1c0-.18,0-.37,0-.55A7.82,7.82,0,0,1,43.9,2a7.92,7.92,0,0,1,7.37,5.3,1,1,0,0,0,1,.7,5.59,5.59,0,0,1,5.68,5.49A5.57,5.57,0,0,1,52.58,19Z"/><path class="cls-2" d="M16.55,19.5a2.59,2.59,0,0,1-5.17,0H9.31A4.58,4.58,0,0,0,14,24a4.57,4.57,0,0,0,4.65-4.5Z"/><path class="cls-2" d="M55.86,23V38a9.16,9.16,0,0,1-9.31,9,1,1,0,0,0-1,1V58H22.76V49h5.17V47H13.45a5.09,5.09,0,0,1-5.17-5V34a1,1,0,0,0-1-1H2.47L9.23,13.25A18.52,18.52,0,0,1,26.27,2h7.87V0H26.27a20.61,20.61,0,0,0-19,12.56L.05,33.69A1,1,0,0,0,.71,35,1.13,1.13,0,0,0,1,35H6.21v7a7.13,7.13,0,0,0,7.24,7h7.24V59a1,1,0,0,0,1,1H46.55a1,1,0,0,0,1-1V49A11.18,11.18,0,0,0,57.93,38V23Z"/></g></g></svg>
+                </div>
+                <div class="col xs9 itemCopy">
+                  <p>The condition wizard is the heart & soul of TC2000. If you can think it, you can build a condition for any indicator step-by-step. Formula writing is not necessary, but certainly available. "Flex" conditions  unfold over time making a whole new world of possibilities.</p>
+                </div>
+            </div>
+            
+            <div class="col m12 l6 featureItem">
+                <h4 class="heavy">Options Charting</h4>
+                <div class="col xs3 l2 offset-l1 item-SVG SVG-eleven">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60"><defs><style>.cls-1{fill:#5ffcc2;fill-rule:evenodd;}.cls-2{fill:#414959;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M38.15,10.41a.09.09,0,0,0,0,.18H58.94v-9Z"/><path class="cls-1" d="M38.15,16.12l20.79,8.8v-9H38.19A.1.1,0,0,0,38.15,16.12Z"/><path class="cls-2" d="M38.19,11.64H60V0L37.74,9.44a1.14,1.14,0,0,0,.45,2.2Zm19.7-8.45V9.54h-15Z"/><path class="cls-2" d="M37.74,17.08,60,26.51V14.88H38.19a1.14,1.14,0,0,0-.45,2.2ZM57.89,17v6.36L42.88,17Z"/><path class="cls-2" d="M51.89,40.63a6.61,6.61,0,0,1-13.21,0,8.71,8.71,0,0,0-5.43-8.06V12H27V0h-2.1V12H18.62V45.91a6.6,6.6,0,0,1-4,1.32h0v-28H0V60H14.63V49.33h0a8.63,8.63,0,0,0,4-1v4.4H33.25V34.9a6.62,6.62,0,0,1,3.33,5.73,8.71,8.71,0,0,0,17.41,0,6.6,6.6,0,0,1,6-6.57V32A8.7,8.7,0,0,0,51.89,40.63ZM2.1,21.35H12.53V46.87a6.62,6.62,0,0,1-4.46-6.24,8.71,8.71,0,0,0-6-8.25ZM12.53,57.9H2.1V34.63a6.59,6.59,0,0,1,3.87,6,8.7,8.7,0,0,0,6.56,8.42ZM31.15,14.12V32A9.08,9.08,0,0,0,30,31.93a8.71,8.71,0,0,0-8.71,8.7,6.47,6.47,0,0,1-.55,2.64V14.12Zm0,36.55H20.72v-3.8a8.68,8.68,0,0,0,2.66-6.24A6.61,6.61,0,0,1,30,34a7.49,7.49,0,0,1,1.17.1Z"/></g></g></svg>
+                </div>
+                <div class="col xs9 itemCopy">
+                      <p>Historical and streaming bid/ask data means you always know what the market is doing, even when no contracts are trading. Plot intrinsic value, time value and more. Once you see these charts, you'll never go back to anything else.</p>
+                </div>
+            </div>
+            
+            <div class="col m12 l6 featureItem">
+                <h4 class="heavy">Stock & Option Screener</h4>
+                <div class="col xs3 l2 offset-l1 item-SVG SVG-three">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 59.99"><defs><style>.cls-1{fill:#f0f3f7;}.cls-2{fill:#414959;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><rect class="cls-1" x="12.38" y="11.69" width="35.24" height="36.61" rx="0.58"/><polygon class="cls-2" points="5.01 11.98 7.11 11.98 7.11 2.1 16.99 2.1 16.99 0 5.01 0 5.01 11.98"/><polygon class="cls-2" points="43.01 0 43.01 2.1 52.89 2.1 52.89 11.98 54.99 11.98 54.99 0 43.01 0"/><polygon class="cls-2" points="7.11 48.01 5.01 48.01 5.01 59.99 16.99 59.99 16.99 57.89 7.11 57.89 7.11 48.01"/><polygon class="cls-2" points="52.89 57.89 43.01 57.89 43.01 59.99 54.99 59.99 54.99 48.01 52.89 48.01 52.89 57.89"/><path class="cls-2" d="M60,29.83H48.67V12.27A1.63,1.63,0,0,0,47,10.64H13a1.63,1.63,0,0,0-1.63,1.63V29.83H0v2.1H11.33V47.72A1.63,1.63,0,0,0,13,49.35H47a1.63,1.63,0,0,0,1.63-1.63V31.93H60ZM13.43,12.74H46.57V29.83H13.43ZM46.57,47.25H13.43V31.93H46.57Z"/><path class="cls-2" d="M26.29,25.57H24.54a.46.46,0,0,1-.29-.09.87.87,0,0,1-.17-.21l-2.17-3.6a1.46,1.46,0,0,1-.13.28L19.7,25.27a2,2,0,0,1-.18.21.4.4,0,0,1-.27.09H17.62l3.12-4.83-3-4.57h1.74a.54.54,0,0,1,.26,0,.58.58,0,0,1,.15.16L22,19.83a2.49,2.49,0,0,1,.16-.33l2-3.09a.57.57,0,0,1,.16-.18.33.33,0,0,1,.21-.06H26.2l-3,4.5Z"/><path class="cls-2" d="M31.49,21.93v3.64H29.75V21.93l-3.42-5.76h1.54a.57.57,0,0,1,.36.11,1,1,0,0,1,.22.28l1.72,3.14c.1.19.18.37.26.53s.14.33.2.49c.06-.16.13-.32.2-.49s.16-.34.25-.53l1.71-3.14A.87.87,0,0,1,33,16.3a.53.53,0,0,1,.36-.13h1.55Z"/><path class="cls-2" d="M42,16.82a.94.94,0,0,1-.17.54L37,24.18h4.89v1.39H34.72v-.69a.73.73,0,0,1,0-.25.94.94,0,0,1,.12-.22l4.83-6.84H35v-1.4h7Z"/><rect class="cls-2" x="17.86" y="36.01" width="6.42" height="2.1"/><rect class="cls-2" x="17.86" y="40.39" width="23.94" height="2.1"/></g></g></svg>
+                </div>
+                <div class="col xs9 itemCopy">
+                      <p>In 1995, EasyScan® could scan a thousand stocks in 2-seconds. Imagine what it can do today. Testing millions of data points for your conditions on-the-fly … will spoil you.</p>
+                </div>
+            </div>
+            
+            <div class="col m12 l6 featureItem">
+                <h4 class="heavy">Low Latency Data</h4>
+                <div class="col xs3 l2 offset-l1 item-SVG SVG-eight">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 59.96"><defs><style>.cls-1{fill:#414959;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M10.76,13.12v8.69h2.08V9.57H11.13l-3.52,3,.61.74a.64.64,0,0,0,.25.18.78.78,0,0,0,.3.07.89.89,0,0,0,.6-.21l1.42-1.21c0,.17,0,.33,0,.48S10.76,13,10.76,13.12Z"/><path class="cls-1" d="M18.21,21.57a4.61,4.61,0,0,0,1.83.37,4.65,4.65,0,0,0,1.84-.37,4.34,4.34,0,0,0,1.56-1.15,5.54,5.54,0,0,0,1.09-2,8.52,8.52,0,0,0,.4-2.77,8.54,8.54,0,0,0-.4-2.78A5.58,5.58,0,0,0,23.44,11a4.22,4.22,0,0,0-1.56-1.15A4.65,4.65,0,0,0,20,9.46a4.61,4.61,0,0,0-1.83.37A4.22,4.22,0,0,0,16.65,11a5.56,5.56,0,0,0-1.07,1.94,8.54,8.54,0,0,0-.4,2.78,8.52,8.52,0,0,0,.4,2.77,5.52,5.52,0,0,0,1.07,2A4.34,4.34,0,0,0,18.21,21.57Zm-.66-8.07a4,4,0,0,1,.59-1.38,2.1,2.1,0,0,1,.86-.73,2.83,2.83,0,0,1,2.09,0,2.19,2.19,0,0,1,.87.73,4,4,0,0,1,.59,1.38,9,9,0,0,1,.22,2.2,9,9,0,0,1-.22,2.2A4,4,0,0,1,22,19.28a2.16,2.16,0,0,1-.87.72A2.71,2.71,0,0,1,19,20a2.07,2.07,0,0,1-.86-.72,4,4,0,0,1-.59-1.38,9,9,0,0,1-.22-2.2A9,9,0,0,1,17.55,13.5Z"/><path class="cls-1" d="M30.51,9.57l-3.73,3.17.66.91a1,1,0,0,0,.15.14.62.62,0,0,0,.24.08.66.66,0,0,0,.28,0,.84.84,0,0,0,.3-.15l1.75-1.47c0,.3,0,.59,0,.87v7.12H27.66v1.57h6.76V20.24h-2.2V9.57Z"/><path class="cls-1" d="M38.59,9.83A3.79,3.79,0,0,0,37.17,11a5.56,5.56,0,0,0-.93,1.94,9.92,9.92,0,0,0-.34,2.78,9.9,9.9,0,0,0,.34,2.77,5.53,5.53,0,0,0,.93,2,3.89,3.89,0,0,0,1.42,1.15,4.16,4.16,0,0,0,1.77.37,4.24,4.24,0,0,0,1.78-.37,3.92,3.92,0,0,0,1.43-1.15,5.72,5.72,0,0,0,.94-2,9.9,9.9,0,0,0,.34-2.77,9.92,9.92,0,0,0-.34-2.78A5.75,5.75,0,0,0,43.57,11a3.82,3.82,0,0,0-1.43-1.15,4.24,4.24,0,0,0-1.78-.37A4.16,4.16,0,0,0,38.59,9.83ZM42,12.12a4.53,4.53,0,0,1,.52,1.38,11,11,0,0,1,.19,2.2,11.1,11.1,0,0,1-.19,2.2A4.53,4.53,0,0,1,42,19.28a1.89,1.89,0,0,1-.75.72,2,2,0,0,1-.88.21,1.92,1.92,0,0,1-.87-.21,1.87,1.87,0,0,1-.74-.72,4.54,4.54,0,0,1-.51-1.38,11.1,11.1,0,0,1-.19-2.2,11,11,0,0,1,.19-2.2,4.54,4.54,0,0,1,.51-1.38,1.91,1.91,0,0,1,.74-.73,2,2,0,0,1,.87-.2,2.09,2.09,0,0,1,.88.2A1.92,1.92,0,0,1,42,12.12Z"/><path class="cls-1" d="M53.37,20.42a5.72,5.72,0,0,0,.94-2,9.9,9.9,0,0,0,.34-2.77,9.92,9.92,0,0,0-.34-2.78A5.75,5.75,0,0,0,53.37,11a3.82,3.82,0,0,0-1.43-1.15,4.24,4.24,0,0,0-1.78-.37,4.16,4.16,0,0,0-1.77.37A3.79,3.79,0,0,0,47,11,5.56,5.56,0,0,0,46,12.92a9.92,9.92,0,0,0-.34,2.78A9.9,9.9,0,0,0,46,18.47a5.53,5.53,0,0,0,.93,2,3.89,3.89,0,0,0,1.42,1.15,4.16,4.16,0,0,0,1.77.37,4.24,4.24,0,0,0,1.78-.37A3.92,3.92,0,0,0,53.37,20.42ZM52.31,17.9a4.53,4.53,0,0,1-.52,1.38A1.89,1.89,0,0,1,51,20a2,2,0,0,1-.88.21,1.92,1.92,0,0,1-.87-.21,1.87,1.87,0,0,1-.74-.72A4.54,4.54,0,0,1,48,17.9a11.1,11.1,0,0,1-.19-2.2A11,11,0,0,1,48,13.5a4.54,4.54,0,0,1,.51-1.38,1.91,1.91,0,0,1,.74-.73,2,2,0,0,1,.87-.2,2.09,2.09,0,0,1,.88.2,1.92,1.92,0,0,1,.75.73,4.53,4.53,0,0,1,.52,1.38,11,11,0,0,1,.19,2.2A11.1,11.1,0,0,1,52.31,17.9Z"/><path class="cls-1" d="M30.5,46.17a9.63,9.63,0,0,0,0-5.56,5.73,5.73,0,0,0-1.08-1.94,4.46,4.46,0,0,0-1.57-1.15A4.61,4.61,0,0,0,26,37.15a4.65,4.65,0,0,0-1.84.37,4.39,4.39,0,0,0-1.55,1.15,5.73,5.73,0,0,0-1.08,1.94,8.35,8.35,0,0,0-.35,2.06h-13a1.05,1.05,0,0,0,0,2.1h13a8.22,8.22,0,0,0,.31,1.4,5.73,5.73,0,0,0,1.08,1.94,4.27,4.27,0,0,0,1.55,1.15,4.65,4.65,0,0,0,1.84.37,4.61,4.61,0,0,0,1.83-.37,4.34,4.34,0,0,0,1.57-1.15A5.73,5.73,0,0,0,30.5,46.17Zm-2-.58a4,4,0,0,1-.6,1.38,2,2,0,0,1-.87.72,2.65,2.65,0,0,1-1,.21,2.58,2.58,0,0,1-1-.21,1.89,1.89,0,0,1-.86-.72,3.85,3.85,0,0,1-.59-1.38,11.11,11.11,0,0,1,0-4.4,3.85,3.85,0,0,1,.59-1.38,2,2,0,0,1,.86-.72,2.58,2.58,0,0,1,1-.21,2.65,2.65,0,0,1,1,.21,2,2,0,0,1,.87.72,4,4,0,0,1,.6,1.38,11.11,11.11,0,0,1,0,4.4Z"/><path class="cls-1" d="M36.11,47.94H33.64V49.5H40.4V47.94H38.2V37.27H36.48l-3.72,3.16.66.91a.41.41,0,0,0,.15.14.92.92,0,0,0,.23.09.89.89,0,0,0,.28,0,.71.71,0,0,0,.3-.15l1.76-1.47q0,.45,0,.87Z"/><path class="cls-1" d="M43.15,38.67a5.75,5.75,0,0,0-.94,1.94,11.54,11.54,0,0,0,0,5.56,5.75,5.75,0,0,0,.94,1.94,3.71,3.71,0,0,0,1.42,1.15,4.16,4.16,0,0,0,1.77.37,4.22,4.22,0,0,0,1.77-.37,3.74,3.74,0,0,0,1.43-1.15,5.76,5.76,0,0,0,1-1.94,11.54,11.54,0,0,0,0-5.56,5.76,5.76,0,0,0-1-1.94,3.84,3.84,0,0,0-1.43-1.15,4.22,4.22,0,0,0-1.77-.37,4.16,4.16,0,0,0-1.77.37A3.81,3.81,0,0,0,43.15,38.67Zm1.07,2.52a4.54,4.54,0,0,1,.51-1.38,1.81,1.81,0,0,1,.74-.72,1.91,1.91,0,0,1,1.74,0,1.83,1.83,0,0,1,.75.72,4.28,4.28,0,0,1,.52,1.38,12.2,12.2,0,0,1,0,4.4A4.28,4.28,0,0,1,48,47a1.77,1.77,0,0,1-.75.72,1.91,1.91,0,0,1-1.74,0,1.75,1.75,0,0,1-.74-.72,4.54,4.54,0,0,1-.51-1.38,12.83,12.83,0,0,1,0-4.4Z"/><path class="cls-1" d="M57.8,47.94V37.27H56.08l-3.72,3.16.66.91a.41.41,0,0,0,.15.14.79.79,0,0,0,.23.09.89.89,0,0,0,.28,0,.71.71,0,0,0,.3-.15l1.76-1.47q0,.45,0,.87v7.13H53.24V49.5H60V47.94Z"/><path class="cls-1" d="M3.6,0H1.05a1.05,1.05,0,0,0,0,2.1H3.6A1,1,0,1,0,3.6,0Z"/><path class="cls-1" d="M8.24,2.1H40.82a1,1,0,0,0,0-2.1H8.24a1.05,1.05,0,1,0,0,2.1Z"/><path class="cls-1" d="M6.19,29.78a1,1,0,0,0,1,1H25.81a1,1,0,0,0,0-2.1H7.24A1,1,0,0,0,6.19,29.78Z"/><path class="cls-1" d="M13.61,57.87H11.06a1,1,0,1,0,0,2.09h2.55a1,1,0,1,0,0-2.09Z"/><path class="cls-1" d="M24.81,57.87H18.25a1,1,0,1,0,0,2.09h6.56a1,1,0,0,0,0-2.09Z"/><path class="cls-1" d="M3.6,42.67H1.05a1.05,1.05,0,0,0,0,2.1H3.6a1,1,0,1,0,0-2.1Z"/><path class="cls-1" d="M50.83,57.87H29.26a1,1,0,1,0,0,2.09H50.83a1,1,0,1,0,0-2.09Z"/></g></g></svg>
+                </div>
+                <div class="col xs9 itemCopy">
+                      <p>Whether you are changing symbols, sorting a list or plotting an intraday custom indicator, the speed from your fingertips to action is instant.</p>
+                </div>
+            </div>
+            
+            <div class="topBG-SVG">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 197.94 487.8"><defs><style>.cls-1{fill:#eefff7;}.cls-2{fill:#6d6e70;opacity:0.12;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Elements"><path class="cls-1" d="M184.46,268.5,24.79,24.46A82.27,82.27,0,0,0,0,0V487.8L160.59,382.72A82.5,82.5,0,0,0,184.46,268.5Z"/><rect class="cls-2" x="84.77" y="39.76" width="34.39" height="294.23"/><rect class="cls-2" x="110.34" y="157.26" width="34.39" height="294.23"/><rect class="cls-2" x="136.5" y="107.31" width="34.39" height="294.23"/></g></g></svg>
+            </div>
+            
+            <div class="col m12 l6 featureItem">
+                <h4 class="heavy">Reinventing Trading</h4>
+                <div class="col xs3 l2 offset-l1 item-SVG SVG-ten">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60"><defs><style>.cls-1{fill:#fff6f5;}.cls-2{fill:none;}.cls-3{fill:#eefff7;}.cls-4{fill:#414959;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M22.9,47c.54-.11,14.13-.25,14.13-.25l.18,6.47-1.48,4.41L30.2,59.08l-5.82-.61-2-4V47.73Z"/><rect class="cls-2" x="19.31" y="10.56" width="21.38" height="21.38"/><polygon class="cls-3" points="38.91 21.26 36.68 21.26 34.35 23.2 31.19 25.8 31.19 21.26 31.19 21.26 26.88 21.26 26.88 18.14 19.31 24.38 26.88 30.62 26.88 27.5 38.91 27.5 38.91 21.26"/><rect class="cls-4" y="19.06" width="4.02" height="2.19"/><polygon class="cls-4" points="2.96 32.87 3.94 34.83 7.56 32.88 6.58 30.93 2.96 32.87"/><polygon class="cls-4" points="7.45 7.07 4.02 5.33 3.04 7.29 6.46 9.02 7.45 7.07"/><rect class="cls-4" x="55.98" y="19.06" width="4.02" height="2.19"/><polygon class="cls-4" points="52.44 32.88 55.98 34.65 56.96 32.7 53.42 30.93 52.44 32.88"/><polygon class="cls-4" points="56.96 7.25 55.98 5.3 52.55 7.07 53.54 9.02 56.96 7.25"/><path class="cls-4" d="M30,0A19.75,19.75,0,0,0,10.29,19.58v.13c0,8,3.28,12.23,6.42,16.36,2.66,3.5,5,6.52,5,11.5V54a6,6,0,0,0,6,6h4.68a6,6,0,0,0,6-6V47.57c0-5,2.3-8,5-11.5,3.14-4.13,6.38-8.41,6.42-16.37v-.12A19.75,19.75,0,0,0,30,0Zm2.34,57.82H27.66a3.81,3.81,0,0,1-3.75-3.18l11.62,1.44A3.81,3.81,0,0,1,32.34,57.82ZM36.15,54c0,.15,0,.29,0,.43L23.85,52.92V51l12.3,1.52Zm0-3.23-12.3-1.53V47.87h12.3Zm5.4-16h0c-2.26,3-4.4,5.79-5.14,9.83l-.2,1.11H23.79l-.2-1.11c-.74-4-2.88-6.85-5.14-9.83-2.93-3.86-6-7.84-6-15.1a17.53,17.53,0,0,1,35.06,0C47.51,26.91,44.48,30.89,41.55,34.75Z"/><path class="cls-4" d="M38.91,20.76H36.68a.49.49,0,0,0-.32.12l-4.67,3.86V21.26a.5.5,0,0,0-.5-.5H27.38V18.14a.5.5,0,0,0-.28-.45.51.51,0,0,0-.54.07L19,24a.51.51,0,0,0,0,.78L26.56,31a.51.51,0,0,0,.32.12.59.59,0,0,0,.22-.05.5.5,0,0,0,.28-.45V28H38.91a.5.5,0,0,0,.5-.5V21.26A.5.5,0,0,0,38.91,20.76ZM38.41,27H26.88a.5.5,0,0,0-.5.5v2.06L20.1,24.38l6.28-5.18v2.06a.5.5,0,0,0,.5.5h3.81v4a.5.5,0,0,0,.82.38l5.35-4.42h1.55Z"/><path class="cls-4" d="M33.57,9.6a.28.28,0,0,0-.45.22v2.26a.27.27,0,0,1-.28.27H21.37a.27.27,0,0,0-.28.28v5.68a.28.28,0,0,0,.28.28h1.85a.22.22,0,0,0,.17-.07l2.26-1.87,2.71-2.23a.28.28,0,0,1,.45.22v3.95h4a.27.27,0,0,1,.28.27v2.26a.28.28,0,0,0,.45.22l6.86-5.66a.26.26,0,0,0,0-.42Z"/></g></g></svg>
+                </div>
+                <div class="col xs9 itemCopy">
+                      <p>Trade from indicators, trendlines and conditions. Place multiple exit strategies without worrying about going short. Track which limit orders are closest to executing. We could have built just another trading platform. Instead we innovated time-saving concepts to keep you efficient and focused.</p>
+                </div>
+            </div>
+            
+            <div class="col m12 l6 featureItem">
+                <h4 class="heavy">Unlimited Practice for Free</h4>
+                <div class="col xs3 l2 offset-l1 item-SVG SVG-nine">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60"><defs><style>.cls-1{fill:#fed4cd;}.cls-2{fill:#414959;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M30,1.05A29,29,0,1,0,59,30,29,29,0,0,0,30,1.05Zm0,46.87A17.92,17.92,0,1,1,47.92,30,17.94,17.94,0,0,1,30,47.92Z"/><path class="cls-1" d="M30,23.29A6.71,6.71,0,1,0,36.71,30,6.72,6.72,0,0,0,30,23.29Z"/><path class="cls-2" d="M30,0A30,30,0,1,0,60,30,30,30,0,0,0,30,0Zm0,57.9A27.9,27.9,0,1,1,57.9,30,27.94,27.94,0,0,1,30,57.9Z"/><path class="cls-2" d="M30,11A19,19,0,1,0,49,30,19,19,0,0,0,30,11Zm0,35.84A16.87,16.87,0,1,1,46.87,30,16.89,16.89,0,0,1,30,46.87Z"/><path class="cls-2" d="M30,22.24A7.76,7.76,0,0,0,22.32,29H21.11l-3.3-3.3-1.49,1.48L18.14,29H15.81v2.1h2.33l-1.82,1.82,1.49,1.48,3.3-3.3h1.21A7.76,7.76,0,1,0,30,22.24Zm0,13.42a5.67,5.67,0,0,1-5.56-4.61h4.38v1.74h1V27.21h-1V29H24.44A5.66,5.66,0,1,1,30,35.66Z"/></g></g></svg>
+                </div>
+                <div class="col xs9 itemCopy">
+                      <p>The fully functional trading simulator lets you practice and learn the platform. Includes a basic layout with chart, positions, trades, option chain and personal journal. No credit card required. Professors and students, please contact us to learn about the upgraded free program for high schools and universities.</p>
+                </div>
+            </div>
+            
+            <div class="col m12 l6 featureItem">
+                <h4 class="heavy">Dynamic Charting</h4>
+                <div class="col xs3 l2 offset-l1 item-SVG SVG-seven">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56.65 59.95"><defs><style>.cls-1{fill:#5ffcc2;}.cls-2{fill:#414959;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><rect class="cls-1" x="19.39" y="1.05" width="4.2" height="57.85"/><path class="cls-2" d="M55.08,39.7v-9c0-6.47-3.43-9.65-11.76-9.65A30.1,30.1,0,0,0,33,23.09l2.11,6.18a24.09,24.09,0,0,1,6.76-1.37c2.89,0,3.77.68,3.77,3.33v.63H43.76c-8.23,0-12.64,3.19-12.64,9,0,4.85,3.38,8.33,8.62,8.33,3,0,6-.93,7.89-3.82,1.47,2.5,3.67,3.38,7.06,3.62l2-6.22C55.47,42.3,55.08,41.56,55.08,39.7Zm-9.46,1.08a3.61,3.61,0,0,1-2.89,1.57,2.18,2.18,0,0,1-2.16-2.45c0-2.06,1.28-3,4-3h1Z"/><path class="cls-2" d="M24.64,24.18V0h-6.3V14.05h-9v5.76H6.79V26.9H4.57V34H2.36v7.08H0v7.09H8.18V41.07h2.09v1.11h8.07V60h6.3V48.18h7ZM10.54,36.32V34h2.21V26.9H15V21.13h1.92V26.5h1.45v9.82Zm12,21.53h-2.1V2.1h2.1Z"/></g></g></svg>
+                </div>
+                <div class="col xs9 itemCopy">
+                      <p>Experience stunning graphics, smooth zooming & panning, indicators applied to anything, drawing palette, unmatched feel.</p>
+                </div>
+            </div>
+            
+            <div class="midBG-SVG">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 275.52 666.72"><defs><style>.cls-1{fill:#f0f3f7;}.cls-2,.cls-4{fill:#6d6e70;}.cls-2,.cls-3{opacity:0.12;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Elements"><path class="cls-1" d="M275.52,0,45.57,179A118.11,118.11,0,0,0,24.91,344.72l250.61,322Z"/><rect class="cls-2" x="94.97" y="358.62" width="34.39" height="171.56" transform="translate(87.14 -13.25) rotate(11.04)"/><g class="cls-3"><path class="cls-4" d="M143,195.54v36a54.16,54.16,0,0,1,.19,108.32,55.18,55.18,0,0,1-10.46-1A54.15,54.15,0,0,1,143,231.54v-36m0,0a90.25,90.25,0,1,0,17.35,1.69A90.18,90.18,0,0,0,143,195.54Z"/></g><rect class="cls-2" x="143.11" y="46.86" width="132.41" height="34.39"/><rect class="cls-2" x="25.61" y="72.43" width="249.92" height="34.39"/><rect class="cls-2" x="75.57" y="98.59" width="199.96" height="34.39"/></g></g></svg>
+            </div>
+            
+            <div class="col m12 l6 featureItem">
+                <h4 class="heavy">Stay Organized with Watchlists</h4>
+                <div class="col xs3 l2 offset-l1 item-SVG SVG-four">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60"><defs><style>.cls-1{fill:#eefff7;}.cls-2{fill:#414959;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><rect class="cls-1" x="14.33" y="1.05" width="37.56" height="30.03"/><path class="cls-2" d="M59.78,30.34a1.19,1.19,0,0,0-1-.51H52.94V1A1,1,0,0,0,52,0H14.24a1,1,0,0,0-1,1V19.45l-1.21-1.91a1.21,1.21,0,0,0-1-.55H1.2A1.2,1.2,0,0,0,0,18.19v40.6A1.2,1.2,0,0,0,1.2,60H49a1.12,1.12,0,0,0,.41-.09l.12-.06a1.32,1.32,0,0,0,.25-.16l.09-.1a1.14,1.14,0,0,0,.18-.25s0-.07,0-.11l0,0,9.86-27.76A1.23,1.23,0,0,0,59.78,30.34ZM39.34,25.52h9.35v-2.1H39.34V17.85h9.35v-2.1H39.34V11.18h9.35V9.08H39.34V4.16h11.5V30H39.34ZM24.53,4.16H37.24V9.08H24.53Zm0,7H37.24v4.57H24.53Zm0,6.67H37.24v5.57H24.53Zm0,7.67H37.24V30H24.53ZM15.38,4.16h7V9.08h-7Zm0,7h7v4.57h-7Zm0,6.67h7v5.57h-7Zm0,7.67h7V30h-7Zm-13-6.13h8l2.88,4.53v5.91H11.06a1.2,1.2,0,0,0-1.13.8L2.4,51.83ZM48.09,57.6H2.9l9-25.37H57.1Z"/></g></g></svg>
+                </div>
+                <div class="col xs9 itemCopy">
+                      <p>Hundreds of market index lists, sectors, industries, and ETF's are maintained and updated daily. Use personal lists, favorites and flagged items to consolidate and organize.</p>
+                </div>
+            </div>
+
+            <div class="col m12 l6 featureItem">
+                <h4 class="heavy">Option Profit & Loss Zones</h4>
+                <div class="col xs3 l2 offset-l1 item-SVG SVG-five">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60"><defs><style>.cls-1{fill:#fff6f5;}.cls-2{fill:#eefff7;}.cls-3{fill:#414959;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M14.46,31.82l-8.27,6H6.14a.09.09,0,0,1-.09-.09v-12L1.14,22.15a.09.09,0,0,0-.09.09V58.86a.09.09,0,0,0,.09.09H51.5s.06,0,.08-.06,0-.08,0-.1Z"/><path class="cls-2" d="M6.14,37.85a.09.09,0,0,1-.09-.09V1.14a.09.09,0,0,1,.09-.09H56.5s.06,0,.08.06,0,.08,0,.1L6.19,37.84Z"/><rect class="cls-3" x="34.8" y="29.83" width="9.6" height="2.1"/><rect class="cls-3" x="54" y="29.83" width="6" height="2.1"/><path class="cls-3" d="M16.41,31.93H25.2v-2.1H19L57.17,2.06A1.14,1.14,0,0,0,56.5,0H6.14A1.14,1.14,0,0,0,5,1.14v22.5L1.81,21.31A1.14,1.14,0,0,0,0,22.24V58.86A1.14,1.14,0,0,0,1.14,60H51.5a1.14,1.14,0,0,0,.67-2.06ZM7.1,2.1H53.54L7.1,35.88Zm-5,55.8V24.12L5,26.23V37.76a1.15,1.15,0,0,0,1.81.93l7.65-5.57L48.54,57.9Z"/></g></g></svg>
+                </div>
+                <div class="col xs9 itemCopy">
+                      <p>Simple and brilliant. Shaded zones on your chart show you where an option contract or strategy makes money, loses money and has maximum risk. Patent-pending.</p>
+                </div>
+            </div>
+            
+            <div class="col m12 l6 featureItem">
+                <h4 class="heavy">Built-In Options Strategies</h4>
+                <div class="col xs3 l2 offset-l1 item-SVG SVG-twelve">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60"><defs><style>.cls-1{fill:#414959;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><polygon class="cls-1" points="6.55 23.66 8.81 21.4 11.06 23.66 12.55 22.17 10.29 19.92 12.55 17.66 11.06 16.17 8.81 18.43 6.55 16.17 5.06 17.66 7.32 19.92 5.06 22.17 6.55 23.66"/><polygon class="cls-1" points="12.78 7.49 15.04 5.23 17.3 7.49 18.78 6 16.53 3.74 18.78 1.49 17.3 0 15.04 2.26 12.78 0 11.3 1.49 13.56 3.74 11.3 6 12.78 7.49"/><polygon class="cls-1" points="34.65 7.49 36.91 5.23 39.17 7.49 40.65 6 38.4 3.74 40.65 1.49 39.17 0 36.91 2.26 34.65 0 33.17 1.49 35.43 3.74 33.17 6 34.65 7.49"/><polygon class="cls-1" points="39.57 27.53 41.83 25.27 44.09 27.53 45.57 26.05 43.31 23.79 45.57 21.53 44.09 20.05 41.83 22.3 39.57 20.05 38.08 21.53 40.34 23.79 38.08 26.05 39.57 27.53"/><polygon class="cls-1" points="60 21.53 58.52 20.05 56.26 22.3 54 20.05 52.51 21.53 54.77 23.79 52.51 26.05 54 27.53 56.26 25.27 58.52 27.53 60 26.05 57.74 23.79 60 21.53"/><polygon class="cls-1" points="32.92 20.05 30.66 22.3 28.41 20.05 26.92 21.53 29.18 23.79 26.92 26.05 28.41 27.53 30.66 25.27 32.92 27.53 34.41 26.05 32.15 23.79 34.41 21.53 32.92 20.05"/><path class="cls-1" d="M29.1,34.82a4.05,4.05,0,1,0-4.05,4A4.05,4.05,0,0,0,29.1,34.82Zm-4.05,2a2,2,0,1,1,1.95-2A2,2,0,0,1,25.05,36.77Z"/><path class="cls-1" d="M4.05,30.77A4.05,4.05,0,1,0,8.1,34.82,4.06,4.06,0,0,0,4.05,30.77Zm0,6a2,2,0,1,1,2-2A2,2,0,0,1,4.05,36.77Z"/><path class="cls-1" d="M36.25,30.77a4.05,4.05,0,1,0,4,4.05A4.06,4.06,0,0,0,36.25,30.77Zm0,6a2,2,0,1,1,2-2A1.95,1.95,0,0,1,36.25,36.77Z"/><path class="cls-1" d="M47.72,38.87a4,4,0,1,0-4-4A4.05,4.05,0,0,0,47.72,38.87Zm0-6a2,2,0,1,1-1.95,2A2,2,0,0,1,47.72,32.87Z"/><path class="cls-1" d="M36.21,42.27a4.05,4.05,0,1,0,4.06,4A4.06,4.06,0,0,0,36.21,42.27Zm0,6a2,2,0,1,1,2-2A2,2,0,0,1,36.21,48.27Z"/><path class="cls-1" d="M36.21,51.9A4.05,4.05,0,1,0,40.27,56,4.06,4.06,0,0,0,36.21,51.9Zm0,6a2,2,0,1,1,2-1.95A2,2,0,0,1,36.21,57.9Z"/><path class="cls-1" d="M11.26,28.55c-.32-.89-.63-1.83-.93-2.8l-2,.61c.31,1,.63,2,1,2.9Z"/><path class="cls-1" d="M11.25,33.93a30.83,30.83,0,0,0,2.63,4.4l1.7-1.24A28,28,0,0,1,13.13,33Z"/><path class="cls-1" d="M17.36,42.16A20.08,20.08,0,0,0,21.72,45l.91-1.89a17.53,17.53,0,0,1-3.89-2.55Z"/><path class="cls-1" d="M26.66,46.65a25.16,25.16,0,0,0,3.1.43L29.93,45a23.28,23.28,0,0,1-2.85-.4Z"/><polygon class="cls-1" points="20.64 14.58 47.88 14.58 47.88 16.72 51.07 13.53 47.88 10.33 47.88 12.48 18.54 12.48 18.54 25.58 8.79 31.31 9.86 33.12 20.64 26.78 20.64 14.58"/><path class="cls-1" d="M42.32,55.64l.21,1,.2,1c.6-.12,14.58-3.13,14.58-28.39h-2.1C55.21,52.74,42.85,55.54,42.32,55.64Z"/></g></g></svg>
+                </div>
+                <div class="col xs9 itemCopy">
+                      <p>Take the complex out of option strategies with one-click construction of multileg orders. Mini-pictures make it quick to see the objective of each strategy… bullish, bearish or volatility.</p>
+                </div>
+            </div>
+            
+            <div class="col m12 l6 featureItem">
+                <h4 class="heavy">Alerts & Reminders</h4>
+                <div class="col xs3 l2 offset-l1 item-SVG SVG-two">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60"><defs><style>.cls-1{fill:#fff6f5;}.cls-2{fill:#414959;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><circle class="cls-1" cx="45.57" cy="14.43" r="13.38"/><path class="cls-2" d="M45.57,28.86a14.43,14.43,0,1,0-14.3-16.27,16.66,16.66,0,0,0-2.52-1V7.3a4.8,4.8,0,0,0-9.59,0v4.3a16.79,16.79,0,0,0-12,16.06v6a20.41,20.41,0,0,1-2.9,10.47L.17,51a1.19,1.19,0,0,0,1,1.81H18.1A6.12,6.12,0,0,0,18,54a6,6,0,1,0,12,0,6.12,6.12,0,0,0-.13-1.2H46.71a1.19,1.19,0,0,0,1-1.81l-4.11-6.86a20.33,20.33,0,0,1-2.91-10.47V28A14.22,14.22,0,0,0,45.57,28.86Zm0-26.76A12.33,12.33,0,1,1,33.24,14.43,12.34,12.34,0,0,1,45.57,2.1Zm-24,5.2a2.4,2.4,0,1,1,4.79,0v3.77a15.6,15.6,0,0,0-4.79,0Zm6,46.71a3.6,3.6,0,0,1-7.19,0,3.54,3.54,0,0,1,.22-1.2h6.76A3.79,3.79,0,0,1,27.55,54ZM38.33,27.66v6a22.8,22.8,0,0,0,3.24,11.71l3,5H3.31l3-5A22.8,22.8,0,0,0,9.58,33.67v-6a14.35,14.35,0,0,1,21.61-12.4,14.39,14.39,0,0,0,7.1,11.61C38.31,27.13,38.33,27.39,38.33,27.66Z"/><path class="cls-2" d="M42.68,12.4a.72.72,0,0,0,.29.06.79.79,0,0,0,.3-.05.72.72,0,0,0,.26-.14l1.34-1.14,0,.45v8.6h2V8.67H45.19l-3.32,2.86.58.7A.76.76,0,0,0,42.68,12.4Z"/></g></g></svg>
+                </div>
+                <div class="col xs9 itemCopy">
+                      <p>Whether you need to be reminded to come back and look at a chart again or you want to be notified when an indicator hits something, just click, set, done.</p>
+                </div>
+            </div>
+            
+            <div class="col m12 l6 featureItem">
+                <h4 class="heavy">Personal Journal</h4>
+                <div class="col xs3 l2 offset-l1 item-SVG SVG-six">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60"><defs><style>.cls-1{fill:#5ffcc2;}.cls-2{fill:#fed4cd;}.cls-3{fill:#414959;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><polygon class="cls-1" points="43.25 11.02 43.25 38.99 51.07 38.99 51.07 10.81 43.25 11.02"/><path class="cls-2" d="M43.5,6.91c.4,0,7.21-.31,7.21-.31s.07-2.68,0-3a17.51,17.51,0,0,0-2.52-2H45.46S42.68,2.72,42.81,3s.44,2.45.44,2.45Z"/><path class="cls-3" d="M59,14H56V13a1,1,0,0,0-1-1H52V5A5,5,0,0,0,42,5v7H32a1,1,0,0,0-1,1v1H29V13a1,1,0,0,0-1-1H5a1,1,0,0,0-1,1v2H1a1,1,0,0,0-1,1V59a1,1,0,0,0,1,1H59a1,1,0,0,0,1-1V15A1,1,0,0,0,59,14ZM44,5a3,3,0,0,1,6,0V6H44Zm0,3h6v2H44Zm0,4h6V38H44Zm5.52,28L47,46.31,44.48,40ZM33,14h9V39a.94.94,0,0,0,.07.37l4,10a1,1,0,0,0,1.3.56,1,1,0,0,0,.56-.56l4-10A.94.94,0,0,0,52,39V14h2V54H33Zm-4,2h2V55a1,1,0,0,1-2,0ZM6,14H27V54H6ZM58,58H2V17H4V55a1,1,0,0,0,1,1H27.18a3,3,0,0,0,5.64,0H55a1,1,0,0,0,1-1V16h2Z"/><rect class="cls-3" x="8" y="18" width="2" height="2"/><rect class="cls-3" x="12" y="18" width="13" height="2"/><rect class="cls-3" x="8" y="26" width="17" height="2"/><rect class="cls-3" x="8" y="34" width="17" height="2"/><rect class="cls-3" x="8" y="42" width="17" height="2"/><rect class="cls-3" x="8" y="50" width="17" height="2"/></g></g></svg>
+                </div>
+                <div class="col xs9 itemCopy">
+                      <p>Millions of notes have been journaled by TC2000 traders. There's no better way to remember the exact charts you were studying and monitor your emotions over time. Yes, trading can get emotional.</p>
+                </div>
+            </div>
+            
+            <div class="col m12 l6 offset-l3 featureItem">
+                <h4 class="heavy">Custom Layouts</h4>
+                <div class="col xs3 l2 offset-l1 item-SVG SVG-thirteen">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60"><defs><style>.cls-1{fill:#fff;fill-rule:evenodd;}.cls-2{fill:#d8e4f3;}.cls-3{fill:#414959;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M14.22,49.27l-4-3.18a8.31,8.31,0,0,0-2.45-.64,16,16,0,0,0-5,1c-.43.36-1.46,4.28-1.46,4.28l.34,3.93S3,57.87,3.32,57.78a29.89,29.89,0,0,1,4.05,1.64H58.69V7.49H14.6V48.77Z"/><path class="cls-2" d="M10.72,2.1,6,1.05A14.4,14.4,0,0,0,3.31,2.77a30.09,30.09,0,0,0-2,3.57V49.71l.91-1.19,2.66-3.11,5.39.09,4,4.85V7.16s-.92-3-1-3.47S10.72,2.1,10.72,2.1Z"/><rect class="cls-2" x="21.4" y="15.18" width="29.87" height="36.12"/><path class="cls-3" d="M58.9,6.61H15.37A7.73,7.73,0,0,0,0,7.73V52.21A7.76,7.76,0,0,0,7.73,60H58.9A1.11,1.11,0,0,0,60,58.89V7.73A1.11,1.11,0,0,0,58.9,6.61ZM2.21,7.68a5.52,5.52,0,1,1,11,0v38.8a7.71,7.71,0,0,0-10.92-.13l-.12.13Zm55.58,50.1H7.73a5.57,5.57,0,1,1,5.52-5.57,1.11,1.11,0,1,0,2.21,0V8.84H57.79Z"/><path class="cls-3" d="M20.35,52.35h32V14.13h-32Zm17.7-36.12V26.59H30v2.1H40.15V16.23H50.22v34h-7V36.05h-2.1v14.2H22.45v-9.7h9.84v2.39h2.1V36.05h-2.1v2.4H22.45V16.23Z"/></g></g></svg>
+                </div>
+                <div class="col xs9 itemCopy">
+                      <p>You may only need the 8 predesigned layouts, but they are so easy to customize that you'll end up building your own perfect workspace.</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="botBG-SVG">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 249.29 282.08"><defs><style>.cls-1{fill:#fff6f5;}.cls-2{fill:#6d6e70;opacity:0.12;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Elements"><path class="cls-1" d="M215.32,148.1A118.1,118.1,0,0,0,71.81,62.64L0,80.85V282.08H249.29Z"/><polygon class="cls-2" points="92.06 243.67 79.46 243.67 79.46 0 210.64 0 92.06 243.67"/><polygon class="cls-2" points="153.24 282.08 77.05 125.51 64.44 125.51 64.44 282.08 153.24 282.08"/></g></g></svg>
+    </div>
+</section>
+
+
+
+
+
+
+<style>
+
+/*-- Footer Styles ----------------------------------- */
+.footerContent {
+    background-color: #202020;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    min-height: 450px;
+    font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.footerContent p {
+    color: #d5d5d5;
+    font-size: .8em;
+    letter-spacing: 1px;
+    font-weight: 300;
+    line-height: 18px;
+}
+
+.footerContent a {
+    color: #d5d5d5;
+    text-decoration: none;
+}
+
+.footerContent a:hover {
+    color: #818181;
+    text-decoration: none;
+}
+
+.footerContent h5 {
+    font-size: 1.2em;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin-bottom: 24px;
+}
+
+.footerContent hr {
+    border-color: #313131;
+    border-width: 1px;
+    width: 100%;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.footerLogo {
+    margin-bottom: 50px;
+}
+
+
+.logoDisc SVG {
+    margin-bottom: 50px;
+    width: 120px;
+}
+
+.footerContent li {
+    color: #d5d5d5;
+    margin-bottom: 10px;
+    font-size: .8em;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.copyrightRow {
+    margin-top: 25px;
+}
+
+.socialIcons {
+    margin-top: 0px;
+}
+
+.socialIcons a {
+    margin-right: 16px;
+}    
+
+
+
+/* -- Disclosure Styles ----------- */
+
+
+.page-footer {
+    background-color: #202020;
+    /* Footer to bottom of page
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    */
+    padding-top: 60px;
+    padding-bottom: 30px;
+    min-height: 450px;
+    font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+.page-footer ul {
+    margin-top: 18px;
+}
+
+.page-footer p {
+    color: #d5d5d5;
+    font-size: .9em;
+    letter-spacing: .5px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.page-footer a {
+    color: #d5d5d5;
+    text-decoration: none;
+}
+
+.page-footer a:hover {
+    color: #818181;
+    text-decoration: none;
+}
+
+.page-footer h5 {
+    font-size: 1.2em;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin-bottom: 24px;
+}
+
+.page-footer hr {
+    border-color: #313131;
+    border-width: 0px 0px 1px;
+    border-style: solid;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 24px;
+}
+
+.footerLogo {
+    margin-bottom: 8px;
+}
+
+.row .col.logoDisc {
+    padding-right: 110px;
+    margin-bottom: 26px;
+}
+
+.logoDisc SVG {
+    margin-bottom: 50px;
+    width: 120px;
+}
+
+.page-footer li {
+    color: #d5d5d5;
+    margin-bottom: 10px;
+    font-size: 1em;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.copyrightRow {
+    margin-top: 25px;
+}
+
+.socialIcons a {
+    margin-right: 16px;
+}
+
+.footerLinks {
+    display: block;
+    text-align: right;
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+
+.page-footer .container .textDecor {
+    text-decoration: underline;
+}
+
+@media  (max-width : 992px) {
+    .footerLinks {
+        text-align: left;
+        font-size: 1.2em;
+        margin-bottom: 50px;
+    } 
+    
+    .page-footer {
+        padding-top: 30px;
+    }
+}
+
+    
+</style>
+
+<!-- Footer ---------------->
+<footer class="page-footer">
+    <div class="container container-padded">
+        <div class="row">
+            <!--
+            <div class="col-sm-12 col xs12 footerLinks">
+                <a href="https://brokercheck.finra.org/firm/summary/155523" target="_blank">Check the background of TC2000 Brokerage, Inc. at FINRA’s BrokerCheck</a>
+            </div>
+            -->
+            <div class="col-md-12 col-lg-4 col s12 m4">
+	           <img alt="TC2000 Logo" data-src='/CMS_Static/Uploads/6E7A586D453831/ReFrsh_TC2000_White.png' class="footerLogo lazyload"/>
+	           <ul class="list-unstyled">
+	               <li><a href="/brokerage/docs/tc2000_crs.pdf">Customer Relationship Summary (CRS)</a></li>
+                    <li><a rel="noopener" href="https://www.interactivebrokers.com/en/index.php?f=563&ns=T" target="_blank">Rule 606 Order Routing Reports</a></li>
+                    <li><a href="/privacypolicy">Privacy Policy for TC2000 Software Company</a></li>
+                    <li><a href="/terms-of-use">Terms of Use</a></li>
+                    <li><a href="/uninstall">Uninstall Guidelines</a></li>
+                    <li><a href="/brokerage/tradingdisclosures">Trading Disclosures</a></li>
+                    <li><a href="/brokerage/bcpdisclosure">BCP Disclosure</a></li>
+                    <li><a href="/brokerage/privacypolicy">Privacy Policy for TC2000 Brokerage, Inc.</a></li>
+                </ul>
+	        </div>
+            
+            <div class="col-md-12 col-lg-8 col s12 m8">
+                <hr>
+                <p>TC2000 platform & data subscriptions are offered by TC2000 Software Company ("TCS"). Securities brokerage services are offered by TC2000 Brokerage, Inc. ("TCB"), a registered broker dealer, member <a href="https://www.finra.org/" rel="noopener" target="_blank" class="textDecor">FINRA</a>/<a href="https://www.sipc.org/" rel="noopener" target="_blank" class="textDecor">SIPC</a>. TCS and TCB are separate companies affiliated through common ownership.</p>
+                <p>The information on this website is for discussion and information purposes only. Access to real-time data is subject to acceptance of the applicable exchange agreement(s). Systems response and access times may vary due to market conditions, system performance as well as other factors. All brokerage accounts are accepted at the discretion of TCB.</p>
+                <p>Nothing contained herein should be considered as an offer or recommendation to buy or sell any security or securities product. Past performance of a security does not guarantee future results or success. TCB does not provide investment advice or tax advice to clients/accounts, online trading clients/accounts, online institutional clients/accounts, or any other individual or account at any time. Any investment decision you make is solely your responsibility. Please speak with your own personal tax advisor, CPA or tax attorney prior to making tax related decisions.</p>
+                <p>For further information about brokerage services, please contact TCB at 1-800-508-9150 or 910-550-2325. For all other questions, contact TCS at 1-800-776-4940 or 919-408-0542.</p>
+                <!--
+                <p>Platform & data subscriptions are offered by TC2000 Software Company (TCS). Securities are offered through TC2000 Brokerage, Inc.(TCB), a registered broker dealer, member <a href="https://www.finra.org/" rel="noopener" target="_blank">FINRA</a>/<a href="https://www.sipc.org/" rel="noopener" target="_blank">SIPC</a>. They are separate companies affiliated through common ownership.</p>
+                <p>The information on this web site is for discussion and information purposes only. All accounts accepted at the discretion of TCB. Nothing contained herein should be considered as an offer to buy or sell any security or securities product. Systems response and access times may vary due to market conditions, system performance as well as other factors.</p>
+                <p>TCB does not provide investment advice or tax advice to clients/accounts, online trading clients/accounts, online institutional clients/accounts or any other individual or account at any time. Please speak with your own personal tax advisor, CPA or tax attorney prior to making tax related decisions. Please contact TC2000 Brokerage, Inc at 1-800-508-9150 or 910-550-2325 for further information.</p>
+                -->
+            </div>
+            
+
+        </div>
+        <div class="row copyrightRow">
+            <div class="col-md-12 col xs12 m12">
+                <hr align="left">
+            </div>
+            <div class="col-md-12 col-lg-4 col m12 xl4 socialIcons">
+                <p>
+                   <a href="https://www.facebook.com/TC2000Trading/" rel="noopener" target="_blank"><i class="fab fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+                   <a href="https://www.linkedin.com/company/tc2000/" rel="noopener" target="_blank"><i class="fab fa-linkedin fa-2x" aria-hidden="true"></i></a> 
+                   <a href="https://www.youtube.com/channel/UCiuxcnIkt7qcSsHLn7p8lvQ/featured" rel="noopener" target="_blank"><i class="fab fa-youtube fa-2x" aria-hidden="true"></i></a>
+                </p>
+            </div>
+            <div class="col-md-12 col-lg-8 col m12 xl8">
+                <p class="text">Copyright © 2021 TCS. All product names, trademarks, and service marks are the property of their respective owners.</p>                
+            </div>
+        </div>
+    </div>
+</footer>
+<!--- WBI.DYNAMICLANDING.FOOTER -->
+
+
+
+<script>
+    // GOOGLE ANALYTICS TAG DO NOT REMOVE!
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      
+      ga('create', 'UA-1276382-13', 'auto');
+      
+      ga('send', 'pageview');
+       ga(function(tracker) {
+            var clientId = tracker.get('clientId');
+            var storedID = sessionStorage.getItem('google_client_id');
+            if (storedID != clientId){
+                $.post("/User/SetGoogleClientID/" + clientId,function(data){
+                    sessionStorage.setItem('google_client_id',clientId);
+                });
+            }
+        });
+</script>
+
+
+      <script defer src='https://www.tc2000.com/cms/bundle/materialize-js-with-init.js'></script>
+    
+  
+  
+  
+
+
+
+
+
+    <script>
+    window.addEventListener('DOMContentLoaded', function() {
+            selectRandom(".quote-placeholder > .item")
+    });
+
+      function selectRandom(selector) {
+          var elements = $(selector);
+          var index = getRandom(0,elements.length);
+          elements.eq(index).show();
+      }
+      function getRandom(min,max){
+         return Math.floor((Math.random() * max) + min);
+      } 
+    </script>
+
+
+
+
+</body>
+</html>
+
+
+

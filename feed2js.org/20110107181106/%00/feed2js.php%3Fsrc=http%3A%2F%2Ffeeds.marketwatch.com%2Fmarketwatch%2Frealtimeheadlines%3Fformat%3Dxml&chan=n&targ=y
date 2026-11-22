@@ -1,0 +1,25 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.marketwatch.com/~r/marketwatch/realtimeheadlines/~3/hIKeEZb8XfU/quotes.asp" target="_blank">Dow industrials continue to slide, down 86 points</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.marketwatch.com/~r/marketwatch/realtimeheadlines/~3/7DaS-4Taug0/" target="_blank">Correct: Trumka: jobless-rate drop \'welcome news\'</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.marketwatch.com/~r/marketwatch/realtimeheadlines/~3/FngcsGen8Kc/quotes.asp" target="_blank">Euro worsens decline, off 0.8% at $1.29</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.marketwatch.com/~r/marketwatch/realtimeheadlines/~3/E_h_hhW2R40/quotes.asp" target="_blank">Dollar adds to gains; dollar index rises above 81</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.marketwatch.com/~r/marketwatch/realtimeheadlines/~3/7DaS-4Taug0/" target="_blank">Crude turns lower, trades at $88 a barrel</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.marketwatch.com/~r/marketwatch/realtimeheadlines/~3/saxv59vxyus/quotes.asp" target="_blank">Applied Materials promotes Nalamasu to tech chief</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.marketwatch.com/~r/marketwatch/realtimeheadlines/~3/2-YBKdc-A44/quotes.asp" target="_blank">S&P 500\'s loss steepens, down 9 points</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.marketwatch.com/~r/marketwatch/realtimeheadlines/~3/hIKeEZb8XfU/quotes.asp" target="_blank">Dow industrials fall further, down 77 points</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.marketwatch.com/~r/marketwatch/realtimeheadlines/~3/G2Cl2Hinel4/quotes.asp" target="_blank">Nasdaq\'s loss accelerates, down 22 points</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.marketwatch.com/~r/marketwatch/realtimeheadlines/~3/7DaS-4Taug0/" target="_blank">Avg. 2010 return for hedge funds pegged at 11.5%</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

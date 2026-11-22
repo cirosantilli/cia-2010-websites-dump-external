@@ -1,0 +1,17 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.msnbc.msn.com/id/41320021/ns/travel-news/" target="_blank">TripAdvisor gets kudos for list of dirtiest hotels</a><br />');
+document.write('<p><a href=\"http://www.msnbc.msn.com/id/41320021/ns/travel-news/\"><img align=\"left\" border=\"0\" src=\"http://msnbcmedia.msn.com/j/MSNBC/Components/Photo/_new/110128-mattress-hmed-5p.thumb.jpg\" alt=\"A stained mattress at Hotel Carter in New York City. Hotel Carter made TripAdvisor\'s list of 10 dirtiest hotels for the fifth time.\" style=\"margin:0 5px 5px 0\" /></a>While many see it as a ploy to generate attention, TripAdvisor has received a thumbs-up from hotel and hygiene experts for its recently unveiled list of 10 dirtiest U.S. hotels.</p><br clear=\"all\" />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.msnbc.msn.com/id/41351339/ns/travel-news/" target="_blank">Unrest hits Egypt during high tourist season</a><br />');
+document.write('<p><a href=\"http://www.msnbc.msn.com/id/41351339/ns/travel-news/\"><img align=\"left\" border=\"0\" src=\"http://msnbcmedia.msn.com/j/ap/mideast egypt protest-1671656496_v2.thumb.jpg\" alt=\"Egyptian tourist guides and security on Saturday sit near the pyramids in Giza, Egypt. The military has closed the pyramids to tourists following unrest in Cairo, the nation\'s capital.\" style=\"margin:0 5px 5px 0\" /></a>The violence in Egypt is already hurting the country\'s tourism industry, and in turn, its economy. It\'s also raising fears that other Middle Eastern countries will suffer as well.</p><br clear=\"all\" />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.msnbc.msn.com/id/41349875/ns/world_news-mideastn_africa/" target="_blank">Cairo airport a \'zoo\' as foreigners flee</a><br />');
+document.write('<p><a href=\"http://www.msnbc.msn.com/id/41349875/ns/world_news-mideastn_africa/\"><img align=\"left\" border=\"0\" src=\"http://msnbcmedia.msn.com/j/MSNBC/Components/Photo/_new/110131-airport-cairo-hmed-6a.thumb.jpg\" alt=\"Foreigners and Egyptians in Cairo\'s airport wait to leave protest-ridden Egypt.\" style=\"margin:0 5px 5px 0\" /></a>Thousands of Americans and other foreigners scrambled Monday to flee unrest in Egypt, sending Cairo\'s international airport into a scene of cramming and confusion.</p><br clear=\"all\" />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://today.msnbc.msn.com/id/41081221/ns/today-todaytravel/" target="_blank">Get wet! Top 10 indoor water parks in the U.S.</a><br />');
+document.write('<p><a href=\"http://today.msnbc.msn.com/id/41081221/ns/today-todaytravel/\"><img align=\"left\" border=\"0\" src=\"http://msnbcmedia.msn.com/j/MSNBC/Components/Photo/_new/110118-hurricane-hmed.thumb.jpg\" alt=\"At the Wilderness Territory Waterpark Resort in the Wisconsin Dells, the Hurricane is a family raft ride as terrifying as it is fun.\" style=\"margin:0 5px 5px 0\" /></a>No matter how cold it gets outside, you\'ll always find temperatures in the 80s in these indoor water parks, where you can do everything from surfing 35-mph waves to riding a lazy river.</p><br clear=\"all\" />');
+document.write('</li>');
+document.write('</ul></div>');

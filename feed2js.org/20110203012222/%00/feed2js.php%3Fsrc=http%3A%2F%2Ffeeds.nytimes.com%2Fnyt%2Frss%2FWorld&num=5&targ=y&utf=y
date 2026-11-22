@@ -1,0 +1,15 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.nytimes.com/click.phdo?i=6ac167f694fb5b01b1c0a98d00a20746" target="_blank">Clashes Between Mubarak Allies and Foes</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.nytimes.com/click.phdo?i=a903a7f53b7853df89afa2bc18c1f46e" target="_blank">Europe Leaders Call for Faster Transition in Egypt</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.nytimes.com/click.phdo?i=5f1e305dd3a334cc12ee05106bbf1a81" target="_blank">Shippers Concerned Over Possible Suez Canal Disruptions</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.nytimes.com/click.phdo?i=2b0d086d3641aa5209edace1485dc37d" target="_blank">Hackers Shut Down Egyptian Government Web Sites</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.nytimes.com/click.phdo?i=902df2b46382ae2a124121957561f117" target="_blank">Egypt’s Upheaval Puts Militants in the Lurch</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

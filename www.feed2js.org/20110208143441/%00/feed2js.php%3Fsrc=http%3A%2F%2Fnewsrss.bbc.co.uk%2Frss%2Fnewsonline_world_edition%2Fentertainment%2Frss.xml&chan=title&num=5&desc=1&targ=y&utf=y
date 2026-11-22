@@ -1,0 +1,21 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<p class="rss-title"><a class="rss-title" href="http://www.bbc.co.uk/go/rss/int/news/-/news/entertainment_and_arts/" target="_blank">BBC News - Entertainment & Arts</a></p>');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/entertainment-arts-12391256" target="_blank">Super Bowl breaks viewing record</a><br />');
+document.write('Sunday\'s Super Bowl breaks the record for the biggest US television audience for a single broadcast.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/entertainment-arts-12391251" target="_blank">Cameras allowed at Jackson trial</a><br />');
+document.write('The trial of Michael Jackson\'s doctor, Conrad Murray, can be televised as long as cameras do not interfere with proceedings, a judge rules.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/newsbeat/12392139" target="_blank">X Factor US winner to get $5m</a><br />');
+document.write('Simon Cowell reveals that the winner of X Factor USA will get a $5 million recording contract.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/entertainment-arts-12395181" target="_blank">Lee to receive Bafta Fellowship</a><br />');
+document.write('Hammer horror actor Sir Christopher Lee, 88, is to be presented with this year\'s Bafta Fellowship at the Academy\'s film awards on Sunday.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/entertainment-arts-12391286" target="_blank">Hobbit director to begin filming</a><br />');
+document.write('Filming of the two Hobbit movies will finally begin in New Zealand next month after a series of delays, director Peter Jackson says.');
+document.write('</li>');
+document.write('</ul></div>');

@@ -1,0 +1,36 @@
+
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="https://www.nytimes.com/2018/05/11/obituaries/evgeni-vasiukov-russian-chess-grandmaster-is-dead-at-85.html" target="_blank">Evgeni Vasiukov, Russian Chess Grandmaster, Is Dead at 85</a><br />');
+document.write('He was among the world’s best chess players for more than 15 years, but his career was eclipsed by better-known and more talented contemporaries.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="https://www.nytimes.com/2018/03/06/obituaries/anatoly-lein-an-emigre-chess-grandmaster-dies-at-86.html" target="_blank">Anatoly Lein, an Émigré Chess Grandmaster, Dies at 86</a><br />');
+document.write('Mr. Lein was a star in the Soviet Union before leaving for the United States, where he remained a top competitor.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="https://www.nytimes.com/2017/12/29/opinion/iran-chess-woman-america.html" target="_blank">Why I Left Iran to Play Chess in America</a><br />');
+document.write('My old team cared more about the scarf covering my hair than the brain under it.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="https://www.nytimes.com/2017/12/26/world/middleeast/saudi-arabia-israel-chess.html" target="_blank">Saudi Arabia Blocks Israel’s Chess Team From World Championships</a><br />');
+document.write('The team’s seven players are demanding financial compensation after being unable to obtain the visas they needed to attend the competitions.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="https://www.nytimes.com/2017/10/14/obituaries/william-lombardy-dead-chess-grandmaster.html" target="_blank">William Lombardy, Chess Grandmaster Turned Priest, Dies at 79</a><br />');
+document.write('The Bronx-born Mr. Lombardy was among the top players of his generation, but he gave up chess almost entirely to join the priesthood, which he later renounced.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="https://www.nytimes.com/2017/10/12/style/what-happens-when-a-will-is-unsigned.html" target="_blank">What Happens When a Will is Unsigned? (It’s Not Fun)</a><br />');
+document.write('And: the friend who won’t wash his hands after using the bathroom; sharing one’s rape story with a boyfriend; the old “throw out some dates” gambit.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="https://www.nytimes.com/2017/10/03/world/middleeast/chess-hijab-iran.html" target="_blank">Iranian Chess Player, Shunned for Refusing to Wear Hijab, Will Play in U.S.</a><br />');
+document.write('Dorsa Derakhshani is now playing for the St. Louis University chess team and officially registered to compete with the United States Chess Federation.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="https://www.nytimes.com/2017/07/27/obituaries/andrew-paulson-chess-impresario-and-serial-entrepreneur-dies-at-58.html" target="_blank">Andrew Paulson, Chess Impresario and Serial Entrepreneur, Dies at 58</a><br />');
+document.write('Besides his numerous ventures in the arts and media, Mr. Paulson also strove to make chess a popular spectator sport on television.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="https://www.nytimes.com/2017/05/31/magazine/the-enduring-appeal-of-seeing-trump-as-chess-master-in-chief.html" target="_blank">The Enduring Appeal of Seeing Trump as Chess Master in Chief</a><br />');
+document.write('Both his supporters and his opposition talk about the president as if he’s a strategic genius, despite considerable evidence to the contrary.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="https://www.nytimes.com/2017/04/05/us/obituary-arthur-bisguier-dead-chess-grand-master-bobby-fischer.html" target="_blank">Arthur Bisguier, Brash, Self-Taught Bronx Chess Champion, Dies at 87</a><br />');
+document.write('Mr. Bisguier learned to play chess when he was 5 by watching games between his older sister and a cousin. He was frustrated by failures against Bobby Fischer.');
+document.write('</li>');
+document.write('</ul></div>');

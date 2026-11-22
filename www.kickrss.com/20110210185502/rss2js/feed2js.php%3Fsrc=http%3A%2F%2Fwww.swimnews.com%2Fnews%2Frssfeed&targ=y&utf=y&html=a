@@ -1,0 +1,20 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.swimnews.com/news/view/8427" title="A review by the Association of Chief Executives for Sport reports that exactly \'ZERO\' are the number of people serving on the governing boards of directors  for their international Federation, who are athletes or coaches..." target="_blank">Number Of Athletes & Coaches In Charge: \'0\'</a><br />');
+document.write('A review by the Association of Chief Executives for Sport reports that exactly \'ZERO\' are the number of people serving on the governing boards of directors  for their international Federation, who are athletes or coaches');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.swimnews.com/news/view/8426" title="Speculation will run riot until the details are better known but the mentor to Ian Thorpe, Doug Frost, has just quit his job in Britain and is heading back to his native Australia just as the Thorpedo jets out to ... Abu Dhabi..." target="_blank">Thorpe Mentor Frost Returns To Australia</a><br />');
+document.write('Speculation will run riot until the details are better known but the mentor to Ian Thorpe, Doug Frost, has just quit his job in Britain and is heading back to his native Australia just as the Thorpedo jets out to ... Abu Dhabi');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.swimnews.com/news/view/8424" title="News Round-Up: 2004 Olympic 400m free champion to make return to racing in France at Carcasonne meet in June; Trickett\'s \'massive day\' in June; Rouault\'s last 1500m test before trials ..." target="_blank">June Date For Manaudou Race Comeback</a><br />');
+document.write('News Round-Up: 2004 Olympic 400m free champion to make return to racing in France at Carcasonne meet in June; Trickett\'s \'massive day\' in June; Rouault\'s last 1500m test before trials ');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.swimnews.com/news/view/8422" title="From the archive: This week 26 years ago, Germany\'s Michael Gross lowered the world best time over 200m butterfly for the fifth and sixth times in succession in three years, his best effort the last before world s/c records became official..." target="_blank">The Week That Was For The Albatross</a><br />');
+document.write('From the archive: This week 26 years ago, Germany\'s Michael Gross lowered the world best time over 200m butterfly for the fifth and sixth times in succession in three years, his best effort the last before world s/c records became official');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.swimnews.com/news/view/8421" title="NCAA Champions Austin Surhoff (Cockeysville, Md.) and Tom Shields (Huntington Beach, Calif.) will headline a field of 47 swimmers that will represent Team USA at the 2011 World University Games in Shenzhen, China..." target="_blank">US Selects 47 For World Student Games</a><br />');
+document.write('NCAA Champions Austin Surhoff (Cockeysville, Md.) and Tom Shields (Huntington Beach, Calif.) will headline a field of 47 swimmers that will represent Team USA at the 2011 World University Games in Shenzhen, China');
+document.write('</li>');
+document.write('</ul></div>');

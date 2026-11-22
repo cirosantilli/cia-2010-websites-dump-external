@@ -1,0 +1,23 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.arcamax.com/trivia/s-300482-565436?source=1930" target="_blank">Do fresh apples float?</a><br />');
+document.write('Fresh apples float because 25 percent of their volume is air.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.arcamax.com/trivia/s-300483-297482?source=1930" target="_blank">What was the forbidden fruit?</a><br />');
+document.write('In Middle Eastern legend, the banana was widely considered to be the forbidden fruit.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.arcamax.com/trivia/s-300484-738046?source=1930" target="_blank">How much water is in the Great Lakes?</a><br />');
+document.write('The Great Lakes contain 6 quadrillion gallons of fresh water, one-fifth of the world\'s fresh surface water. The Great Lakes are the largest group of freshwater lakes in the world.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.arcamax.com/trivia/s-300487-707884?source=1930" target="_blank">How much oxygen does your brain use?</a><br />');
+document.write('The average brain comprises 2 percent of a person\'s total body weight. Yet it requires 25 percent of all oxygen used by the body, as opposed to 12 percent used by the kidneys and 7 percent by the heart.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.arcamax.com/trivia/s-300490-280883?source=1930" target="_blank">How much does the average cat eat annually?</a><br />');
+document.write('Despite their finickiness, an average cat consumes about 127,750 calories a year, nearly 28 times their own weight in food and the same amount again in liquids. In case you were wondering, cats cannot survive on a vegetarian diet.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.arcamax.com/trivia/recent" target="_blank">Past Stories</a><br />');
+document.write('');
+document.write('</li>');
+document.write('</ul></div>');

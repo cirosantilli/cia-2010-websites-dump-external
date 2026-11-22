@@ -1,0 +1,25 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.espncricinfo.com/magazine/content/story/499075.html?CMP=OTC-RSS" target="_blank">It\'s always sunny if you\'re van Wyk</a><br />');
+document.write('<span class="rss-date">Wed, 02 Feb 2011 03:05:46 GMT</span><br />');
+document.write('The bleach blond wicketkeeper is relishing the national call-up, but he knows life will go on irrespective of whatever happens at the World Cup');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.espncricinfo.com/magazine/content/story/499057.html?CMP=OTC-RSS" target="_blank">Go back to the basics</a><br />');
+document.write('<span class="rss-date">Wed, 02 Feb 2011 03:03:21 GMT</span><br />');
+document.write('The reason Australian batsmen are struggling to bat through a session is because they are caught up in the nonsensical new notions of Twenty20 technique');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.espncricinfo.com/magazine/content/story/498831.html?CMP=OTC-RSS" target="_blank">The real Unbowlable, and birthday hundreds</a><br />');
+document.write('<span class="rss-date">Tue, 01 Feb 2011 02:49:34 GMT</span><br />');
+document.write('Also, Australia\'s Australia Day record, century and five-for on debut, fourth-innings best, and captaincy waits');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.espncricinfo.com/magazine/content/story/498697.html?CMP=OTC-RSS" target="_blank">Pop and fizzle</a><br />');
+document.write('<span class="rss-date">Mon, 31 Jan 2011 03:04:17 GMT</span><br />');
+document.write('Players who shone at the World Cup, but only briefly');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.espncricinfo.com/magazine/content/story/498604.html?CMP=OTC-RSS" target="_blank">Who administers the administrators?</a><br />');
+document.write('<span class="rss-date">Mon, 31 Jan 2011 03:14:48 GMT</span><br />');
+document.write('Players are expected to follow a code of conduct. But is there one such for those who govern the game? Self-regulation is no longer a solution to corruption in cricket');
+document.write('</li>');
+document.write('</ul></div>');

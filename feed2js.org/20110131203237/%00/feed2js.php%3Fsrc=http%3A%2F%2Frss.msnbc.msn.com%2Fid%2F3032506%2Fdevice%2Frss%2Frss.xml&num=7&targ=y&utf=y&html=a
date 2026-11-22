@@ -1,0 +1,26 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.msnbc.msn.com/id/41347609/ns/world_news-mideastn_africa/" target="_blank">Egypt protesters call for \'march of millions\'</a><br />');
+document.write('A coalition of opposition groups called for a march of millions Tuesday after Egyptian President Hosni Mubarak swore in a new Cabinet on Monday.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.msnbc.msn.com/id/41349875/ns/world_news-mideastn_africa/" target="_blank">Cairo airport a \'zoo\' as foreigners flee</a><br />');
+document.write('<p><a href=\"http://www.msnbc.msn.com/id/41349875/ns/world_news-mideastn_africa/\"><img align=\"left\" border=\"0\" src=\"http://msnbcmedia.msn.com/j/MSNBC/Components/Photo/_new/110131-airport-cairo-hmed-6a.thumb.jpg\" alt=\"Foreigners and Egyptians in Cairo\'s airport wait to leave protest-ridden Egypt.\" style=\"margin:0 5px 5px 0\" /></a>Thousands of Americans and other foreigners scrambled Monday to flee unrest in Egypt, sending Cairo\'s international airport into a scene of cramming and confusion.</p><br clear=\"all\" />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.msnbc.msn.com/id/41355119/ns/world_news-americas/" target="_blank">Mexico offers $658,000 reward in massacre case</a><br />');
+document.write('Mexican prosecutors are offering 8 million pesos ($658,000) for information leading to the capture of two suspects in the massacre of 72 illegal Central and South American migrants.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.msnbc.msn.com/id/41356293/ns/world_news-europe/" target="_blank">Ex-British Airways employee admits terror charges</a><br />');
+document.write('A former British Airways employee has admitted some terror charges ahead of his London trial.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.msnbc.msn.com/id/41351840/ns/us_news-environment/" target="_blank">Loss of Antarctic ice \'tongue\' could impact seas</a><br />');
+document.write('<p><a href=\"http://www.msnbc.msn.com/id/41351840/ns/us_news-environment/\"><img align=\"left\" border=\"0\" src=\"http://msnbcmedia.msn.com/j/MSNBC/Components/Photo/_new/110131_mertz1.thumb.jpg\" alt=\"The iceberg at center dislodged the Mertz Glacier Tongue, left, by crashing into it in February 2010.\" style=\"margin:0 5px 5px 0\" /></a>The loss of an Antarctic ice barrier nearly four times the size of New York City could affect ocean circulation patterns and be a harbinger of changes to come from global warming, scientists say.</p><br clear=\"all\" />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.msnbc.msn.com/id/41354678/ns/world_news-wonderful_world/" target="_blank">Factory workers claim $50 million lottery jackpot</a><br />');
+document.write('A group of 24 Canadian factory workers arrived at the Ontario lottery headquarters on Monday to claim a $50 million lottery jackpot, local media reported.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.msnbc.msn.com/id/41354231/ns/world_news-europe/" target="_blank">Hundreds of Russians protest against Putin</a><br />');
+document.write('<p><a href=\"http://www.msnbc.msn.com/id/41354231/ns/world_news-europe/\"><img align=\"left\" border=\"0\" src=\"http://msnbcmedia.msn.com/j/ap/russia protest -62819164_v2.thumb.jpg\" alt=\"Police officers detain an opposition activist during a banned anti-Kremlin protest in St. Petersburg, Russia, on Monday. Opposition groups have been calling rallies on the 31st day of each month to honor the 31st article of the Russian Constitution, which guarantees the right of assembly. Most of the rallies have been banned or dispersed by police as unsanctioned. \" style=\"margin:0 5px 5px 0\" /></a>About 500 people demonstrated in a central Moscow square on Monday to demand the ouster of Prime Minister Vladimir Putin and his \"rule of thieves.\"</p><br clear=\"all\" />');
+document.write('</li>');
+document.write('</ul></div>');

@@ -1,0 +1,22 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<p class="rss-title"><a class="rss-title" href="http://news.gooya.com/technology/" target="_blank">gooya news :: technology</a></p>');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.gooya.com/technology/archives/078188.php" target="_blank">مغز افرادی که دست به خودکشی می زنند با دیگران فرق دارد، بی بی سی</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.gooya.com/technology/archives/078185.php" target="_blank">مفاهیم: سیاه‌چاله چیست؟، همشهری</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.gooya.com/technology/archives/078183.php" target="_blank">ضبط موسيقی ستارگان برای اولين بار، مهر</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.gooya.com/technology/archives/078182.php" target="_blank">مردان طرفداران پر و پا قرص گشت و گذارهای اينترنتي، اعتماد</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.gooya.com/technology/archives/078094.php" target="_blank">وزير فرهنگ و ارشاد: محيط ديجيتال مي تواند سحر شيطاني باشد، اعتماد</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.gooya.com/technology/archives/078085.php" target="_blank">كشف «تالار رقص دايناسورها» در آمريكا، دانشمندان را شگفت‌زده كرد، ايسنا</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.gooya.com/technology/archives/078084.php" target="_blank">بهترين راه حل‌ها را بعد از شام پيدا مي‌كنيد!، ساعت 10 شب قدرت خلاقيت انسان به حداكثر می‌رسد، ايسنا</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.gooya.com/technology/archives/078083.php" target="_blank">شركت مطرح امنيتی خواستار تشكيل پليس اينترنتی جهانی شد، ايسنا</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

@@ -1,0 +1,20 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://letras.mus.br/jorge-mateus/" target="_blank">1 - Jorge e Mateus</a><br />');
+document.write('<img src=\"http://200.192.177.244/uploadfile/letras/fotos/b/7/7/f/b77feca1c42a6e0d227a33fe497c7a8e-tb.jpg\"><br />Manteve-se');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://letras.mus.br/exaltasamba-musicas/" target="_blank">2 - Exaltasamba</a><br />');
+document.write('<img src=\"http://200.192.177.244/uploadfile/letras/fotos/1/9/9/2/199231c0f99b4b8d0e354df111275219-tb.jpg\"><br />Manteve-se');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://letras.mus.br/roberto-carlos/" target="_blank">3 - Roberto Carlos</a><br />');
+document.write('<img src=\"http://200.192.177.244/uploadfile/letras/fotos/7/6/b/f/76bf4db347d01337ef04e7685abc8567-tb.jpg\"><br />Subiu: 13 posições.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://letras.mus.br/katy-perry/" target="_blank">4 - Katy Perry</a><br />');
+document.write('<img src=\"http://200.192.177.244/uploadfile/letras/fotos/5/f/c/1/5fc175aefe25ffb9dfbded1bbb7dca58-tb.jpg\"><br />Caiu: 1 posições.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://letras.mus.br/justin-bieber/" target="_blank">5 - Justin Bieber</a><br />');
+document.write('<img src=\"http://200.192.177.244/uploadfile/letras/fotos/b/8/f/3/b8f337a70a2ee5789eb2169e80468e35-tb.jpg\"><br />Caiu: 1 posições.');
+document.write('</li>');
+document.write('</ul></div>');

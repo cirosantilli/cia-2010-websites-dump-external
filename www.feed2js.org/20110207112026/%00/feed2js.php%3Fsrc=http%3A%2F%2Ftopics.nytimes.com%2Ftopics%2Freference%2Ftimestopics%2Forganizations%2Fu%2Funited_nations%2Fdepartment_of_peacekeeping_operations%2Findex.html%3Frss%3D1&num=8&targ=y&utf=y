@@ -1,0 +1,21 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.nytimes.com/2011/01/20/world/africa/20briefs-UNTOSENDMORE_BRF.html?partner=rssnyt&emc=rss" target="_blank">Ivory Coast: U.N. to Send More Peacekeepers</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.nytimes.com/2011/01/14/world/14nations.html?partner=rssnyt&emc=rss" target="_blank">Foreign Missions Stalled by New Bank Rules</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.nytimes.com/2011/01/12/world/africa/12ivory.html?partner=rssnyt&emc=rss" target="_blank">Ivory Coast Forces Crack Down on Opposition</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.nytimes.com/2011/01/06/world/europe/06iht-nations06.html?partner=rssnyt&emc=rss" target="_blank">A Bloated U.N. Bureaucracy Causes Bewilderment</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.nytimes.com/2010/12/31/world/africa/31sudan.html?partner=rssnyt&emc=rss" target="_blank">U.N. Agency Seen Hindering Sudan Progress</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.nytimes.com/2010/12/30/world/africa/30ivory.html?partner=rssnyt&emc=rss" target="_blank">African Unity Faces a Test in Ivory Coast</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.nytimes.com/2010/12/29/world/africa/29briefs-coast.html?partner=rssnyt&emc=rss" target="_blank">Ivory Coast: Bloc Demands That President Step Down</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.nytimes.com/2010/12/24/world/africa/24somalia.html?partner=rssnyt&emc=rss" target="_blank">Somalia Militant Groups Join Forces</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

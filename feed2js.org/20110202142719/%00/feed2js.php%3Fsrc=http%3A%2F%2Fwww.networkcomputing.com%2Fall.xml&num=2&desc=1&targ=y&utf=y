@@ -1,0 +1,11 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.networkcomputing.com/virtualization/vmware-creates-service-offerings-to-get-private-clouds-deployed-quickly.php" target="_blank">VMware Creates Service Offerings To Get Private Clouds Deployed Quickly</a><br />');
+document.write('VMware is rolling out new cloud consulting services that the virtualization vendor claims can get a private cloud running for a customer in 30 days or less. Also available, as of Monday, is a VMware vCloud reference architecture, which the company describes as a blueprint to help customers quickly create a vCloud solution that has been proven in other enterprise cloud deployments.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.networkcomputing.com/data-center/it-becoming-all-about-the-api.php" target="_blank">IT Is Becoming All About The API</a><br />');
+document.write('During a visit to Sillicon Valley a few weeks back, I had the opportunity to stop in on Cisco, HP and Juniper and get demos of products that I have been briefed on and written about but haven\'t seen in action. These products include Cisco\'s Unified Computing System (UCS), Juniper\'s JunOS Space and HP\'s Intelligent Management Center. What struck me most about all three products is how much emphasis the vendors are putting on developing APIs, both for internal use and third-party integration. APIs, and, by extension, integrated products are going to become much more important in your buying decisions.');
+document.write('</li>');
+document.write('</ul></div>');

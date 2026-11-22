@@ -1,0 +1,8 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://e1.rd.yahoo.com/dailynews/rss/negocios/*http://espanol.news.yahoo.com/s/reuters/110202/negocios/negocios_mercados_dolar" target="_blank">Dólar cae a mínimo en 12 semanas frente a cesta de monedas</a><br />');
+document.write('LONDRES (Reuters) - El índice dólar tocaba el miércoles mínimos en 12 semanas, encaminándose a niveles de resistencia clave, ...');
+document.write('</li>');
+document.write('</ul></div>');

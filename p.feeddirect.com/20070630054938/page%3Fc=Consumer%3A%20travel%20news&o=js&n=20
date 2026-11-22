@@ -1,0 +1,37 @@
+function sa(url,headline_text,source,media_type,cluster,tagline,document_url,harvest_time,access_status,access_registration) 
+{
+   this.url = url;
+   this.headline_text = headline_text;
+   this.source = source;
+   this.media_type = media_type;
+   this.cluster = cluster;
+   this.tagline = tagline;
+   this.document_url = document_url;
+   this.harvest_time = harvest_time;
+   this.access_status = access_status;
+   this.access_registration = access_registration;
+}
+article = new Array(
+  new sa("http://click.pulse360.com/cgi-bin/clickthrough.cgi?db=context&position=7001&tid=bhnhbonjbhnobinlbnnozu&eid=1&id=88150364&query=travel%3A(general)&clickid=87870965&UNQ=00000118318257860108533000106049048053&cgroup=consumertravelnews","Kodak Easyshare Printers","Vivid prints for up to 50% less than other inkjet systems. Sponsored Link - Kodak.com","text","Consumer: travel news"," ","http://click.pulse360.com/cgi-bin/clickthrough.cgi?db=context&position=7001&tid=bhnhbonjbhnobinlbnnozu&eid=1&id=88150364&query=travel%3A(general)&clickid=87870965&UNQ=00000118318257860108533000106049048053&cgroup=consumertravelnews",""," "," "),
+  new sa("http://c.feeddirect.com/click/here.pl?j997785153","easyJet enters into the package holidays market","TravelDailyNews.com","text","Consumer: travel news"," ","http://www.traveldailynews.com","30 Jun 2007 03:48:51"," "," "),
+  new sa("http://c.feeddirect.com/click/here.pl?j997776465","Chile a Country of Great Beauty and Contrasts","Infobious","text","Consumer: travel news"," ","http://www.Infobious.com","30 Jun 2007 03:35:52"," "," "),
+  new sa("http://c.feeddirect.com/click/here.pl?j997776409","Chad Dates Back to Neolithic Times","Infobious","text","Consumer: travel news"," ","http://www.Infobious.com","30 Jun 2007 03:35:46"," "," "),
+  new sa("http://c.feeddirect.com/click/here.pl?j997776343","Congo was Once One of Africas Largest Petroleum Producers","Infobious","text","Consumer: travel news"," ","http://www.Infobious.com","30 Jun 2007 03:35:41"," "," "),
+  new sa("http://c.feeddirect.com/click/here.pl?j997776280","Learn Some Intelligent Tips And Tricks And Fly Free The Next Holiday","Infobious","text","Consumer: travel news"," ","http://www.Infobious.com","30 Jun 2007 03:35:36"," "," "),
+  new sa("http://c.feeddirect.com/click/here.pl?j997776184","China is a Land of Superlatives","Infobious","text","Consumer: travel news"," ","http://www.Infobious.com","30 Jun 2007 03:35:30"," "," "),
+  new sa("http://c.feeddirect.com/click/here.pl?j997776086","Costa Rica Has Unlimited Tourist Potential","Infobious","text","Consumer: travel news"," ","http://www.Infobious.com","30 Jun 2007 03:35:23"," "," "),
+  new sa("http://c.feeddirect.com/click/here.pl?j997775953","The Comoros Islands Have a Colourful History","Infobious","text","Consumer: travel news"," ","http://www.Infobious.com","30 Jun 2007 03:35:13"," "," "),
+  new sa("http://c.feeddirect.com/click/here.pl?j997775796","Croatian Culture Has Attained Many Monuments and Cities","Infobious","text","Consumer: travel news"," ","http://www.Infobious.com","30 Jun 2007 03:35:06"," "," "),
+  new sa("http://c.feeddirect.com/click/here.pl?j997775710","Vibrant Cities With Soaring Skyscrapers","Infobious","text","Consumer: travel news"," ","http://www.Infobious.com","30 Jun 2007 03:35:01"," "," "),
+  new sa("http://c.feeddirect.com/click/here.pl?j997775671","Official US Report Gives Malta Safe Holiday Status","Infobious","text","Consumer: travel news"," ","http://www.Infobious.com","30 Jun 2007 03:34:57"," "," "),
+  new sa("http://c.feeddirect.com/click/here.pl?j997764114","Yotel, Gatwick Airport","Guardian Unlimited","text","Consumer: travel news"," ","http://www.guardian.co.uk","30 Jun 2007 03:20:07"," "," "),
+  new sa("http://c.feeddirect.com/click/here.pl?j997764062","Next big Finn","Guardian Unlimited","text","Consumer: travel news"," ","http://www.guardian.co.uk","30 Jun 2007 03:20:01"," "," "),
+  new sa("http://c.feeddirect.com/click/here.pl?j997764021","Five best ... places to watch Le Tour","Guardian Unlimited","text","Consumer: travel news"," ","http://www.guardian.co.uk","30 Jun 2007 03:19:57"," "," "),
+  new sa("http://c.feeddirect.com/click/here.pl?j997763961","Saturday night at the Palladian","Guardian Unlimited","text","Consumer: travel news"," ","http://www.guardian.co.uk","30 Jun 2007 03:19:51"," "," "),
+  new sa("http://c.feeddirect.com/click/here.pl?j997705606","Avoid air hassles: Be discreet and on your best behavior","Mainichi Daily News","text","Consumer: travel news"," ","http://mdn.mainichi-msn.co.jp","30 Jun 2007 02:07:11"," "," "),
+  new sa("http://c.feeddirect.com/click/here.pl?j997690608","Around the Block","Guardian Unlimited","text","Consumer: travel news"," ","http://www.guardian.co.uk","30 Jun 2007 01:47:00"," "," "),
+  new sa("http://c.feeddirect.com/click/here.pl?j997669830","The Last Wilderness","New York Times","text","Consumer: travel news"," ","http://travel.nytimes.com","30 Jun 2007 01:23:00"," "," "),
+  new sa("http://c.feeddirect.com/click/here.pl?j997630244","Two for the road","Guardian Unlimited","text","Consumer: travel news"," ","http://books.guardian.co.uk","30 Jun 2007 00:38:50"," "," "),
+  new sa("http://c.feeddirect.com/click/here.pl?j997628830","Egypt trip for wonders winner","Telegraph","text","Consumer: travel news"," ","http://www.telegraph.co.uk","30 Jun 2007 00:37:49"," "," ")
+);
+ 

@@ -1,0 +1,20 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/worldnews/2010/12/101231_pakistan_drone.shtml" target="_blank">باكستان: مقتل 8 في غارة لطائرة امريكية بدون طيار</a><br />');
+document.write('');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/worldnews/2010/12/101231_floods_australia.shtml" target="_blank">رئيسة وزراء استراليا تتفقد المناطق المنكوبة بالفيضانات</a><br />');
+document.write('tag:www.bbcarabic.com,2010-12-31:8235951 8235951 2010-12-31T10:57:40+00:00 2010-12-31T07:46:10+00:00 not restricted');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/worldnews/2010/12/101229_ivorycoast_africa.shtml" target="_blank">بان كي مون يحذر من حرب أهلية في ساحل العاج</a><br />');
+document.write('tag:www.bbcarabic.com,2010-12-29:8211290 8211290 2010-12-31T08:39:05+00:00 2010-12-29T15:34:21+00:00 not restricted');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/worldnews/2010/12/101227_yearender_2010_wikileaks.shtml" target="_blank">2010 عام ويكيليكس وحرب المعلومات</a><br />');
+document.write('tag:www.bbcarabic.com,2010-12-27:8180414 8180414 2010-12-27T15:34:04+00:00 2010-12-27T14:33:17+00:00 restricted');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/arabic/worldnews/2010/12/101230_maldive_chrismat.shtml" target="_blank">المالديف: زينة عيد الميلاد تثير غضب السكان</a><br />');
+document.write('tag:www.bbcarabic.com,2010-12-30:8229469 8229469 2010-12-30T17:18:14+00:00 2010-12-30T16:47:08+00:00 not restricted');
+document.write('</li>');
+document.write('</ul></div>');

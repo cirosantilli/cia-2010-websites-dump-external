@@ -1,0 +1,23 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.born-again-christian.info/lifelines/lifelines.htm" target="_self">When God Speaks</a><br />');
+document.write('New Feature: Devotional Lifelines: The Power in the Word of God is available to anyone who will just believe.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.born-again-christian.info/walking.in.love.htm" target="_self">Walking in Love</a><br />');
+document.write('Bible faith expresses itself most perfectly through divine love, without it you get nowhere. Christ\'s love is the key.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.born-again-christian.info/how.to.walk.in.love.htm" target="_self">How to Walk in Love</a><br />');
+document.write('A seven point practical guide to walking in the Love of God that brings constant victory.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.born-again-christian.info/answers/how-to-test-spirits-to-see-if-they-are-from-god-or-from-the-devil.htm" target="_self">Is it God or the Devil?</a><br />');
+document.write('How to test if a spirit is from God or Satan. Evil spirits try to mimic all the Gifts of the Holy Spirit; here\'s how to spot the counterfeits.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.born-again-christian.info/e.w.kenyon.sermon.15.htm" target="_self">How to Let God Loose</a><br />');
+document.write('By studying what the Scriptures say about Paul\'s prayer life, we discover how to allow God to work in our own lives.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://wigglesworth.born-again-christian.info/buy.smith.wigglesworth.books.htm" target="_self">My Top 10 Smith Wigglesworth Books</a><br />');
+document.write('Glorious faith food! Essential Smith Wigglesworth books at discount prices.');
+document.write('</li>');
+document.write('</ul></div>');

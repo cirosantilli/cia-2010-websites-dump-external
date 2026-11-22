@@ -1,0 +1,26 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<p class="rss-title"><a class="rss-title" href="http://news.google.com/news?ned=us&hl=en&topic=w" target="_blank">World - Google News</a></p>');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNEh_x1Gkhj0_QgmyGhlf8GWBj5iEw&url=http://english.aljazeera.net/news/middleeast/2011/02/20112851424979539.html" target="_blank">Middle East Mass protests continue in Egypt - Aljazeera.net</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNF73iE2ZjRs79UhlpP4uScaGk7jyQ&url=http://www.voanews.com/english/news/asia/Talks-Between-Koreas-Proceeding-in-Serious-Manner-115547129.html" target="_blank">Talks Between Koreas Proceeding in \'Serious\' Manner - Voice of America</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNGnEEaYE8xa1pTAg6KOsXdjSS7jwg&url=http://www.cnn.com/2011/WORLD/europe/02/08/wikileaks.assange.hearing/?hpt%3DT2" target="_blank">Assange fights extradition - CNN</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNHk1a5mWT8tX_hhzKft4lh5Ja3gkQ&url=http://www.nytimes.com/2011/02/08/world/africa/08sudan.html?src%3Dtwrhp" target="_blank">Sudan Leader to Accept Secession of South - New York Times</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNE0fk3K8mRAxNxmplhEQENa-WEVQA&url=http://news.xinhuanet.com/english2010/world/2011-02/07/c_13721987.htm" target="_blank">Thailand insists on not being the party starting crossfire with Cambodia - Xinhua</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNFsQ_ppw42Q0Dpa9hwZE43UOKzv1Q&url=http://english.aljazeera.net/news/middleeast/2011/02/20112722535988460.html" target="_blank">Middle East Freed cyber activist lauds protests - Aljazeera.net</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNGK-SOXalXDJeJzlrDidHhMm9MoRQ&url=http://www.bloomberg.com/news/2011-02-08/chechen-rebel-leader-claims-suicide-attack-on-moscow-airport.html" target="_blank">Chechen Rebel Leader Claims Suicide Attack on Moscow Airport - Bloomberg</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNGOdOI7qy2UOeIgBU34SVIzl_ZZqA&url=http://www.latimes.com/news/politics/la-fg-us-egypt-20110208,0,3417025.story" target="_blank">US eases off call for swift Egypt reform - Los Angeles Times</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNE2hTEzCmfWySBQWv0mZeGvoxDhdA&url=http://www.nytimes.com/2011/02/07/world/asia/07afghan.html" target="_blank">NYU Report Casts Doubt on Taliban\'s Ties With Al Qaeda - New York Times</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.google.com/news/url?sa=t&fd=R&usg=AFQjCNEuLkvEkJ_LavJQ3QVf1f8M1q_F5g&url=http://www.theaustralian.com.au/national-affairs/wayne-swan-warns-economy-may-shrink-in-first-quarter/story-fn59niix-1226001819680" target="_blank">Swan warns economy may shrink - The Australian</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

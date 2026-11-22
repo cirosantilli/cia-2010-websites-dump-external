@@ -1,0 +1,8 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://e1.rd.yahoo.com/dailynews/rss/entretenimiento/*http://espanol.news.yahoo.com/s/ap/110202/entretenimiento/esp_cel_ny_portugues_asesinado" target="_self">Fiscalía describe cruel muerte de periodista portugués en NY</a><br />');
+document.write('AP - NUEVA YORK (AP) - Un modelo portugués, acusado de dar muerte a un periodista de espectáculos en un hotel, admitió que lo c...');
+document.write('</li>');
+document.write('</ul></div>');

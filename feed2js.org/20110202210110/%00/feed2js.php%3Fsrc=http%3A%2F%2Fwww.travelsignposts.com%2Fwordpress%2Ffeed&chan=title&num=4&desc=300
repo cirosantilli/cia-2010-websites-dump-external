@@ -1,0 +1,18 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<p class="rss-title"><a class="rss-title" href="http://www.travelsignposts.com/wordpress" target="_self">Travel Signposts Blog</a></p>');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.travelsignposts.com/wordpress/germany/berlinale-2011-countdown-to-the-61st-berlin-film-festival" target="_self">Berlinale 2011 ? Countdown to the 61st Berlin Film Festival</a><br />');
+document.write('Berlinale 2011 &#8211; Countdown to the 61st Berlin Film Festival Travel Signposts Blog The 61st Berlin International Film Festival &#8211; Berlinale - opens on February 10th with the traditional gala evening at the Berlinale Palace. The lucky individuals attending this gala evening can expe...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.travelsignposts.com/wordpress/germany/heidelberg-catechism-anniversary" target="_self">Heidelberg Catechism ? 450th Anniversary</a><br />');
+document.write('Heidelberg Catechism &#8211; 450th Anniversary Travel Signposts Blog 2013 marks the 450th Anniversary of the Heidelberg Catechism and a major exhibition is being planned for Heidelberg and Apeldoorn in the Netherlands. 2013 is still some time away, but already a project is in place and an &#8...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.travelsignposts.com/wordpress/france/palais-de-versailles-hotel" target="_self">Palace of Versailles ? An Annex Building to Become a Hotel</a><br />');
+document.write('Palace of Versailles &#8211; An Annex Building to Become a Hotel Travel Signposts Blog A recent email in my Inbox had as one of its article headlines &#8220;Palace of Versailles will be turned into a luxury hotel&#8221;.  I didn&#8217;t have time to look into the story immediately, but it did nag a...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.travelsignposts.com/wordpress/europe-general/valentines-day-gift-ideas" target="_self">Some Gift Ideas for Valentine?s Day for the Traveller</a><br />');
+document.write('Some Gift Ideas for Valentine&#8217;s Day for the Traveller Travel Signposts Blog Surprise the people you love with one of these special Valentine&#8217;s Day events. London London Eye Champagne Experience London Eye: Romantic Private Capsule for Two with Champagne Prague Valentine&#8217;s Day Jazz...');
+document.write('</li>');
+document.write('</ul></div>');

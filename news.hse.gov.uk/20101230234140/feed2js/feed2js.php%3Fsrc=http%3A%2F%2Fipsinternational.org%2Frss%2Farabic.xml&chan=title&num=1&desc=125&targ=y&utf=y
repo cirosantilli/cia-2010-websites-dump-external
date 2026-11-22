@@ -1,0 +1,9 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<p class="rss-title"><a class="rss-title" href="http://international.org/arabic/" target="_blank">  Inter Press Service | الشرق الوسط والبحر المتوسط </a></p>');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://ipsinternational.org/arabic/nota.asp?idnews=2053" title="سان سيباستيان، أسبانيا, ديسمبر - يكمن أحد أسباب الأزمة الاقتصادية الاسبانية في ضعف قدرة إقتصادها على تصدير السلع ذات  القيمة المضافة العالي�..." target="_blank"> أسبانيا، ضمن كبار منتجي الطاقة الشمسية في العالم: الطاقة المتجددة، أداة لتجاوز الأزمة الإقتصادية أسبانيا، ضمن كبار منتجي الطاقة الشمسية في العالم: الطاقة المتجددة، أداة لتجاوز الأزمة الإقتصادية </a><br />');
+document.write('سان سيباستيان، أسبانيا, ديسمبر - يكمن أحد أسباب الأزمة الاقتصادية ال�...');
+document.write('</li>');
+document.write('</ul></div>');

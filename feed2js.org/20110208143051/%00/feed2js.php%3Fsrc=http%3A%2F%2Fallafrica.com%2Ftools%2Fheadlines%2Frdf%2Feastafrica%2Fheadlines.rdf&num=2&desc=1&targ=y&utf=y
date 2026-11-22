@@ -1,0 +1,11 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://allafrica.com/stories/201102071879.html" target="_blank">Sudan: Commission Confirms Vote for Independence</a><br />');
+document.write('Election officials confirmed on Monday that South Sudanese voted nearly unanimously for independence in January\'s referendum, news reports said.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://allafrica.com/stories/201102080169.html" target="_blank">Kenya: Kibaki, Odinga Deadlock on Judicial Nominations</a><br />');
+document.write('President Kibaki and Prime Minister Raila Odinga Monday failed to strike a deal on the controversial list of nominees for four top government jobs and resolved to let Parliament determine their fate.');
+document.write('</li>');
+document.write('</ul></div>');

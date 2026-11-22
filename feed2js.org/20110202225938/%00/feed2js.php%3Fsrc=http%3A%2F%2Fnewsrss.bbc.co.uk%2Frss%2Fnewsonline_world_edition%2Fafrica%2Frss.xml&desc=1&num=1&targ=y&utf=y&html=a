@@ -1,0 +1,8 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/world-middle-east-12345656" target="_blank">Deadly clashes rock Egypt capital</a><br />');
+document.write('Three people are killed and hundreds wounded in the Egyptian capital, as supporters and opponents of President Hosni Mubarak fight pitched battles.');
+document.write('</li>');
+document.write('</ul></div>');

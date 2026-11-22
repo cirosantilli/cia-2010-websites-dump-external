@@ -1,0 +1,23 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://allafrica.com/stories/201102020150.html" target="_blank">Sudan: Ugandan Rebels Launch New Attacks on Civilians</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://allafrica.com/stories/201102020630.html" target="_blank">Kenya: Central Bank Lowers Policy Rate to Spur Lending</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://allafrica.com/stories/201102020332.html" target="_blank">Somalia: Top U.S. Official Confronted Eritrea Over Support for Insurgents</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://allafrica.com/stories/201102020138.html" target="_blank">Kenya: Kibaki Meets Allies Over Judiciary Nominations Row</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://allafrica.com/stories/201102020881.html" target="_blank">Djibouti: Interview With President Guelleh</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://allafrica.com/stories/201102020842.html" target="_blank">Kenya: Groups Want Court to Bar Kibaki Nominees</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://allafrica.com/stories/201102020836.html" target="_blank">Uganda: Post-Election Violence in Nation Unlikely</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://allafrica.com/stories/201102020381.html" target="_blank">Sudan: SPLM Says Abyei Cannot Be Left As Part of the North</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://allafrica.com/stories/201102020267.html" target="_blank">Rwanda: Kagame to Speak At USIU Anniversary</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

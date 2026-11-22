@@ -1,0 +1,9 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<p class="rss-title"><a class="rss-title" href="" target="_blank">جريدة الصباح</a></p>');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.alsabaah.com/paper.php?source=akbar&mlf=interpage&sid=112957" title="..." target="_blank">الاربعاء 15 كانون الاول 2010 م العدد ( 2131 ) </a><br />');
+document.write('...');
+document.write('</li>');
+document.write('</ul></div>');
