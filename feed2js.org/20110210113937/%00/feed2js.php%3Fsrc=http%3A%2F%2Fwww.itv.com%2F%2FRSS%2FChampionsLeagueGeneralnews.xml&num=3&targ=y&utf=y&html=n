@@ -1,0 +1,11 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.itv.com/sport/football/news/championsleague/generalnews/etoo-treble-inspires-inter-352308508.html" target="_blank">Eto\'o treble inspires Inter</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.itv.com/sport/football/news/championsleague/generalnews/ferguson-impressed-by-hernandez-284544212.html" target="_blank">Ferguson impressed by Hernandez</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.itv.com/sport/football/news/championsleague/generalnews/smith-plays-down-expectations-426754757.html" target="_blank">Smith plays down expectations</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

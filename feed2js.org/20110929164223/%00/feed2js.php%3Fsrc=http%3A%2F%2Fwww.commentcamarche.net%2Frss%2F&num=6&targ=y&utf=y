@@ -1,0 +1,18 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.commentcamarche.net/news/5856674-crime-map-beta-l-etat-de-la-criminalite-aux-etats-unis-facon-google-maps" target="_blank">Crime Map Beta : l\'état de la criminalité aux Etats-Unis façon Google Maps</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.commentcamarche.net/news/5856673-sharp-devoile-l-aquos-phone-3d" target="_blank">Sharp dévoile l\'Aquos Phone 3D</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.commentcamarche.net/news/5856672-flickr-lance-sa-session-photo-collaborative" target="_blank">Flickr lance sa session photo collaborative</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.commentcamarche.net/news/5856671-qype-et-bmw-s-associent" target="_blank">Qype et BMW s\'associent</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.commentcamarche.net/news/5856670-l-hadopi-revendique-plus-de-470-000-recommandations-envoyees-aux-internautes" target="_blank">L\'Hadopi revendique plus de 470.000 recommandations envoyées aux internautes</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.commentcamarche.net/news/5856669-bibliotheque-numerique-mondiale-de-l-unesco-des-tresors-a-decouvrir" target="_blank">Bibliothèque numérique mondiale de l\'Unesco : des trésors à découvrir !</a><br />');
+document.write('</li>');
+document.write('<li class="f2jnag">Attn web site owners: <a href="http://feed2js.org/index.php?s=support">Please support Feed2JS!</a></li>');
+document.write('</ul></div>');

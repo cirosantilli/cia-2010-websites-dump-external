@@ -1,0 +1,21 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://rss.cnn.com/~r/rss/cnn_topstories/~3/-_nmIVNkXqI/index.html" target="_blank">Wisconsin Democrat tackled as he tries to enter Capitol</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://rss.cnn.com/~r/rss/cnn_topstories/~3/v3ZvOPYOKBk/index.html" target="_blank">Witness: Peaceful Libya protesters shot</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://rss.cnn.com/~r/rss/cnn_topstories/~3/8J0IUdsLKpM/index.html" target="_blank">U.S. sends 2 planes to help refugees</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://rss.cnn.com/~r/rss/cnn_topstories/~3/WLSKxHrJZJs/index.html" target="_blank">Libya still has friends</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://rss.cnn.com/~r/rss/cnn_topstories/~3/LLCmwj6IuDQ/index.html" target="_blank">Loughner indicted on 49 federal counts</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://rss.cnn.com/~r/rss/cnn_topstories/~3/0Or_EzisW2A/index.html" target="_blank">Florida high-speed train project derailed</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://rss.cnn.com/~r/rss/cnn_topstories/~3/RfoqJs7hmeI/index.html" target="_blank">Basketball star dies after winning shot</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://rss.cnn.com/~r/rss/cnn_topstories/~3/4mvaIYSd6EU/index.html" target="_blank">6 things you didn\'t know about eating</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

@@ -1,0 +1,15 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://us.rd.yahoo.com/finance/external/cbsm/rss/SIG=11kitjnkn/*http%3A//www.marketwatch.com/News/Story/Story.aspx?guid=72C4FFB5-3DEE-4B9A-9C95-A422C79E084C&siteid=yhoof2" target="_blank">Delta, American Air take airline sector lower</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://us.rd.yahoo.com/finance/news/rss/story/*http://finance.yahoo.com/news/Equity-Research-United-iw-2886970363.html?x=0" target="_blank">Equity Research on United Continental Holdings Inc. and Delta Air Lines Inc. - End of Sneaky Revenue Growth for Major Airlines</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://us.rd.yahoo.com/finance/external/bloomberg/rss/SIG=13285p7vk/*http%3A//www.bloomberg.com/news/2011-08-18/newark-airport-june-cargo-carrier-ranking-table-.html?cmpid=yhoo" target="_blank">Newark Airport June Cargo Carrier Ranking</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://us.rd.yahoo.com/finance/external/bloomberg/rss/SIG=138uf1hso/*http%3A//www.bloomberg.com/news/2011-08-18/newark-international-airport-june-cargo-volumes-table-.html?cmpid=yhoo" target="_blank">Newark International Airport June Cargo Volumes:</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://us.rd.yahoo.com/finance/external/bloomberg/rss/SIG=13eehkbj3/*http%3A//www.bloomberg.com/news/2011-08-18/new-york-jfk-airport-june-cargo-carrier-ranking-table-table-.html?cmpid=yhoo" target="_blank">New York JFK Airport June Cargo Carrier Ranking Table</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

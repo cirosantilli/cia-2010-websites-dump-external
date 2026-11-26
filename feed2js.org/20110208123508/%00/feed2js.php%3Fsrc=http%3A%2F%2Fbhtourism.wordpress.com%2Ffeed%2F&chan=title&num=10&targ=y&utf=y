@@ -1,0 +1,22 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<p class="rss-title"><a class="rss-title" href="http://bhtourism.wordpress.com" target="_blank">Bosnia & Herzegovina Tourism</a></p>');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://bhtourism.wordpress.com/2009/06/11/summer-in-the-balkans-looking-toward-a-greener-future/" target="_blank">Summer in the Balkans</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://bhtourism.wordpress.com/2008/12/18/green-visions-bosnia-herzegovina/" target="_blank">Green Visions: Bosnia & Herzegovina</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://bhtourism.wordpress.com/2008/11/19/tourist-visas-for-bosnia-and-herzegovina/" target="_blank">Tourist Visas for Bosnia & Herzegovina</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://bhtourism.wordpress.com/2008/11/14/skiing-in-bosnia-jahorina/" target="_blank">Skiing in Bosnia</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://bhtourism.wordpress.com/2008/11/11/flights-to-sarajevo/" target="_blank">Flights to Sarajevo</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://bhtourism.wordpress.com/2008/11/09/getting-to-medjugorje-from-dubrovnik-tours/" target="_blank">Getting to Medjugorje from Dubrovnik</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://bhtourism.wordpress.com/2008/10/27/a-green-oasis-in-herzegovina/" target="_blank">A Green Oasis in Herzegovina</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://bhtourism.wordpress.com/2008/10/27/selecting-hotels-in-sarajevo/" target="_blank">Selecting Budget Accommodation in Sarajevo</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

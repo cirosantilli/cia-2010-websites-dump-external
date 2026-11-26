@@ -1,0 +1,20 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/world-asia-pacific-12351647" title="The Australian state of Queensland counts the cost after Cyclone Yasi sweeps in, carving a trail of destruction across the north-east...." target="_blank">Cyclone Yasi batters Queensland</a><br />');
+document.write('The Australian state of Queensland counts the cost...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/science-environment-12336689" title="Forest loss across the world has slowed, largely due to replanting in Asia, says the UN as the International Year of Forests launches...." target="_blank">Asia drives forest growth trend</a><br />');
+document.write('Forest loss across the world has slowed, largely d...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/world-asia-pacific-12342832" title="New Zealand\'s Prime Minister John Key announces the 2011 election date early so as not to interfere with the country\'s hosting of the Rugby World Cup...." target="_blank">NZ poll set after Rugby World Cup</a><br />');
+document.write('New Zealand\'s Prime Minister John Key announces th...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/world-asia-pacific-12342670" title="Japan\'s Sumo Association says it is investigating a match-fixing scandal in which 13 senior wrestlers have been implicated...." target="_blank">Sumo hit by match-fixing claims‎</a><br />');
+document.write('Japan\'s Sumo Association says it is investigating ...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/uk-12347850" title="The UK government did not lure a Mongolian security services official to the country to be arrested and extradited, a court is told...." target="_blank">Mongolia official \'not lured to arrest\'</a><br />');
+document.write('The UK government did not lure a Mongolian securit...');
+document.write('</li>');
+document.write('</ul></div>');

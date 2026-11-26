@@ -1,0 +1,15 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.bignewsnetwork.com/?sid=828693" target="_blank">&#039;Passengers on long-haul flight at cancer risk due to change in solar activity&#039;</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.bignewsnetwork.com/?sid=828675" target="_blank">India-Russia combat jet may compete in South Korean tender</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.bignewsnetwork.com/?sid=828606" target="_blank">Singer Ana Barbara pregnant</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.bignewsnetwork.com/?rid=47841691&cat=a7a3ee6374c196a8" target="_blank">Airports agency calling itself ally of toll road users</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.bignewsnetwork.com/?rid=47841526&cat=a7a3ee6374c196a8" target="_blank">Boeing completes 787 flight tests</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

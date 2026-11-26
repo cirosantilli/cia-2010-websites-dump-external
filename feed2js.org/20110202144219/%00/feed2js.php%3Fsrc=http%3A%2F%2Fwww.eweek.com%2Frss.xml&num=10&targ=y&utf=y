@@ -1,0 +1,25 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.eweek.com/c/a/Cloud-Computing/Dell-Taps-Ubuntu-for-Cloud-Deployment-436014/?kc=rss" target="_blank">Dell Taps Ubuntu for Cloud Deployment</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.eweek.com/c/a/Midmarket/Businesses-Diversifying-Search-Engine-Strategies-Report-421520/?kc=rss" target="_blank">Businesses Diversifying Search Engine Strategies: Report</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.eweek.com/c/a/Messaging-and-Collaboration/Move-Over-Facebook-IBM-Goes-Social-for-Business-176476/?kc=rss" target="_blank">Move Over Facebook, IBM Goes Social for Business</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.eweek.com/c/a/Mobile-and-Wireless/TMobile-Preps-Samsung-Galaxy-S-4G-LG-GSlate-269719/?kc=rss" target="_blank">T-Mobile Preps Samsung Galaxy S 4G, LG G-Slate</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.eweek.com/c/a/Midmarket/CHT-Global-Launches-Net2Compute-Cloud-Computing-Platform-753519/?kc=rss" target="_blank">CHT Global Launches Net2Compute Cloud Computing Platform</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.eweek.com/c/a/Data-Storage/Time-Warner-Cable-to-Buy-Data-Center-Specialist-NaviSite-for-230-Million-600570/?kc=rss" target="_blank">Time Warner Cable to Buy Data Center Specialist NaviSite for $230 Million</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.eweek.com/c/a/Data-Storage/Time-Warner-Engages-Clearwell-to-Handle-Its-EDiscovery-Processes-378412/?kc=rss" target="_blank">Time Warner Engages Clearwell to Handle Its E-Discovery Processes</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.eweek.com/c/a/Cloud-Computing/GigaSpaces-Updates-XAP-Elastic-Application-Platform-for-Open-and-Scalable-Cloud-Apps-716077/?kc=rss" target="_blank">GigaSpaces Updates XAP Elastic Application Platform for Open and Scalable Cloud Apps</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.eweek.com/c/a/Mobile-and-Wireless/Android-Shipped-on-43-of-US-Smartphones-Nielsen-812669/?kc=rss" target="_blank">Android Shipped on 43% of U.S. Smartphones: Nielsen</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.eweek.com/c/a/Desktops-and-Notebooks/Apple-Pushing-InApp-EBook-Purchase-Policy-Alienating-Sony-863069/?kc=rss" target="_blank">Apple Pushing In-App E-Book Purchase Policy, Alienating Sony</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

@@ -1,0 +1,286 @@
+@charset "utf-8";
+
+/*호스팅 리뉴얼*/
+html, body {width:100%; height:100%; padding:0; margin:0;}
+strong {font-weight:bold;}
+input {margin:0; padding:0; font-size:inherit; font-family:tahoma, "굴림", "돋움", gulim, dotum, Sans-serif; color:inherit; vertical-align:middle;}
+div, h1, h2, h3, h4, h5, h6, fieldset, ul, ol, dl, li, dd, dt  {display:block;} 
+div {position:relative;}
+dl, ul, ol {list-style: none;}
+button {text-indent:-10000px; cursor:pointer;}
+a {color:#555;cursor:pointer;}
+a:hover {color:#005CBA;cursor:pointer;}
+em {font-style:normal;}
+table {border-collapse: collapse; border-spacing: 0;font-size:12px; line-height:18px;}
+caption, td {font-weight: normal; text-align: left;font-size:12px;}
+th {text-align:center;font-size:12px;}
+button:active {-ms-background-position-x:1px; -ms-background-position-y:1px;}
+img{border:none}
+
+.vm { vertical-align: middle;}
+.vt { vertical-align:top;}
+
+/*wrap */
+#wrap {
+	position:relative; margin:0 auto; font-size:12px; 		
+}
+
+#logo_bg{background: url('/forward/img2/parking_top_bg.gif');background-repeat: repeat-x;background-position:top; height:47px;}
+
+#logo {
+	width: 930px;
+	margin:0 auto; 
+	padding-top:5px;
+	}
+
+#logo .w_1st {
+	margin-left:3px;
+}
+
+#logo .deloitte {
+	position:absolute;
+	right:0;
+}
+
+#domain_bg {
+	background:url('/forward/img2/parking_main_bg.jpg');
+	background-repeat:no-repeat;
+	background-position:center top;
+
+	width: 100%;
+	margin: 0;
+	height:391px;
+	}
+
+#domain {
+	width: 930px;
+	margin:0 auto; 
+	}
+
+#domain img{vertical-align:middle;}
+
+#domain .name {
+	padding-top:270px;
+	font-size: 38px;
+	color:#7a92d3;
+	font-weight:bold;
+	font-family:tahoma, 굴림, "gulim", 돋움;
+	padding-bottom:5px;
+	padding-left:5px;
+	vertical-align: middle;
+	}
+
+#domain .date {
+	font-size: 30px;
+	line-height:40px;
+	color:#333;
+	font-weight:bold;
+	font-family:tahoma, 굴림, "gulim", 돋움;
+	padding-left:5px;
+	vertical-align: middle;
+	}
+
+#domain .date img {
+	margin-bottom:5px;
+}
+
+#search {
+	width:930px;
+	margin: 0 auto;
+	}
+
+#search .input_dom {
+	padding:10px 30px 30px 30px;
+	background-color:#6a8cd6;
+}
+
+#search .f_reg{
+	background-color:#F3F7FD;
+	border: #5982C8 solid 1px;
+	height:30px;
+	width:550px;
+	font-weight:bold;
+	color:#2760BE;
+	font-family:tahoma, 굴림, "gulim", 돋움;
+	padding:2px 5px 0 5px;
+}
+
+#search .f11{
+	font-size:12px;
+	font-family:tahoma, 굴림, "gulim", 돋움;
+	color:#6E6E6E;
+	padding-left:15px;
+}
+
+#search .ext{
+	font-size:13px;
+	font-family:arial, tahoma;
+	color:#333;
+	padding:10px 0 25px 30px;
+}
+
+#search .s_dom{
+	width:100%;
+	padding:25px 0 0 30px;
+}
+
+#search .bg_w{
+	background-color:#fff;
+}
+
+#search .s_title{
+	background-color:#6a8cd6;
+	padding:25px 0 0 28px;
+}
+
+#search img{
+	border: none;
+	padding:0;
+	margin:0;
+}
+
+#search .red{
+	font-weight:bold;
+	color:#CC0000;
+}
+
+#copy {
+	width: 100%;
+	height:36px;
+	background-color:#e7e7e7;
+	}
+
+#copy .copyright {
+	width:930px;
+	margin:0 auto;
+	padding:10px 0;
+	margin-top:10px;
+	font-family:verdana;
+	font-size:11px;
+	color:#333;
+	text-align:center;
+	}
+
+#copy img{
+	margin-right:5px;
+	vertical-align:middle;
+}
+
+#copy .address_layout{
+	width:930px;
+	margin:0 auto;
+	vertical-align:top;
+	background-color:#fff;
+}
+
+#copy .address1 {
+	width:470px;
+	margin-top:10px;
+	margin-left:10px;
+	font:12px tahoma, 굴림, "gulim";
+	color:#666;
+	line-height:18px;
+	float:left;
+	vertical-align:top;
+	background-color:#fff;
+}
+
+#copy .address2 {
+	float:left;
+	width:400px;
+	margin-top:10px;
+	padding-bottom:20px;
+	font:12px tahoma, 굴림, "gulim";
+	color:#666;
+	line-height:18px;
+	background-color:#fff;
+}
+
+#copy .blue{
+	color:#406aae;
+}
+
+#cs {
+	width: 100%;
+	padding-top: 190px;
+	margin: 0;
+	}
+
+#cs_value {
+	width: 728px;
+	height:60px;
+	padding-top: 10px;
+	margin: 0;
+	}
+
+#cs_value .txt{
+	width:646px;
+	height:60px;
+	font-size:13px;
+	font-family:굴림, "gulim", arial, tahoma;
+	font-weight:bold;
+	color:#164491;
+	padding-left:20px;
+}
+
+#cs_value2 {
+	width: 728px;
+	height:120px;
+	padding-top: 20px;
+	margin: 0;
+	}
+
+#cs_value2 .txt2{
+	width:646px;
+	height:110px;
+	font-size:14px;
+	font-family:굴림, "gulim", arial, tahoma;
+	font-weight:bold;
+	color:#164491;
+	padding-left:20px;
+	border: #5982C8 solid 5px;
+	line-height:16px;
+}
+
+#cs_value2 .txt_n{
+	font-size:13px;
+	font-family:굴림, "gulim", arial, tahoma;
+	font-weight:normal;
+	padding-top:20px;
+	line-height:18px;
+
+}
+
+#cs_value .img2{
+	padding:0;
+	margin:0;
+}
+
+.ad_banner {
+	width:728px;
+	margin:0 auto;
+	padding:20px 0;
+}
+
+.top_ad{
+	width:100%;
+	height:250px;
+	text-align:center;
+	background:#040507;
+}
+
+.top_ad .ad_link{
+	position:relative;
+	width:960px;
+	height:250px;
+	margin:auto;
+}
+
+.top_ad .ad_link  a{
+	position:absolute;
+	top:-220px;
+	right:20px;
+	z-index:100;
+	color:#fff;
+	text-decoration:underline;
+}

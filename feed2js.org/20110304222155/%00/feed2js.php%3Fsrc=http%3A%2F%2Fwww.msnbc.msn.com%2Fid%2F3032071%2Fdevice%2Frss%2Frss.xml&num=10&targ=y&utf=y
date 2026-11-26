@@ -1,0 +1,25 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.msnbc.msn.com/id/41903237/ns/business-stocks_and_economy/" target="_blank">Oil prices hammer stocks -- second week of losses</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.msnbc.msn.com/id/41905394/" target="_blank">Landing a job: It\'s about location and education</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.msnbc.msn.com/id/41903404/ns/business-stocks_and_economy/" target="_blank">Employers added 192,000 jobs in Feb.</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.msnbc.msn.com/id/41908707/ns/business-consumer_news/" target="_blank">Uncle Sam wants Wall Street\'s brains</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.msnbc.msn.com/id/41903576/ns/business-oil_and_energy/" target="_blank">Oil settles at highest level since Sept. 2008</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://lifeinc.today.com/_news/2011/03/03/6182478-the-real-secret-to-a-long-life-hard-work" target="_blank">The real secret to a long life: Hard work</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://lifeinc.today.com/_news/2011/03/03/6181557-good-graph-friday-that-pesky-pay-gap" target="_blank">Life Inc.: The pay gap that just won\'t go away</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.msnbc.msn.com/id/41890356/ns/business-careers/" target="_blank">America\'s 10 happiest careers</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.msnbc.msn.com/id/41910668/ns/business-world_business/" target="_blank">UBS boss first major bank CEO to waive 2010 bonus</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.msnbc.msn.com/id/41895036/ns/business-the_new_york_times/" target="_blank">NYT: Will farmland be next real estate bubble?</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

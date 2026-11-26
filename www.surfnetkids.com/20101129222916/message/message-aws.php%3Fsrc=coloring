@@ -1,0 +1,13 @@
+document.writeln('<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\"><tr><td colspan=\"3\"><a href=\"http://www.freekidscoloring.com\" target=\"_top\"><img src=\"http://media.surfnetkids.com/img/cpotd2.jpg\" width=\"240\" border=\"0\" alt=\"FreeKidsColoring.com\" height=\"36\"></a></td></tr>');
+document.writeln('<tr><td width=\"6\" align=\"left\" bgcolor=\"Purple\"></td><td width=\"228\" align=\"center\" bgcolor=\"white\">');
+document.writeln('<A HREF="http://www.freekidscoloring.com/old_woman_who_lived_in_a_shoe-10655.php" target="_top"><IMG SRC="http://media.surfnetkids.com/img/woman_shoe.gif" BORDER=0></A>');
+document.writeln('</td><td width=\"6\" align=\"right\" bgcolor=\"Purple\"></td></tr>');
+document.writeln('<tr><td colspan=\"3\">');
+document.writeln('<a href=\"http://www.freekidscoloring.com/\" target=\"_top\">');
+document.writeln('<img src=\"http://media.surfnetkids.com/img/fkc2.jpg\" width=\"240\" border=\"0\" alt=\"FreeKidsColoring.com\" height=\"136\"></a>');
+document.writeln('</td></tr>');
+document.writeln('<TR><td colspan=\"3\" align=\"center\" STYLE=\"background-color: transparent; font-family:arial, verdana, georgia, century gothic; font-size:11px; margin-left:10px; margin-right:10px; text-align:center;\">');
+document.writeln('<a target=\"_top\" href=\"');
+document.writeln('http://www.surfnetkids.com/widget-code.htm');
+document.writeln('\">Want one for your site?</a></div></td></tr>');
+document.writeln('</table>');

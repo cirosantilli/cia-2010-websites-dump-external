@@ -1,0 +1,293 @@
+/* CSS Document */
+html, body { 
+	margin:0px;
+	padding:0px;
+	color: #aaa;
+	background-color:#c30;
+	min-width: 600px; 	
+	font-family: 'Lucida Grande', Verdana, Geneva, Lucida, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+a:link, a:visited { 
+	text-decoration:none;
+	color:#c30;
+	font-weight : normal;
+}
+a:active {
+	text-decoration:none;
+	color: #fff;
+	font-weight:normal;
+}
+a:hover, a:hover:active {
+	text-decoration: underline;
+	color: #f60;
+	font-weight: normal;
+}
+h1 {
+	font-size: 20px;
+}
+h2 {
+	font-size: 18px;
+	color: #f60;
+}
+h3 {
+	font-size: 16px;
+}
+h4 {
+	font-size: 14px;
+	color: #f60;
+}
+#header {
+	margin: 0;
+	padding: 0;
+	border-style:solid;
+	border-color: #f60;
+	border-width:0px 0px 1px 0px;
+	color: #f60;
+	background-color:#000;
+}
+#content {
+	float: left;
+  width: 75%; /* bogus value for WinIE5 */
+	padding: 15px;
+	margin: 0px 15px 0px 0px; 
+	color: #aaa;
+	background-color:#000;
+	border-right: 1px solid #f60;
+	border-bottom: 1px solid #f60;
+}
+body>#content {
+	width: 70%; /* correct values for conformant agents that also understand this selector's greater specificity, to override the WinIE bogus values */
+  padding: 10px;
+}
+#menu {
+	padding:10px 10px 0px 15px;
+	color: #333;
+	background-color: transparent;
+}
+#menu a:link {
+	text-decoration: none;
+	color: #000;
+	font-weight : bold;
+	font-size: 16px;
+	font-family: Geneva, Lucida, Arial, Helvetica, sans-serif;
+	display: block;
+}
+#menu a:visited {
+	text-decoration: none;
+	color: #000;
+	font-weight : bold;
+	font-size: 16px;
+	font-family: Geneva, Lucida, Arial, Helvetica, sans-serif;
+	display: block;
+}
+#menu a:active {
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+	font-size: 16px;
+	font-family: Geneva, Lucida, Arial, Helvetica, sans-serif;
+	display: block;
+}
+#menu a:hover, #menu a:hover:active {
+	text-decoration: none;
+	color: #f60;
+	font-weight: bold;
+	font-size: 16px;
+	font-family: Geneva, Lucida, Arial, Helvetica, sans-serif;
+	display: block;
+}
+#menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+#menu li {
+	margin: 0;
+}
+#menu li a:link, #menu li a:visited, #menu li a:active {
+	text-decoration: none;
+	color: #000;
+	font-weight : normal;
+	font-size: 11px;
+}
+#menu li a:hover, #menu li a:hover:active {
+	text-decoration: underline;
+	color: #f60;
+	font-weight: normal;
+	font-size: 11px;
+}
+.date {
+	font-weight: bold;
+	color: #930;
+}
+.blurb {
+	color:#f60;
+	font-weight: bold;
+	text-decoration: none;
+}
+p.in {
+	text-indent: 15px;
+}
+.rule {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-color: #f60;
+	margin: 0px 2%;
+}
+#mycopy {
+	padding-top: 30px;
+	text-align: center;
+	font-size: 9px;
+}
+#picker {
+	border: 1px dashed #000;
+	background-color: #333;
+	color: #888;
+}
+#pickerlabel {
+	font-weight: bold;
+}
+#blaze {
+	padding-left: 3px;
+}
+#menu #blaze a, #menu #blaze a:link, #menu #blaze a:visited, #menu #blaze a:active {
+	text-decoration: none;
+	font-size: 11px;
+	font-weight: normal;
+	color: #c30;
+}
+#menu #blaze a:hover, #menu #blaze a:hover:active {
+	text-decoration: none;
+	font-size: 11px;
+	font-weight: normal;
+	color: #f60;
+}
+#lime {
+	padding-left: 3px;
+}
+#menu #lime a, #menu #lime a:link, #menu #lime a:visited, #menu #lime a:active {
+	text-decoration: none;
+	font-size: 11px;
+	font-weight: normal;
+	color: #996;
+}
+#menu #lime a:hover, #menu #lime a:hover:active {
+	text-decoration: none;
+	font-size: 11px;
+	font-weight: normal;
+	color: #cc9;
+}
+.infobox  {
+	padding: 6px;
+	margin: 5px;
+	background-color: #f60;
+	border: dotted black 1px;
+}
+#ahem {
+	display: none;
+}
+.floatleft {
+	float: left;
+	padding-right: 8px;
+}
+.bookinfo {
+	border-bottom: 1px solid #888;
+	padding-bottom: 8px;
+}
+.bookinfo h3 {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	color:#f60;
+}
+.bookinfo h4 {
+	margin-top: 0px;
+	padding-top: 0px;
+	color: #930;
+}
+.bookinfo ul {
+	padding-left: 2em;
+	list-style-position: inside;
+}
+.bookinfo li {
+	font-size: 9px;
+}
+.spacer {
+	clear: both;
+}
+.emphasis {
+	color: #888;
+	font-style: italic;
+}
+.question {
+	color: #930;
+	background-color: transparent;
+}
+.response {
+	font: 11px/15px Geneva, Lucida, Arial, Helvetica, sans-serif;
+	color: #aaa;
+	background-color: transparent;
+}
+.outset {
+	padding: 2px;
+	border: outset 2px;
+	border-collapse: collapse;
+	border-spacing:5px;
+}
+.borderc {
+	border: 1px solid #888;
+	padding: 2px;
+	text-align: center;
+}
+.borderl {
+	border: 1px solid #888;
+	padding: 2px;
+	text-align: left;
+}
+form {
+	margin: 0;
+	padding: 0;
+}
+img {
+	border: 0;
+}
+.star {
+	vertical-align: bottom;
+}
+#score {
+	width: 360px; 
+	background-color: #000; 
+	border: 1px dotted #333; 
+	padding: 5px; 
+	margin: 0px auto;
+}
+#downloads {
+	width: 450px; 
+	background-color: #000; 
+	border: 0; 
+	padding: 5px; 
+}
+div.row {
+  clear: both;
+  padding-top: 5px;
+}
+div.row span.label {
+  float: left;
+  width: 100px;
+  text-align: right;
+}
+div.row span.content {
+  float: right;
+  width: 235px;
+  text-align: left;
+} 
+div.row span.desc {
+  float: right;
+  width: 275px;
+  text-align: left;
+} 
+abbr, acronym, .help {
+  border-bottom: 1px dotted #888;
+  cursor: help;
+}

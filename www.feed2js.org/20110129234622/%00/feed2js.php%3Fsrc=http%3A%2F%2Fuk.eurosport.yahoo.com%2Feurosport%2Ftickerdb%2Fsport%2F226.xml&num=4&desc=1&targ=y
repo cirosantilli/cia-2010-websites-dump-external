@@ -1,0 +1,14 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://uk.eurosport.yahoo.com/ticker/hub/cricket/index.html?item=2643537" target="_blank">Pakistan beat NZ in third ODI</a><br />');
+document.write('Pakistan (293/7) beat New Zealand (250/9) by 43 runs in their third one-day international in Christchurch on Saturday.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://uk.eurosport.yahoo.com/ticker/hub/cricket/index.html?item=2643534" target="_blank">Bracken retires from cricket</a><br />');
+document.write('Former Australia pace bowler Nathan Bracken announced his retirement from cricket on Saturday due to a persistent knee injury.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://uk.eurosport.yahoo.com/ticker/hub/cricket/index.html?item=2643358" target="_blank">Pakistan 293-7 - innings</a><br />');
+document.write('Mohammad Hafeez scores his first one-day international century to anchor Pakistan\'s 293 for seven in the third match of their series against New Zealand at Lancaster Park.');
+document.write('</li>');
+document.write('</ul></div>');

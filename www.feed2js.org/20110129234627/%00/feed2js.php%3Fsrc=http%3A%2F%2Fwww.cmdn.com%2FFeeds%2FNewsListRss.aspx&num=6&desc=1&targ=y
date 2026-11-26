@@ -1,0 +1,23 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.cmdn.com/News/Bangladesh-aim-for-dream-finale" target="_blank">Bangladesh aim for \'dream\' finale</a><br />');
+document.write('Bangladesh coach Jamie Siddons said winning their one-day international series against England would be a \"dream\", but was anything but an impossible mission.The Tigers ended a 24-game losing streak against across all formats with a dramatic five-run win against England in the second one-day international at Bristol on Saturday.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.cmdn.com/News/Collingwood-wants-return-of-ruthless-edge" target="_blank">Collingwood wants return of ruthless edge</a><br />');
+document.write('Paul Collingwood wants England to get back to playing intense cricket as they look to recover from the shock of losing to Bangladesh with victory over the Tigers in their one-day finale.The all-rounder was in the England team that went down by five runs to Bangladesh in the second one-day international at Bristol on Saturday.That result gave Bangladesh a first win over England in 21 attempts following defeats in eight Tests and 12 Twenty20s.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.cmdn.com/News/England-bring-in-Bopara-for-Bangladesh-finale" target="_blank">England bring in Bopara for Bangladesh finale</a><br />');
+document.write('England have added Ravi Bopara to their squad as a replacement for injured batsman Ian Bell ahead of the third and final one-day international against Bangladesh at Edgbaston on Monday.Bell broke his foot while fielding during Bangladesh\'s dramatic five-run win in the second match of the series here on Saturday and had to hobble out as last man, with a runner, in order to prolong England\'s hopes of victory in the final over.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.cmdn.com/News/Make-cricket-fan-friendly-says-Sri-Lanka-captain" target="_blank">Make cricket fan-friendly, says Sri Lanka captain</a><br />');
+document.write('Sri Lanka\'s captain Kumar Sangakkara has urged world cricket chiefs to win back fans to Test and one-day games with a balanced international calendar that gives equal opportunities to all teams.Sangakkara said global viewership of the sport had dwindled over the past year, despite a packed schedule of Tests, one-dayers and Twenty20 cricket.\"I am told about 40 percent of viewership has dropped for Tests,\" Sangakkara told AFP in an interview. \"It has dropped for one-dayers and T20 too.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.cmdn.com/News/Press-slams-Englands-humiliation-by-Bangladesh" target="_blank">Press slams England\'s \'humiliation\' by Bangladesh</a><br />');
+document.write('Britain\'s newspapers were scathing Sunday about England\'s shock defeat to Bangladesh, saying they had been dealt a \"full custard pie in the face\".Bangladesh won the second one-day international by five runs in Bristol on Saturday to record a first victory over England in any format, with the press branding it \"humiliation\".');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.cmdn.com/News/Coach-urges-Bangladesh-to-build-on-England-win" target="_blank">Coach urges Bangladesh to build on England win</a><br />');
+document.write('Bangladesh coach Jamie Siddons said he hoped his players realised \"they can beat anyone\" after their sensational five-run one-day international victory over England here on Saturday.The Tigers first win of 2010, and first ever against England, saw them end a run of 24 straight defeats in all formats dating back to a one-wicket ODI victory over Zimbabwe in Chittagong on November 5.');
+document.write('</li>');
+document.write('</ul></div>');

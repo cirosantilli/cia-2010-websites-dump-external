@@ -1,0 +1,11 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.articleswave.com/articles/printable-and-easy-wood-carving-patterns.html" target="_blank">Printable and Easy Wood Carving Patterns</a><br />');
+document.write('Who would not appreciate the remarkable art of wood carving? The decades old art of wood carving today can be mastered by one and all. Let us have a glance at some easy wood carving patterns.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.articleswave.com/articles/famous-sculptures-around-the-world.html" target="_blank">Famous Sculptures Around the World</a><br />');
+document.write('Have you ever wondered how empty and dull life would be without sculptures that have captivated the past as well as those that are now being created to be viewed and carry on this generation to the next? Read on to know about famous sculptures around the world.');
+document.write('</li>');
+document.write('</ul></div>');

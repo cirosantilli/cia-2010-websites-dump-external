@@ -1,0 +1,20 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/world-europe-12343688" title="Moscow threatens retaliation after Ireland expels a diplomat because Russian spies allegedly used stolen Irish identities...." target="_blank">Russia warns Ireland in spy row</a><br />');
+document.write('Moscow threatens retaliation after Ireland expels ...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/uk-12345809" title="The 7/7 ringleader received guidance in phone calls from Pakistan in the days before the bombings, the inquests have been told...." target="_blank">London bomber given \'Pakistan advice\'</a><br />');
+document.write('The 7/7 ringleader received guidance in phone call...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/world-europe-12347525" title="Denmark is to build a sea tunnel to Germany, cutting road and rail journey times between western Europe and Scandinavia...." target="_blank">Scandinavian sea tunnel planned</a><br />');
+document.write('Denmark is to build a sea tunnel to Germany, cutti...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/world-us-canada-12348780" title="The US president signs documents for a nuclear arms treaty with Russia that would reduce the nations\' stockpiles and bolster verification...." target="_blank">Obama signs nuclear arms treaty</a><br />');
+document.write('The US president signs documents for a nuclear arm...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/world-europe-12350202" title="King Albert II of Belgium picks a new mediator in a bid to end the deadlock over forming a government for the divided country...." target="_blank">New broker for deadlocked Belgium</a><br />');
+document.write('King Albert II of Belgium picks a new mediator in ...');
+document.write('</li>');
+document.write('</ul></div>');

@@ -1,0 +1,20 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/world-middle-east-12345656" title="Three people are killed and hundreds wounded in the Egyptian capital, as supporters and opponents of President Hosni Mubarak fight pitched battles...." target="_blank">Deadly clashes rock Egypt capital</a><br />');
+document.write('Three people are killed and hundreds wounded in th...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/world-africa-12348950" title="Police arrest a man in connection with the murder of prominent gay activist David Kato in Uganda where homosexual acts are illegal...." target="_blank">Uganda arrest over gay killing</a><br />');
+document.write('Police arrest a man in connection with the murder ...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/world-africa-12344931" title="Mauritanian soldiers fire on a car packed with explosives, killing three suspected al-Qaeda members about to enter the capital, the army says...." target="_blank">Mauritania \'foils al-Qaeda attack\'</a><br />');
+document.write('Mauritanian soldiers fire on a car packed with exp...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/world-africa-12343307" title="At least 15 protesters are detained in Sudan\'s capital, activists say, as demonstrations over high prices spread to other towns...." target="_blank">Sudanese demonstrators detained</a><br />');
+document.write('At least 15 protesters are detained in Sudan\'s cap...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/world-europe-12339533" title="French prosecutors seize a jet said to belong to the family of ousted Tunisian President Zine al-Abidine Ben Ali...." target="_blank">France holds Ben Ali \'family jet\'</a><br />');
+document.write('French prosecutors seize a jet said to belong to t...');
+document.write('</li>');
+document.write('</ul></div>');

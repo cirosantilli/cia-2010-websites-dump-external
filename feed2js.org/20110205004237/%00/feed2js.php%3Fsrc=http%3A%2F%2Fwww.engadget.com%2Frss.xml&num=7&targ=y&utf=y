@@ -1,0 +1,19 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.engadget.com/2011/02/04/atandt-fires-back-with-latest-iphone-ad-simultaneous-voice-and-we/" target="_blank">AT&amp;T fires back with latest iPhone ad: simultaneous voice and web more important than you think (video)</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.engadget.com/2011/02/04/t-mobiles-upcoming-hspa-wwan-offerings-get-leaked-comical-cod/" target="_blank">T-Mobile\'s upcoming HSPA+ WWAN offerings get leaked, comical codenames revealed</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.engadget.com/2011/02/04/iphone-4-on-verizon-how-when-where-and-whether-to-buy-it/" target="_blank">iPhone 4 on Verizon: how, when, where, and whether to buy it</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.engadget.com/2011/02/04/samsung-smart-touch-android-remote-app-is-now-available-for-down/" target="_blank">Samsung Smart Touch Android remote app is now available for download</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.engadget.com/2011/02/04/dell-streak-7-phone-app-discovered-so-far-is-much-ado-about-not/" target="_blank">Dell Streak 7 phone app discovered, so far is much ado about nothing (video)</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.engadget.com/2011/02/04/the-engadget-podcast-live-at-5-15pm-est/" target="_blank">The Engadget Podcast, live at 5:15PM EST!</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.engadget.com/2011/02/04/google-shows-off-fragments-api-for-android-3-0/" target="_blank">Google shows off Fragments API for Android 3.0</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

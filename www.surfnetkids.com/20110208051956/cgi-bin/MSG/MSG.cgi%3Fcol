@@ -1,0 +1,34 @@
+<!-- 
+document.writeln('<script language="JavaScript" src="http://www.surfnetkids.com/message/message-aws.php?src=coloring">');
+document.writeln('</script>');
+document.writeln('<script type="text/javascript" language="JavaScript">' + '<' + '!' + '-' + '-' + '');
+document.writeln('function Fcol() {');
+document.writeln('var url = \'http://www.surfnetkids.com/cgi-bin/MSG/MSG.cgi?c=col&d=&r1=http%3A%2F%2Fedu%2Dchild%2Ecom%2F&p=open&t=1297142396&r2=\';');
+document.writeln('var s2 = escape(window.location.href);');
+document.writeln('url = url + s2;');
+document.writeln('var s = window.location.href;');
+document.writeln('s = s.toLowerCase();');
+document.writeln('var re = /^https?:\\/\\/(.*)$/;');
+document.writeln('s2 = s.replace(re,"$1");');
+document.writeln('re = /^www\\.(.*)$/;');
+document.writeln('s = s2.replace(re,"$1");');
+document.writeln('var ds = \'\';');
+document.writeln('ds = ds.toLowerCase();');
+document.writeln('if((s.length > 3) && (ds.length > 3)) {');
+document.writeln('if((s.indexOf(ds) == 0) || (ds.indexOf(s) == 0)) { return true; }');
+document.writeln('else {');
+document.writeln('window.location = url;');
+document.writeln('return false;');
+document.writeln('}');
+document.writeln('}');
+document.writeln('var relocate = false;');
+document.writeln('if(relocate == true) {');
+document.writeln('window.location = url;');
+document.writeln('return false;');
+document.writeln('}');
+document.writeln('else { return true; }');
+document.writeln('}');
+document.writeln('Fcol();');
+document.writeln('//' + '-' + '-' + '>' + '');
+document.writeln('</script>');
+// -->

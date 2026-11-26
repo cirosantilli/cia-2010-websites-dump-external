@@ -1,0 +1,20 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/world-middle-east-12351831" title="Egyptian anti-government protesters defy orders to leave Cairo\'s main square, after three die in the worst violence in more than a week...." target="_blank">Cairo protest thousands hold firm</a><br />');
+document.write('Egyptian anti-government protesters defy orders to...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/world-middle-east-12343166" title="Yemeni President Ali Abdullah Saleh says he will not extend his presidency, or appoint his son to the role, when his current term expires in 2013...." target="_blank">Yemen president to quit in 2013</a><br />');
+document.write('Yemeni President Ali Abdullah Saleh says he will n...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/world-middle-east-12336960" title="King Abdullah of Jordan sacks his government and appoints a new PM charged with carrying out reform, as protests continue...." target="_blank">Jordan names new PM amid protest</a><br />');
+document.write('King Abdullah of Jordan sacks his government and a...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/world-africa-12335692" title="At least 219 people died during the protests that toppled Tunisia\'s President Zine al-Abidine Ben Ali last month, a UN team says...." target="_blank">Tunisia protests \'left 200 dead\'</a><br />');
+document.write('At least 219 people died during the protests that ...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/uk-politics-12338921" title="Former UK Foreign Secretary Jack Straw insists regime change in Iraq was &quot;never&quot; UK policy, as the Iraq inquiry public hearings end...." target="_blank">Toppling Saddam \'never UK policy\'</a><br />');
+document.write('Former UK Foreign Secretary Jack Straw insists reg...');
+document.write('</li>');
+document.write('</ul></div>');

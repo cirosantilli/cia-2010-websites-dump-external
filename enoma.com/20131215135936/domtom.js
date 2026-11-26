@@ -1,0 +1,17 @@
+document.writeln("<style type=\"text/css\">");
+document.writeln("body {}");
+document.writeln(".pixedPosition {position: fixed; bottom: 0px; left: 0%; height: 24px; width: 100%;");
+document.writeln("border: 1px solid black; background-color: #F6FF00; text-align: center;");
+document.writeln("font-family: arial; font-size: 8pt; font-weight: bold; color: black;");
+document.writeln("padding-top: 3px;}");
+document.writeln("</style>");
+document.writeln("<!--[if gte IE 5.5]>");
+document.writeln("<![if lt IE 7]>");
+document.writeln("<style type=\"text/css\">");
+document.writeln(".pixedPosition {position: absolute;");
+document.writeln("top: expression(document.documentElement.scrollTop + ");
+document.writeln("document.documentElement.clientHeight - this.clientHeight - 5 + \"px\");}");
+document.writeln("</style>");
+document.writeln("<![endif] ");
+document.writeln("<![endif]--> ");
+document.writeln("<div class=pixedPosition><center><font face=verdana size=2>Domain For Sale - <a href=http://www.saviodsilva.com/buydom.php>Buy This Domain</a></font></center></div>");

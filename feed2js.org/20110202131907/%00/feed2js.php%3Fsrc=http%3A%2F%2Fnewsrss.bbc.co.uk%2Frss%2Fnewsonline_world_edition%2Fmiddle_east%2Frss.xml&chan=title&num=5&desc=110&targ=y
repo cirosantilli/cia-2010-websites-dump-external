@@ -1,0 +1,21 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<p class="rss-title"><a class="rss-title" href="http://www.bbc.co.uk/go/rss/int/news/-/news/world/middle_east/" target="_blank">BBC News - Middle East</a></p>');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/world-middle-east-12345656" target="_blank">Tense stand-off in Egypt square</a><br />');
+document.write('There is a tense stand-off in the Egyptian capital\'s main square, after fights broke out between supporters an...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/world-middle-east-12343166" target="_blank">Yemen president \'to quit in 2013\'</a><br />');
+document.write('Yemeni President Ali Abdullah Saleh says he will not extend his presidency, or appoint his son to the role, wh...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/world-middle-east-12336960" target="_blank">Jordan names new PM amid protest</a><br />');
+document.write('King Abdullah of Jordan sacks his government and appoints a new PM charged with carrying out reform, as protes...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/world-africa-12335692" target="_blank">Tunisia protests \'left 200 dead\'</a><br />');
+document.write('At least 219 people died during the protests that toppled Tunisia\'s President Zine al-Abidine Ben Ali last mon...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/uk-politics-12338921" target="_blank">Toppling Saddam \'never UK policy\'</a><br />');
+document.write('Former UK Foreign Secretary Jack Straw insists regime change in Iraq was \"never\" UK policy, as he gives eviden...');
+document.write('</li>');
+document.write('</ul></div>');

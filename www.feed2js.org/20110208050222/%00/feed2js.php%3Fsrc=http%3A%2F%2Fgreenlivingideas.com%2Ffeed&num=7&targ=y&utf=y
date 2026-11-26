@@ -1,0 +1,19 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.importantmedia.org/~r/IM-greenlivingideas/~3/kYIO-zFtaF4/" target="_blank">Ways to Make a Green Start to 2011</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.importantmedia.org/~r/IM-greenlivingideas/~3/KO0Ca4Zwg-Y/" target="_blank">Green Living Ideas: Back in 2011!</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.importantmedia.org/~r/IM-greenlivingideas/~3/ZxD6HOLRXAE/" target="_blank">Food Not Lawns Wants to Replant Your Yard</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.importantmedia.org/~r/IM-greenlivingideas/~3/rr-lIparUEA/" target="_blank">Did You Know You Can Get Free Solar on Your Home in Eight US States?</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.importantmedia.org/~r/IM-greenlivingideas/~3/9MGK_HHk9i8/" target="_blank">Greening the World Bank</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.importantmedia.org/~r/IM-greenlivingideas/~3/Sr4WsM8plZw/" target="_blank">The Land of Giants Wins Award, But No Build Date</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://feeds.importantmedia.org/~r/IM-greenlivingideas/~3/PcVMwOCwE7o/" target="_blank">Europe Cuts Coal Consumption 16.3%</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

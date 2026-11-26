@@ -1,0 +1,20 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/world-south-asia-12351125" title="Human Rights Watch urges Pakistan to release a boy of 17 who has been charged under controversial blasphemy laws...." target="_blank">Pakistan boy held for blasphemy</a><br />');
+document.write('Human Rights Watch urges Pakistan to release a boy...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/world-south-asia-12344236" title="Police in India question former telecoms minister Andimuthu Raja as part of an investigation into a corruption scandal that cost the country billions of dollars...." target="_blank">Indian ex-telecoms minister held</a><br />');
+document.write('Police in India question former telecoms minister ...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/world-south-asia-12344687" title="A Pakistani soldier is killed and three others wounded in the most serious border clash with Afghan forces for three years...." target="_blank">Pakistan-Afghan clash kills one</a><br />');
+document.write('A Pakistani soldier is killed and three others wou...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/world-south-asia-12344959" title="Four people including a Muslim cleric are arrested in Bangladesh in connection with the death of 14-year-old girl who was publicly lashed...." target="_blank">Bangladesh girl \'lashed to death\'</a><br />');
+document.write('Four people including a Muslim cleric are arrested...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/business-12348045" title="The governor of Afghanistan\'s central bank says those involved in the near collapse of the country\'s largest private bank should face prosecution...." target="_blank">Charges urged in Kabul Bank case</a><br />');
+document.write('The governor of Afghanistan\'s central bank says th...');
+document.write('</li>');
+document.write('</ul></div>');

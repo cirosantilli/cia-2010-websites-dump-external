@@ -1,0 +1,21 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<p class="rss-title"><a class="rss-title" href="http://news.feedzilla.com/en_us/news/sports/karate.rss?client_source=feed" target="_blank">Feedzilla: Karate News</a></p>');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.feedzilla.com/en_us/stories/sports/karate/2307181?client_source=feed&format=rss" target="_blank">Children Take Up Krav Maga (New York Times)</a><br />');
+document.write('Share With Friends: | | Sports - Karate Stories, RSS Feeds and Widgets via Feedzilla.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.feedzilla.com/en_us/stories/sports/karate/1194360?client_source=feed&format=rss" target="_blank">Mixed Martial Arts for Fitness, Not Combat (New York Times)</a><br />');
+document.write('Share With Friends: | | Sports - Karate News, RSS and RSS Feed via Feedzilla.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.feedzilla.com/en_us/stories/sports/karate/1194382?client_source=feed&format=rss" target="_blank">I.O.C. Decision Draws Cheers and Complaints From Athletes (New York Times)</a><br />');
+document.write('Share With Friends: | | Sports - Karate News, RSS Feeds and Widgets via Feedzilla.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.feedzilla.com/en_us/stories/sports/karate/1194394?client_source=feed&format=rss" target="_blank">GEAR TEST WITH CHRISTINA PARK, THIRD-DEGREE BLACK BELT; Taking Face-Saving Measures (New York Times)</a><br />');
+document.write('Share With Friends: | | Sports - Karate News, RSS and RSS Feed via Feedzilla.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.feedzilla.com/en_us/stories/sports/karate/1194365?client_source=feed&format=rss" target="_blank">WORLD BRIEFING; Colombia: Wrong Target (New York Times)</a><br />');
+document.write('Share With Friends: | | Sports - Karate News, RSS Feeds and Widgets via Feedzilla.');
+document.write('</li>');
+document.write('</ul></div>');

@@ -1,0 +1,323 @@
+<html>
+<head>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+
+<title>news-navigator.com</title>
+<meta http-equiv="Keywords" content="">
+<meta http-equiv="Description" content="">
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+
+<link rel="shortcut icon" href="http://spi.domainsponsor.com/skins/scion/images/scion-favicon.png" type="image/x-icon">
+<style type="text/css" media="all">
+* {
+	margin          : 0px;
+	padding         : 0px;
+	font-family     : ariel,sans-serif;
+}
+body {
+	text-align      : center;
+	background      : #FFF;
+}
+.wrapper {
+	text-align      : center;
+	background      : #FFF;
+	width           : 700px;
+	height          : auto;
+	margin-top      : 5px;
+	position        : relative;
+	margin-left     : auto;
+	margin-right    : auto;
+}
+.wrapper h3 {
+	font-size       : 12px;
+	font-weight     : bold;
+	font-style      : italic;
+	color           : gray;
+	padding-bottom  : 5px;
+}
+
+
+.header {
+	background      : #FFF;
+	width           : 690px;
+	height          : 51px;
+	position        : relative;
+	margin          : 5px;
+	text-align      : left;
+}
+.top_break {
+	background      : #d2d2d2;
+	width           : 690px;
+	height          : 7px;
+	position        : relative;
+	margin-left     : auto;
+	margin-right    : auto;
+	margin-bottom   : 5px;
+	border-top      : 1px solid #000;
+	padding-left    : 5px;
+}
+.header_title h1 {
+	color           : #000;
+	font-size       : 20px;
+	font-size       : 20px;
+	padding-left    : 55px;
+	padding-top     : 5px;
+}
+.header_title h3 {
+	font-size       : 11px;
+	padding-left    : 55px;
+	color           : gray;
+	font-style      : italic;
+}
+.header_title img {
+	position        : absolute;
+	width           : 41px;
+	height          : 41px;
+	margin          : 5px;
+}
+.search_box {
+	padding-top     : 30px;	
+	font-size       : 13px;
+	font-weight     : bold;
+	color           : orange;
+}
+
+
+.main {
+	background      : #FFF;
+	width           : 690px;
+	height          : auto;
+	position        : relative;
+	margin-left     : auto;
+	margin-right    : auto;
+	margin-top      : 15px;
+	margin-bottom   : 15px;
+}
+.main_left {
+	background      : #FFF;
+	text-align      : left;
+	position        : relative;
+	width           : 220px;
+	border-right    : 2px dotted #000;
+	height          : auto;
+	margin          : 5px;
+}
+.main_left a {
+	font-size       : 16px;
+	font-weight     : bold;
+	color           : #4B51D4;
+	text-decoration : none;
+	display         : block;
+	padding-bottom  : 5px;	
+}
+.main_left a:hover {
+	text-decoration : underline;
+	color           : red;
+}
+.main_center {
+	background      : #FFF;
+	text-align      : center;
+	float           : left;
+	position        : relative;
+	width           : 220px;
+	height          : 180px;
+	background-image    : url('http://spi.domainsponsor.com/skins/scion/images/scion-logo-background.png');
+	background-repeat   : no-repeat;
+	background-position : center;
+}
+.main_center h2 {
+	color           : orange;
+	font-size       : 18;
+	padding-top     : 110px;
+}
+.main_center a {
+	font-size       : 16px;
+	font-weight     : bold;
+	color           : #954BD4;
+	text-decoration : none;
+}
+.main_center a:hover {
+	text-decoration : underline;
+	color           : red;
+}
+.main_right {
+	background      : #FFF;
+	text-align      : right;
+	position        : relative;
+	width           : 220px;
+	border-left     : 2px dotted #000;
+	height          : auto;
+	margin          : 5px;
+}
+.main_right a {
+	font-size       : 16px;
+	font-weight     : bold;
+	color           : #954BD4;
+	text-decoration : none;
+	display         : block;
+	padding-bottom  : 5px;	
+}
+.main_right a:hover {
+	text-decoration : underline;
+	color           : red;
+}
+ 
+
+.bottom_break {
+	background      : #d2d2d2;
+	width           : 690px;
+	height          : auto;
+	text-align      : left;
+	position        : relative;
+	margin-left     : auto;
+	margin-right    : auto;
+	margin-bottom   : 5px;
+	border-top      : 1px solid #000;
+	border-bottom   : 1px solid #000;
+	color           : #000;
+	padding-top     : 8px;
+	padding-bottom  : 10px;
+	font-size       : 12px;
+	padding-left    : 5px;
+	padding-right   : 5px;
+}
+.bottom_break a {
+	text-decoration : none;
+	color           : blue;
+	font-size       : 12px;
+}
+.bottom_break a:hover {
+	text-decoration : underline;
+}
+.footer {
+	font-size       : 10px;
+	color           : gray;
+}
+.footer a{
+	font-size       : 10px;
+	color           : gray;
+}
+
+
+</style>
+</head>
+<body onunload="exitPop();">
+
+<div class="wrapper">
+	
+
+<div class="header">
+	<div class="header_title">
+		<table>
+			<tr>
+				<td width="400px">
+					<img src="http://spi.domainsponsor.com/skins/scion/images/scion-logo.png" alt="logo">
+					<h1>News-navigator.com</h1>
+					<h3>What you need, when you need it</h3>
+				</td>
+				<td align="right" width="300px">
+					<div class="search_box">
+<form action="/" method="POST" onSubmit="doPop = 0;"  target='_top' >
+	<input type="hidden" name="epl" value="01430056UVsPWVALXVUMVV8NXRIVHg9VEF4EVEMOExtWV1USQgBURgFQZhVcR1xdAwpWOhVWAEYFXwFaTz4NVFtcUVpWQ0ZRA0paDWxAGEAHXl4KFF5HVTleBwgFUlEDBB5MUUIRakYMTVRYCwxPAlA">
+	<input type="hidden" name="debug" value="0">
+	<label for="query">Search:</label>
+	<input type="text" name="query" class="text" value="">
+	<input type="submit" value="&rsaquo;" class="submit">
+</form>
+
+					</div>
+				</td>
+			</tr>
+		</table>
+	</div>
+</div>
+<div class="top_break"></div>
+
+
+	
+
+<div class="main">
+	<table>
+		<tr>
+			<td>
+				<div class="main_left">
+					<h3>Main</h3>
+<a href="/?epl=01500063UVsPWVALXVUMVV8NXRIVHg9VEF4EVEMOExtWV1USQgBURgFQZhVcR1xdAwpWOgpWB0A5WwJbUwgPUhNLXVVDBl1rFkFJAA5YCF4JRVk6D1dcBlUHVQQRChZqR1lWXwxUE0AHS006QVoUXV9bAEtUAQ&query=Investment%20Strategy" onclick="doPop = 0;"  target="_top" >&raquo; Investment Strategy</a><a href="/?epl=01500066UVsPWVALXVUMVV8NXRIVHg9VEF4EVEMOExtWV1USQgBURgFQZhVcR1xdAwpWOgpWB0A5WwJbUwgPUhNLXVVDBl1rFkFJAA5YCF4JRVk6D1dcBlUHVQQRChZqR1lWXwxXE0AHS006QVoUXV9bAEtUAQ&query=Business%20Opportunity" onclick="doPop = 0;"  target="_top" >&raquo; Business Opportunity</a><a href="/?epl=01500065UVsPWVALXVUMVV8NXRIVHg9VEF4EVEMOExtWV1USQgBURgFQZhVcR1xdAwpWOgpWB0A5WwJbUwgPUhNLXVVDBl1rFkFJAA5YCF4JRVk6D1dcBlUHVQQRChZqR1lWXwxWE0AHS006QVoUXV9bAEtUAQ&query=Investment" onclick="doPop = 0;"  target="_top" >&raquo; Investment</a><a href="/?epl=01500060UVsPWVALXVUMVV8NXRIVHg9VEF4EVEMOExtWV1USQgBURgFQZhVcR1xdAwpWOgpWB0A5WwJbUwgPUhNLXVVDBl1rFkFJAA5YCF4JRVk6D1dcBlUHVQQRChZqR1lWXwxRE0AHS006QVoUXV9bAEtUAQ&query=Business" onclick="doPop = 0;"  target="_top" >&raquo; Business</a><a href="/?epl=01500059UVsPWVALXVUMVV8NXRIVHg9VEF4EVEMOExtWV1USQgBURgFQZhVcR1xdAwpWOgpWB0A5WwJbUwgPUhNLXVVDBl1rFkFJAA5YCF4JRVk6D1dcBlUHVQQRChZqR1lWXwxQE0AHS006QVoUXV9bAEtUAQ&query=Navigator" onclick="doPop = 0;"  target="_top" >&raquo; Navigator</a>
+				</div>
+			</td>
+			<td>
+				<div class="main_center" />
+			</td>
+			<td>
+				<div class="main_right">
+				</div>
+			</td>
+		<tr>
+	</table>
+</div>
+
+
+	
+
+<div class="bottom_break">
+		<b>News-navigator.com</b>&nbsp;favorites:&nbsp;
+
+</div>
+<p class="footer">
+	&copy; News-navigator.com 2006
+		| <a href="#" onclick="window.external.AddFavorite('http://www.news-navigator.com','news-navigator.com');">Bookmark this page</a>
+
+		| <a href="#" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.news-navigator.com');">Make this your homepage</a>
+
+</p>
+<br><br><br>
+
+
+</div>
+
+</body>
+</html>
+
+
+<HTML>
+<BODY>
+<img src="/load.mas?epl=00750095UVsPWVALXVUMVV8NXRIVHg9VEF4EVEMOExtWV1USUDpcUF8KClUFBUdEBxBMOhRdFFlbD1sbBVM" height="1" width="1" alt="">
+
+
+
+<script type="text/javascript">
+//<!--
+var doPop = 1;
+function exitPop() {
+	if (doPop) {
+		url = "/sp/popup.mas/?epl=00940093UVsPWVALXVUMVV8NXRIVHg9VEF4EVEMOExtWV1USQQ1URwcFXB1aQBFfEkVZOg9XXAZVB1UEERUERkFnSlpECAgMWhYLVw";
+		twin = window.open(url,"sp","width=600,height=500,toolbar=1,scrollbars=1,status=1,resizable=1");
+		twin.blur();
+		window.focus();
+		}
+}
+//-->
+</script>
+
+
+
+	<script type="text/javascript">
+	//<!--
+		var rnum=new Number(Math.floor(99999999 * Math.random())+1);
+		document.write('<SCR'+'IPT LANGUAGE="JavaScript" ');
+		document.write(' SRC="http://ads.kw.revenue.net/?p=1&q=investment%20strategy%2Cbusiness%20opportunity%2Cinvestment%2Cbusiness%2Cnavigator&dn=news-navigator.com&site_id_opt=13900&site_id_ron=12169">');
+		document.write('</SCR');
+		document.write('IPT>');
+	//-->
+	</script>
+
+
+
+
+</BODY>
+</HTML>
+<!-- Top-Level Page Assembly Completed Successfully -->
+
+<!-- Autohandler Assembly Completed Successfully -->

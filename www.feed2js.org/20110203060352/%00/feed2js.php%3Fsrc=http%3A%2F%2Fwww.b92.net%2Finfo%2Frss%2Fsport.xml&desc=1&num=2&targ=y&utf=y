@@ -1,0 +1,11 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.b92.net/sport/vesti.php?yyyy=2011&mm=02&dd=03&nav_id=490179" target="_blank">Petoligaš Šamberi bije redom</a><br />');
+document.write('Posle Monaka i Bresta fudbaleri Šamberija eliminisali su iz Kupa Francuske još jednu za njih veliku ekipu. Eliminisana su još dva prvoligaša, a zanimljivo je da su Nansi i Ren ispali kod kuće u duelima sa timovima iz druge lige. Ambiciozni Le Man slavio je u Nansiju, a Rems, nekada jedan od najvećih francuskih klubova i dva puta finalista Kupa šampiona, bio je bolji posle produžetaka u Renu.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.b92.net/sport/vesti.php?yyyy=2011&mm=02&dd=03&nav_id=490177" target="_blank">AP: Beličik trener godine u NFL</a><br />');
+document.write('Novinska agencija Asošijejted pres (AP) izabrala je trenera Nju Ingland Petriotsa Bila Beličika za najboljeg u NFL-u u 2010. godini. Beličik je sa Petriotsima ostvario 14 pobeda i dva poraza u tekućoj sezoni, ali je tim iz Bostona eliminisan u plejofu od Njujork Džetsa.');
+document.write('</li>');
+document.write('</ul></div>');

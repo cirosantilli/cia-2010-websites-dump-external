@@ -1,0 +1,19 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://sports.espn.go.com/nfl/news/story?id=6181794&campaign=rss&source=ESPNHeadlines" target="_blank">NFL, NFLPA agree to 7-day extension of talks</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://sports.espn.go.com/ncf/news/story?id=6179423&campaign=rss&source=ESPNHeadlines" target="_blank">Sources: NCAA probes man who sent players to Oregon</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://sports.espn.go.com/ncb/news/story?id=6181179&campaign=rss&source=ESPNHeadlines" target="_blank">Klay Thompson of Washington State cited for marijuana possession</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://sports.espn.go.com/chicago/mlb/news/story?id=6181557&campaign=rss&source=ESPNHeadlines" target="_blank">2011 Spring Training: Chicago Cubs pitcher Carlos Silva accepted responsibility for incident with Aramis Ramirez</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://sports.espn.go.com/nba/news/story?id=6181370&campaign=rss&source=ESPNHeadlines" target="_blank">Oklahoma City Thunder lose Nate Robinson up to six weeks</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://sports.espn.go.com/new-york/nfl/news/story?id=6181697&campaign=rss&source=ESPNHeadlines" target="_blank">New York Jets\' Bart Scott says he trademarked \'Can\'t wait!\'</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://sports.espn.go.com/mlb/spring2011/news/story?id=6181315&campaign=rss&source=ESPNHeadlines" target="_blank">2011 Spring Training: Houston Astros\' Jason Castro out for most of season</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

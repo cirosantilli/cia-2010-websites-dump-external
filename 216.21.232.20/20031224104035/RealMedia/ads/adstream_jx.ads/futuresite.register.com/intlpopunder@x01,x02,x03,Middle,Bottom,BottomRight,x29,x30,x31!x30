@@ -1,6 +1,0 @@
-document.write ('<!-- begin ZEDO -->\n');
-document.write ('<script language="JavaScript">\n');
-document.write ('var zflag_nid="162"; var zflag_cid="103/1"; var zflag_sid="74"; var zflag_width="1"; var zflag_height="1"; var zflag_sz="15"; \n');
-document.write ('</script>\n');
-document.write ('<script language="JavaScript" src="http://c1.zedo.com/jsc/c1/ff.js"></script>\n');
-document.write ('<!-- end ZEDO -->');

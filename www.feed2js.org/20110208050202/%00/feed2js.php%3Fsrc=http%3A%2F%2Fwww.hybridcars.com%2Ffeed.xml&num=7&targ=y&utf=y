@@ -1,0 +1,19 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.hybridcars.com/news/infiniti-m35h-first-drive-making-efficient-hybrids-hot-29396.html" target="_blank">Infiniti M35h First Drive: Making Efficient Hybrids Hot</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.hybridcars.com/federal-incentives.html" target="_blank">Hybrid Car Tax Credits: Incentives Fade into Memory</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.hybridcars.com/news/bmw-hedges-hybrids-partnership-peugeot-29380.html" target="_blank">BMW Hedges on Hybrids, Via Partnership with Peugeot</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.hybridcars.com/news/praise-toyotas-boring-hybrids-29375.html" target="_blank">In Praise of Toyota\'s Boring Hybrids</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.hybridcars.com/hybrid-clean-diesel-sales-dashboard/january-2011.html" target="_blank">January 2011 Dashboard: Signs of Hybrid Upswing</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.hybridcars.com/news/edit-node-6share-protests-rock-middle-east-oil-complicates-us-loyalties-29364.html" target="_blank">As Protests Rock Middle East, Oil Complicates U.S. Loyalties</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.hybridcars.com/news/study-shows-hybrids-and-diesels-retain-more-value-over-time-29361.html" target="_blank">Study Shows Hybrids and Diesels Retain More Value Over Time</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

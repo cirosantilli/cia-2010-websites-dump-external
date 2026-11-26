@@ -1,0 +1,17 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.cnet.com/8301-31921_3-20030275-281.html?part=rss&subj=news&tag=2547-1_3-0-20" target="_blank">Sen. Ron Wyden: Protecting mobile privacy (Q&A)</a><br />');
+document.write('CNET speaks with Ron Wyden, Democratic senator from Oregon, about his proposal to require police to obtain search warrants before monitoring your whereabouts.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.cnet.com/8301-19882_3-20030331-250.html?part=rss&subj=news&tag=2547-1_3-0-20" target="_blank">eBay building niche, mobile apps to grow user base</a><br />');
+document.write('Mobile apps that do more than drive buyers to buy auction items are key to eBay\'s growth.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.cnet.com/8301-30685_3-20030335-264.html?part=rss&subj=news&tag=2547-1_3-0-20" target="_blank">Egypt gets its Internet back</a><br />');
+document.write('After a five-day shutdown and a pledge that President Hosni Mubarak won\'t seek re-election, Egyptians now can use Internet services again.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.cnet.com/8301-17852_3-20030330-71.html?part=rss&subj=news&tag=2547-1_3-0-20" target="_blank">Why Facebook should have chosen blue hedgehog mascot</a><br />');
+document.write('According to a Facebook employee, Sean Parker was very keen for Facebook to have a mascot--a blue hedgehog. How different might the company have been today?');
+document.write('</li>');
+document.write('</ul></div>');

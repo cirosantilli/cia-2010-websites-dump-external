@@ -1,0 +1,20 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.beta.rs/?tip=article&kategorija=ekonomija&ida=2720446&id=&ime=" target="_blank">Centar za zastitu potrošaca traži ukidanje TV pretplate</a><br />');
+document.write('<p><img align=\"left\" src=\"http://www.beta.rs/ftp/slikeS/tv_manijak.jpg\" style=\"border-right:10px solid; border-color:#FFFFFF\" /> BEOGRAD, 25. juna 2012. (<a href=\"http://www.beta.rs\">Beta</a>) - Centar za zaštitu potrošača \"Forum\" iz Niša zatražio je u ponedeljak od predsednika Srbije Tomislava Nikolića da ispuni predizborno obećanje i ukine TV pretplatu.<br /><br />U o...</p>');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.beta.rs/?tip=article&kategorija=ekonomija&ida=2720385&id=&ime=" target="_blank">Evro 114,0071 dinara</a><br />');
+document.write('<p><img align=\"left\" src=\"http://www.beta.rs/ftp/slikeS/menjac_nica.jpg\" style=\"border-right:10px solid; border-color:#FFFFFF\" /> BEOGRAD, 25. juna 2012. (<a href=\"http://www.beta.rs\">Beta</a>) - Dinar je u ponedeljak ojačao prema evru za 0,1 odsto, pa je srednji kurs 114,0071 dinara za jedan evro.<br /><br />Dinar je ove godine bio najjači 11. januara, kada je jedan evro koš...</p>');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.beta.rs/?tip=article&kategorija=ekonomija&ida=2720152&id=&ime=" target="_blank">Raste imovina dobrovoljnih penzijskih fondova</a><br />');
+document.write('<p><img align=\"left\" src=\"http://www.beta.rs/ftp/slikeS/nbs-ulaz.jpg\" style=\"border-right:10px solid; border-color:#FFFFFF\" />BEOGRAD, 22. juna 2012. (<a href=\"http://www.beta.rs\">Beta</a>) - Neto imovina dobrovoljnih penzijskih fondova u Srbiji na kraju prvog tromesečja ove godine bila je 13,42 miljarde dinara, što je za 28,6 više nego u istom periodu prošle godine, obja...</p>');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.beta.rs/?tip=article&kategorija=ekonomija&ida=2720087&id=&ime=" target="_blank">Dinar u ponedeljak ponovo jača</a><br />');
+document.write('<p><img align=\"left\" src=\"http://www.beta.rs/ftp/slikeS/menjaccnica4.jpg\" style=\"border-right:10px solid; border-color:#FFFFFF\" />BEOGRAD, 24.juna 2012. (<a href=\"http://www.beta.rs\">Beta</a>) - Dinar će u ponedeljak ojačati prema evru za 0,1 odsto, pa će srednji kurs biti 114,0071 dinara za jedan evro.<br /><br />Prema zvaničnom srednjem kursu NBS (www.nbs.rs), evro će košt...</p>');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.beta.rs/?tip=article&kategorija=ekonomija&ida=2719956&id=&ime=" target="_blank">Ministarstvo finansija: Srbiji ne preti bankrot</a><br />');
+document.write('<p><img align=\"left\" src=\"http://www.beta.rs/ftp/slikeS/ministarstvo_finansija.jpg\" style=\"border-right:10px solid; border-color:#FFFFFF\" /> BEOGRAD, 23. juna 2012. (<a href=\"http://www.beta.rs\">Beta</a>) - Ministarstvo finansija Srbije negiralo je u subotu tvrdnje iznete u pojedinim medijima da državi preti bankrot i da je dovedena u pitanje isplata socijalnih davanja.<br /><br />\"Minist...</p>');
+document.write('</li>');
+document.write('</ul></div>');

@@ -1,0 +1,217 @@
+var latlngs = [], map, geocoder, padHTML = '',
+	directionDisplay,
+	directionsService = new google.maps.DirectionsService();
+
+function showAddress(address, doShowInfo, title, zoom, doNotCenterAndZoom, circleRadius, showMarker, links) {
+	// Map-Marker hinzufügen. Adresse oder GPS-Koordinaten können übergeben werden
+	function showLatLng(result) {
+		if (!result || !result.length) alert(strings.address_not_found + address);
+		else {
+			var latlng = result[0].geometry.location;
+			latlngs.push(latlng);
+			if (!doNotCenterAndZoom) centerAndZoom(latlngs, zoom);
+			var marker = createMarker(latlng, circleRadius, showMarker);
+			if (marker) {
+				setInfoHTML(marker, address, title, links)
+				// Zoom und Anzeige des Markers behindern sich ohne timeout gegenseitig
+				if (doShowInfo) setTimeout(function () {
+					showInfo(marker);
+				}, 250);
+			}
+		}
+	}
+	if (typeof address == 'object') {
+		if (address.length == 2 && address.xa == null && address.za == null)
+			var latlng = new google.maps.LatLng(address[0], address[1]);
+		else latlng = address;
+		showLatLng([{'geometry': {'location': latlng}}]);
+	}
+	else geocoder.geocode({
+			'address': address
+		},
+		showLatLng
+	);
+};
+
+function setInfoHTML(marker, address, title, links) {
+	var routingURI = ['http://maps.google.de/maps?hl=' + strings.country_code + '&q=', 
+					  encodeURIComponent(address), 
+					  '&ie=UTF8&hq=&hnear=', encodeURIComponent(address), 
+					  '&z=14&iwloc=A&f=d&daddr=', 
+					  encodeURIComponent(address)].join('');
+	// (Strasse) ((?:(?:Landeskürzel)? PLZ Ort|Ort (?:Landeskürzel)? PLZ))
+	var addressParts = address.match(/(.*?),?\s+((?:(?:[A-Z]{1,2}\s*\-?\s*)?\d+\s+\D+|\D+\s+(?:[A-Z]{1,2}\s*\-?\s*)?\d+))$/i);
+	if (!addressParts || addressParts.length != 3) addressParts = address.split(',');
+	else addressParts.shift(0);
+	var infoHTML = ['<div class="infoWindow"><strong>', title || strings.address, 
+					'</strong>' + padHTML + '<br /><span>', 
+				    addressParts.join(padHTML + '<br />'), 
+				    '</span>',
+				    /* '<span class="infoWindowLinks"><br /><br /><a id="directionsLink" href="', routingURI,
+				    '" target="_blank" onclick="toggleDirections(); return false">' + strings.directions_link_text + '</a>' */
+				    '<span class="infoWindowLinks"><br /><br /><a id="directionsLink" href="javascript:void(0)" target="_blank" onclick="toggleDirections(); return false">' + strings.directions_link_text + '</a>'];
+	if (links) {
+		for (var i = 0; i < links.length; i++) {
+			infoHTML.push(' | <a href="' + links[i].uri + '" target="_blank">' + links[i].text + '</a>');
+		}
+	}
+	infoHTML.push('</span>');
+	infoHTML.push('<form id="directions" action="#" method="post" onsubmit="calcRoute(this.elements[\'origin\'].value, \'' + address + '\'); return false" style="display: none; margin: 0; padding: 0;"><div><input type="text" name="origin" value="' + strings.directions_initial_value + '" style="width: auto" title="' + strings.directions_tooltip + '" /> <input type="submit" value="►" style="background: transparent; border: 0 none; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; color: #6261D8; margin: 0; outline: 0; padding: 0;" title="' + strings.directions_tooltip2 + '" /></div></form></div>');
+	marker.value = infoHTML.join('');
+};
+
+function showInfo(marker, address) {
+	if (marker.infowindow) {
+		marker.infowindow.setContent(marker.value);
+	}
+	else {
+		marker.infowindow = new google.maps.InfoWindow({
+			content: marker.value
+		});
+		google.maps.event.addListener(marker.infowindow, 'closeclick', function (e) {
+			if (window.fe && fe['info']) fe['info'].checked = marker.infowindow == null;
+			marker.infowindow = null;
+		});
+	}
+	marker.infowindow.open(map, marker);
+};
+
+function createMarker(latlng, circleRadius, showMarker) {
+	// Marker erzeugen, bei Klick wird Info-Popup gezeigt/versteckt
+    if (circleRadius)
+		var circle = new google.maps.Circle({map: map,
+											 center: latlng, 
+											 strokeOpacity: 0.5, // 0.0...1.0
+											 fillColor: "#00ff00", 
+											 strokeWeight: 1, 
+											 radius: circleRadius, // Meter
+											 strokeColor: '#006600', 
+											 fillOpacity: 0.25}); // 0.0...1.0
+	if (showMarker) {
+		var marker = new google.maps.Marker({
+				map: map, 
+				position: latlng
+			});
+		google.maps.event.addListener(marker, 'click', function (e) {
+			if (window.fe && fe['info']) fe['info'].checked = this.infowindow == null;
+			if (this.infowindow) {
+				this.infowindow.close();
+				this.infowindow = null;
+			}
+			else showInfo(this);
+		});
+		map.markers.push(marker);
+		return marker;
+	}
+};
+
+
+function centerAndZoom(latlngs, zoom) {
+	// Karte in der Mitte einer Liste von GPS-Koordinaten zentrieren
+	// latlng: an array of instances of GLatLng
+	var latlngbounds = new google.maps.LatLngBounds();
+	for (var i = 0; i < latlngs.length; i ++)
+		latlngbounds.extend(latlngs[i]);
+	map.setCenter(latlngbounds.getCenter());
+	map.setZoom(zoom);
+	if (latlngs.length > 1) map.fitBounds(latlngbounds);
+};
+
+function calcRoute(start, end) {
+	var request = {
+		origin: start, 
+		destination: end,
+		travelMode: google.maps.DirectionsTravelMode.DRIVING
+	};
+	directionsService.route(request, function(response, status) {
+		if (status == google.maps.DirectionsStatus.OK) {
+			directionsDisplay.setDirections(response);
+		}
+		else alert(strings.address_not_found + (response.Qf ? response.Qf.origin : start));
+	});
+};
+
+function toggleDirections() {
+	document.getElementById('directionsLink').style.display = 'none';
+	document.getElementById('directions').style.display = 'block';
+	document.getElementById('directions').elements['origin'].focus();
+	document.getElementById('directions').elements['origin'].select();
+}
+
+function initialize() {
+	// Parameter aus Query-String ziehen
+	var token, match, decoded, parts, search = location.search.substr(1).split('&'),
+		address, title, zoom = 15, doShowInfo = false, showMarker = true, mapType = google.maps.MapTypeId.ROADMAP, circleRadius = 0, links = [],
+		w = 0, h = 0;
+	for (var i = 0; i < search.length; i++) {
+		token = search[i].split('=');
+		if (token.length == 2) {
+			try {
+				decoded = decodeURIComponent(token[1]);
+			}
+			catch (e) {
+				decoded = unescape(token[1]);
+			}
+		}
+		if (token[0] == 'q') {
+			match = decoded.match(/(.+)\+\((.*)\)/);
+			if (match) {
+				address = match[1];
+				if (match.length == 3) title = match[2];
+			}
+		}
+		else if (token[0] == 't') {
+			if (token[1] == 'k') mapType = google.maps.MapTypeId.SATELLITE;
+			else if (token[1] == 'h') mapType = google.maps.MapTypeId.HYBRID;
+			else if (token[1] == 'p') mapType = google.maps.MapTypeId.TERRAIN;
+		}
+		else if (token[0] == 'z') {
+			zoom = parseInt(token[1]);
+		}
+		else if (token[0] == 'iwloc') {
+			doShowInfo = token[1] == 'A';
+		}
+		else if (token[0] == 'circle') {
+			circleRadius = parseInt(token[1]);
+		}
+		else if (token[0] == 'width') {
+			w = parseInt(token[1]);
+		}
+		else if (token[0] == 'height') {
+			h = parseInt(token[1]);
+		}
+		else if (token[0] == 'marker') {
+			showMarker = parseInt(token[1]);
+		}
+		else if (token[0] == 'link') {
+			parts = decoded.split('|');
+			links.push({'text': parts[0], 'uri': parts[1]});
+		}
+	}
+
+	// Routenplaner
+	directionsDisplay = new google.maps.DirectionsRenderer();
+
+	// Map
+	map = new google.maps.Map(document.getElementById('map'));
+	map.setMapTypeId(mapType);
+	map.setOptions({
+		mapTypeControlOptions: {
+			style: w < 1024 ? google.maps.MapTypeControlStyle.DROPDOWN_MENU : google.maps.MapTypeControlStyle.DEFAULT
+		}
+	});
+	map.markers = [];
+
+	// Routenplaner für Map vorbereiten
+	directionsDisplay.setMap(map);
+
+	// Geocoder (Übersetzung Adresse -> LatLng)
+	geocoder = new google.maps.Geocoder();
+
+	// Adresse zeigen
+	if (address) showAddress(address, doShowInfo, title, zoom, false, circleRadius, showMarker, links);
+};
+
+window.onload = initialize;
+
+if (!window.strings) document.write('<script type="text/javascript" src="http://regiohelden.de/google-maps/languages/de.js"></script>');

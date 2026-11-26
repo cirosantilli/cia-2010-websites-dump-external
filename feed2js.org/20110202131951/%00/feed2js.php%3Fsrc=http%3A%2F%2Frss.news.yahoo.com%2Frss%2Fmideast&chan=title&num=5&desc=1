@@ -1,0 +1,21 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<p class="rss-title"><a class="rss-title" href="http://news.yahoo.com/world/mideast-conflict" target="_self">Yahoo! News: Mideast Conflict</a></p>');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://us.rd.yahoo.com/dailynews/rss/mideast/*http://news.yahoo.com/s/afp/20110202/wl_mideast_afp/lebanonpoliticssyria" target="_self">Syria again holds the strings in Lebanon: analysts (AFP)</a><br />');
+document.write('AFP - Lebanon\'s former powerbroker Syria has edged its way back into the heart of local politics, analysts say, after the militant Hezbollah and its allies toppled the Western-backed government of Saad Hariri.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://us.rd.yahoo.com/dailynews/rss/mideast/*http://news.yahoo.com/s/ap/20110201/ap_on_re_mi_ea/ml_mideast_egypt_effect" target="_self">Egypt crisis puts pressure on US allies in Mideast (AP)</a><br />');
+document.write('AP - Jordan\'s king fired his Cabinet on Tuesday and the Palestinian president promised to hold long-delayed elections as America\'s Mideast allies came under pressure for democratic reforms because of the popular uprising sweeping Egypt.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://us.rd.yahoo.com/dailynews/rss/mideast/*http://news.yahoo.com/s/afp/20110201/wl_mideast_afp/palestiniansisraeldiplomacystatequartet" target="_self">Palestinians urge Quartet to back their state (AFP)</a><br />');
+document.write('AFP - Chief Palestinian negotiator Saeb Erakat urged the Middle East Quartet on Tuesday to recognise a Palestinian state within 1967 borders when it meets later this week.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://us.rd.yahoo.com/dailynews/rss/mideast/*http://news.yahoo.com/s/afp/20110201/wl_mideast_afp/israelpoliticscorruptionsharonaustria" target="_self">Ariel Sharon\'s sons \'may face bribery charges\' (AFP)</a><br />');
+document.write('AFP - Police have enough evidence to indict the two sons of former Israeli prime minister Ariel Sharon in connection with a multi-million-dollar bribery scandal, media reports said on Tuesday.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://us.rd.yahoo.com/dailynews/rss/mideast/*http://news.yahoo.com/s/ap/20110201/ap_on_re_mi_ea/ml_palestinians_egypt_protest" target="_self">Palestinians to hold municipal vote (AP)</a><br />');
+document.write('AP - The Western-backed Palestinian government in the West Bank said Tuesday it will hold local council elections \"as soon as possible\" &mdash; a surprise move reflecting fears that massive anti-government protests in Egypt could inspire unrest here, too.');
+document.write('</li>');
+document.write('</ul></div>');

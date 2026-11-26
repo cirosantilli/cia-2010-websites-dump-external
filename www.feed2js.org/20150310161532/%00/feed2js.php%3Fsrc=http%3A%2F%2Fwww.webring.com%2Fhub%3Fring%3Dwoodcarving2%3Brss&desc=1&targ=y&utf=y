@@ -1,0 +1,33 @@
+
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://N.webring.org/forum?forum=woodcarving2;did=9" target="_blank">LVC Enterprises</a><br />');
+document.write('[url=http://hub.webring.org/hub/woodcarving2?id=1][img]http://img.webring.com/s/gt/tclaxton_lvce/10036734_t.png[/img][/url] This site has information on it about my books on wood carving. I also have...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://N.webring.org/forum?forum=woodcarving2;did=8" target="_blank">California Carvers Guild</a><br />');
+document.write('[url=http://hub.webring.org/hub/woodcarving2?id=20][img]http://img.webring.com/s/fd/durwoodthrasher/10040727_t.png[/img][/url] Home page of the California Carvers Guild with information on the Guild ...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://N.webring.org/forum?forum=woodcarving2;did=7" target="_blank">Artesanias II</a><br />');
+document.write('[url=http://hub.webring.org/hub/woodcarving2?id=25][img]http://img.webring.com/s/db/bunnypr8221/defurl2_t.png[/img][/url] Talla de santos [url=http://hub.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://N.webring.org/forum?forum=woodcarving2;did=6" target="_blank">Woodcarving & Illustration</a><br />');
+document.write('[url=http://hub.webring.org/hub/woodcarving2?id=23][img]http://img.webring.com/s/ht/telmoss/telmoss_t.png[/img][/url] Example of carving work with supportive illustration work. Featuring chainsaw car...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://N.webring.org/forum?forum=woodcarving2;did=5" target="_blank">TimberCarver.Com home of Cherokee TimberCrafts</a><br />');
+document.write('[url=http://hub.webring.org/hub/woodcarving2?id=7][img]http://img.webring.com/s/ot/timbercarver/10032862_t.png[/img][/url] Devoted to the Art and Promotion of Woodcarving ,Website Awards and Free Woo...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://N.webring.org/forum?forum=woodcarving2;did=4" target="_blank">Kelly\'s Woodcarving Gallery</a><br />');
+document.write('[url=http://hub.webring.org/hub/woodcarving2?id=9][img]http://img.webring.com/s/fk/kellywinn/97345346710086133_t.png[/img][/url] Gallery of carved animals, carousel horses, and caricatures. [url=htt...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://N.webring.org/forum?forum=woodcarving2;did=3" target="_blank">professionalcarving.co .uk</a><br />');
+document.write('[url=http://hub.webring.org/hub/woodcarving2?id=24][img]http://img.webring.com/s/ns/sarahliptrot/defurl_t.png[/img][/url] I am a carver and sculptor who works mainly in wood and stone. Both tradition...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://N.webring.org/forum?forum=woodcarving2;did=2" target="_blank">BBsGarage Wood Carving</a><br />');
+document.write('[url=http://hub.webring.org/hub/woodcarving2?id=26][img]http://img.webring.com/s/ob/bbsgarage/10187875_t.png[/img][/url] My and my sons Wood Carving, Or what I like to call just whittlen around. Incl...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://N.webring.org/forum?forum=woodcarving2;did=1" target="_blank">Discuss Woodcarving</a><br />');
+document.write('Be the first to post in Woodcarving');
+document.write('</li>');
+document.write('</ul></div>');

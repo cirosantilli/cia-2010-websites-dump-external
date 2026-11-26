@@ -1,0 +1,11 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.b92.net/sport/vesti.php?yyyy=2011&mm=02&dd=24&nav_id=495077" target="_blank">Jovanović: Drugo poluvreme putokaz</a><br />');
+document.write('Trener košarkaša Partizana Vlade Jovanović izjavio je posle poraza od Real Madrida u Beogradu da je nezadovoljan kako je njegova ekipa odigrala prvih 20 minuta. \"Nije kraj sezone, ima još mečeva, ali prvih 20 minuta se ovako ne igra, ne u Evroligi, nego ni u jednom takmičenju. Jedino dobro iz ove utakmice jeste drugo poluvreme, gde smo pružili jak otpor i jedan Real dobili sa 10 razlike\", rekao je Jovanović posle meča.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.b92.net/sport/vesti.php?yyyy=2011&mm=02&dd=24&nav_id=495076" target="_blank">Kuglaši Srbije bolji od Slovaka</a><br />');
+document.write('Kuglaška reprezentacija Srbije savladala je u Podbrezovi ekipu Slovačke u sklopu priprema za SP u Bosni i Hercegovini. Igrali su Čaluković, Tepša, Ostojić, Antal, Zavarko, Ćalić, Baranj, Jagličić, Ernješi i Sel. Ekipa Srbije će u Sarajevu, gde se odvija Svetsko prvenstvo, igrati u prvoj fazi sa timovima Makedonije, Austrije, Estonije i selekcijom Katalonije.');
+document.write('</li>');
+document.write('</ul></div>');

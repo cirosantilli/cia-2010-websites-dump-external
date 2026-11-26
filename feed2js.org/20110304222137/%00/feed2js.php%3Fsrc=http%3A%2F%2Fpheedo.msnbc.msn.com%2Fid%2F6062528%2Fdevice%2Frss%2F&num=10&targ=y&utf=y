@@ -1,0 +1,25 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://today.msnbc.msn.com/id/21134540/vp/38676040#38676040" target="_blank">Video: Blake Shelton is ‘All About Tonight’</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://today.msnbc.msn.com/id/38674128/ns/today-entertainment/" target="_blank">George Michael charged with possession</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://today.msnbc.msn.com/id/21134540/vp/38674018#38674018" target="_blank">Video: Cosby finds no humor in death rumors</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://today.msnbc.msn.com/id/36606816/vp/38673923#38673923" target="_blank">Video: Rockettes rock the plaza</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://today.msnbc.msn.com/id/21134540/vp/38672493#38672493" target="_blank">Video: Heeerre’s Johnny! Carson archives now online</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://today.msnbc.msn.com/id/38662042/ns/today-entertainment/" target="_blank">Fantasia released from hospital after OD</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://today.msnbc.msn.com/id/38631345/ns/today-entertainment/" target="_blank">Zsa Zsa Gabor at home with new hip</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://today.msnbc.msn.com/id/38662885/ns/today-entertainment/" target="_blank">J.Lo reportedly out as possible \'Idol\' judge</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://today.msnbc.msn.com/id/38661140/ns/today-entertainment/" target="_blank">Lindsay Lohan judge removes herself from case</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://today.msnbc.msn.com/id/21134540/vp/38658422#38658422" target="_blank">Video: Rhames: ‘Piranha’ scarier than ‘Jaws’</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

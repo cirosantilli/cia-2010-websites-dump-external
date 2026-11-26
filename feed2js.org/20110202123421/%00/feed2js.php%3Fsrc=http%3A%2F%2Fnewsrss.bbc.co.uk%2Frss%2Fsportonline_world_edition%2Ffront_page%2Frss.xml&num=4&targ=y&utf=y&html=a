@@ -1,0 +1,17 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.bbc.co.uk/go/rss/-/sport2/hi/cricket/england/9383097.stm" target="_blank">Live - Australia v England</a><br />');
+document.write('The sixth one-day international goes to the wire as Australia make a strong reply to England\'s 333-6 in Sydney.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.bbc.co.uk/go/rss/-/sport2/hi/other_sports/swimming/9383385.stm" target="_blank">Thorpe returns for 2012 Games bid</a><br />');
+document.write('Five-time Olympic champion Ian Thorpe says a visit to London has inspired him to come out of retirement in a bid to compete at the 2012 Olympics.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.bbc.co.uk/go/rss/-/sport2/hi/football/eng_prem/9384562.stm" target="_blank">Rooney expects Chelsea challenge</a><br />');
+document.write('Manchester United striker Wayne Rooney, who scored twice in the 3-1 win over Aston Villa on Tuesday, says Chelsea can push his team all the way in the title race.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://news.bbc.co.uk/go/rss/-/sport2/hi/motorsport/formula_one/9384651.stm" target="_blank">Live text - F1 testing</a><br />');
+document.write('Lewis Hamilton, Sebastian Vettel, Fernando Alonso and Robert Kubica are all in action on the second day of the first F1 pre-season test in Valencia.');
+document.write('</li>');
+document.write('</ul></div>');

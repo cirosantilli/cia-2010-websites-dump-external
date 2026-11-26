@@ -1,0 +1,8 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.rssweather.com/hw3.php?place=banja%20luka&state=&country=ba&utm_source=rss&utm_medium=rss" target="_blank">Banja Luka, BOSNIA AND HERZEGOVINA Weather :: 13C Fair</a><br />');
+document.write('Fair 13°C Humidity:47% Wind Speed:3 KMH Wind Direction:N (350°) Barometer: 1018 mb Dewpoint:2°C Heat Index:13°C Wind Chill:13°C Visibility:11 km');
+document.write('</li>');
+document.write('</ul></div>');

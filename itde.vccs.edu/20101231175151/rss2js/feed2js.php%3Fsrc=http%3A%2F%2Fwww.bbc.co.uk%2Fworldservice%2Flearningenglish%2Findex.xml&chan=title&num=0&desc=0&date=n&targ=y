@@ -1,0 +1,4 @@
+document.write('<div class="rss_box">');
+document.write('<p class="rss_title"><a class="rss_title" href="" target="_blank">bbclearningenglish.com | Home</a></p>');
+document.write('<ul class="rss_items">');
+document.write('</ul></div>');

@@ -1,0 +1,14 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.cricketnext.com/slideshow/g1087/view.html" target="_blank">In pics: Eden races against time</a><br />');
+document.write('<a href=\'http://www.cricketnext.com/slideshow/g1087/view.html\'\'><img src=\"http://cricketnext.in.com/pix/slideshow/01-2011/in-pics-eden/first_550.jpg\" alt=\"In pics: Eden races against time\" title=\"In pics: Eden races against time\" width=\'105\' height=\'75\' /></a>In this photo taken on December 14, 2010, a cab drives past Eden Gardens stadium in Calcutta. (AP Photo)');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.cricketnext.com/slideshow/g1084/view.html" target="_blank">In pics: While we wait for Sachin\'s Bharat Ratna</a><br />');
+document.write('<a href=\'http://www.cricketnext.com/slideshow/g1084/view.html\'\'><img src=\"http://cricketnext.in.com/pix/slideshow/01-2011/in-pics-sachins/sachin_iccaward_550.jpg\" alt=\"In pics: While we wait for Sachin\'s Bharat Ratna\" title=\"In pics: While we wait for Sachin\'s Bharat Ratna\" width=\'105\' height=\'75\' /></a>Sachin was presented with the ICC\'s Sir Garfield Sobers trophy for Cricketer of the Year 2010.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.cricketnext.com/slideshow/g1083/view.html" target="_blank">Ind-SA 5th ODI in pics</a><br />');
+document.write('<a href=\'http://www.cricketnext.com/slideshow/g1083/view.html\'\'><img src=\"http://cricketnext.in.com/pix/slideshow/01-2011/indsa-5th-odi/dhoni-amla-550.jpg\" alt=\"Ind-SA 5th ODI in pics\" title=\"Ind-SA 5th ODI in pics\" width=\'105\' height=\'75\' /></a>Hashim Amla, right, watches his shot as Mahendra Singh Dhoni looks on. (AP Photo)');
+document.write('</li>');
+document.write('</ul></div>');

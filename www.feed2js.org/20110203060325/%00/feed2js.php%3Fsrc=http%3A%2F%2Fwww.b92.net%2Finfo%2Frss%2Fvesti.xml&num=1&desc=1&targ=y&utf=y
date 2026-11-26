@@ -1,0 +1,8 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.b92.net/info/vesti/index.php?yyyy=2011&mm=02&dd=03&nav_id=490170" target="_blank">Nemiri u Kairu ne jenjavaju</a><br />');
+document.write('Najnoviji bilans sukoba pristalica i protivnika predsednika Egipta Hosnija Mubaraka u Kairu je tri mrtva i 639 povređenih. Lideri pozivaju na mir.Lideri opozicije upozoravaju na opasnost od novih i većih krvoprolića, a svetske vođe pozivaju da se hitno zaustavi nasilje i osigura mirna tranzicija vlasti.');
+document.write('</li>');
+document.write('</ul></div>');

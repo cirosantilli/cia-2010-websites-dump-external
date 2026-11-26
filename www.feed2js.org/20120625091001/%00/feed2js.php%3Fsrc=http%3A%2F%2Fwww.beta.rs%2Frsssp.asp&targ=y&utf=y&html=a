@@ -1,0 +1,20 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.beta.rs/?tip=article&kategorija=sport&ida=2720390&id=&ime=" target="_blank">Počinje Vimbldon, Djoković brani titulu</a><br />');
+document.write('<p><img align=\"left\" src=\"http://www.beta.rs/ftp/slikeS/vimbldon_travica.jpg\" style=\"border-right:10px solid; border-color:#FFFFFF\" /> BEOGRAD, 25. juna 2012. (<a href=\"http://www.beta.rs\">Beta</a>) - Najstariji teniski turnir na svetu - Vimbldon, počinje danas, a titulu na trećem grend slemu u sezoni brani najbolji igrač sveta Novak Djoković.<br /><br />Srbija će na startu turn..</p>');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.beta.rs/?tip=article&kategorija=sport&ida=2720340&id=&ime=" target="_blank">Italija posle penala eliminisala Englesku</a><br />');
+document.write('<p><img align=\"left\" src=\"http://www.beta.rs/ftp/slikeS/italija_ep.jpg\" style=\"border-right:10px solid; border-color:#FFFFFF\" /> KIJEV, 24. juna 2012. (<a href=\"http://www.beta.rs\">Beta</a>) - Fudbalska reprezentacija Italije plasirala se u polufinale Evropskog prvenstva u Poljskoj i Ukrajini, pošto je u nedelju uveče u Kijevu posle boljeg izvodjenja penala eliminisala Engle..</p>');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.beta.rs/?tip=article&kategorija=sport&ida=2720294&id=&ime=" target="_blank">Srbija pobedila Japan u poslednjem meču trećeg vikenda SL</a><br />');
+document.write('<p><img align=\"left\" src=\"http://www.beta.rs/ftp/slikeS/odbojkasi_srbije.jpg\" style=\"border-right:10px solid; border-color:#FFFFFF\" /> KALINJINGRAD, 24. juna 2012. (<a href=\"http://www.beta.rs\">Beta</a>) - Muška odbojkaška reprezentacija Srbije pobedila je u nedelju u Kalinjingradu Japan sa 3:2 u setovima (23:25, 25:19, 19:25, 25:19, 15:10) u trećem kolu trećeg vikenda Grupe A S..</p>');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.beta.rs/?tip=article&kategorija=sport&ida=2720242&id=&ime=" target="_blank">Alonso, Raikonen i Šumaher na podijumu u Valensiji</a><br />');
+document.write('<p><img align=\"left\" src=\"http://www.beta.rs/ftp/slikeS/alonso-pobbb.jpg\" style=\"border-right:10px solid; border-color:#FFFFFF\" /> VALENSIJA, 24. juna 2012. (<a href=\"http://www.beta.rs\">Beta</a>) - Vozač Ferarija Fernando Alonso pobedio je u nedelju u Valensiji u trci za Veliku nagradu Evrope.<br /><br />Drugi je stigao Kimi Raikonen iz Lotus-Renoa, a treći je bio Mihael Šuma..</p>');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.beta.rs/?tip=article&kategorija=sport&ida=2720212&id=&ime=" target="_blank">Djoković od 14 sati na terenu</a><br />');
+document.write('<p><img align=\"left\" src=\"http://www.beta.rs/ftp/slikeS/nole_vimbl_radovanje.jpg\" style=\"border-right:10px solid; border-color:#FFFFFF\" />VIMBLDON, 24. juna 2012. (<a href=\"http://www.beta.rs\">Beta</a>) - Najbolji teniser sveta Novak Djoković počeće odbranu titule u ponedeljak od 14 sati na centralnom terenu Vimbldona.<br /><br />Na terenu broj jedan u isto vreme nastupa osmi nosilac J..</p>');
+document.write('</li>');
+document.write('</ul></div>');

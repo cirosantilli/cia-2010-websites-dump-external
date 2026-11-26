@@ -1,0 +1,8 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.b92.net/info/vesti/index.php?yyyy=2011&mm=02&dd=25&nav_id=495079" target="_blank">Kraj BBC-ja na srpskom i Sveta u 2</a><br />');
+document.write('Danas prestaje s radom redakcija BBC na srpskom jeziku, dela svetske službe BBC-ja. Poslednji put će biti emitovana i emisija \"Svet u 2\", na radiju B92 u 14h. Svetska služba danas gasi pet jezičkih redakcija među kojima su pored srpske, makedonska i albanska.');
+document.write('</li>');
+document.write('</ul></div>');

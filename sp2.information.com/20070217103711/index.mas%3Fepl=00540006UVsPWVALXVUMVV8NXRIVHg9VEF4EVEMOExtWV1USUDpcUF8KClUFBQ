@@ -1,0 +1,686 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+
+<title>news-navigator.com</title>
+<meta http-equiv="Keywords" content="">
+<meta http-equiv="Description" content="">
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+
+
+
+<link rel="shortcut icon" href="/favicon/bu_favicon.ico" type="image/x-icon">
+
+
+<style type="text/css" media="all">
+
+body {
+	font-family: arial;
+	background-color:#CCCCCC;
+	color: #000;
+	padding: 0;
+	cursor: default;
+	line-height:12px;
+	margin:0;
+}
+
+h1 {
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0;
+}
+
+h2 {
+
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0 0 1em 0;
+}
+
+h3{
+	font-size: 13px;
+	padding-bottom:10px;
+	color:#000;
+	
+	margin:0px;
+}
+
+a img {
+	border: none;
+}
+
+a {
+	color: #BF0202;
+	cursor: pointer;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/* Page wrapper
+--------------------------------------------------*/
+#container {
+	background-color:#fff;
+	margin: 0 auto;
+	width:770px;
+	text-align:left;
+	position:relative;
+}
+
+/* Header
+--------------------------------------------------*/
+#header {
+	background-color:#C9A88C;
+	height:auto;
+}
+
+.hdrbnr {
+	position: absolute;
+	top: 4px;
+	right: 1px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #023E6C;
+}
+
+.hdrbnr img {
+	display: block;
+	border: none;
+}
+
+
+#header h1 {
+	font-size: 22px;
+	font-weight: normal;
+	color:#fff;
+	text-align:left;
+	padding: 30px 0 10px 15px;
+}
+
+
+/* Content Wrapper
+--------------------------------------------------*/
+#subcontainer{	
+ 	height:100%;
+	float:right;
+	width:100%;	
+	background: #fff;
+}
+
+#subcontainerinner{
+	background: #fff;
+}
+
+
+
+/* footer
+--------------------------------------------------*/
+#footer {
+	text-align: center;
+	height:10px;
+	clear:both;
+	color:#fff;
+}
+
+
+#footerhdr {
+	padding: 0px;
+}
+
+#footer a {
+	color: #fff;
+}
+
+#footer p {
+	margin: 0;
+	padding-top:7px;
+}
+
+
+
+#header {
+	background-color : #C9A88C;
+	height           : auto;
+}                          
+                     
+#header h1 {               
+	font-size        : 22px;
+	font-weight      : normal;
+	color            : #fff;
+	text-align       : left;
+	padding          : 30px 0 10px 15px;
+}                          
+
+#header p {
+	font-size        : 12px;
+	font-style       : italic;
+	font-family      : "Times New Roman", Times,serif;
+	color            : #fff;
+	text-align       : left;
+}	
+#header h3 {                
+	font-size        : 12px;
+	font-style       : italic;
+	font-family      : "Times New Roman", Times, serif;
+	color            : #fff;
+	padding          : 0px 0 10px 15px;
+}
+
+
+
+#navbar {
+	background-color : #A4856B;
+	border-top       : 1px solid #C6C8C6;
+	padding-top      : 1px;
+	padding-bottom   : 4px;
+	height           : auto;
+	color            : #fff;
+	margin-left      : auto;
+	margin-right     : auto;
+	text-align       : center;
+	line-height      : 17px;
+}
+	
+#navbar a {
+	color            : #ffffff;
+	text-decoration  : underline;
+}
+
+#navbar table{
+	width            : 770px;
+}
+
+#navbar td {
+	text-align       : center;
+	_padding-bottom  : 3px;
+}
+
+
+
+#search {
+	clear               : both;
+	margin-top          : 15px;
+	font-size           : 12px;
+}
+
+#search label {
+	font-weight         : bold;
+}
+
+#search input.text {
+	width               : 100px;
+	font-size           : 12px;
+	color               : #000000;
+	background-color    : #ffffff;
+	text-align          : left;
+	border              : 1px solid gray;
+	padding-left        : 2px;  
+}
+
+#search input.submit {
+	width               : 55px;
+	font-size           : 11px;
+	border              : 1px solid #000000;
+	color               : #000;
+}
+
+/* side column
+--------------------------------------------------*/
+#col2 {
+	width               : 212px;
+	float               : left;
+	background-position : top left;
+	background-repeat   : no-repeat;
+}
+
+#col2inner {
+	padding             : 10px 10px;
+	background-color    : #E6E6E6;
+	border-left         : 1px solid #D4D4D4;
+}
+
+#col2 h3 {
+	color               : #5A5A5A;
+	font-size           : 12px;
+	font-weight         : bold;
+	margin              : 0;
+	padding             : 0px 0px 10px 5px;
+}
+
+#col2 ul {
+	margin              : 0;
+	padding             : 0px 0px 0px 0px ;
+	line-height         : 2em;
+	background-color    : #F4F4F4;
+	border              : 1px dashed #959595;
+}
+
+#col2 li {
+	padding             : 0px 0px 0px 12px;
+	color               : #A4856B;
+}
+
+#col2 ul a {
+    color               : #0000ee;
+	text-decoration     : underline;
+}
+
+#col2 table {
+    width              : 100%;
+}
+#col2 td {
+    border             : 1px solid #A4856B;
+    padding-left        : 21px;
+	_padding-left       : 0px;
+}
+
+#col2 ul a:hover {
+	color               : #000;
+	font-weight         : none;
+}
+
+#col1 .inner, #col2 .inner{
+	padding             : 10px 5px 10px 5px;
+}
+
+.fullbox .hdr {
+	width               : 100%;
+}
+
+
+
+
+
+
+
+#content {
+	margin           : 0px 0px 0px 212px;
+}
+
+#contentinner {
+	float            : right;
+	width            : 540px;
+	_width           : 530px;
+	margin           : 0;
+	background-color : #fff;
+	line-height      : 1.7em;
+}
+
+#content p{
+	padding          : 10px 0 5px 0;
+	margin           : 0;
+	color            : #333;
+	line-height      : 15px;
+}
+
+#content a.title{
+	color            : #0033CC;
+	font-size        : 13px;
+	font-weight      : bold;
+}
+
+#content  a.url {
+	font-size        : 10px;
+	color            : blue;
+	font-weight      : normal;
+}
+
+#content a {
+	font-weight      : bold;
+}
+
+#content td {
+	padding-left     : 20px;
+}
+
+#content .fullbox .hdr h3{
+	font-size        : 14px;
+	color            : #000;
+	padding          : 0px 14px 20px 0px;
+	margin           : 0px;
+}
+
+
+#content .results .resultshdr h2{
+	font-size        : 12px;
+	color            : #000;
+	padding          : 5px 14px 10px 0px;
+	margin           : 0px;
+}
+
+#content .fullbox {
+	width            : 100%;
+	margin           : 5px 0px 5px 0px;
+}
+
+#content .results {
+	border           : 2px solid #3D3D3D;
+	margin           : 0px;
+	padding          : 10px;
+}
+
+#content .inner {
+	padding          : 15px 15px 15px 15px;
+}
+
+#content .litebox {
+	margin           : 20px 10px;
+	border-top       : 1px dashed #707070;
+}
+
+#content .litebox .inner {
+	padding          : 15px 15px 15px 0px;
+}
+
+#content .litebox a {
+	color            : #707070;
+	font-size        : 10px;
+	font-weight      : normal;
+	text-decoration  : none;
+	line-height      : 1.3em;
+}
+
+.adbox {
+	border           : 2px gray solid;
+	padding          : 6px;
+}
+
+.pophead {
+	color            : #5A5A5A;
+	font-size        : 12px;
+	font-weight      : bold;
+}
+
+#kwlinks {
+	padding          : 0px;
+}
+
+#kwlinks table {
+	padding          : 0px;
+}
+
+#kwlinks table td {
+	width            : 160px;
+	text-align       : left;
+	padding          : 0px;
+	padding-left     : 3px;
+}
+
+#kwlinks ul {
+	margin-left      : 0px;
+	padding-bottom   : 0px;
+}
+
+#kwlinks li {
+	list-style-type  : none;
+	margin-left      : 0px;
+	padding-bottom   : 0px;
+}
+
+#kwlinks a {
+    color            : #0000ee;
+    text-decoration  : underline;
+	margin-left      : 0px;
+	font-weight      : normal;
+}
+
+#kwlinks a:hover {
+	color            : #000;
+	font-weight      : none;
+}
+
+#kwlinks h1 {
+	font-size        : 14px;
+	left             : 20px;
+	height           : 15px;
+	font-weight      : bold;
+	color            : #5A5A5A;
+}
+
+#kwlinks .forsale {
+    font-size        : 9px;
+    color            : #000;
+    float            : right;
+    margin-top       : -10px;
+    text-decoration  : none;
+}
+
+/* mainsearch
+-----------------------------*/
+#mainsearch {
+	clear            : both;
+	margin-top       : 200px;
+	font-size        : 12px;
+	margin-left      : 100px;
+}
+
+#mainsearch label {
+	font-weight      : bold;
+}
+
+#mainsearch input.text {
+	width            : 200px;
+	font-size        : 12px;
+	color            : #000000;
+	background-color : #ffffff;
+	text-align       : left;
+	border           : 1px solid gray;
+	padding-left     : 2px;
+}
+
+#mainsearch input.submit {
+	width            : 55px;
+	font-size        : 11px;
+	border           : 1px solid #000000;
+	color            : #000;
+}
+
+
+</style>
+</head>
+
+<script language="javascript">
+var resize_it = 1;
+function resize(){
+	if(resize_it == 1){
+		resize_it = 0;
+		var xMax = screen.width, yMax = screen.height;
+		var szWidth = xMax-8;
+		var szHeight = yMax-8;
+		window.moveTo(0,0);
+		window.resizeTo(szWidth,szHeight);
+	}
+}
+</script>
+
+
+<body onunload="exitPop();">
+
+<div id="container">
+
+<!-- BOF header -->
+	
+<div id="header">
+	<h1><span>News-navigator.com</span></h1>
+	<h3>What you need, when you need it</h3>
+</div>
+
+	
+	<div id="navbar">
+	<table>
+	<tr>
+<td><a href="/?epl=01520043UVsPWVALXVUMVV8NXRIVHg9VEF4EVEMOExtWV1USQgBURgFQZhVcR1xADRNNCQdBPkAJRzxZVg8FXFtfHkdUBEdXCmdNHENRXFwLDVNDB2wIUFsFUAUBUEdeQmdKVV8OCAVETFwWR2sTXhcOBVRRHVcH&query=Business%20Opportunities" onclick="doPop = 0;"  target="_top" >Business Opportunities</a></td><td><a href="/?epl=01520047UVsPWVALXVUMVV8NXRIVHg9VEF4EVEMOExtWV1USQgBURgFQZhVcR1xADRNNCQdBPkAJRzxZVg8FXFtfHkdUBEdXCmdNHENRXFwLDVNDB2wIUFsFUAUBUEdeQmdKVV8OCAZETFwWR2sTXhcOBVRRHVcH&query=Invest" onclick="doPop = 0;"  target="_top" >Invest</a></td><td><a href="/?epl=01520057UVsPWVALXVUMVV8NXRIVHg9VEF4EVEMOExtWV1USQgBURgFQZhVcR1xADRNNCQdBPkAJRzxZVg8FXFtfHkdUBEdXCmdNHENRXFwLDVNDB2wIUFsFUAUBUEdeQmdKVV8OCAdETFwWR2sTXhcOBVRRHVcH&query=Investment%20Strategy" onclick="doPop = 0;"  target="_top" >Investment Strategy</a></td><td><a href="/?epl=01520023UVsPWVALXVUMVV8NXRIVHg9VEF4EVEMOExtWV1USQgBURgFQZhVcR1xADRNNCQdBPkAJRzxZVg8FXFtfHkdUBEdXCmdNHENRXFwLDVNDB2wIUFsFUAUBUEdeQmdKVV8OCABETFwWR2sTXhcOBVRRHVcH&query=Real%20Estate%20Investing" onclick="doPop = 0;"  target="_top" >Real Estate Investing</a></td><td><a href="/?epl=01520027UVsPWVALXVUMVV8NXRIVHg9VEF4EVEMOExtWV1USQgBURgFQZhVcR1xADRNNCQdBPkAJRzxZVg8FXFtfHkdUBEdXCmdNHENRXFwLDVNDB2wIUFsFUAUBUEdeQmdKVV8OCAFETFwWR2sTXhcOBVRRHVcH&query=Investment%20Property" onclick="doPop = 0;"  target="_top" >Investment Property</a></td><td><a href="/?epl=01520031UVsPWVALXVUMVV8NXRIVHg9VEF4EVEMOExtWV1USQgBURgFQZhVcR1xADRNNCQdBPkAJRzxZVg8FXFtfHkdUBEdXCmdNHENRXFwLDVNDB2wIUFsFUAUBUEdeQmdKVV8OCAJETFwWR2sTXhcOBVRRHVcH&query=Navigator" onclick="doPop = 0;"  target="_top" >Navigator</a></td><td><a href="/?epl=01520035UVsPWVALXVUMVV8NXRIVHg9VEF4EVEMOExtWV1USQgBURgFQZhVcR1xADRNNCQdBPkAJRzxZVg8FXFtfHkdUBEdXCmdNHENRXFwLDVNDB2wIUFsFUAUBUEdeQmdKVV8OCANETFwWR2sTXhcOBVRRHVcH&query=Investment" onclick="doPop = 0;"  target="_top" >Investment</a></td><td><a href="/?epl=01520077UVsPWVALXVUMVV8NXRIVHg9VEF4EVEMOExtWV1USQgBURgFQZhVcR1xADRNNCQdBPkAJRzxZVg8FXFtfHkdUBEdXCmdNHENRXFwLDVNDB2wIUFsFUAUBUEdeQmdKVV8OCAxETFwWR2sTXhcOBVRRHVcH&query=Business" onclick="doPop = 0;"  target="_top" >Business</a></td>
+	</tr>
+	</table>
+	</div>
+
+<!-- EOF header -->
+	
+<!-- EOF content -->
+
+    <div id="subcontainer">
+             <div id="subcontainerinner">
+
+
+	<!-- BOF sidebar -->
+	<!-- side links -->
+		
+<div id="col2">
+	<div id="col2inner">
+		<div class="fullbox">
+			<div class="inner">
+				<div class="poplinks">
+<div>
+	<h3><span>Popular Categories</span></h3>
+	<ul>
+<table>
+<tr><td><li><a href="/?epl=01550021UVsPWVALXVUMVV8NXRIVHg9VEF4EVEMOExtWV1USQgBURgFQZhVcR1xADRNNCQdBPlgPWQhGaA0AW1FRVlMXFlBVEFtROkdNEVVfD1ELDRUAaw9TXgcEUVcEE1NPa0MEW19fCR8RVkcVbxANTQhbAlYaUAQ&query=Business%20Opportunities" onclick="doPop = 0;"  target="_top" >Business Opportunities</a></li></td></tr><tr><td><li><a href="/?epl=01550043UVsPWVALXVUMVV8NXRIVHg9VEF4EVEMOExtWV1USQgBURgFQZhVcR1xADRNNCQdBPlgPWQhGaA0AW1FRVlMXFlBVEFtROkdNEVVfD1ELDRUAaw9TXgcEUVcEE1NPa0MEW19fCh8RVkcVbxANTQhbAlYaUAQ&query=Invest" onclick="doPop = 0;"  target="_top" >Invest</a></li></td></tr><tr><td><li><a href="/?epl=01550059UVsPWVALXVUMVV8NXRIVHg9VEF4EVEMOExtWV1USQgBURgFQZhVcR1xADRNNCQdBPlgPWQhGaA0AW1FRVlMXFlBVEFtROkdNEVVfD1ELDRUAaw9TXgcEUVcEE1NPa0MEW19fCx8RVkcVbxANTQhbAlYaUAQ&query=Investment%20Strategy" onclick="doPop = 0;"  target="_top" >Investment Strategy</a></li></td></tr><tr><td><li><a href="/?epl=01550006UVsPWVALXVUMVV8NXRIVHg9VEF4EVEMOExtWV1USQgBURgFQZhVcR1xADRNNCQdBPlgPWQhGaA0AW1FRVlMXFlBVEFtROkdNEVVfD1ELDRUAaw9TXgcEUVcEE1NPa0MEW19fDB8RVkcVbxANTQhbAlYaUAQ&query=Real%20Estate%20Investing" onclick="doPop = 0;"  target="_top" >Real Estate Investing</a></li></td></tr><tr><td><li><a href="/?epl=01550022UVsPWVALXVUMVV8NXRIVHg9VEF4EVEMOExtWV1USQgBURgFQZhVcR1xADRNNCQdBPlgPWQhGaA0AW1FRVlMXFlBVEFtROkdNEVVfD1ELDRUAaw9TXgcEUVcEE1NPa0MEW19fDR8RVkcVbxANTQhbAlYaUAQ&query=Investment%20Property" onclick="doPop = 0;"  target="_top" >Investment Property</a></li></td></tr>
+</table>
+
+	</ul>
+</div>
+
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+	<!-- EOF sidebar -->
+
+	<!-- BOF main -->
+	<!-- sponsored listings -->
+		
+<div id="content">
+	<div id="contentinner">
+		<div class="fullbox">
+			<div class="inner">
+				<div id="adbox">
+					<div id="kwlinks">
+						<div class="forsale" valign="top">
+						<a href="#" onclick="window.external.AddFavorite('http://www.news-navigator.com','news-navigator.com');">Bookmark this page</a>
+
+|						<a href="#" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.news-navigator.com');">Make this your homepage</a>
+
+
+			                
+			            </div>
+
+<br>
+<h1>Popular Categories</h1><br>
+<table cellpadding=0 cellspacing=0>
+	<tr valign=top>
+<td><li><a href="/?epl=01540001UVsPWVALXVUMVV8NXRIVHg9VEF4EVEMOExtWV1USQgBURgFQZhVcR1xADRNNCQdBPlkHXg1qWwAPUVxWXxJCAFRGAVBmEUpEBA0OClYOQFI_XQIKUQYHV1ATXk9nRlALXglTHk0AQEA_QgwWVVhXBE8CVQ&query=Business%20Opportunities" onclick="doPop = 0;"  target="_top" >Business Opportunities</a></li></td><td><li><a href="/?epl=01540097UVsPWVALXVUMVV8NXRIVHg9VEF4EVEMOExtWV1USQgBURgFQZhVcR1xADRNNCQdBPlkHXg1qWwAPUVxWXxJCAFRGAVBmEUpEBA0OClYOQFI_XQIKUQYHV1ATXk9nRlALXglQHk0AQEA_QgwWVVhXBE8CVQ&query=Invest" onclick="doPop = 0;"  target="_top" >Invest</a></li></td><td><li><a href="/?epl=01540098UVsPWVALXVUMVV8NXRIVHg9VEF4EVEMOExtWV1USQgBURgFQZhVcR1xADRNNCQdBPlkHXg1qWwAPUVxWXxJCAFRGAVBmEUpEBA0OClYOQFI_XQIKUQYHV1ATXk9nRlALXglRHk0AQEA_QgwWVVhXBE8CVQ&query=Investment%20Strategy" onclick="doPop = 0;"  target="_top" >Investment Strategy</a></li></td>
+	</tr>
+	<tr valign=top>
+<td><li><a href="/?epl=01540004UVsPWVALXVUMVV8NXRIVHg9VEF4EVEMOExtWV1USQgBURgFQZhVcR1xADRNNCQdBPlkHXg1qWwAPUVxWXxJCAFRGAVBmEUpEBA0OClYOQFI_XQIKUQYHV1ATXk9nRlALXglWHk0AQEA_QgwWVVhXBE8CVQ&query=Real%20Estate%20Investing" onclick="doPop = 0;"  target="_top" >Real Estate Investing</a></li></td><td><li><a href="/?epl=01540005UVsPWVALXVUMVV8NXRIVHg9VEF4EVEMOExtWV1USQgBURgFQZhVcR1xADRNNCQdBPlkHXg1qWwAPUVxWXxJCAFRGAVBmEUpEBA0OClYOQFI_XQIKUQYHV1ATXk9nRlALXglXHk0AQEA_QgwWVVhXBE8CVQ&query=Investment%20Property" onclick="doPop = 0;"  target="_top" >Investment Property</a></li></td><td><li><a href="/?epl=01540002UVsPWVALXVUMVV8NXRIVHg9VEF4EVEMOExtWV1USQgBURgFQZhVcR1xADRNNCQdBPlkHXg1qWwAPUVxWXxJCAFRGAVBmEUpEBA0OClYOQFI_XQIKUQYHV1ATXk9nRlALXglUHk0AQEA_QgwWVVhXBE8CVQ&query=Navigator" onclick="doPop = 0;"  target="_top" >Navigator</a></li></td>
+	</tr>
+	<tr valign=top>
+<td><li><a href="/?epl=01540003UVsPWVALXVUMVV8NXRIVHg9VEF4EVEMOExtWV1USQgBURgFQZhVcR1xADRNNCQdBPlkHXg1qWwAPUVxWXxJCAFRGAVBmEUpEBA0OClYOQFI_XQIKUQYHV1ATXk9nRlALXglVHk0AQEA_QgwWVVhXBE8CVQ&query=Investment" onclick="doPop = 0;"  target="_top" >Investment</a></li></td><td><li><a href="/?epl=01540014UVsPWVALXVUMVV8NXRIVHg9VEF4EVEMOExtWV1USQgBURgFQZhVcR1xADRNNCQdBPlkHXg1qWwAPUVxWXxJCAFRGAVBmEUpEBA0OClYOQFI_XQIKUQYHV1ATXk9nRlALXglaHk0AQEA_QgwWVVhXBE8CVQ&query=Business" onclick="doPop = 0;"  target="_top" >Business</a></li></td>
+	</tr>
+</table>
+<br><br><br>
+
+<h1>Favorite Categories</h1><br>
+<table cellpadding=0 cellspacing=0>
+	<tr valign=top>
+		<td>
+		<font class="category">Travel</font><br>
+<li><a href="/?epl=01540065UVsPWVALXVUMVV8NXRIVHg9VEF4EVEMOExtWV1USQgBURgFQZhVcR1xXBw1dFw9QPlkHXg1qWwAPUVxWXxJCAFRGAVBmEUpEBA0OClYOQFI_XQIKUQYHV1ATXk9nRlALXglTHk0AQEA_QgwWVVhXBE8CVQ&query=Airline%20tickets" onclick="doPop = 0;"  target="_top" >Airline tickets</a></li><li><a href="/?epl=01540062UVsPWVALXVUMVV8NXRIVHg9VEF4EVEMOExtWV1USQgBURgFQZhVcR1xXBw1dFw9QPlkHXg1qWwAPUVxWXxJCAFRGAVBmEUpEBA0OClYOQFI_XQIKUQYHV1ATXk9nRlALXglQHk0AQEA_QgwWVVhXBE8CVQ&query=Hotels" onclick="doPop = 0;"  target="_top" >Hotels</a></li><li><a href="/?epl=01540063UVsPWVALXVUMVV8NXRIVHg9VEF4EVEMOExtWV1USQgBURgFQZhVcR1xXBw1dFw9QPlkHXg1qWwAPUVxWXxJCAFRGAVBmEUpEBA0OClYOQFI_XQIKUQYHV1ATXk9nRlALXglRHk0AQEA_QgwWVVhXBE8CVQ&query=Tickets" onclick="doPop = 0;"  target="_top" >Tickets</a></li><li><a href="/?epl=01540068UVsPWVALXVUMVV8NXRIVHg9VEF4EVEMOExtWV1USQgBURgFQZhVcR1xXBw1dFw9QPlkHXg1qWwAPUVxWXxJCAFRGAVBmEUpEBA0OClYOQFI_XQIKUQYHV1ATXk9nRlALXglWHk0AQEA_QgwWVVhXBE8CVQ&query=Cheap%20Flights" onclick="doPop = 0;"  target="_top" >Cheap Flights</a></li><li><a href="/?epl=01540069UVsPWVALXVUMVV8NXRIVHg9VEF4EVEMOExtWV1USQgBURgFQZhVcR1xXBw1dFw9QPlkHXg1qWwAPUVxWXxJCAFRGAVBmEUpEBA0OClYOQFI_XQIKUQYHV1ATXk9nRlALXglXHk0AQEA_QgwWVVhXBE8CVQ&query=Local%20Weather" onclick="doPop = 0;"  target="_top" >Local Weather</a></li>
+		<br>
+		</td>
+		<td>
+		<font class="category">Finance</font><br>
+<li><a href="/?epl=01540065UVsPWVALXVUMVV8NXRIVHg9VEF4EVEMOExtWV1USQgBURgFQZhVcR1xXBw1dFw9QPlkHXg1qWwAPUVxWXxJCAFRGAVBmEUpEBA0OClYOQFI_XQIKUQYHV1ATXk9nRlALXglTHk0AQEA_QgwWVVhXBE8CVQ&query=Free%20credit%20report" onclick="doPop = 0;"  target="_top" >Free credit report</a></li><li><a href="/?epl=01540062UVsPWVALXVUMVV8NXRIVHg9VEF4EVEMOExtWV1USQgBURgFQZhVcR1xXBw1dFw9QPlkHXg1qWwAPUVxWXxJCAFRGAVBmEUpEBA0OClYOQFI_XQIKUQYHV1ATXk9nRlALXglQHk0AQEA_QgwWVVhXBE8CVQ&query=Personal%20Loan" onclick="doPop = 0;"  target="_top" >Personal Loan</a></li><li><a href="/?epl=01540063UVsPWVALXVUMVV8NXRIVHg9VEF4EVEMOExtWV1USQgBURgFQZhVcR1xXBw1dFw9QPlkHXg1qWwAPUVxWXxJCAFRGAVBmEUpEBA0OClYOQFI_XQIKUQYHV1ATXk9nRlALXglRHk0AQEA_QgwWVVhXBE8CVQ&query=Loan%20Consolidation" onclick="doPop = 0;"  target="_top" >Loan Consolidation</a></li><li><a href="/?epl=01540068UVsPWVALXVUMVV8NXRIVHg9VEF4EVEMOExtWV1USQgBURgFQZhVcR1xXBw1dFw9QPlkHXg1qWwAPUVxWXxJCAFRGAVBmEUpEBA0OClYOQFI_XQIKUQYHV1ATXk9nRlALXglWHk0AQEA_QgwWVVhXBE8CVQ&query=Credit%20Card%20Application" onclick="doPop = 0;"  target="_top" >Credit Card Application</a></li><li><a href="/?epl=01540069UVsPWVALXVUMVV8NXRIVHg9VEF4EVEMOExtWV1USQgBURgFQZhVcR1xXBw1dFw9QPlkHXg1qWwAPUVxWXxJCAFRGAVBmEUpEBA0OClYOQFI_XQIKUQYHV1ATXk9nRlALXglXHk0AQEA_QgwWVVhXBE8CVQ&query=Health%20Insurance" onclick="doPop = 0;"  target="_top" >Health Insurance</a></li>
+		<br>
+		</td>
+		<td>
+		<font class="category">Home</font><br>
+<li><a href="/?epl=01540065UVsPWVALXVUMVV8NXRIVHg9VEF4EVEMOExtWV1USQgBURgFQZhVcR1xXBw1dFw9QPlkHXg1qWwAPUVxWXxJCAFRGAVBmEUpEBA0OClYOQFI_XQIKUQYHV1ATXk9nRlALXglTHk0AQEA_QgwWVVhXBE8CVQ&query=Houses%20for%20Sale" onclick="doPop = 0;"  target="_top" >Houses for Sale</a></li><li><a href="/?epl=01540062UVsPWVALXVUMVV8NXRIVHg9VEF4EVEMOExtWV1USQgBURgFQZhVcR1xXBw1dFw9QPlkHXg1qWwAPUVxWXxJCAFRGAVBmEUpEBA0OClYOQFI_XQIKUQYHV1ATXk9nRlALXglQHk0AQEA_QgwWVVhXBE8CVQ&query=Mortgage" onclick="doPop = 0;"  target="_top" >Mortgage</a></li><li><a href="/?epl=01540063UVsPWVALXVUMVV8NXRIVHg9VEF4EVEMOExtWV1USQgBURgFQZhVcR1xXBw1dFw9QPlkHXg1qWwAPUVxWXxJCAFRGAVBmEUpEBA0OClYOQFI_XQIKUQYHV1ATXk9nRlALXglRHk0AQEA_QgwWVVhXBE8CVQ&query=Home%20Value" onclick="doPop = 0;"  target="_top" >Home Value</a></li><li><a href="/?epl=01540068UVsPWVALXVUMVV8NXRIVHg9VEF4EVEMOExtWV1USQgBURgFQZhVcR1xXBw1dFw9QPlkHXg1qWwAPUVxWXxJCAFRGAVBmEUpEBA0OClYOQFI_XQIKUQYHV1ATXk9nRlALXglWHk0AQEA_QgwWVVhXBE8CVQ&query=Foreclosures" onclick="doPop = 0;"  target="_top" >Foreclosures</a></li><li><a href="/?epl=01540069UVsPWVALXVUMVV8NXRIVHg9VEF4EVEMOExtWV1USQgBURgFQZhVcR1xXBw1dFw9QPlkHXg1qWwAPUVxWXxJCAFRGAVBmEUpEBA0OClYOQFI_XQIKUQYHV1ATXk9nRlALXglXHk0AQEA_QgwWVVhXBE8CVQ&query=Home%20Equity%20Loans" onclick="doPop = 0;"  target="_top" >Home Equity Loans</a></li>
+		<br>
+		</td>
+</tr>
+</table>
+
+					</div>
+				</div>
+
+				<div id="mainsearch">
+<form action="/" method="POST" onSubmit="doPop = 0;"  target='_top' >
+	<input type="hidden" name="epl" value="01380026UVsPWVALXVUMVV8NXRIVHg9VEF4EVEMOExtWV1USQgBURgFQZhVcR1xDBwJKBg5sA1seaA9UWQUIW1IeS1FQF1ZcPUxAFVYJB18QDh4EOVoFCVQEUwMGRxVQRkxnRl8QWAlTDxdTAA">
+	<input type="hidden" name="debug" value="0">
+	<input type="text" name="query" class="text" value="">
+	<input type="submit" value="Search" class="submit">
+</form>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+	<!-- EOF main -->
+
+
+<!-- BOF footer -->
+	<div id="footer">
+		<p> <!-- Disclaimer --></p>
+	</div>
+<!-- EOF footer -->
+
+
+
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
+
+<HTML>
+<BODY>
+<img src="/load.mas?epl=00750014UVsPWVALXVUMVV8NXRIVHg9VEF4EVEMOExtWV1USUDpcUF8KClUFBUdEBxBMOhRdFFlbBlQbAVI" height="1" width="1" alt="">
+
+
+
+<script type="text/javascript">
+//<!--
+var doPop = 1;
+function exitPop() {
+	if (doPop) {
+		url = "/sp/popup.mas/?epl=00940051UVsPWVALXVUMVV8NXRIVHg9VEF4EVEMOExtWV1USQQ1URwcFXB1aQBFfEkVZOg9XXAZVB1UEERUERkFnSlpECAgFVRYPVg";
+		twin = window.open(url,"sp","width=600,height=500,toolbar=1,scrollbars=1,status=1,resizable=1");
+		twin.blur();
+		window.focus();
+		}
+}
+//-->
+</script>
+
+
+
+	<script type="text/javascript">
+	//<!--
+		var rnum=new Number(Math.floor(99999999 * Math.random())+1);
+		document.write('<SCR'+'IPT LANGUAGE="JavaScript" ');
+		document.write(' SRC="http://ads.kw.revenue.net/?subid=23061&p=1&q=business%20opportunities%2Cinvest%2Cinvestment%20strategy%2Creal%20estate%20investing%2Cinvestment%20property%2Cnavigator%2Cinvestment%2Cbusiness&dn=news-navigator.com&site_id_opt=13900&site_id_ron=12169">');
+		document.write('</SCR');
+		document.write('IPT>');
+	//-->
+	</script>
+
+
+
+
+</BODY>
+</HTML>
+<!-- Top-Level Page Assembly Completed Successfully -->
+
+<!-- Autohandler Assembly Completed Successfully -->

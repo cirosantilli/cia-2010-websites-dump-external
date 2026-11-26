@@ -1,0 +1,20 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/world-us-canada-12339494" title="A bitter winter storm that stretched 2,000 miles (3,200km) across swathes of the US and Canada is blamed for at least 10 deaths...." target="_blank">Major storm hitting US and Canada</a><br />');
+document.write('A bitter winter storm that stretched 2,000 miles (...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/world-us-canada-12349662" title="The United States says it &quot;deplores and condemns&quot; the violence in Egypt and repeats its call for restraint amid violent clashes in Cairo...." target="_blank">US \'concerned\' at Egypt violence</a><br />');
+document.write('The United States says it \"deplores and condemns\" ...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/technology-12345686" title="News Corporation\'s Rupert Murdoch unveils the Daily, a digital newspaper made exclusively for the iPad...." target="_blank">News Corp debuts daily iPad paper</a><br />');
+document.write('News Corporation\'s Rupert Murdoch unveils the Dail...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/world-us-canada-12348780" title="The US president signs documents for a nuclear arms treaty with Russia that would reduce the nations\' stockpiles and bolster verification...." target="_blank">Obama signs nuclear arms treaty</a><br />');
+document.write('The US president signs documents for a nuclear arm...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.bbc.co.uk/go/rss/int/news/-/news/world-south-asia-12342242" title="The US can win the Afghan war even if Pakistan does not shut down militant havens on its side of the border, a top US commander says...." target="_blank">Afghan war winnable - US general</a><br />');
+document.write('The US can win the Afghan war even if Pakistan doe...');
+document.write('</li>');
+document.write('</ul></div>');

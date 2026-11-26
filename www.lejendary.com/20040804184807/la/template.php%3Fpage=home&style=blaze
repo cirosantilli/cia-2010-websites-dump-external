@@ -1,0 +1,201 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/2000/REC-xhtml1-20000126/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<meta name="description" content="Lejendary Adventure by Gary Gygax, a community with active message boards, original content, and game resources." />
+<meta name="keywords" content="Lejendary Adventure, roleplaying, Gary Gygax, lejends magazine, lejendary, gygax, avatars, Lejendary Earth, RPG" />
+<meta name="copyright" content="Christopher P. Smith, all rights reserved" />
+<meta name="author" content="Christopher P. Smith" />
+<meta name="generator" content="Hand coded the old fashioned way" />
+<meta name="robots" content="All" />
+<meta name="rating" content="General" />
+<title>Lejendary Adventure by Gary Gygax : Resources, Free Adventures, Forums, FAQ, and Errata</title>
+
+<style type="text/css" media="all">@import "style/blaze.css";> </style>
+<link rel="alternate style sheet" type="text/css" href="style/blaze.css" title="Midnight Blaze" /><link rel="alternate style sheet" type="text/css" href="style/lime.css" title="Lejendary Lime" />
+<script language="JavaScript" src="includes/domtricks.js" type="text/javascript"></script>
+<script language="JavaScript" src="includes/pagetools.js" type="text/javascript"></script>
+<script language="JavaScript" type="text/javascript">
+setBrowser();
+if (document.all && window.attachEvent) window.attachEvent("onload", fixWinIE);
+</script>
+
+<style type="text/css">
+.submenu {
+	white-space: nowrap;
+  display: none;
+}
+</style>
+</head>
+<body>
+<div id="header"><a href="/" title="Go Home"><img src="images/lalogo.jpg" alt="lejendary adventure logo" width="685" height="137" title="Welcome to Gary Gygax's Lejendary Adventure" /></a></div>
+<div id="content">
+<h1>Gary Gygax presents <em>Lejendary Adventure</em> &trade;</h1>
+<p class="in"><strong>Lejendary Adventure</strong> is a multi-genre roleplaying game created by Gary Gygax that is easy 
+for the beginner to learn, yet complex enough to keep even the most experienced gamer satisfied. The RPG is 
+skill based, allowing for maximum character diversity and creativity. Gamers accustom to class based systems 
+will thrive in the system using the many established Orders. Straight forward base mechanics allow play to 
+proceeds quickly, with a focus on role-playing rather than rules referencing. Gary Gygax intentionally created the system 
+to allow maximum flexibility for the game master (aka Lejend Master) during game play&mdash;that means fewer, if any, breaks 
+in the game session to look up complex combat rules or strange situational modifiers. The result is a game session with a lot 
+less arguments and &quot;rule breaks&quot; and a lot more role-playing and excitement!</p>
+<p class="in">Exlore this site to learn more about the latest roleplaying game from Gary Gygax, the creator of Dungeons &amp; 
+Dragons &trade; the game that started it all. <a href="template.php?page=purchase&amp;style=blaze" 
+title="support this site and buy lejendary adventure">Buy Lejendary Adventure</a> source books directly 
+from this site to help support the many resources and exlusive downloads made available here.</p>
+
+<h4 style="margin:25px 0px 0px;;padding:0;">Latest News</h4>
+<p><span class="date">06.03.2004</span>-- <span class="blurb">Play an LA Centric version of The Legend of the Green Dragon!</span></p>
+<p class="in"><a href="http://www.brookstech.us">Mortale</a> has been hard at work creating an LA influenced version of <a href="http://www.brookstech.us/logd/">Legend of the 
+Green Dragon</a> (an admitted rip-off of Lejend of the Red Dragon aka LoRD). You can now choose from some Lejendary Adventure races, and future 
+enhancements will bring even more LA flavor to this great game. Why not <a href="http://www.brookstech.us/logd/">play it now</a>?!</p>
+<p><span class="date">05.31.2004</span>-- <span class="blurb">Terekaptra: Lost City of the Utiss now available!</span></p>
+<div class="floatleft"><a href="template.php?page=purchase&amp;style=blaze" 
+	title="buy terekaptra now!"><img src="images/terekaptra_th.gif" alt="thumb image of the terekaptra adventure scenario" title="Terekaptra"></a></div>
+<h3>Terekaptra: Lost City of the Utiss</h3>
+<h4>By Chris Clark</h4>
+<p>A vast and strangely deserted city rumored to be near-bursting with the vaguely-understood treasures 
+of the lost race of the Utiss awaits your exploration. New monsters, new treasures, and more than a few twists 
+could make this adventure your last. Does your avatar have the courage to explore <strong>Terekaptra: Lost City of the Utiss?</strong></p>
+<div class="spacer" style="height:10px;"></div>
+<p><span class="date">04.26.2004</span>-- <span class="blurb">Does Anyone Still Play Dungeons &amp; Dragons?</span></p>
+<p class="in">A new <a href="http://news.bbc.co.uk/1/magazine/3655627.stm" target="_blank" title="Article: What Ever Happened to D&D">article 
+on the BBC News web site</a> talks about some of the history of Dungeons &amp; Dragons, how it started, who created it and if anyone still playes 
+it today--30 years after it was originally released to the public. The comments at the end of the article will give anyone who played the game 
+back in the 70's or 80's a blast of nostalgia!</p>
+<p><span class="date">04.14.2004</span>-- <span class="blurb">Dungeons &amp; Dragons Fails Video Games!</span></p>
+<p class="in">A <a href="http://www.kuro5hin.org/story/2004/4/10/231927/504" target="_blank" title="Article: Where Dungeons and Dragons Fails Video Games">very 
+interesting read</a> on how <a href="http://www.wizards.com/d20/" target="_blank" title="Official d20 web site">d20 3.5</a> failed to translate well into the 
+CRPG <em>The Temple of Elemental Evil</em>. The article thuroughly explores problems inherent to porting a pen-and-paper RPG rules system into 
+a computer RPG. While the task is certainly difficult it is not impossible. The people over at 
+<a href="http://di.gamepoint.net/lejendary/en/index.php?page=news" target="_blank" title="The CRPG for Lejendary Adventure">Dreams Interactive</a> choose to use 
+the <strong>Lejendary Adventure</strong> RPG by our very own <a href="http://www.lejendary.com/la/template.php?page=garygygax&style=blaze" title="Interview with Gary">Gary Gygax</a>. 
+It would be interesting to compare and contrast their experience porting the LA rules into their CRPG! Visit the <a href="http://www.lejendary.com/forums/viewtopic.php?t=1399">forums to discuss this article</a>.</p>
+<p><span class="date">01.04.2004</span> -- <span class="blurb">New Resources Added!</span></p>
+<p class="in">Eight exciting new resources have been added to this site. Get your copy of the adventure scenario <strong>The Lejendary Ravage of Ghorkai</strong> 
+by Gary Gygax and Jon Creffield. This is the only place online you can get this adventure scenario. Also, look for two other new adventures, a couple of Lejendary 
+Adventure screensavers, the Quick Avatar Creation document, and much more.</p>
+<p><span class="date">07.06.2003</span> -- <span class="blurb">Dreamcadence Productions Introduces the &quot;Incredibook&quot;</span></p>
+<p class="in">Dreamcadence Productions introduces a new format for upcoming adventure scenarios, Lejend Master tools, 
+player aids, and more. <a href="template.php?page=ibook&amp;style=blaze" 
+	title="download the Incredibook here">Download the new Incredibook&trade; demo</a> of the Lejends Magazine sample. Dreamcadence Productions is 
+in negotiations with Hekaforge Productions and Total Reality Studios to possibly continue Lejends Magazine in the interactive, 
+electronic Incredibook format. Dreamcadence Productions also announced the release of its first Lejendary Adventure scenario &quot;The Red 
+Letter Day&quot; will be available in Incredibook format within a few weeks.</p>
+<h4 style="margin:25px 0px 0px;;padding:0;">Old News</h4>
+<p><span class="date">03.31.2003</span> -- <span class="blurb">Gary Gygax Book Signing!</span></p>
+<p class="in">Gary Gygax will be at the Higgins Armory Museum in
+Worcester, MA on April 26th. As the only museum in the western hemisphere dedicated to the study of arms
+and armor, the museum is excited to be hosting Gary Gygax, creator of
+Dungeons &amp; Dragons, for a day-long seminar on Saturday, April 26, 2003.
+Gary will also be conducting a public book-signing beginning at 2:00 p.m.
+until 4:00 p.m. which is free with Museum admission. This is a rare
+opportunity for gamers to meet the legend behind Dungeons &amp; Dragons, the
+game that started it all!  Reservations are required for the workshop that
+begins at 8:30 a.m. Pre-registration cost is $50 per person, lunch included.
+Please contact Dianne Berg at dberg@higgins.org to register as space is
+limited.  <a href="http://www.higgins.org" title="museum link">More Information</a></p>
+<p><span class="date">03.26.2003</span> -- <span class="blurb">Lejendary Adventure Quick-Start Rules Now Available!</span></p>
+<p class="in">The much anticipated Quick-Start Rules are now available exclusively from Lejendary.com! These rules contain everything 
+needed to play the Lejendary Adventure game including example Avatars, and a mini-adventure. Learning to play Gary Gygax's Lejendary 
+Adventure game has never been easier. <a href="template.php?page=misc&amp;style=blaze" 
+	title="download the quick-start rules here">Check out</a> the Quick-Start Rules now!  </p>
+<p><span class="date">12.11.2002</span> -- <span class="blurb">Lejendary.com Gets a New Look</span></p>
+<p class="in">After several years of enduring the now famous Lejendary Lime theme, 
+visitors to Lejendary.com finally get a new design. With the new 
+<a href="http://www.webstandards.org" title="support web standards">standards compliant</a> 
+implementation, users should experience faster page loads, an easier navigation interface, 
+and a more appealing color scheme. For those who find it hard to say goodbye to the old classic 
+lime theme, it's still available via the theme picker!  </p>
+<p class="in">Along with the new design, there is much needed new content as well and more to follow soon. A few 
+highlights of the new content are:</p>
+<ul>
+	<li>2 new product reviews plus links to 2 others</li>
+	<li>1 new adventure scenario for download</li>
+	<li>The Lejendary FAQ</li>
+	<li>The errata</li>
+</ul>
+<p><span class="date">11.14.2002</span> -- <span class="blurb">Dreams Interactive Launches New LA Site</span></p>
+<p class="in"> <a href="http://di.gamepoint.net/lejendary/en/index.php" title="dare to dream">Dreams Interactive</a> has launched their much anticipated web site for their 
+upcoming <acronym title="Massively Multiplayer Online Role Playing Game">MMORPG</acronym> based on the Lejendary Adventure 
+RPG rules, and set in the Lejendary Earth campaign setting. The new site features many screen 
+shots of the first person perspective online RPG, news about the beta test, information on 
+the game development, forums, and much more.</p>
+<p><span class="date">11.01.2002</span> -- <span class="blurb">New Publisher of Lejendary Adventure Source Material</span></p>
+<p class="in"> <a href="http://www.troll-lord.com" title="dare to dream">Troll Lord Games</a> recently published The Canting Crew and 
+The Hermit both by Gary Gygax and both containing both d20 and Lejendary Adventure statistics and information. Troll Lord Games is the first 
+game company to publish products with rules for the Lejendary Adventure system. The second will be <a href="http://www.fuzzyheroes.com">Inner City Game Designs</a> 
+with the upcoming Castle Wolfmoon mega module that will also contain d20 and LA rules.</p>
+
+<!--
+<h4 style="margin:25px 0px 0px;padding:0;">Product Updates</h4>
+<p><span class="date">Next Expected Product Release</span> -- <span class="blurb">Noble Knights and Dark Lands</span></p>
+<p class="in"> The next official release from <a href="http://www.hekaforge.com" title="portal to mythic worlds">Hekaforge Productions</a> 
+will be Noble Knights and Dark Lands. Noble Knights and Dark Lands is expected to be available in PDF format in late January, with the hard copy 
+release scheduled for March.</p>
+<p><span class="date">Latest Product Release</span> -- <span class="blurb">Chronicles of the Lejendary Earth Gazatteer</span></p>
+<p class="in"> <a href="http://www.hekaforge.com" title="portal to mythic worlds">Hekaforge Productions</a> has released the long 
+awaited first book in a series of source books detailing the Lejendary Earth campaign setting. The book is published in two editions 
+the Standard Edition, and a very limited signed and numbered Author's Edition. The Author's Edition includes all the material in the 
+Standard Edition plus a special parchment insert inside the front cover with Gary Gygax's signature. The Author's Edition also includes 
+a CDROM with the book in electronic PDF format as well as all the maps in several different formats.</p>
+--><div id="mycopy">
+<p>Copyright &copy; <a href="mailto:chris@lejendary.com">Christopher P Smith</a>, all rights reserved.</p>
+Logo Image &copy; Stathis Catomeris, used with permission.</div>
+</div>
+<div id="menu">
+<a href="/la/template.php?page=home&amp;style=blaze" class="nav" title="Go Home">Home</a><a href="/phpBB2/" title="DISCUSSIONS: Active message boards featuring Gary Gygax">Discussions</a>
+<a href="javascript:showMenu(0);" title="THE BOOKS: Learn more about the Lejendary Adventure source materials">The 
+  Books</a> 
+  <ul class="submenu" id="s0">
+    <!--<li><a href="http://www.rpgme.com/index.jsp?entry=lejendary" title="RPGME.COM: Shop securely with your credit card">&raquo; Buy 
+      Now at RPGme.com</a></li>--><li><a href="/la/template.php?page=purchase&amp;style=blaze" 
+			title="PAYPALL: Complete list of books available via PayPal">&raquo; Buy Now with PayPal</a></li><li><a href="/la/template.php?page=library&amp;style=blaze" title="DETAILS: Cover images and product details">&raquo; View Book Details</a></li></ul>
+<a href="javascript:showMenu(1);" title="PRODUCT REVIEWS: Read what others think">Product Reviews</a>
+<ul class="submenu" id="s1">
+	<li><a href="/la/template.php?page=corereviews&amp;style=blaze" 
+	title="Read reviews of the core rule books">&raquo; Core Rules</a></li><li><a href="/la/template.php?page=supreviews&amp;style=blaze" 
+	title="Read reviews of scenarios and supplements">&raquo; Supplements</a></li></ul>
+<a href="javascript:showMenu(2);" title="INTERVIEWS: Exclusive interviews with key LA personalities">Interviews</a>
+<ul class="submenu" id="s2">
+	<li><a href="/la/template.php?page=garygygax&amp;style=blaze" 
+	title="GARY GYGAX: An interview with creator of Dungeons and Dragons and Lejendary Adventure">&raquo; Gary Gygax</a></li><li><a href="/la/template.php?page=jayw&amp;style=blaze" 
+	title="JAY WHITTHOFT: A talented Lejendary Adventure artist">&raquo; Jay Whitthoft</a></li></ul>
+<a href="javascript:showMenu(3);" title="RESOURCES: Free stuff for use with the game">Resources</a>
+<ul class="submenu" id="s3">
+	<li><a href="/la/template.php?page=scenarios&amp;style=blaze" 
+	title="SCENARIOS: Downloadable adventure scenarios">&raquo; Adventure Scenarios</a></li><li><a href="/la/template.php?page=ars&amp;style=blaze" 
+	title="ARS: Official and unofficial character sheets">&raquo; Avatar Record Sheets</a></li><li><a href="/la/template.php?page=electronic&amp;style=blaze" 
+	title="TOOLS AND AIDS: Electronic tools for the LA game">&raquo; Electronic Tools and Aids</a></li><li><a href="/la/template.php?page=misc&amp;style=blaze" 
+	title="QUICKSTART RULES: Get the playable Quick Start Rules here!">&raquo; Quick Start Rules and Samples</a></li><li><a href="/la/template.php?page=links&amp;style=blaze" 
+	title="LINKS: A list of other fine sites worth checking out">&raquo; Links</a></li></ul>
+<a href="/la/template.php?page=faq&amp;style=blaze" title="FAQ: Official answers to your questions">The Lejendary FAQ</a><a href="/la/template.php?page=errata&amp;style=blaze" title="ERRATA: All the errata in one place">Rules Errata</a><br /><br />
+<table id="picker" style="width:150px;padding:2px;" cellspacing="0">
+<tr>
+<td colspan="2" style="border-bottom: 1px solid #000;" id="pickerlabel">Theme Picker</td>
+</tr>
+<tr>
+<td style="width:14px;"><img src="/la/images/blaze.gif" alt="sample color for blaze theme" /></td>
+<td id="blaze"><a href="JavaScript:changeTheme('home','blaze')">Midnight Blaze</a></td>
+</tr>
+<tr>
+<td style="width:14px;"><img src="/la/images/lime.gif" alt="sample color for lime theme" /></td>
+<td id="lime"><a href="JavaScript:changeTheme('home','lime')">Lejendary Lime</a></td>
+</tr>
+</table>
+<br />
+<p style="font-weight:bold;">August 4th, 2004</p>
+<div class="infobox"><img src="/la/images/littlegary.gif" title="Little Gary" alt="gary gygax" style="float:left;padding:0px 3px 0px 0px;margin:0px;" />
+<strong> GYGAX WATCH</strong><br />
+<!--
+Gary Gygax's next personal appearance will be CODCON VIII. May 2 - 4, 2003. Held in the Turner Conference Center
+(SRC 2800) at the College of DuPage in Glen Ellyn, IL.  Sponsored by the COD Sci-Fi/Fantasy Club.
+-->
+Gary Gygax's next personal appearance will be at Milwaukee Gamefest from Friday, August 1st - Sunday, August 3rd. Gary will 
+be DMing the final round of the OAD&amp;D tournament. He will also be demoing Lejendary Adventure at the Hekaforge booth.
+</div>
+</div>
+</body>
+</html>

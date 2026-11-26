@@ -1,0 +1,8 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.woodsmithtips.com/2011/01/27/small-shop-solutions-9/" target="_blank">Setting Up Shop</a><br />');
+document.write('You need Javascript enabled and a copy of the Adobe Flash Player to view this video. var vid = new SWFObject(\"/global/flash/player-licensed.swf\",\"single\",\"384\",\"323\",\"9\"); vid.addParam(\"allowfull...');
+document.write('</li>');
+document.write('</ul></div>');

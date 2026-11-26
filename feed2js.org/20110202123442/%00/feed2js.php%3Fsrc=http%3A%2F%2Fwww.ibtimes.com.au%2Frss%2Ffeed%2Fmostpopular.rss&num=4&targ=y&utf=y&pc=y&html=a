@@ -1,0 +1,17 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="au.ibtimes.com/articles/107984/20110203/2-2-2011-the-current-market-sentiment.htm" target="_blank">2/2/2011 - The Current Market Sentiment</a><br />');
+document.write('The risk appetite has been brought back to the markets strongly after the release of January ISM Manufacturing index which jumped to 60.8 while the market was waiting for 58.2 from 58.5 in December which shows that the pace of recovery in US is still going well reinforcing the business spending weig...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="au.ibtimes.com/articles/107983/20110203/ipad-free-for-job-interview-autonomy-ipad-free-for-applicants.htm" target="_blank">Job applicants get an iPad free for an interview with Britain firm, even if not selected</a><br />');
+document.write('Britain’s enterprise search software maker Autonomy Corp Plc is now trying to attract the best applicants by giving away free Apple iPads to all graduates who get an interview call irrespective of whether or not they get a final call back.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="au.ibtimes.com/articles/107982/20110203/impact-of-egypt-tunisia-unrest-on-fertilizers.htm" target="_blank">Impact of Egypt, Tunisia Unrest on Fertilizers</a><br />');
+document.write('Credit Suisse said the civil unrest in Egypt and Tunisia could have positive implications on nitrogen and phosphate prices, as Egypt is a key supplier of urea while Tunisia is a major supplier of phosphate rock and fertilizer products.');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="au.ibtimes.com/articles/107981/20110203/us-weekly-mortgage-applications.htm" target="_blank">US weekly mortgage demand rose sharply last week</a><br />');
+document.write('The U.S. home loan demand rose sharply in the week ended Jan. 28, even as the mortgage rates continue to rise from their lowest levels, the Mortgage Bankers Association (MBA) said on Wednesday.');
+document.write('</li>');
+document.write('</ul></div>');

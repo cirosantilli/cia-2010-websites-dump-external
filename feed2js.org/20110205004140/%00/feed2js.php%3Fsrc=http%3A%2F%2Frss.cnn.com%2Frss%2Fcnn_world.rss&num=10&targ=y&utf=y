@@ -1,0 +1,25 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://rss.cnn.com/~r/rss/cnn_world/~3/4HaKU-Tikr8/index.html" target="_blank">Clashes on streets near Cairo square</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://rss.cnn.com/~r/rss/cnn_world/~3/s6fhwXojpO0/index.html" target="_blank">Iran ties uprisings to \'79 revolt</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://rss.cnn.com/~r/rss/cnn_world/~3/WcRl5TfJXz8/index.html" target="_blank">Man gets 9 years in attempted attack on Danish cartoonist</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://rss.cnn.com/~r/rss/cnn_world/~3/ymzzV-gRJBM/index.html" target="_blank">Prime minister becomes Myanmar\'s new president</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://rss.cnn.com/~r/rss/cnn_world/~3/2L1E10qT7Ro/index.html" target="_blank">WikiLeaks founder makes fundraising plea via Facebook</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://rss.cnn.com/~r/rss/cnn_world/~3/a3am-lhpgi4/index.html" target="_blank">Police officers killed in Iraq attack</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://rss.cnn.com/~r/rss/cnn_world/~3/HM9cc-GiKF0/index.html" target="_blank">U.S. fugitive caught in Argentina</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://rss.cnn.com/~r/rss/cnn_world/~3/_g-6OeWUR5s/index.html" target="_blank">After almost 20 years, Algeria to lift state of emergency</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://rss.cnn.com/~r/rss/cnn_world/~3/AH6Ky8TolZA/index.html" target="_blank">Protests continue to ripple across Mideast, North Africa</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://rss.cnn.com/~r/rss/cnn_world/~3/0myJ8XVRRmE/index.html" target="_blank">Jordanian Islamists to meet king, say protests will continue</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

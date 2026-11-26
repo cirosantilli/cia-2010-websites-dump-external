@@ -1,0 +1,33 @@
+
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://cnsnews.com/commentary/charlie-daniels/carolina-christmas-carol" target="_blank">A Carolina Christmas Carol</a><br />');
+document.write('Every year during this joyous season when we celebrate the birth of our Lord Jesus Christ, we break the Soapbox format and put up a story I wrote many years ago called A Carolina Christmas Carol, a SANTA-AP PHOTO.jpg read more');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://cnsnews.com/news/article/christmas-day-bombings-iraqs-capital-kill-37" target="_blank">Christmas Day bombings in Iraq\'s capital kill 37</a><br />');
+document.write('By SINAN SALAHEDDIN read more');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://cnsnews.com/news/article/susan-jones/smart-grid-technology-now-spreading-across-us-will-raise-energy-prices" target="_blank">Smart Grid Technology, Now Spreading Across U.S., Will Raise Energy Prices to Reduce Demand</a><br />');
+document.write('By:&nbsp; Susan Jones read more');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://cnsnews.com/news/article/terence-p-jeffrey/christmas-lights-electricity-price-index-all-time-high-us" target="_blank">Christmas Lights? Electricity Price Index at All-Time High in U.S.</a><br />');
+document.write('By:&nbsp; Terence P. Jeffrey');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://cnsnews.com/news/article/susan-jones/electronics-industry-agrees-boost-energy-efficiency-set-top-boxes" target="_blank">Electronics Industry Agrees to Boost Energy-Efficiency of Set-Top Boxes</a><br />');
+document.write('By:&nbsp; Susan Jones read more');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://cnsnews.com/news/article/patrick-goodenough/egypt-calls-muslim-brotherhood-terrorists-petition-wh-remains" target="_blank">As Egypt Calls Muslim Brotherhood ?Terrorists,? Petition to WH Remains Unanswered</a><br />');
+document.write('By:&nbsp; Patrick Goodenough read more');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://cnsnews.com/news/article/scaffolds-us-capitol-dome-undergoing-2-year-renovation" target="_blank">Scaffolds Up: U.S. Capitol Dome Undergoing 2-Year Renovation</a><br />');
+document.write('By CHARLES BABINGTON read more');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://cnsnews.com/news/article/appeals-court-orders-utah-christmas-eve-move-forward-same-sex-marriages" target="_blank">Appeals Court Orders Utah on Christmas Eve: Move Forward With Same-Sex Marriages</a><br />');
+document.write('By BRADY McCOMBS and PAUL FOY read more');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://cnsnews.com/news/article/patrick-goodenough/supreme-leader-if-jesus-were-here-he-would-fight-america" target="_blank">Supreme Leader: If Jesus Were Here He Would Fight America</a><br />');
+document.write('By:&nbsp; Patrick Goodenough read more');
+document.write('</li>');
+document.write('</ul></div>');

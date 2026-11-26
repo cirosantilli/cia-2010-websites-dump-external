@@ -1,0 +1,8 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://www.rssweather.com/hw3.php?place=sarajevo&state=&country=ba&utm_source=rss&utm_medium=rss" target="_blank">Sarajevo, BOSNIA AND HERZEGOVINA Weather :: 7C Mist</a><br />');
+document.write('Mist 7°C Humidity:48% Wind Speed:2 KMH Wind Direction:VRB Barometer: 1020 mb Dewpoint:-3°C Heat Index:7°C Wind Chill:7°C Visibility:2 km');
+document.write('</li>');
+document.write('</ul></div>');

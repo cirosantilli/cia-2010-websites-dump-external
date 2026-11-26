@@ -1,0 +1,24 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<p class="rss-title"><a class="rss-title" href="http://es.movies.yahoo.com/preestrenos-cine/" target="_blank">Preestrenos de cine</a></p>');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://es.movies.yahoo.com/v/valor-de-ley/index-8319560.html" target="_blank">Valor de ley</a><br />');
+document.write('La época es la década de 1870, el lugar la Norteamérica de la frontera de justo después de la Guerra Civil, y el narrador es la joven Mattie Ross, que con 14 años de edad emprende viaje a Fort Smith&#8230;');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://es.movies.yahoo.com/e/el-santuario/index-8677635.html" target="_blank">El santuario</a><br />');
+document.write('El experto submarinista Frank McGuire lleva meses explorando las cuevas de Esa´ala, en el Pacífico Sur. Sin embargo, cuando una riada les corta la salida, el equipo principal de Frank -que incluye a su&#8230;');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://es.movies.yahoo.com/i/im-still-here/index-8677576.html" target="_blank">I´m still here</a><br />');
+document.write('I´m Still Here, supone el debut, como realizador, del actor nominado al Oscar, Casey Affleck. Es el sorprendente relato de un año tumultuoso en la vida del internacionalmente aclamado actor, Joaquin Phoenix.&#8230;');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://es.movies.yahoo.com/s/sed-de-venganza/index-8677568.html" target="_blank">Sed de venganza</a><br />');
+document.write('Después de 10 años en prisión, Driver (Dwayne Johnson) tiene un único objetivo: vengar la muerte de su hermano, asesinado en el mismo atraco chapucero a un banco que lo condujo a él a la cárcel. Ahora&#8230;');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://es.movies.yahoo.com/p/perdona-pero-quiero-casarme-contigo/index-8677617.html" target="_blank">Perdona pero quiero casarme contigo</a><br />');
+document.write('El amor entre Alex, un maduro agente publicitario de éxito, y Niki, que ahora tiene veinte años, sigue creciendo cada día más. Ya han pasado tres años desde que prometieron amarse para siempre. A pesar&#8230;');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://es.movies.yahoo.com/w/winters-bone/index-8712669.html" target="_blank">Winter´s bone</a><br />');
+document.write('Ree Dolly, de 17 años, decide buscar a su padre después de que este ofrezca la casa familiar como garantía para la fianza que le permitirá salir de la cárcel y desaparecer sin dejar rastro. Antes de perder&#8230;');
+document.write('</li>');
+document.write('</ul></div>');

@@ -1,0 +1,36 @@
+
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://oraclesyndicate.twoday.net/stories/1022641898/" target="_blank">Grüsse zum Fest und Jahreswechsel</a><br />');
+document.write('Dr. Alexander von Paleske -------- 26.12. 2017 -- Verspätet kommen sie dieses Jahr, die Grüs...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://oraclesyndicate.twoday.net/stories/aus-illegal-mach-legal-der-us-israelische-friedensplan-fuer-palaestina/" target="_blank">Aus illegal mach legal: Der US-israelische Friedensplan für Palästina</a><br />');
+document.write('Dr. Alexander von Paleske ----- 12.12. 2017 - In der vergangenen Woche hat US Präsident Donald...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://oraclesyndicate.twoday.net/stories/1022639795/" target="_blank">Simbabwe: Der kurze Traum von einer Regierung der Nationalen Einheit</a><br />');
+document.write('Dr. Alexander von Paleske ------ 2.12. 2017 ----- Vor einer Woche wurde der neue Staatspr...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://oraclesyndicate.twoday.net/stories/simbabwe-nach-mugabe/" target="_blank">Simbabwe nach Mugabe</a><br />');
+document.write('Dr. Alexander von Paleske --- 26.11. 2017 --- Es war eine Atmosphäre wie in Portugal 1974: ...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://oraclesyndicate.twoday.net/stories/europas-fluechtlingspolitik-foerdert-die-neue-sklaverei-in-libyen/" target="_blank">Europas Flüchtlingspolitik fördert die neue Sklaverei in Libyen</a><br />');
+document.write('Dr. Alexander von Paleske ----- 25.11. 2017 ------ In Libyen ist ein neuer Sklavenmarkt e...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://oraclesyndicate.twoday.net/stories/simbabwe-das-politische-ende-des-praesident-robert-g-mugabe-und-seiner/" target="_blank">Simbabwe: Das Politische Ende des Präsidenten Robert G. Mugabe und seiner Ehefrau...</a><br />');
+document.write('Dr. Alexander von Paleske ----- 15.11. 2017 - Es hätte alles so schön laufen können: I...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://oraclesyndicate.twoday.net/stories/rohstoffmulti-glencore-und-die-paradise-papers/" target="_blank">Rohstoffmulti Glencore und die Paradise-Papers</a><br />');
+document.write('Dr. Alexander von Paleske --------12.11. 2017 ----- Der Rohstoffkonzern Glencore/Xtrata gerät ...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://oraclesyndicate.twoday.net/stories/enlassungen-und-verhaftungen-saudischer-kronprinz-trifft-kriegsvorbere/" target="_blank">Entlassungen und Verhaftungen: Saudischer Kronprinz trifft Kriegsvorbereitungen</a><br />');
+document.write('Dr. Alexander von Paleske ---- 9.11. 2017 ---- Der saudische Kronprinz und de facto Machtha...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://oraclesyndicate.twoday.net/stories/1022637215/" target="_blank">Südafrikas Präsident Jacob Zuma und seine Gangster-Republik</a><br />');
+document.write('Dr. Alexander von Paleske -------- 2.11. 2017 ------- Die Zeiten der Ikone Nelson Mandela...');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://oraclesyndicate.twoday.net/stories/der-ehemalige-berliner-generalstaatsanwalt-dr-hansjuergen-karge-zur-ju/" target="_blank">Der ehemalige Berliner Generalstaatsanwalt Dr. Hansjürgen Karge zur Justizkrise in...</a><br />');
+document.write('Dr Alexander von Paleske ---- 1.11. 2017 ---- Angesichts offenbar katastrophaler Zuständ...');
+document.write('</li>');
+document.write('</ul></div>');

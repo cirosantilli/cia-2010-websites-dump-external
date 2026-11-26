@@ -1,0 +1,25 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://militaryhistory.about.com/b/2011/02/02/world-war-ii-victory-at-stalingrad.htm" target="_blank">World War II: Victory at Stalingrad</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://militaryhistory.about.com/b/2011/01/31/world-war-ii-battle-of-singapore-begins.htm" target="_blank">World War II: Battle of Singapore Begins</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://militaryhistory.about.com/b/2011/01/29/world-war-ii-johnson-dies.htm" target="_blank">World War II: Johnson Dies</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://militaryhistory.about.com/b/2011/01/27/mahdist-war-chinese-gordon-born.htm" target="_blank">Mahdist War: \"Chinese\" Gordon Born</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://militaryhistory.about.com/b/2011/01/25/world-war-ii-macarthur-born.htm" target="_blank">World War II: MacArthur Born</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://militaryhistory.about.com/b/2011/01/23/second-boer-war-british-bloodied-at-spion-kop.htm" target="_blank">Second Boer War: British Bloodied at Spion Kop</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://militaryhistory.about.com/b/2011/01/21/american-civil-war-fremont-born.htm" target="_blank">American Civil War: Frémont Born</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://militaryhistory.about.com/b/2011/01/19/polishlithuanianteutonic-war-teutonic-knights-beaten-at-grunwald.htm" target="_blank">PolishLithuanianTeutonic War: Teutonic Knights Beaten at Grunwald</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://militaryhistory.about.com/b/2011/01/17/the-gulf-war-20th-anniversary.htm" target="_blank">The Gulf War - 20th Anniversary</a><br />');
+document.write('</li>');
+document.write('<li class="rss-item"><a class="rss-item" href="http://militaryhistory.about.com/b/2011/01/15/world-war-ii-hap-arnold-dies.htm" target="_blank">World War II: \"Hap\" Arnold Dies</a><br />');
+document.write('</li>');
+document.write('</ul></div>');
